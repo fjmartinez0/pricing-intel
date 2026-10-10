@@ -96,6 +96,7 @@ def main():
                 match["repost_count"] = match.get("repost_count", 0) + 1
                 match["lifecycle_status"] = "unable_to_verify"
                 match["verification_note"] = "Reposting observed %s; awaiting check" % run_date
+                match.pop("close_reason", None)
                 for f in ["official_url", "requisition_id"]:
                     if p.get(f) and not match.get(f):
                         match[f] = p[f]

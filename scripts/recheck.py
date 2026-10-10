@@ -16,6 +16,7 @@ import re
 import sys
 import urllib.error
 import urllib.request
+from datetime import date
 from urllib.parse import urlparse
 
 import common as c
@@ -177,6 +178,7 @@ def apply_result(job, r, run_date, checks):
         if before in ("inactive", "closed"):
             job["repost_count"] = job.get("repost_count", 0) + 1
             job["inactive_date"] = None
+            job.pop("close_reason", None)
         job["lifecycle_status"] = "active"
         job["last_verified_active"] = run_date
         if r.get("posted") and not job.get("employer_posting_date"):
@@ -208,6 +210,37 @@ def apply_result(job, r, run_date, checks):
     return "%s -> %s" % (before, job["lifecycle_status"])
 
 
+UNCONFIRMED_DAYS = 14
+
+
+def ref_date(job):
+    """Last positive check, else first seen (approximate months count from the 1st)."""
+    for v in (job.get("last_verified_active"), job.get("first_seen")):
+        m = re.match(r"(\d{4})-(\d{2})(?:-(\d{2}))?", v or "")
+        if m:
+            return date(int(m.group(1)), int(m.group(2)), int(m.group(3) or 1))
+    return None
+
+
+def retire_if_unconfirmed(job, run_date):
+    """14-day rule: a lead with no employer posting that stays unverified for 14 days moves to
+    Closed as 'Not confirmed'. Roles with an official link that merely error are never retired."""
+    if job["lifecycle_status"] != "unable_to_verify" or job.get("official_url") or job.get("check"):
+        return None
+    ref = ref_date(job)
+    today_d = date.fromisoformat(run_date)
+    if not ref or (today_d - ref).days < UNCONFIRMED_DAYS:
+        return None
+    job["lifecycle_status"] = "inactive"
+    job["close_reason"] = "unconfirmed"
+    job["last_active"] = job.get("last_verified_active") or job.get("last_active")
+    job["inactive_date"] = run_date
+    job["verification_note"] = ("Not confirmed in %d days: no employer posting found and the only source "
+                                "(LinkedIn or a job board) cannot be checked automatically (%s)") % (UNCONFIRMED_DAYS, run_date)
+    return {"date": run_date, "job_id": job["id"], "url": job.get("secondary_url"), "result": "inactive",
+            "method": "unconfirmed_rule", "http_status": None, "note": job["verification_note"]}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--ids", nargs="*")
@@ -232,6 +265,12 @@ def main():
         if not args.dry_run:
             c.append_check(entry)
             checks.append(entry)
+        retired = retire_if_unconfirmed(job, run_date)
+        if retired:
+            print("%-9s %-17s %s" % (job["id"], "not confirmed", "moved to Closed (14-day rule)"))
+            if not args.dry_run:
+                c.append_check(retired)
+                checks.append(retired)
 
     if not args.dry_run:
         c.save("opportunities.json", jobs)

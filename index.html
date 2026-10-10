@@ -226,7 +226,8 @@ const isNew = j => (j.first_seen || "") > (S.meta.baseline_date || "") && daysSi
 
 function statusChip(j){
   const m = {active:["ok","Verified open"], unable_to_verify:["warn","Unverified"], inactive:["off","Removed"], closed:["off","Closed"]};
-  const [cls, txt] = m[j.lifecycle_status] || ["off", j.lifecycle_status];
+  let [cls, txt] = m[j.lifecycle_status] || ["off", j.lifecycle_status];
+  if (j.close_reason === "unconfirmed" && j.lifecycle_status === "inactive") txt = "Not confirmed";
   return `<span class="chip ${cls}">${txt}</span>`;
 }
 
