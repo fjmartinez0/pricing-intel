@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pricing Roles Tracker</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F2F4F6; --surface:#FFFFFF; --ink:#15233A; --ink-2:#4A5668; --ink-3:#6B7686;
+  --rule:#D3D9E1; --tag:#FFD43B; --tag-ink:#2E2500; --ok:#1E7A4F; --ok-bg:#E3F2EA;
+  --warn:#8A5A00; --warn-bg:#FBF0D9; --off:#6B7686; --off-bg:#E8EBEF; --focus:#2457C5;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#111925; --surface:#182231; --ink:#E6EBF2; --ink-2:#A5B0C0; --ink-3:#8692A4;
+    --rule:#2A3647; --tag:#F5C518; --tag-ink:#231C00; --ok:#6CCB97; --ok-bg:#163327;
+    --warn:#E8B85C; --warn-bg:#33280F; --off:#97A2B3; --off-bg:#222D3C; --focus:#7FA6FF;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#111925; --surface:#182231; --ink:#E6EBF2; --ink-2:#A5B0C0; --ink-3:#8692A4;
+  --rule:#2A3647; --tag:#F5C518; --tag-ink:#231C00; --ok:#6CCB97; --ok-bg:#163327;
+  --warn:#E8B85C; --warn-bg:#33280F; --off:#97A2B3; --off-bg:#222D3C; --focus:#7FA6FF;
+  color-scheme: dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Archivo",system-ui,sans-serif;
+  font-size:16px;line-height:1.5;font-variant-numeric:tabular-nums}
+a{color:inherit;text-underline-offset:3px}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:4px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+
+header{padding:40px 0 28px}
+h1{font-stretch:125%;font-weight:800;font-size:clamp(34px,6vw,56px);line-height:1;letter-spacing:-.01em;margin:0}
+.lede{color:var(--ink-2);margin:12px 0 0;max-width:60ch}
+.tags{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}
+.tag{position:relative;background:var(--tag);color:var(--tag-ink);border-radius:6px 14px 14px 6px;
+  padding:12px 20px 12px 34px;min-width:150px;border:0;font:inherit;text-align:left;cursor:pointer}
+.tag::before{content:"";position:absolute;left:12px;top:50%;width:10px;height:10px;margin-top:-5px;
+  border-radius:50%;background:var(--paper)}
+.tag b{display:block;font-stretch:112%;font-weight:800;font-size:34px;line-height:1}
+.tag span{font-size:14px;font-weight:500}
+.tag.quiet{background:var(--surface);color:var(--ink);box-shadow:inset 0 0 0 1px var(--rule)}
+
+nav{display:flex;gap:4px;border-bottom:1px solid var(--rule);margin-top:8px;overflow-x:auto}
+nav button{font:inherit;font-weight:600;background:none;border:0;color:var(--ink-2);padding:12px 14px;
+  border-bottom:3px solid transparent;cursor:pointer;white-space:nowrap}
+nav button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--ink)}
+nav button small{font-weight:500;color:var(--ink-3);margin-left:4px}
+
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:16px 0}
+.seg{display:inline-flex;border:1px solid var(--rule);border-radius:8px;overflow:hidden;background:var(--surface)}
+.seg button{font:inherit;font-size:14px;background:none;border:0;padding:7px 12px;color:var(--ink-2);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+select,input[type=search]{font:inherit;font-size:14px;color:var(--ink);background:var(--surface);
+  border:1px solid var(--rule);border-radius:8px;padding:7px 10px}
+input[type=search]{flex:1;min-width:180px}
+label.chk{font-size:14px;color:var(--ink-2);display:flex;gap:6px;align-items:center}
+
+.list{border-top:1px solid var(--rule)}
+.row{border-bottom:1px solid var(--rule)}
+.row summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr) auto;
+  gap:6px 20px;padding:16px 4px;align-items:start}
+.row summary::-webkit-details-marker{display:none}
+.row summary:hover{background:color-mix(in srgb,var(--surface) 60%,transparent)}
+.co{font-weight:700;font-stretch:108%}
+.ti{color:var(--ink);font-size:17px}
+.meta{color:var(--ink-2);font-size:14px}
+.meta div+div{margin-top:2px}
+.state{display:flex;flex-direction:column;align-items:flex-end;gap:6px;text-align:right}
+.chip{display:inline-block;font-size:13px;font-weight:600;padding:3px 9px;border-radius:999px;white-space:nowrap}
+.chip.ok{background:var(--ok-bg);color:var(--ok)}
+.chip.warn{background:var(--warn-bg);color:var(--warn)}
+.chip.off{background:var(--off-bg);color:var(--off)}
+.chip.new{background:var(--tag);color:var(--tag-ink)}
+.chip.line{box-shadow:inset 0 0 0 1px var(--rule);color:var(--ink-2)}
+.date{font-size:13px;color:var(--ink-3)}
+.detail{padding:0 4px 18px;display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:8px 20px}
+.detail p{margin:0 0 8px;max-width:70ch}
+.detail dl{margin:0;font-size:14px;display:grid;grid-template-columns:max-content 1fr;gap:4px 12px}
+.detail dt{color:var(--ink-3)}
+.detail dd{margin:0}
+.links{display:flex;gap:16px;flex-wrap:wrap;font-size:14px;font-weight:600;margin-top:4px}
+.row.flash{animation:flash 1.6s ease-out}
+@keyframes flash{from{background:color-mix(in srgb,var(--tag) 45%,transparent)}to{background:transparent}}
+@media (prefers-reduced-motion:reduce){.row.flash{animation:none;outline:2px solid var(--tag)}}
+
+.strat{padding:22px 4px;border-bottom:1px solid var(--rule);display:grid;grid-template-columns:220px minmax(0,1fr);gap:8px 28px}
+.strat h3{margin:0;font-size:19px;font-stretch:108%}
+.strat .bu{color:var(--ink-2);font-size:14px}
+.strat .theme{font-weight:600;margin:0 0 10px}
+.strat h4{margin:12px 0 2px;font-size:13px;font-weight:600;color:var(--ink-3)}
+.strat p{margin:0;max-width:72ch}
+.strat .cav{font-size:14px;color:var(--ink-2)}
+.jobref{font:inherit;font-size:13px;font-weight:600;background:var(--surface);color:var(--ink);
+  border:1px solid var(--rule);border-radius:6px;padding:3px 8px;cursor:pointer;margin:6px 6px 0 0}
+.empty{padding:40px 4px;color:var(--ink-2)}
+footer{color:var(--ink-3);font-size:13px;padding:32px 0 48px;max-width:75ch}
+
+@media (max-width:720px){
+  header{padding-top:28px}
+  .tag{min-width:0;flex:1 1 140px}
+  nav button{padding:12px 6px;font-size:15px}
+  nav button small{margin-left:2px}
+  .row summary{grid-template-columns:1fr;gap:4px}
+  .state{flex-direction:row;flex-wrap:wrap;align-items:center;justify-content:flex-start;text-align:left;margin-top:4px}
+  .detail{grid-template-columns:1fr}
+  .strat{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Pricing roles</h1>
+    <p class="lede" id="lede">Pricing, monetization and RGM roles in Canada and Colombia, and what the hiring says about each company's pricing strategy.</p>
+    <div class="tags" id="tags"></div>
+  </header>
+
+  <nav role="tablist" aria-label="Views" id="tabs">
+    <button role="tab" data-view="open" aria-selected="true">Open roles<small id="n-open"></small></button>
+    <button role="tab" data-view="closed" aria-selected="false">Closed<small id="n-closed"></small></button>
+    <button role="tab" data-view="strategy" aria-selected="false">Strategy<small id="n-strategy"></small></button>
+    <button role="tab" data-view="people" aria-selected="false">People<small id="n-people"></small></button>
+  </nav>
+
+  <div id="filters" class="filters">
+    <div class="seg" role="group" aria-label="Country" id="f-country">
+      <button aria-pressed="true" data-v="">All</button>
+      <button aria-pressed="false" data-v="Canada">Canada</button>
+      <button aria-pressed="false" data-v="Colombia">Colombia</button>
+      <button aria-pressed="false" data-v="Global remote">Remote</button>
+    </div>
+    <select id="f-status" aria-label="Verification">
+      <option value="">Verified and unverified</option>
+      <option value="active">Verified open only</option>
+      <option value="unable_to_verify">Unverified only</option>
+    </select>
+    <input type="search" id="f-q" placeholder="Search company, role, focus" aria-label="Search">
+    <label class="chk"><input type="checkbox" id="f-border" checked> Include roles whose level needs confirming</label>
+  </div>
+
+  <main id="view" aria-live="polite"></main>
+
+  <footer>
+    Verified means the employer's own posting was checked and open on the date shown. Unverified leads were found but could not be confirmed, often because the only source is LinkedIn. First seen is when this tracker first saw the role, not when the employer posted it. Strategy notes are inferences from job postings, not confirmed company plans.
+  </footer>
+</div>
+
+<script>
+const S = {jobs:[], strategy:[], people:[], meta:{}, view:"open", country:"", status:"", q:"", border:true};
+const $ = s => document.querySelector(s);
+const esc = v => String(v ?? "").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
+const safeUrl = u => /^https?:\/\//.test(u || "") ? u : null;
+const fmt = d => {
+  if (!d) return "";
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(d)) return d;
+  return new Date(d + "T12:00:00").toLocaleDateString("en-CA", {month:"short", day:"numeric", year:"numeric"});
+};
+const daysSince = d => /^\d{4}-\d{2}-\d{2}/.test(d||"") ? (Date.now() - new Date(d.slice(0,10)+"T12:00:00"))/864e5 : 999;
+const isOpen = j => j.lifecycle_status === "active" || j.lifecycle_status === "unable_to_verify";
+const isNew = j => (j.first_seen || "") > (S.meta.baseline_date || "") && daysSince(j.first_seen) <= 7;
+
+function statusChip(j){
+  const m = {active:["ok","Verified open"], unable_to_verify:["warn","Unverified"], inactive:["off","Removed"], closed:["off","Closed"]};
+  const [cls, txt] = m[j.lifecycle_status] || ["off", j.lifecycle_status];
+  return `<span class="chip ${cls}">${txt}</span>`;
+}
+
+function renderTags(){
+  const open = S.jobs.filter(isOpen);
+  const ver = open.filter(j => j.lifecycle_status === "active").length;
+  const unv = open.length - ver;
+  const fresh = open.filter(isNew).length;
+  $("#tags").innerHTML = `
+    <button class="tag" data-status="active"><b>${ver}</b><span>Verified open</span></button>
+    <button class="tag quiet" data-status="unable_to_verify"><b>${unv}</b><span>Unverified leads</span></button>
+    <button class="tag quiet" data-new="1"><b>${fresh}</b><span>New this week</span></button>`;
+  $("#tags").querySelectorAll("button").forEach(b => b.onclick = () => {
+    S.status = b.dataset.status || ""; S.q = ""; $("#f-q").value = ""; $("#f-status").value = S.status;
+    S.newOnly = !!b.dataset.new; setView("open");
+  });
+  $("#lede").textContent = `Pricing, monetization and RGM roles in Canada and Colombia, and what the hiring says about each company's pricing strategy. Last updated ${fmt(S.meta.last_run)}.`;
+  $("#n-open").textContent = open.length;
+  $("#n-closed").textContent = S.jobs.length - open.length;
+  $("#n-strategy").textContent = S.strategy.length;
+  $("#n-people").textContent = S.people.length;
+}
+
+function matchesQ(obj, fields){
+  if (!S.q) return true;
+  const hay = fields.map(f => obj[f] || "").join(" ").toLowerCase();
+  return S.q.toLowerCase().split(/\s+/).every(t => hay.includes(t));
+}
+
+function jobRow(j){
+  const off = safeUrl(j.official_url), sec = safeUrl(j.secondary_url);
+  const secLabel = /linkedin/.test(sec||"") ? "LinkedIn" : "Other listing";
+  const aliases = (j.title_aliases||[]).length ? `<dt>Also listed as</dt><dd>${esc(j.title_aliases.join("; "))}</dd>` : "";
+  return `<details class="row" id="${esc(j.id)}">
+    <summary>
+      <div><div class="co">${esc(j.company)}</div><div class="ti">${esc(j.title)}</div></div>
+      <div class="meta"><div>${esc(j.city)}${j.country && j.city !== j.country ? ", " + esc(j.country) : ""}</div>
+        <div>${esc(j.work_model)}</div><div>${esc(j.salary_advertised)}</div></div>
+      <div class="state">
+        ${isNew(j) ? '<span class="chip new">New</span>' : ""}
+        ${statusChip(j)}
+        ${j.scope_fit === "borderline" ? '<span class="chip line">Level to confirm</span>' : ""}
+        <span class="date">${j.last_verified_active ? "Checked " + esc(fmt(j.last_verified_active)) : "Not yet verified"}</span>
+      </div>
+    </summary>
+    <div class="detail">
+      <div>
+        <p>${esc(j.summary)}</p>
+        ${j.scope_note ? `<p class="meta">${esc(j.scope_note)}</p>` : ""}
+        <div class="links">
+          ${off ? `<a href="${esc(off)}" target="_blank" rel="noopener">Official posting</a>` : ""}
+          ${sec ? `<a href="${esc(sec)}" target="_blank" rel="noopener">${secLabel}</a>` : ""}
+        </div>
+      </div>
+      <dl>
+        <dt>Pricing focus</dt><dd>${esc(j.pricing_focus)}</dd>
+        <dt>Business unit</dt><dd>${esc(j.business_unit)}</dd>
+        <dt>Category</dt><dd>${esc(j.category)}</dd>
+        ${aliases}
+        <dt>First seen</dt><dd>${esc(fmt(j.first_seen))}</dd>
+        ${j.employer_posting_date ? `<dt>Employer posted</dt><dd>${esc(fmt(j.employer_posting_date))}</dd>` : ""}
+        ${j.repost_count ? `<dt>Reposted</dt><dd>${j.repost_count}×</dd>` : ""}
+        <dt>Last check</dt><dd>${esc(j.verification_note)}</dd>
+        <dt>Tracker ID</dt><dd>${esc(j.id)}</dd>
+      </dl>
+    </div>
+  </details>`;
+}
+
+function renderOpen(){
+  let rows = S.jobs.filter(isOpen)
+    .filter(j => !S.country || j.country === S.country)
+    .filter(j => !S.status || j.lifecycle_status === S.status)
+    .filter(j => S.border || j.scope_fit !== "borderline")
+    .filter(j => !S.newOnly || isNew(j))
+    .filter(j => matchesQ(j, ["company","title","pricing_focus","summary","city","business_unit"]));
+  rows.sort((a,b) => (b.lifecycle_status==="active") - (a.lifecycle_status==="active") || (isNew(b)-isNew(a)) || a.company.localeCompare(b.company));
+  return rows.length ? `<div class="list">${rows.map(jobRow).join("")}</div>`
+    : `<p class="empty">No roles match these filters. Clear the search or switch the country to All.</p>`;
+}
+
+function renderClosed(){
+  const rows = S.jobs.filter(j => !isOpen(j)).filter(j => !S.country || j.country === S.country)
+    .filter(j => matchesQ(j, ["company","title","city"]));
+  return rows.length ? `<div class="list">${rows.map(j => {
+    const u = safeUrl(j.official_url) || safeUrl(j.secondary_url);
+    return `<details class="row" id="${esc(j.id)}"><summary>
+      <div><div class="co">${esc(j.company)}</div><div class="ti">${esc(j.title)}</div></div>
+      <div class="meta"><div>${esc(j.city)}, ${esc(j.country)}</div>
+        <div>Last active ${esc(fmt(j.last_active)) || "unknown"}</div></div>
+      <div class="state">${statusChip(j)}<span class="date">Gone since ${esc(fmt(j.inactive_date))}</span></div>
+    </summary><div class="detail"><div><p>${esc(j.verification_note)}</p>
+      ${u ? `<div class="links"><a href="${esc(u)}" target="_blank" rel="noopener">Original posting</a></div>` : ""}</div>
+      <dl><dt>Tracker ID</dt><dd>${esc(j.id)}</dd><dt>First seen</dt><dd>${esc(fmt(j.first_seen))}</dd></dl></div></details>`;
+  }).join("")}</div>` : `<p class="empty">Nothing has closed yet.</p>`;
+}
+
+function renderStrategy(){
+  const byId = Object.fromEntries(S.jobs.map(j => [j.id, j]));
+  const rows = S.strategy.filter(s => matchesQ(s, ["company","business_unit","pricing_theme","posting_evidence","interpretation"]))
+    .filter(s => !S.country || s.linked_job_ids.some(id => byId[id] && byId[id].country === S.country));
+  const rank = {High:0, Medium:1, Low:2};
+  rows.sort((a,b) => rank[a.confidence]-rank[b.confidence] || a.company.localeCompare(b.company));
+  return rows.length ? rows.map(s => `<article class="strat">
+    <div><h3>${esc(s.company)}</h3><div class="bu">${esc(s.business_unit)}</div>
+      <div style="margin-top:8px"><span class="chip ${s.confidence==="High"?"ok":s.confidence==="Medium"?"warn":"off"}">${esc(s.confidence)} confidence</span></div>
+      <div>${s.linked_job_ids.map(id => byId[id] ? `<button class="jobref" data-job="${esc(id)}" title="${esc(byId[id].title)}">${esc(id)}</button>` : "").join("")}</div>
+      <div class="date" style="margin-top:8px">Updated ${esc(fmt(s.last_updated))}</div></div>
+    <div><p class="theme">${esc(s.pricing_theme)}</p>
+      <h4>What the postings say</h4><p>${esc(s.posting_evidence)}</p>
+      <h4>What it suggests</h4><p>${esc(s.interpretation)}</p>
+      <h4>Caveat</h4><p class="cav">${esc(s.caveat)}</p></div>
+  </article>`).join("") : `<p class="empty">No strategy records match.</p>`;
+}
+
+function renderPeople(){
+  const byId = Object.fromEntries(S.jobs.map(j => [j.id, j]));
+  const rows = S.people.filter(p => matchesQ(p, ["name","title","company"]));
+  return rows.length ? `<div class="list">${rows.map(p => {
+    const prof = safeUrl(p.linkedin_profile), ev = safeUrl(p.evidence_url), job = byId[p.opportunity_id];
+    return `<div class="row"><div class="detail" style="padding-top:16px">
+      <div><div class="co">${esc(p.name)}</div><div class="ti">${esc(p.title)}, ${esc(p.company)}</div>
+        <p class="meta">${esc(p.relationship)}${job ? " for " + esc(job.title) : ""}</p>
+        <div class="links">${prof ? `<a href="${esc(prof)}" target="_blank" rel="noopener">LinkedIn profile</a>` : ""}
+          ${ev ? `<a href="${esc(ev)}" target="_blank" rel="noopener">Where they are named</a>` : ""}
+          ${job ? `<button class="jobref" data-job="${esc(job.id)}">${esc(job.id)}</button>` : ""}</div></div>
+      <dl><dt>Verified by</dt><dd>${esc(p.verification)}</dd><dt>First seen</dt><dd>${esc(fmt(p.first_seen))}</dd>
+        ${p.notes ? `<dt>Note</dt><dd>${esc(p.notes)}</dd>` : ""}</dl></div></div>`;
+  }).join("")}</div>` : `<p class="empty">No named contacts yet.</p>`;
+}
+
+function render(){
+  $("#tabs").querySelectorAll("button").forEach(b => b.setAttribute("aria-selected", b.dataset.view === S.view));
+  $("#f-status").hidden = S.view !== "open";
+  $("#f-border").parentElement.hidden = S.view !== "open";
+  const fn = {open:renderOpen, closed:renderClosed, strategy:renderStrategy, people:renderPeople}[S.view];
+  $("#view").innerHTML = fn();
+  $("#view").querySelectorAll(".jobref").forEach(b => b.onclick = () => openJob(b.dataset.job));
+}
+
+function setView(v){ S.view = v; try{history.replaceState(null,"","#"+v)}catch(e){} render(); }
+
+function openJob(id){
+  const j = S.jobs.find(x => x.id === id); if (!j) return;
+  S.country = ""; S.status = ""; S.q = ""; S.border = true; S.newOnly = false;
+  $("#f-q").value = ""; $("#f-status").value = ""; $("#f-border").checked = true;
+  $("#f-country").querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === ""));
+  setView(isOpen(j) ? "open" : "closed");
+  const el = document.getElementById(id);
+  if (el){ el.open = true; el.scrollIntoView({block:"center", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"});
+    el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash"); el.querySelector("summary").focus({preventScroll:true}); }
+}
+
+$("#tabs").addEventListener("click", e => { const b = e.target.closest("button"); if (b){ S.newOnly = false; setView(b.dataset.view); } });
+$("#f-country").addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b) return;
+  S.country = b.dataset.v;
+  $("#f-country").querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b));
+  render();
+});
+$("#f-status").onchange = e => { S.status = e.target.value; S.newOnly = false; render(); };
+$("#f-q").oninput = e => { S.q = e.target.value.trim(); render(); };
+$("#f-border").onchange = e => { S.border = e.target.checked; render(); };
+
+Promise.all(["opportunities","strategy","people","meta"].map(n => fetch(`data/${n}.json`, {cache:"no-store"}).then(r => {
+  if (!r.ok) throw new Error(n); return r.json(); })))
+  .then(([jobs, strategy, people, meta]) => {
+    Object.assign(S, {jobs, strategy, people, meta});
+    const h = location.hash.slice(1);
+    if (/^JOB-/.test(h)) { renderTags(); openJob(h); return; }
+    if (["open","closed","strategy","people"].includes(h)) S.view = h;
+    renderTags(); render();
+  })
+  .catch(err => { $("#view").innerHTML = `<p class="empty">The data files could not be loaded (${esc(err.message)}). If you opened this page from your disk, serve the folder instead, for example with: python3 -m http.server</p>`; });
+</script>
+</body>
+</html>

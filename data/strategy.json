@@ -1,0 +1,333 @@
+[
+  {
+    "id": "STR-0001",
+    "company": "Blue J",
+    "business_unit": "B2B AI tax software",
+    "baseline_date": "2026-10-10",
+    "last_updated": "2026-10-10",
+    "pricing_theme": "AI SaaS packaging; billing/CPQ",
+    "posting_evidence": "Director-level owner of pricing & packaging, segmentation, experiments, forecasting and billing/CPQ; remote Canada; posted 2026-10-07.",
+    "interpretation": "A first senior pricing owner usually appears when founder-led pricing stops scaling. Pairing packaging with billing/CPQ suggests more complex enterprise deals and possibly usage- or credit-based AI components that current billing can't handle.",
+    "caveat": "Inference from job postings only; not a confirmed corporate initiative. Posting does not say whether the function is new or a backfill.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0001"
+    ]
+  },
+  {
+    "id": "STR-0002",
+    "company": "Bell",
+    "business_unit": "Bell Business Markets",
+    "baseline_date": "2026-10-10",
+    "last_updated": "2026-10-10",
+    "pricing_theme": "Enterprise solution pricing",
+    "posting_evidence": "Product Manager, Strategic Pricing for enterprise connectivity and digital solutions; hybrid Montreal/Ottawa/Toronto; deadline Oct 20.",
+    "interpretation": "Pricing sits inside product management and spans connectivity plus digital services, consistent with pricing bundled solutions rather than standalone lines, protecting margin as core connectivity commoditizes.",
+    "caveat": "Inference from job postings only; not a confirmed corporate initiative.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0002"
+    ]
+  },
+  {
+    "id": "STR-0003",
+    "company": "MongoDB",
+    "business_unit": "Product",
+    "baseline_date": "2026-10-10",
+    "last_updated": "2026-10-10",
+    "pricing_theme": "Consumption pricing; unit economics",
+    "posting_evidence": "Associate leads pricing & packaging for new launches and changes; translates infrastructure cost into unit economics; drives SKU and billing execution; first published 2026-08-12.",
+    "interpretation": "Pricing anchored in cost-to-serve and SKU design points to a steady flow of new usage-priced offerings where margin depends on infrastructure cost. The role is launch-driven, not a one-off repricing.",
+    "caveat": "Inference from job postings only; not a confirmed corporate initiative. Products are not named in the posting.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0003"
+    ]
+  },
+  {
+    "id": "STR-0004",
+    "company": "Ubisoft",
+    "business_unit": "Games / live operations",
+    "baseline_date": "2026-10-10",
+    "last_updated": "2026-10-10",
+    "pricing_theme": "In-game economy; microtransactions",
+    "posting_evidence": "Two concurrent Montreal postings: Monetization Director (virtual store catalog, microtransaction pricing) and Associate Monetization Director (virtual currency, battle pass, live offers).",
+    "interpretation": "A director plus deputy hired at the same time indicates a live-service monetization team being built or rebuilt, not a single backfill. Battle pass and virtual currency scope implies an ongoing live-ops economy.",
+    "caveat": "Inference from job postings only; not a confirmed corporate initiative. The game(s) concerned are not identified in tracked evidence.",
+    "confidence": "High",
+    "linked_job_ids": [
+      "JOB-0004",
+      "JOB-0005"
+    ]
+  },
+  {
+    "id": "STR-0005",
+    "company": "EY",
+    "business_unit": "Strategic Deals / Commercial Excellence",
+    "baseline_date": "2026-10-10",
+    "last_updated": "2026-10-10",
+    "pricing_theme": "Value-based deal pricing for AI-enabled delivery",
+    "posting_evidence": "Build EY Canada's pricing capability; set value-based pricing for large pursuits tied to AI-enabled delivery; standardize pricing models across service lines; posted 2026-10-02.",
+    "interpretation": "AI-enabled delivery reduces hours per outcome, which erodes hourly/rate-card revenue. EY Canada is centralizing deal pricing to move large deals toward value- or outcome-based structures while protecting margin.",
+    "caveat": "Posting states the AI/value-based link explicitly; the scale of the shift is not stated.",
+    "confidence": "High",
+    "linked_job_ids": [
+      "JOB-0006"
+    ]
+  },
+  {
+    "id": "STR-0006",
+    "company": "Cogeco",
+    "business_unit": "Not identified",
+    "baseline_date": "2026-10-10",
+    "last_updated": "2026-10-10",
+    "pricing_theme": "Telecom pricing",
+    "posting_evidence": "Pricing manager, Montreal; official English page defers to the French description, which has not been reviewed.",
+    "interpretation": "Insufficient evidence for a strategic inference. Montreal location suggests the Canadian business rather than the US unit, unconfirmed.",
+    "caveat": "Review the French posting before drawing conclusions.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0007"
+    ]
+  },
+  {
+    "id": "STR-0007",
+    "company": "Wawanesa Insurance",
+    "business_unit": "Direct Venture",
+    "baseline_date": "2026-10-10",
+    "last_updated": "2026-10-10",
+    "pricing_theme": "Direct-to-consumer insurance pricing; ML rating",
+    "posting_evidence": "Director owns financial performance and pricing for a direct-to-member portfolio including non-insurance products; AI/ML pricing models and governance; builds a team; posted 2026-09-26.",
+    "interpretation": "Wawanesa is building a direct channel as a separate venture with its own P&L and pricing team, using ML-driven rating to compete with digital direct writers. Non-insurance products suggest bundling or ancillary revenue.",
+    "caveat": "Inference from job postings only; not a confirmed corporate initiative. Provincial rate regulation constrains how fast pricing can move.",
+    "confidence": "High",
+    "linked_job_ids": [
+      "JOB-0008"
+    ]
+  },
+  {
+    "id": "STR-0008",
+    "company": "Autodesk",
+    "business_unit": "Platform / APIs",
+    "baseline_date": "2026-10-10",
+    "last_updated": "2026-10-10",
+    "pricing_theme": "API and agent (MCP) monetization",
+    "posting_evidence": "Official title Senior Program Manager, API Business Models: define requirements and policies for the API monetization model, extending to MCP Server monetization; Montreal; reposted ~2026-10-01.",
+    "interpretation": "Autodesk is operationalizing paid API access and preparing to charge for AI-agent access through MCP servers, an early signal of agent/consumption monetization. The program-management framing suggests the model is being implemented, not designed from scratch.",
+    "caveat": "Inference from job postings only; not a confirmed corporate initiative. MCP is a single line in the posting; price levels are not disclosed.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0009"
+    ]
+  },
+  {
+    "id": "STR-0009",
+    "company": "Fasken",
+    "business_unit": "Legal services",
+    "baseline_date": "2026-10-10",
+    "last_updated": "2026-10-10",
+    "pricing_theme": "Alternative fee arrangements",
+    "posting_evidence": "Pricing proposals, service economics and value-based legal fee structures (LinkedIn listing).",
+    "interpretation": "Consistent with large law firms responding to client pressure for fixed or capped fees while protecting realization rates.",
+    "caveat": "Inference from job postings only; not a confirmed corporate initiative. Official posting not located.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0010"
+    ]
+  },
+  {
+    "id": "STR-0010",
+    "company": "FLO",
+    "business_unit": "EV charging",
+    "baseline_date": "2026-10-10",
+    "last_updated": "2026-10-10",
+    "pricing_theme": "Recurring charging revenue",
+    "posting_evidence": "Monetization & revenue growth for EV charging products and services (unverified lead).",
+    "interpretation": "Suggests a shift from hardware sales toward recurring revenue (charging fees, network/software subscriptions).",
+    "caveat": "Inference from job postings only; not a confirmed corporate initiative. Lead not verified.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0011"
+    ]
+  },
+  {
+    "id": "STR-0011",
+    "company": "Cision",
+    "business_unit": "AMER Finance",
+    "baseline_date": "2026-10-10",
+    "last_updated": "2026-10-10",
+    "pricing_theme": "Price governance within Finance",
+    "posting_evidence": "Sr Pricing Manager in Finance/FP&A; pricing economics, analysis, governance; CAD 114–132k (secondary listings).",
+    "interpretation": "Pricing reporting into FP&A points to governance (discount control, renewal uplift, price realization) more than packaging innovation.",
+    "caveat": "Inference from job postings only; not a confirmed corporate initiative. Only aggregator copies found.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0012"
+    ]
+  },
+  {
+    "id": "STR-0012",
+    "company": "Belron Canada",
+    "business_unit": "Commercial strategy",
+    "baseline_date": "2026-10-10",
+    "last_updated": "2026-10-10",
+    "pricing_theme": "Pricing standardization and tooling",
+    "posting_evidence": "Senior Advisor leads pricing strategies and large commercial initiatives incl. post-implementation follow-up; keeps pricing structures and methods consistent; builds models, calculators, dashboards; hybrid.",
+    "interpretation": "Pricing is being run as an analytics-led governance capability. Emphasis on consistency and calculators suggests standardizing a fragmented pricing structure across channels.",
+    "caveat": "Inference from job postings only; not a confirmed corporate initiative. Channel mix (insurer, fleet, retail) is not stated in the posting.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0013"
+    ]
+  },
+  {
+    "id": "STR-0013",
+    "company": "C.A.T. North America",
+    "business_unit": "Transportation",
+    "baseline_date": "2026-10-10",
+    "last_updated": "2026-10-10",
+    "pricing_theme": "Freight pricing governance",
+    "posting_evidence": "Pricing Director: transportation pricing governance, bids and profitability (unverified lead).",
+    "interpretation": "Bid-pricing governance at director level suggests margin discipline on contract freight.",
+    "caveat": "Inference from job postings only; not a confirmed corporate initiative. Lead not verified.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0014"
+    ]
+  },
+  {
+    "id": "STR-0014",
+    "company": "eBay",
+    "business_unit": "Marketplace",
+    "baseline_date": "2026-10-10",
+    "last_updated": "2026-10-10",
+    "pricing_theme": "Marketplace fees",
+    "posting_evidence": "Manager - Pricing & Monetization, Toronto; two official requisitions with the same title (R0075486, R0067166).",
+    "interpretation": "Two requisitions suggest either a repost or a growing Toronto pricing team for marketplace fee and monetization work.",
+    "caveat": "Inference from job postings only; not a confirmed corporate initiative. Not verified active; repost relationship unconfirmed.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0015"
+    ]
+  },
+  {
+    "id": "STR-0015",
+    "company": "Alegra",
+    "business_unit": "Product / Memberships",
+    "baseline_date": "2026-10-10",
+    "last_updated": "2026-10-10",
+    "pricing_theme": "Expansion revenue; multi-country SaaS pricing",
+    "posting_evidence": "Pricing and Monetization Manager (also called Expansion Manager): multi-country pricing, payment plans, ARR/NRR, upsell/cross-sell; leads Memberships PO and builds the Expansion & Monetization team; CO/MX/PE.",
+    "interpretation": "Alegra is shifting growth emphasis from new-logo acquisition to expansion within its SMB base. A dedicated team means net revenue retention is now a primary lever, with country-specific price localization.",
+    "caveat": "Inference from job postings only; not a confirmed corporate initiative.",
+    "confidence": "High",
+    "linked_job_ids": [
+      "JOB-0016"
+    ]
+  },
+  {
+    "id": "STR-0016",
+    "company": "Mastercard",
+    "business_unit": "Interchange / Network",
+    "baseline_date": "2026-10-10",
+    "last_updated": "2026-10-10",
+    "pricing_theme": "Interchange and network pricing",
+    "posting_evidence": "Manager, Strategy Pricing & Interchange, Bogotá (official Workday).",
+    "interpretation": "Interchange and network pricing handled from Bogotá suggests regional pricing work run from a Colombia hub, likely in a market where account-to-account instant payments are expanding.",
+    "caveat": "Inference from job postings only; not a confirmed corporate initiative. Regional scope and competitive context are not stated in the posting.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0017"
+    ]
+  },
+  {
+    "id": "STR-0017",
+    "company": "Natura",
+    "business_unit": "Consumer goods",
+    "baseline_date": "2026-10-10",
+    "last_updated": "2026-10-10",
+    "pricing_theme": "Price-pack architecture; promotions",
+    "posting_evidence": "Jefe de RGM: price architecture, promotions and profitability; COP 12.5–15M; hybrid (Adecco listing).",
+    "interpretation": "A standard CPG RGM build. In a direct-selling model, RGM likely also covers consultant pricing and discount ladders.",
+    "caveat": "Inference from job postings only; not a confirmed corporate initiative. The direct-selling link is an inference.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0018"
+    ]
+  },
+  {
+    "id": "STR-0018",
+    "company": "Confidential employer",
+    "business_unit": "Hospitality",
+    "baseline_date": "2026-10-10",
+    "last_updated": "2026-10-10",
+    "pricing_theme": "Dynamic hotel pricing; channel mix",
+    "posting_evidence": "Director pricing for a multi-property hotel group: booking pace, inventory and channel optimization, redesign of rate structure; COP 18–21M; posted 2026-08-12.",
+    "interpretation": "'Transforming the rate structure' suggests moving from static or manual rates to dynamic pricing and channel-mix optimization.",
+    "caveat": "Inference from job postings only; not a confirmed corporate initiative. Employer is confidential.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0019"
+    ]
+  },
+  {
+    "id": "STR-0019",
+    "company": "Rappi",
+    "business_unit": "Marketplace / Turbo",
+    "baseline_date": "2026-10-10",
+    "last_updated": "2026-10-10",
+    "pricing_theme": "Quick-commerce pricing and supplier terms",
+    "posting_evidence": "Pricing & Vendor Management Specialist; elasticity, regional market dynamics; hiring discussed by the Global Commercial Director.",
+    "interpretation": "Combining pricing with vendor management in Turbo points to retail-like economics where shelf prices and supplier terms are managed together to fund margin.",
+    "caveat": "Inference from job postings only; not a confirmed corporate initiative. Role level is borderline for scope.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0020"
+    ]
+  },
+  {
+    "id": "STR-0020",
+    "company": "Mercado Libre",
+    "business_unit": "Marketplace",
+    "baseline_date": "2026-10-10",
+    "last_updated": "2026-10-10",
+    "pricing_theme": "Seller fee monetization",
+    "posting_evidence": "Especialista de Pricing y Estrategia de Negocio: seller fee/pricing strategy, segmentation, economics.",
+    "interpretation": "Indicates ongoing segmentation of seller-side fees, i.e. commission levels differentiated by seller or category.",
+    "caveat": "Inference from job postings only; not a confirmed corporate initiative. Role level is borderline for scope.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0021"
+    ]
+  },
+  {
+    "id": "STR-0021",
+    "company": "Softys",
+    "business_unit": "Consumer goods",
+    "baseline_date": "2026-10-10",
+    "last_updated": "2026-10-10",
+    "pricing_theme": "Price ladders; promotions",
+    "posting_evidence": "Coordinador Revenue Management: price ladders, elasticity, promotions.",
+    "interpretation": "A typical CPG RGM agenda; price-ladder work often responds to private-label and trade-down pressure.",
+    "caveat": "Inference from job postings only; not a confirmed corporate initiative. Role level is borderline for scope.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0022"
+    ]
+  },
+  {
+    "id": "STR-0022",
+    "company": "Wavin",
+    "business_unit": "Building materials",
+    "baseline_date": "2026-10-10",
+    "last_updated": "2026-10-10",
+    "pricing_theme": "Regional B2B pricing build-out",
+    "posting_evidence": "Pricing Manager Colombia (unverified lead); aggregator listings also show a Pricing Manager Mexico.",
+    "interpretation": "Parallel country pricing roles may indicate a LatAm pricing build-out.",
+    "caveat": "Inference from job postings only; not a confirmed corporate initiative. Neither posting verified.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0023"
+    ]
+  }
+]

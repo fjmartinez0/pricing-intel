@@ -1,0 +1,205 @@
+"""Merge Claude's daily proposal file into the dataset, deterministically.
+
+Claude never edits data/ directly. It writes proposals/YYYY-MM-DD.json; this script decides
+what is accepted. It assigns IDs, de-duplicates against history (reposts link to the existing
+ID), sets first_seen, and never touches verification dates (only recheck.py does that).
+
+Usage: python3 scripts/apply_proposals.py proposals/2026-10-12.json [--dry-run]
+"""
+import argparse
+import json
+import re
+import sys
+
+import common as c
+
+URL_RE = re.compile(r"https?://\S+")
+JOB_FIELDS = ["company", "title", "business_unit", "category", "country", "city", "work_model",
+              "salary_advertised", "employer_posting_date", "official_url", "secondary_url",
+              "requisition_id", "summary", "pricing_focus", "scope_fit", "scope_note",
+              "strategy_confidence"]
+
+
+def clean(v):
+    if isinstance(v, str):
+        v = v.strip()
+        return v or None
+    return v
+
+
+def is_url(v):
+    return isinstance(v, str) and v.startswith(("https://", "http://"))
+
+
+def find_match(jobs, p):
+    req = c.norm(p.get("requisition_id"))
+    urls = {c.norm_url(p.get("official_url")), c.norm_url(p.get("secondary_url"))} - {""}
+    key = (c.norm(p.get("company")), c.norm(p.get("title")), p.get("country"))
+    for j in jobs:
+        if req and c.norm(j.get("requisition_id")) == req and c.norm(j.get("company")) == key[0]:
+            return j
+        if urls & ({c.norm_url(j.get("official_url")), c.norm_url(j.get("secondary_url"))} - {""}):
+            return j
+        aliases = [c.norm(a.split("(")[0]) for a in j.get("title_aliases", [])]
+        if c.norm(j.get("company")) == key[0] and j.get("country") == key[2] and \
+                (c.norm(j.get("title")) == key[1] or key[1] in aliases):
+            return j
+    return None
+
+
+def validate_job(p):
+    errs = []
+    for f in ["company", "title", "category", "country", "city", "summary"]:
+        if not clean(p.get(f)):
+            errs.append("missing " + f)
+    if p.get("category") not in c.CATEGORIES:
+        errs.append("bad category %r" % p.get("category"))
+    if p.get("country") not in c.COUNTRIES:
+        errs.append("bad country %r" % p.get("country"))
+    if p.get("scope_fit", "in_scope") not in c.SCOPE_FIT:
+        errs.append("bad scope_fit")
+    if not (is_url(p.get("official_url")) or is_url(p.get("secondary_url"))):
+        errs.append("no job-level URL")
+    for f in ["official_url", "secondary_url"]:
+        u = p.get(f) or ""
+        if re.search(r"/(search|jobs/search|ofertas-empleo/trabajo-)|[?&](q|keywords)=", u):
+            errs.append("%s looks like a search page" % f)
+    return errs
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("proposal")
+    ap.add_argument("--dry-run", action="store_true")
+    args = ap.parse_args()
+
+    run_date = c.today()
+    with open(args.proposal, encoding="utf-8") as f:
+        prop = json.load(f)
+    jobs = c.load("opportunities.json")
+    strategy = c.load("strategy.json")
+    people = c.load("people.json")
+    log = []
+    ref_map = {}  # "new:N" -> assigned job ID
+
+    # 1. New opportunities
+    for n, p in enumerate(prop.get("new_opportunities", [])):
+        p = {k: clean(v) for k, v in p.items()}
+        errs = validate_job(p)
+        if errs:
+            log.append("REJECTED new:%d %s / %s: %s" % (n, p.get("company"), p.get("title"), "; ".join(errs)))
+            continue
+        match = find_match(jobs, p)
+        if match:
+            ref_map["new:%d" % n] = match["id"]
+            if match["lifecycle_status"] in ("inactive", "closed"):
+                match["repost_count"] = match.get("repost_count", 0) + 1
+                match["lifecycle_status"] = "unable_to_verify"
+                match["verification_note"] = "Reposting observed %s; awaiting check" % run_date
+                for f in ["official_url", "requisition_id"]:
+                    if p.get(f) and not match.get(f):
+                        match[f] = p[f]
+                log.append("REPOST %s %s / %s" % (match["id"], match["company"], match["title"]))
+            else:
+                if p.get("official_url") and not match.get("official_url"):
+                    match["official_url"] = p["official_url"]
+                    log.append("URL %s official link added" % match["id"])
+                log.append("DUPLICATE %s (already tracked)" % match["id"])
+            continue
+        new_id = c.next_id([j["id"] for j in jobs], "JOB-")
+        job = {f: p.get(f) for f in JOB_FIELDS}
+        job.update(id=new_id, title_aliases=[], first_seen=run_date, last_verified_active=None,
+                   lifecycle_status="unable_to_verify",
+                   verification_note="Found by discovery %s; awaiting check" % run_date,
+                   repost_count=0, last_active=None, inactive_date=None)
+        job["scope_fit"] = job.get("scope_fit") or "in_scope"
+        job["salary_advertised"] = job.get("salary_advertised") or "Not stated"
+        job["work_model"] = job.get("work_model") or "Not stated"
+        order = ["id"] + [k for k in jobs[0].keys() if k != "id"]
+        jobs.append({k: job.get(k) for k in order})
+        ref_map["new:%d" % n] = new_id
+        log.append("NEW %s %s / %s (%s)" % (new_id, job["company"], job["title"], job["country"]))
+
+    # 2. Official URLs found for existing leads (fills blanks only)
+    by_id = {j["id"]: j for j in jobs}
+    for u in prop.get("url_updates", []):
+        j = by_id.get(u.get("id"))
+        url = clean(u.get("official_url"))
+        if not j or not is_url(url) or c.host_in(url, c.NO_CHECK_HOSTS + c.AGGREGATOR_HOSTS):
+            log.append("REJECTED url_update %s" % u.get("id"))
+            continue
+        if j.get("official_url"):
+            log.append("SKIPPED url_update %s (already has official link)" % j["id"])
+            continue
+        j["official_url"] = url
+        if u.get("requisition_id") and not j.get("requisition_id"):
+            j["requisition_id"] = clean(u["requisition_id"])
+        log.append("URL %s official link added" % j["id"])
+
+    # 3. Strategy updates (no URLs allowed on this tab)
+    for s in prop.get("strategy_updates", []):
+        s = {k: clean(v) for k, v in s.items()}
+        text_fields = ["pricing_theme", "posting_evidence", "interpretation", "caveat"]
+        if any(URL_RE.search(s.get(f) or "") for f in text_fields):
+            for f in text_fields:
+                if s.get(f):
+                    s[f] = URL_RE.sub("", s[f]).strip()
+        linked = [ref_map.get(r, r) for r in (s.get("linked_job_refs") or [])]
+        linked = [r for r in linked if r in by_id or r in ref_map.values()]
+        target = None
+        if s.get("id"):
+            target = next((x for x in strategy if x["id"] == s["id"]), None)
+        if not target:
+            target = next((x for x in strategy if c.norm(x["company"]) == c.norm(s.get("company"))
+                           and c.norm(x["business_unit"]) == c.norm(s.get("business_unit"))), None)
+        if s.get("confidence") not in c.CONFIDENCE:
+            s["confidence"] = None
+        if target:
+            for f in text_fields + ["confidence"]:
+                if s.get(f):
+                    target[f] = s[f]
+            target["linked_job_ids"] = sorted(set(target["linked_job_ids"]) | set(linked))
+            target["last_updated"] = run_date
+            log.append("STRATEGY updated %s %s" % (target["id"], target["company"]))
+        elif s.get("company") and s.get("interpretation") and linked:
+            new_sid = c.next_id([x["id"] for x in strategy], "STR-")
+            strategy.append(dict(id=new_sid, company=s["company"], business_unit=s.get("business_unit") or "Not identified",
+                                 baseline_date=run_date, last_updated=run_date,
+                                 pricing_theme=s.get("pricing_theme"), posting_evidence=s.get("posting_evidence"),
+                                 interpretation=s["interpretation"],
+                                 caveat=s.get("caveat") or "Inference from job postings only; not a confirmed corporate initiative.",
+                                 confidence=s.get("confidence") or "Low", linked_job_ids=sorted(set(linked))))
+            log.append("STRATEGY new %s %s" % (new_sid, s["company"]))
+        else:
+            log.append("REJECTED strategy update for %s" % s.get("company"))
+
+    # 4. People (named posters / relevant contacts; never invent profile URLs)
+    for p in prop.get("people", []):
+        p = {k: clean(v) for k, v in p.items()}
+        opp = ref_map.get(p.get("opportunity_ref"), p.get("opportunity_ref"))
+        if not p.get("name") or opp not in by_id and opp not in ref_map.values() or not is_url(p.get("evidence_url")):
+            log.append("REJECTED person %s" % p.get("name"))
+            continue
+        if any(c.norm(x["name"]) == c.norm(p["name"]) and c.norm(x["company"]) == c.norm(p.get("company")) for x in people):
+            log.append("DUPLICATE person %s" % p["name"])
+            continue
+        profile = p.get("linkedin_profile")
+        if not (is_url(profile) and "linkedin.com/in/" in profile):
+            profile = None
+        people.append(dict(id=c.next_id([x["id"] for x in people], "PERSON-"), name=p["name"], title=p.get("title"),
+                           company=p.get("company"), relationship=p.get("relationship") or "Relevant contact",
+                           opportunity_id=opp, linkedin_profile=profile,
+                           verification=p.get("verification") or "Named in public source",
+                           evidence_url=p["evidence_url"], first_seen=run_date, notes=p.get("notes")))
+        log.append("PERSON added %s (%s)" % (p["name"], p.get("company")))
+
+    print("\n".join(log) or "Proposal contained no changes")
+    if not args.dry_run:
+        c.save("opportunities.json", jobs)
+        c.save("strategy.json", strategy)
+        c.save("people.json", people)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

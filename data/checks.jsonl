@@ -1,0 +1,15 @@
+{"date": "2026-10-10", "job_id": "JOB-0001", "url": "https://jobs.gem.com/blue-j/am9icG9zdDqEJN5wfFdVzzd-aLOxAAGP", "result": "positive", "note": "Official Gem posting open"}
+{"date": "2026-10-10", "job_id": "JOB-0003", "url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs/8122634", "result": "positive", "note": "Live on Greenhouse board API"}
+{"date": "2026-10-10", "job_id": "JOB-0006", "url": "https://careers.ey.com/ey/job/Toronto-Commercial-Excellence-Lead%2C-Associate-Director-ON-M5H-0B3/1412351333/", "result": "positive", "note": "Apply now; existing vacancy"}
+{"date": "2026-10-10", "job_id": "JOB-0007", "url": "https://careers.cogeco.ca/job/1102/Pricing%20manager", "result": "positive", "note": "Apply button present"}
+{"date": "2026-10-10", "job_id": "JOB-0008", "url": "https://jobs.wawanesa.com/job/North-York-Toronto%2C-ON-%28Hybr-Director%2C-Direct-Venture-Pricing-ON/605653217/", "result": "positive", "note": "Apply button present"}
+{"date": "2026-10-10", "job_id": "JOB-0009", "url": "https://autodesk.wd1.myworkdayjobs.com/en-US/Ext/job/Senior-Program-Manager--API-Business-Models_26WD95377-1", "result": "positive", "note": "Workday requisition live"}
+{"date": "2026-10-10", "job_id": "JOB-0013", "url": "https://belron.wd3.myworkdayjobs.com/en-US/Belron_Canada_Careers/job/Senior-Advisor--Pricing-Management-and-Commercial-Strategy---Belron-Canada_JR66562-1", "result": "positive", "note": "Workday posting live"}
+{"date": "2026-10-10", "job_id": "JOB-0019", "url": "https://www.elempleo.com/co/ofertas-trabajo/director-pricing-1886752220", "result": "positive", "note": "Apply button present"}
+{"date": "2026-10-10", "job_id": "JOB-0015", "url": "https://jobs.ebayinc.com/us/en/job/R0075486/Manager-Pricing-Monetization", "result": "unable_to_verify", "note": "Fetch error"}
+{"date": "2026-10-10", "job_id": "JOB-0011", "url": "linkedin", "result": "unable_to_verify", "note": "LinkedIn blocks automated access"}
+{"date": "2026-10-10", "job_id": "JOB-0014", "url": "linkedin", "result": "unable_to_verify", "note": "LinkedIn blocks automated access"}
+{"date": "2026-10-10", "job_id": "JOB-0020", "url": "linkedin", "result": "unable_to_verify", "note": "LinkedIn blocks automated access; prior-session date retained"}
+{"date": "2026-10-10", "job_id": "JOB-0021", "url": "linkedin", "result": "unable_to_verify", "note": "LinkedIn blocks automated access; prior-session date retained"}
+{"date": "2026-10-10", "job_id": "JOB-0022", "url": "linkedin", "result": "unable_to_verify", "note": "LinkedIn blocks automated access; prior-session date retained"}
+{"date": "2026-10-10", "job_id": "JOB-0023", "url": "linkedin", "result": "unable_to_verify", "note": "LinkedIn blocks automated access"}
