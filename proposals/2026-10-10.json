@@ -1,0 +1,52 @@
+{
+  "run_date": "2026-10-10",
+  "searches_run": 34,
+  "new_opportunities": [
+    {
+      "company": "Keurig Dr Pepper",
+      "title": "Analyste Principale, Gestion de la croissance des revenus (RGM) des marques/ Associate Manager, Brand Revenue Growth Management (RGM)",
+      "business_unit": "Keurig Dr Pepper Canada (brand RGM)",
+      "category": "RGM",
+      "country": "Canada",
+      "city": "Montreal (posting also lists Toronto)",
+      "work_model": "Not stated",
+      "salary_advertised": "CAD $78,300 - $102,300 annuel (plus annual performance bonus)",
+      "employer_posting_date": null,
+      "official_url": "https://careers.keurigdrpepper.com/en/job/montreal/analyste-principale-gestion-de-la-croissance-des-revenus-rgm-des-marques-associate-manager-brand-re/42849/100479585040",
+      "secondary_url": null,
+      "requisition_id": "147993",
+      "summary": "Lead RGM initiatives and annual commercial playbooks (pricing, promotion, assortment, distribution) for assigned brands such as Snapple, Realemon, Stewart's and Rose's; run category reviews for Warehouse Direct brands and own the brand ACP/AOP.",
+      "pricing_focus": "CPG brand RGM; price/promo playbooks",
+      "scope_fit": "borderline",
+      "scope_note": "French title is 'Analyste Principale' (senior analyst) while the English title is Associate Manager; listed as Individual Contributor with 3-5 yrs required. It owns RGM initiatives, playbooks and the ACP/AOP for its brands, but there is a heavy analytical/reporting component. Likely below the target level; confirm before applying.",
+      "strategy_confidence": "Medium"
+    }
+  ],
+  "url_updates": [],
+  "strategy_updates": [
+    {
+      "id": null,
+      "company": "Keurig Dr Pepper",
+      "business_unit": "Keurig Dr Pepper Canada (brand RGM)",
+      "pricing_theme": "Brand-level price/promo playbooks for the cold beverage portfolio",
+      "posting_evidence": "Montreal/Toronto Associate Manager, Brand RGM (Job ID 147993, CAD 78,300-102,300 plus bonus, individual contributor, 3-5 yrs). It leads RGM initiatives for Snapple, Realemon, Stewart's, Rose's and other assigned brands, and monthly category reviews for Warehouse Direct brands (Clamato, Nestea, Fruitsations, Atypique) covering share, competitors, pricing and promotion. It also builds annual commercial playbooks and brand sales guidelines (pricing, promotion, assortment, distribution), supports innovation business cases and leads the brand ACP/AOP. On the same day, KDP's Montreal careers listing also showed a 'Pricing & Promotion Coordinator' title (not reviewed). Earlier Montreal postings titled Manager, RGM and Manager, Trade Strategy and RGM now return page-not-found.",
+      "interpretation": "KDP Canada runs RGM as a brand-by-brand discipline. Price and promotion guardrails are written into annual playbooks for smaller allied and Warehouse Direct brands, not only for the flagship lines. Several RGM and pricing/promo postings in Montreal over recent months point to a team adding layers (manager, associate manager, coordinator) to scale promo planning and price-pack execution across a fragmented cold-beverage portfolio.",
+      "caveat": "Based on job postings only. The two manager-level RGM postings are no longer live, so it is unclear whether they were filled or withdrawn. Posting dates are not shown.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:0"]
+    },
+    {
+      "id": "STR-0006",
+      "company": "Cogeco",
+      "business_unit": "Cogeco Connexion (Canadian broadband)",
+      "pricing_theme": "Annual price increases; regional and competitive-response pricing; new pricing model",
+      "posting_evidence": "The French posting is titled 'Gestionnaire de Tarification (12 mois)', a 12-month term, in Montreal, on the Cogeco Connexion careers site. The role leads pricing across mass, targeted (provincial and regional), à la carte, discounted and competitive-response pricing, and sets promotions and discounts using customer, financial, demand and competitor data. It also develops and runs the annual price-increase strategy with market directors and the promotions, value-management, base-management and consumer marketing teams, and improves time-to-market through rate-code alignment. It manages the promotion budget and designs a new pricing model. Year-one deliverables include a competitive review of household pricing. Work model and salary are not stated.",
+      "interpretation": "Cogeco Connexion is formalizing a two-sided pricing agenda: protecting ARPU through annual price increases and base management, while answering competitors with targeted regional offers and discounts. The mandate to design a new pricing model and fix rate-code alignment suggests the current rate structure is too complex to launch offers quickly. That matters in a broadband market where competitors respond fast.",
+      "caveat": "The role is a 12-month term (reason not stated, possibly a leave replacement), so it may reflect an ongoing agenda rather than new investment. The posting does not describe the new pricing model.",
+      "confidence": "Medium",
+      "linked_job_refs": ["JOB-0007"]
+    }
+  ],
+  "people": [],
+  "notes": "Ran 34 searches in EN/FR/ES across Montreal, Canada-remote, Bogotá and Medellín, covering ATS and careers sites plus job boards. Found one new official role (KDP brand RGM, borderline), with no new in-scope Colombia role verified. Cogeco JOB-0007 French posting reviewed: it is a 12-month term titled 'Gestionnaire de Tarification (12 mois)', so the tracker should note the term status. Leads not proposed because no official or readable page was found: (1) Essity 'Revenue Management Lead: Pricing & Growth Strategy' / 'Revenue Lead / Líder De Revenue', Medellín, aggregator-only (Jooble/Workopia, the page could not be read); (2) Belron Canada 'Commercial Agreements & Pricing Manager', Montreal, Jobillico listing dated ~2026-07-07, no Workday page found. Closed or expired: Wawanesa Manager, Actuarial - Quebec Auto Pricing (no longer accepting); Dentons Global Value Pricing and Project Manager (Built In removed 2026-10-06); Novo Nordisk Strategic Pricing & INCO Manager Bogotá (no longer accepting); KDP Manager RGM Montreal pages (404). Flag for checker: Cision JOB-0012 Greenhouse ID 4969207101 (job-boards.eu.greenhouse.io/cision) redirects to the board index, so it may be closed, though aggregators still show a 2026-09-16 date."
+}

@@ -81,11 +81,11 @@
     "business_unit": "Not identified",
     "baseline_date": "2026-10-10",
     "last_updated": "2026-10-10",
-    "pricing_theme": "Telecom pricing",
-    "posting_evidence": "Pricing manager, Montreal; official English page defers to the French description, which has not been reviewed.",
-    "interpretation": "Insufficient evidence for a strategic inference. Montreal location suggests the Canadian business rather than the US unit, unconfirmed.",
-    "caveat": "Review the French posting before drawing conclusions.",
-    "confidence": "Low",
+    "pricing_theme": "Annual price increases; regional and competitive-response pricing; new pricing model",
+    "posting_evidence": "The French posting is titled 'Gestionnaire de Tarification (12 mois)', a 12-month term, in Montreal, on the Cogeco Connexion careers site. The role leads pricing across mass, targeted (provincial and regional), à la carte, discounted and competitive-response pricing, and sets promotions and discounts using customer, financial, demand and competitor data. It also develops and runs the annual price-increase strategy with market directors and the promotions, value-management, base-management and consumer marketing teams, and improves time-to-market through rate-code alignment. It manages the promotion budget and designs a new pricing model. Year-one deliverables include a competitive review of household pricing. Work model and salary are not stated.",
+    "interpretation": "Cogeco Connexion is formalizing a two-sided pricing agenda: protecting ARPU through annual price increases and base management, while answering competitors with targeted regional offers and discounts. The mandate to design a new pricing model and fix rate-code alignment suggests the current rate structure is too complex to launch offers quickly. That matters in a broadband market where competitors respond fast.",
+    "caveat": "The role is a 12-month term (reason not stated, possibly a leave replacement), so it may reflect an ongoing agenda rather than new investment. The posting does not describe the new pricing model.",
+    "confidence": "Medium",
     "linked_job_ids": [
       "JOB-0007"
     ]
@@ -328,6 +328,21 @@
     "confidence": "Low",
     "linked_job_ids": [
       "JOB-0023"
+    ]
+  },
+  {
+    "id": "STR-0023",
+    "company": "Keurig Dr Pepper",
+    "business_unit": "Keurig Dr Pepper Canada (brand RGM)",
+    "baseline_date": "2026-10-10",
+    "last_updated": "2026-10-10",
+    "pricing_theme": "Brand-level price/promo playbooks for the cold beverage portfolio",
+    "posting_evidence": "Montreal/Toronto Associate Manager, Brand RGM (Job ID 147993, CAD 78,300-102,300 plus bonus, individual contributor, 3-5 yrs). It leads RGM initiatives for Snapple, Realemon, Stewart's, Rose's and other assigned brands, and monthly category reviews for Warehouse Direct brands (Clamato, Nestea, Fruitsations, Atypique) covering share, competitors, pricing and promotion. It also builds annual commercial playbooks and brand sales guidelines (pricing, promotion, assortment, distribution), supports innovation business cases and leads the brand ACP/AOP. On the same day, KDP's Montreal careers listing also showed a 'Pricing & Promotion Coordinator' title (not reviewed). Earlier Montreal postings titled Manager, RGM and Manager, Trade Strategy and RGM now return page-not-found.",
+    "interpretation": "KDP Canada runs RGM as a brand-by-brand discipline. Price and promotion guardrails are written into annual playbooks for smaller allied and Warehouse Direct brands, not only for the flagship lines. Several RGM and pricing/promo postings in Montreal over recent months point to a team adding layers (manager, associate manager, coordinator) to scale promo planning and price-pack execution across a fragmented cold-beverage portfolio.",
+    "caveat": "Based on job postings only. The two manager-level RGM postings are no longer live, so it is unclear whether they were filled or withdrawn. Posting dates are not shown.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0024"
     ]
   }
 ]
