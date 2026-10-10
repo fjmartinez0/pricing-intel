@@ -5,14 +5,28 @@
     "business_unit": "B2B AI tax software",
     "baseline_date": "2026-10-10",
     "last_updated": "2026-10-10",
-    "pricing_theme": "AI SaaS packaging; billing/CPQ",
-    "posting_evidence": "Director-level owner of pricing & packaging, segmentation, experiments, forecasting and billing/CPQ; remote Canada; posted 2026-10-07.",
-    "interpretation": "A first senior pricing owner usually appears when founder-led pricing stops scaling. Pairing packaging with billing/CPQ suggests more complex enterprise deals and possibly usage- or credit-based AI components that current billing can't handle.",
-    "caveat": "Inference from job postings only; not a confirmed corporate initiative. Posting does not say whether the function is new or a backfill.",
+    "pricing_theme": "First dedicated pricing owner: moving from one unlimited seat price to tiered, value-metric packaging",
+    "posting_evidence": [
+      "Director level, reports to the VP of GTM Strategy & Operations; remote in Canada; posted Oct 7, 2026; base 165,000–206,500.",
+      "Owns plans, tiers, bundles and add-ons, value-metric selection, discount and renewal guidelines, and a monetization roadmap.",
+      "Willingness-to-pay research, segmentation, win/loss and churn analysis, competitor price monitoring.",
+      "Runs pricing experiments and rolls changes through CPQ, billing and reporting; trains Sales and Customer Success.",
+      "Asks for seat, usage, value-based and hybrid model experience; AI product monetization is a plus."
+    ],
+    "interpretation": "A single unlimited seat price suits sole practitioners but undercharges larger firms, and it exposes margin because AI inference cost grows with usage while price does not. The focus on value metrics, add-ons and hybrid models points to good-better-best tiers with a usage or capability fence and firm-level packaging as Blue J expands into new segments in North America and the UK. The CPQ and billing mandate shows this is an early-stage function: the hire sets the pricing operating model, not just price levels.",
+    "caveat": "One posting; Blue J has made no public statement about pricing changes.",
     "confidence": "Medium",
     "linked_job_ids": [
       "JOB-0001"
-    ]
+    ],
+    "current_model": "Seat-based annual subscription. Individual plan US$1,498 per user per year with unlimited questions and drafting; Team and Enterprise plans quoted by sales. No usage-based component is published.",
+    "news": [],
+    "open_questions": [
+      "Is unlimited usage still profitable at current inference costs?",
+      "Which value metric will replace or complement seats: firms, users, jurisdictions or volume?",
+      "Who owns pricing decisions today, founders or sales?"
+    ],
+    "analysis_status": "analyzed"
   },
   {
     "id": "STR-0002",
@@ -20,14 +34,39 @@
     "business_unit": "Bell Business Markets",
     "baseline_date": "2026-10-10",
     "last_updated": "2026-10-10",
-    "pricing_theme": "Enterprise solution pricing",
-    "posting_evidence": "Product Manager, Strategic Pricing for enterprise connectivity and digital solutions; hybrid Montreal/Ottawa/Toronto; deadline Oct 20.",
-    "interpretation": "Pricing sits inside product management and spans connectivity plus digital services, consistent with pricing bundled solutions rather than standalone lines, protecting margin as core connectivity commoditizes.",
-    "caveat": "Inference from job postings only; not a confirmed corporate initiative.",
+    "pricing_theme": "Enterprise solution pricing: bundled TCO-based deals, tighter discount governance, AI-assisted deal pricing",
+    "posting_evidence": [
+      "Senior product manager, Strategic Pricing, in Bell Business Markets Operations; hybrid, 3 days in office; Montreal, Ottawa or Toronto; posted Oct 6, deadline Oct 20, 2026.",
+      "Builds pricing structures using total-cost-of-ownership and SWOT analysis; enforces pricing governance standards.",
+      "Optimizes margin and competitiveness by segment and vertical; gathers competitive intelligence; trains sales.",
+      "Requires practical AI and machine-learning knowledge for pricing, forecasting or dynamic pricing."
+    ],
+    "interpretation": "Bell is trying to protect enterprise margin while its mix shifts from connectivity to cloud, security and AI infrastructure. TCO-based structures and governance language point to bundled solution pricing and stricter discount control in a segment where reps have traded price for volume. The AI requirement suggests Bell wants guided deal pricing, such as price recommendations and win probability, rather than manual desk pricing. The pricing discipline management described for wireless in Q2 is likely being extended to enterprise.",
+    "caveat": "The posting does not mention AI Fabric; that link is inference.",
     "confidence": "Medium",
     "linked_job_ids": [
       "JOB-0002"
-    ]
+    ],
+    "current_model": "Custom enterprise contracts across IoT, mobility and 5G, cloud, cybersecurity, voice, collaboration and contact centre, and internet and private networks. Prices are not public.",
+    "news": [
+      {
+        "date": "2026-08-06",
+        "summary": "Q2 2026 results: wireless industry pricing improved quarter over quarter and year over year; Bell plans less handset discounting; strong enterprise net adds including a large government contract.",
+        "source": "Yahoo Finance (BCE Q2 earnings call)",
+        "url": "https://finance.yahoo.com/technology/articles/bce-inc-bce-q2-2026-190501108.html"
+      },
+      {
+        "date": "2026-05-07",
+        "summary": "CEO reaffirmed revenue targets for Bell AI Fabric data centres; the 300 MW Saskatchewan site's first phase is due in the first half of 2027.",
+        "source": "BNN Bloomberg",
+        "url": "https://www.bnnbloomberg.ca/business/company-news/2026/05/07/bell-ceo-confident-in-lofty-revenue-targets-as-it-doubles-down-on-ai-data-centres/"
+      }
+    ],
+    "open_questions": [
+      "Does the role cover AI Fabric and data-centre pricing, or only telecom and IT bundles?",
+      "Is there an existing deal desk, and how much discount authority do reps have?"
+    ],
+    "analysis_status": "analyzed"
   },
   {
     "id": "STR-0003",
@@ -35,14 +74,40 @@
     "business_unit": "Product",
     "baseline_date": "2026-10-10",
     "last_updated": "2026-10-10",
-    "pricing_theme": "Consumption pricing; unit economics",
-    "posting_evidence": "Associate leads pricing & packaging for new launches and changes; translates infrastructure cost into unit economics; drives SKU and billing execution; first published 2026-08-12.",
-    "interpretation": "Pricing anchored in cost-to-serve and SKU design points to a steady flow of new usage-priced offerings where margin depends on infrastructure cost. The role is launch-driven, not a one-off repricing.",
-    "caveat": "Inference from job postings only; not a confirmed corporate initiative. Products are not named in the posting.",
+    "pricing_theme": "Pricing a stream of AI and agent features on top of a consumption business",
+    "posting_evidence": [
+      "Pricing & Monetization Associate in Product; Toronto office or remote in the Toronto region; CAD 101,000–140,000; first published Aug 12, 2026.",
+      "Leads pricing and packaging for new launches and changes to existing offerings, with business cases and trade-offs.",
+      "Models revenue, margin, cohorts and usage; translates infrastructure cost and technical dependencies into unit economics.",
+      "Drives SKU, billing, selling and tooling execution; benchmarks competitors; presents to leadership.",
+      "Requires 5+ years including 2–3 in consulting or tech strategy."
+    ],
+    "interpretation": "MongoDB is shipping AI retrieval and agent products (embeddings, reranking, a managed MCP server) that each need a price metric different from cluster hours, typically per token or per request. The posting's emphasis on infrastructure cost and SKUs indicates prices are built from cost-to-serve to protect Atlas gross margin as AI workloads grow. Bringing Vector Search to Enterprise Advanced also raises how to price AI capabilities inside self-managed licences.",
+    "caveat": "The release gives no AI pricing figures; per-token metering is inference.",
     "confidence": "Medium",
     "linked_job_ids": [
       "JOB-0003"
-    ]
+    ],
+    "current_model": "Atlas is consumption-priced (cluster size and hours, storage, data transfer; free, flex and dedicated tiers) and was about 73% of revenue in Q2 FY27. Enterprise Advanced is a self-managed subscription.",
+    "news": [
+      {
+        "date": "2026-09-01",
+        "summary": "Q2 FY27: revenue $771.8M (+30%), Atlas $565.9M (+29%), 2,999 customers above $100K ARR; guidance raised on Atlas.",
+        "source": "MongoDB press release",
+        "url": "https://www.prnewswire.com/news-releases/mongodb-inc-announces-second-quarter-fiscal-2027-financial-results-302866656.html"
+      },
+      {
+        "date": "2026-09-01",
+        "summary": "Launched the Atlas Managed MCP Server and made Automated Embeddings (Voyage AI), the Embedding and Reranking API and voyage-code-4 generally available; Search and Vector Search reached Enterprise Advanced.",
+        "source": "MongoDB press release",
+        "url": "https://www.prnewswire.com/news-releases/mongodb-inc-announces-second-quarter-fiscal-2027-financial-results-302866656.html"
+      }
+    ],
+    "open_questions": [
+      "Will AI features be metered separately or bundled as credits in Atlas tiers?",
+      "How will Voyage models be priced against OpenAI and Cohere embeddings?"
+    ],
+    "analysis_status": "analyzed"
   },
   {
     "id": "STR-0004",
@@ -50,15 +115,39 @@
     "business_unit": "Games / live operations",
     "baseline_date": "2026-10-10",
     "last_updated": "2026-10-10",
-    "pricing_theme": "In-game economy; microtransactions",
-    "posting_evidence": "Two concurrent Montreal postings: Monetization Director (virtual store catalog, microtransaction pricing) and Associate Monetization Director (virtual currency, battle pass, live offers).",
-    "interpretation": "A director plus deputy hired at the same time indicates a live-service monetization team being built or rebuilt, not a single backfill. Battle pass and virtual currency scope implies an ongoing live-ops economy.",
-    "caveat": "Inference from job postings only; not a confirmed corporate initiative. The game(s) concerned are not identified in tracked evidence.",
+    "pricing_theme": "Resetting a live game's economy, retention-first, while in-game spending carries the company",
+    "posting_evidence": [
+      "Two concurrent Montreal roles, both office-based: Monetization Director and Associate Monetization Director. The game is not named.",
+      "Director: long-term monetization plan that respects the game's core values, integrated into core gameplay; owns the virtual store catalogue and microtransaction pricing; defines KPIs; 7+ years.",
+      "Associate Director: leads the microtransaction and player-engagement team; owns store and currency pricing, including hard and soft currency rebalancing; leads a Battle Pass redesign and new offers; forecasting; cross-brand partnerships and licensing."
+    ],
+    "interpretation": "In-game spending is now most of Ubisoft's revenue while premium sales fall, so monetization quality directly drives the turnaround. Hiring a director and a deputy together, with currency rebalancing and a Battle Pass redesign in scope, signals a reset of an existing title's economy rather than a new launch. The \"respects the core values of the game\" wording and the annual-report change point to deliberately less aggressive, retention-first monetization.",
+    "caveat": "The game is not named; any link to Vantage Studios is not stated in the postings.",
     "confidence": "High",
     "linked_job_ids": [
       "JOB-0004",
       "JOB-0005"
-    ]
+    ],
+    "current_model": "Premium game sales plus in-game purchases (virtual currency, store items, battle passes). Player recurring investment was 60.6% of FY26 net bookings.",
+    "news": [
+      {
+        "date": "2026-05-20",
+        "summary": "FY26: net bookings €1,525M (−17.4%); player recurring investment €925M (+14.7%), 60.6% of the total; FY27 guided down high single digits; 7 projects cancelled and 6 delayed; Vantage Studios formed with €1.16bn from Tencent.",
+        "source": "Ubisoft earnings release",
+        "url": "https://staticctf.ubisoft.com/8aefmxkxpxwl/1LR2VCCkksmsZ3BDdDrpQW/3bbed93696b39f8e2d8cebf527afb025/Ubisoft_FY26_PR_English_vF.pdf"
+      },
+      {
+        "date": "2026-07-12",
+        "summary": "Ubisoft removed the claim that monetization makes games \"more fun\" from its annual report.",
+        "source": "Kotaku",
+        "url": "https://kotaku.com/ubisoft-drops-claim-that-monetization-makes-games-more-fun-from-annual-report-2000715026"
+      }
+    ],
+    "open_questions": [
+      "Which title is this, and is it run by Vantage Studios or a creative house?",
+      "Is pricing set centrally or per game team?"
+    ],
+    "analysis_status": "analyzed"
   },
   {
     "id": "STR-0005",
@@ -66,14 +155,33 @@
     "business_unit": "Strategic Deals / Commercial Excellence",
     "baseline_date": "2026-10-10",
     "last_updated": "2026-10-10",
-    "pricing_theme": "Value-based deal pricing for AI-enabled delivery",
-    "posting_evidence": "Build EY Canada's pricing capability; set value-based pricing for large pursuits tied to AI-enabled delivery; standardize pricing models across service lines; posted 2026-10-02.",
-    "interpretation": "AI-enabled delivery reduces hours per outcome, which erodes hourly/rate-card revenue. EY Canada is centralizing deal pricing to move large deals toward value- or outcome-based structures while protecting margin.",
-    "caveat": "Posting states the AI/value-based link explicitly; the scale of the shift is not stated.",
+    "pricing_theme": "Value-based deal pricing as AI cuts the hours behind each engagement",
+    "posting_evidence": [
+      "Associate Director, Pricing Strategy (Commercial Excellence), Toronto; posted Oct 2, 2026.",
+      "Builds EY Canada's pricing capability: market insights, pricing strategy and change management.",
+      "Sets pricing for large deals and strategic pursuits using value-based pricing tied to AI-enabled delivery.",
+      "Standardizes pricing models, commercial structures and negotiation approaches across service lines; analyses deal economics; builds firm-wide tools and training."
+    ],
+    "interpretation": "When AI agents do work that used to be billed by the hour, fees fall unless price is tied to outcomes or deliverables. EY Canada is building a central pricing function to move large pursuits to fixed, value or outcome-based structures instead of leaving each partner to improvise. The emphasis on standard models and negotiation playbooks suggests margin leakage from inconsistent discounting is a current problem.",
+    "caveat": "The audit AI rollout is global; the posting is specific to Canada.",
     "confidence": "High",
     "linked_job_ids": [
       "JOB-0006"
-    ]
+    ],
+    "current_model": "Professional-services fees, mostly time-and-materials and fixed-fee engagements priced from rate cards by staff level.",
+    "news": [
+      {
+        "date": "2026-04-07",
+        "summary": "EY rolled out agentic AI across its global audit platform, EY Canvas: 130,000 Assurance professionals and 160,000 engagements, with end-to-end coverage targeted by 2028.",
+        "source": "EY newsroom",
+        "url": "https://www.ey.com/en_ca/newsroom/2026/04/ey-launches-enterprise-scale-agentic-ai-to-redefine-the-audit-experience-for-the-ai-era"
+      }
+    ],
+    "open_questions": [
+      "Does the scope include audit fees, which are regulated and AI-heavy, or only advisory and consulting?",
+      "How are partners measured: revenue, margin or utilisation?"
+    ],
+    "analysis_status": "analyzed"
   },
   {
     "id": "STR-0006",
@@ -88,7 +196,12 @@
     "confidence": "Medium",
     "linked_job_ids": [
       "JOB-0007"
-    ]
+    ],
+    "analysis_status": "insufficient_detail",
+    "insufficient_reason": "Official posting has no description in English; the French text has not been reviewed.",
+    "current_model": null,
+    "news": [],
+    "open_questions": []
   },
   {
     "id": "STR-0007",
@@ -96,14 +209,33 @@
     "business_unit": "Direct Venture",
     "baseline_date": "2026-10-10",
     "last_updated": "2026-10-10",
-    "pricing_theme": "Direct-to-consumer insurance pricing; ML rating",
-    "posting_evidence": "Director owns financial performance and pricing for a direct-to-member portfolio including non-insurance products; AI/ML pricing models and governance; builds a team; posted 2026-09-26.",
-    "interpretation": "Wawanesa is building a direct channel as a separate venture with its own P&L and pricing team, using ML-driven rating to compete with digital direct writers. Non-insurance products suggest bundling or ancillary revenue.",
-    "caveat": "Inference from job postings only; not a confirmed corporate initiative. Provincial rate regulation constrains how fast pricing can move.",
+    "pricing_theme": "Building a direct-to-consumer insurance channel with its own ML-based pricing",
+    "posting_evidence": [
+      "Director, Direct Venture Pricing; hybrid, 2 days a week; 10 Canadian locations including Montreal; estimated $170,000–220,000; posted Sep 26, 2026.",
+      "Owns financial performance and pricing for a direct-to-member portfolio covering insurance and non-insurance products.",
+      "Builds AI, machine-learning and predictive pricing models with governance, validation, monitoring and compliance.",
+      "Prepares pricing proposals and business cases that meet provincial and federal rules; builds and leads a team."
+    ],
+    "interpretation": "The posting moves the direct channel from \"exploring\" in June to building a priced product with its own P&L. A separate team with ML rating suggests direct premiums will come from their own models rather than broker rates, to compete with digital direct insurers such as belairdirect and Sonnet. Non-insurance products imply bundles or add-ons to raise revenue per member. Broker channel conflict will limit how far direct prices can undercut broker prices.",
+    "caveat": "Launch timing, brand and provinces are not public.",
     "confidence": "High",
     "linked_job_ids": [
       "JOB-0008"
-    ]
+    ],
+    "current_model": "Personal auto and home insurance sold mainly through brokers, with premiums set through provincially regulated rate filings.",
+    "news": [
+      {
+        "date": "2026-06-02",
+        "summary": "Wawanesa told brokers (by letter in March) that it is exploring a direct-to-consumer buying site and possibly captive agents, while promising not to compete with brokers; brokers are sceptical.",
+        "source": "Canadian Underwriter",
+        "url": "https://canadianunderwriter.ca/2026/06/02/brokers-respond-to-wawanesas-plan-to-add-a-direct-channel/"
+      }
+    ],
+    "open_questions": [
+      "Which provinces and products launch first?",
+      "Will the same risk be priced differently direct and through brokers?"
+    ],
+    "analysis_status": "analyzed"
   },
   {
     "id": "STR-0008",
@@ -111,14 +243,45 @@
     "business_unit": "Platform / APIs",
     "baseline_date": "2026-10-10",
     "last_updated": "2026-10-10",
-    "pricing_theme": "API and agent (MCP) monetization",
-    "posting_evidence": "Official title Senior Program Manager, API Business Models: define requirements and policies for the API monetization model, extending to MCP Server monetization; Montreal; reposted ~2026-10-01.",
-    "interpretation": "Autodesk is operationalizing paid API access and preparing to charge for AI-agent access through MCP servers, an early signal of agent/consumption monetization. The program-management framing suggests the model is being implemented, not designed from scratch.",
-    "caveat": "Inference from job postings only; not a confirmed corporate initiative. MCP is a single line in the posting; price levels are not disclosed.",
-    "confidence": "Medium",
+    "pricing_theme": "Turning API access into metered revenue, next extending it to AI agents through MCP",
+    "posting_evidence": [
+      "Official title Senior Program Manager, API Business Models (listed on LinkedIn as Senior Manager, API Monetization Strategy); Montreal, in-office; reposted around Oct 1, 2026.",
+      "Defines and prioritizes business requirements and policies for the API monetization model and tracks how partners execute them.",
+      "Thought leader on API monetization and its extension to MCP server monetization.",
+      "Coordinates programs across teams."
+    ],
+    "interpretation": "Over the past year Autodesk has turned free developer APIs into metered revenue with a clear rule: use inside Autodesk products is included in the subscription, while extracting data or high-volume automation is paid. The MCP line indicates the next step is pricing AI-agent access to Autodesk data the same way, so agents built by customers or third parties consume tokens. The role puts these policies (caps, entitlements, pooling) into practice rather than setting price levels.",
+    "caveat": "MCP monetization is one line in the posting; no MCP pricing is public yet. The Dec 2025 item is background, older than the last few months.",
+    "confidence": "High",
     "linked_job_ids": [
       "JOB-0009"
-    ]
+    ],
+    "current_model": "Autodesk Platform Services: a free tier with monthly caps on four rated APIs; paid use through prepaid Flex tokens or pay-as-you-go. Data Model API usage is included with product subscriptions, pooled at team level, with paid overage.",
+    "news": [
+      {
+        "date": "2025-12-07",
+        "summary": "APS moved to Free and Paid tiers: monthly caps on four rated APIs, paid use via Flex tokens or pay-as-you-go, with migration required by Feb 18, 2026.",
+        "source": "Autodesk Platform Services blog",
+        "url": "https://aps.autodesk.com/blog/aps-business-model-evolution"
+      },
+      {
+        "date": "2026-08-17",
+        "summary": "Manufacturing Data Model API pricing took effect: usage included with qualifying subscriptions, pooled at team level, overage paid.",
+        "source": "Autodesk Platform Services blog",
+        "url": "https://aps.autodesk.com/blog/data-model-apis-included-subscriptions-plus-flexible-ways-scale"
+      },
+      {
+        "date": "2026-10-06",
+        "summary": "AEC Data Model API pricing took effect: only data moved out to external systems is charged.",
+        "source": "Autodesk Platform Services blog",
+        "url": "https://aps.autodesk.com/blog/data-model-apis-included-subscriptions-plus-flexible-ways-scale"
+      }
+    ],
+    "open_questions": [
+      "Will MCP access use Flex tokens or a new meter?",
+      "Will partners and software vendors be priced differently from end customers?"
+    ],
+    "analysis_status": "analyzed"
   },
   {
     "id": "STR-0009",
@@ -133,7 +296,12 @@
     "confidence": "Medium",
     "linked_job_ids": [
       "JOB-0010"
-    ]
+    ],
+    "analysis_status": "insufficient_detail",
+    "insufficient_reason": "Only a LinkedIn listing; full responsibilities not read.",
+    "current_model": null,
+    "news": [],
+    "open_questions": []
   },
   {
     "id": "STR-0010",
@@ -148,7 +316,12 @@
     "confidence": "Low",
     "linked_job_ids": [
       "JOB-0011"
-    ]
+    ],
+    "analysis_status": "insufficient_detail",
+    "insufficient_reason": "Unverified lead; only a one-line LinkedIn summary.",
+    "current_model": null,
+    "news": [],
+    "open_questions": []
   },
   {
     "id": "STR-0011",
@@ -163,7 +336,12 @@
     "confidence": "Low",
     "linked_job_ids": [
       "JOB-0012"
-    ]
+    ],
+    "analysis_status": "insufficient_detail",
+    "insufficient_reason": "Only aggregator copies; responsibilities not read in full.",
+    "current_model": null,
+    "news": [],
+    "open_questions": []
   },
   {
     "id": "STR-0012",
@@ -171,14 +349,26 @@
     "business_unit": "Commercial strategy",
     "baseline_date": "2026-10-10",
     "last_updated": "2026-10-10",
-    "pricing_theme": "Pricing standardization and tooling",
-    "posting_evidence": "Senior Advisor leads pricing strategies and large commercial initiatives incl. post-implementation follow-up; keeps pricing structures and methods consistent; builds models, calculators, dashboards; hybrid.",
-    "interpretation": "Pricing is being run as an analytics-led governance capability. Emphasis on consistency and calculators suggests standardizing a fragmented pricing structure across channels.",
-    "caveat": "Inference from job postings only; not a confirmed corporate initiative. Channel mix (insurer, fleet, retail) is not stated in the posting.",
+    "pricing_theme": "Standardizing pricing methods across several brands and insurer contracts",
+    "posting_evidence": [
+      "Senior Advisor, Pricing Management and Commercial Strategy; hybrid; city not stated; bilingual; 5+ years; no direct reports.",
+      "Leads pricing strategies and large commercial initiatives, including follow-up after implementation.",
+      "Keeps pricing structures, processes and methods consistent; builds pricing models, calculators and dashboards (SQL, Power BI).",
+      "Contributes to budgeting and strategic planning."
+    ],
+    "interpretation": "The emphasis on consistency and calculators suggests pricing is fragmented across brands, regions and insurer contracts, and Belron wants one method. Camera recalibration after windshield replacement, which Speedy Glass offers, is a growing service whose price is likely part of what needs standardizing. Because the role is a senior individual contributor, pricing decisions probably sit with commercial leadership.",
+    "caveat": "No recent public pricing news found; channel mix is not stated in the posting.",
     "confidence": "Medium",
     "linked_job_ids": [
       "JOB-0013"
-    ]
+    ],
+    "current_model": "Glass repair and replacement priced through insurer and fleet agreements plus retail prices, across Speedy Glass, Apple Auto Glass and Lebeau Vitres d'autos.",
+    "news": [],
+    "open_questions": [
+      "Is the focus insurer contract pricing or retail prices?",
+      "Is camera recalibration priced separately or bundled into replacement?"
+    ],
+    "analysis_status": "analyzed"
   },
   {
     "id": "STR-0013",
@@ -193,7 +383,12 @@
     "confidence": "Low",
     "linked_job_ids": [
       "JOB-0014"
-    ]
+    ],
+    "analysis_status": "insufficient_detail",
+    "insufficient_reason": "Unverified lead; only a one-line LinkedIn summary.",
+    "current_model": null,
+    "news": [],
+    "open_questions": []
   },
   {
     "id": "STR-0014",
@@ -208,7 +403,12 @@
     "confidence": "Low",
     "linked_job_ids": [
       "JOB-0015"
-    ]
+    ],
+    "analysis_status": "insufficient_detail",
+    "insufficient_reason": "Official posting could not be opened; no responsibilities read.",
+    "current_model": null,
+    "news": [],
+    "open_questions": []
   },
   {
     "id": "STR-0015",
@@ -216,14 +416,25 @@
     "business_unit": "Product / Memberships",
     "baseline_date": "2026-10-10",
     "last_updated": "2026-10-10",
-    "pricing_theme": "Expansion revenue; multi-country SaaS pricing",
-    "posting_evidence": "Pricing and Monetization Manager (also called Expansion Manager): multi-country pricing, payment plans, ARR/NRR, upsell/cross-sell; leads Memberships PO and builds the Expansion & Monetization team; CO/MX/PE.",
-    "interpretation": "Alegra is shifting growth emphasis from new-logo acquisition to expansion within its SMB base. A dedicated team means net revenue retention is now a primary lever, with country-specific price localization.",
-    "caveat": "Inference from job postings only; not a confirmed corporate initiative.",
+    "pricing_theme": "Shifting growth to expansion revenue in a revenue-tiered SMB SaaS",
+    "posting_evidence": [
+      "Pricing and Monetization Manager, also called Expansion Manager in the description; remote, for residents or permit holders in Colombia, Mexico or Peru; 5–8+ years.",
+      "Owns multi-country SaaS pricing, payment plans, ARR and NRR, upsell and cross-sell.",
+      "Leads the Memberships product owner and builds the Expansion & Monetization team."
+    ],
+    "interpretation": "Alegra already prices on a value metric, the customer's revenue, so the upgrade path is built in. The next lever is moving customers across products (invoicing to accounting, POS and payroll) and up tiers, which is why pricing sits with a memberships and expansion team: net revenue retention is now the priority. AI is bundled free in every plan, so a likely early decision for this role is whether AI becomes a tier differentiator or a paid add-on. Multi-country scope means localizing price points around each country's e-invoicing and tax rules.",
+    "caveat": "Pricing was checked for Colombia only.",
     "confidence": "High",
     "linked_job_ids": [
       "JOB-0016"
-    ]
+    ],
+    "current_model": "Monthly or annual subscriptions (25% off annually) with four tiers per product, scaled by the customer's monthly revenue, users and warehouses. Separate products for e-invoicing, accounting, POS and payroll (payroll priced by employees). In Colombia, e-invoicing starts at COP 17,900 a month and accounting at COP 74,900. AI features (Alegra IA, an MCP connection) are bundled into every plan at no extra charge.",
+    "news": [],
+    "open_questions": [
+      "Will AI be monetized separately or used to justify tier upgrades?",
+      "Are cross-product bundles planned?"
+    ],
+    "analysis_status": "analyzed"
   },
   {
     "id": "STR-0016",
@@ -231,14 +442,33 @@
     "business_unit": "Interchange / Network",
     "baseline_date": "2026-10-10",
     "last_updated": "2026-10-10",
-    "pricing_theme": "Interchange and network pricing",
-    "posting_evidence": "Manager, Strategy Pricing & Interchange, Bogotá (official Workday).",
-    "interpretation": "Interchange and network pricing handled from Bogotá suggests regional pricing work run from a Colombia hub, likely in a market where account-to-account instant payments are expanding.",
-    "caveat": "Inference from job postings only; not a confirmed corporate initiative. Regional scope and competitive context are not stated in the posting.",
+    "pricing_theme": "Global interchange and network-fee strategy run from a Bogotá hub",
+    "posting_evidence": [
+      "Manager, Strategy Pricing & Interchange, on the Global Pricing & Interchange team; Bogotá; posted Aug 12, 2026.",
+      "Executes the global pricing and interchange strategy and transformation initiatives under one global framework, from business case to regional rollout.",
+      "Benchmarks performance and models economics and competitive position across the four-party ecosystem.",
+      "Improves pricing decision tools; coaches junior staff; MBA strongly preferred."
+    ],
+    "interpretation": "The role is global, not Colombia-specific: Bogotá is a delivery hub for Mastercard's central pricing team. The \"transformation\" language fits a period when account-to-account rails such as Bre-B and Pix compete with cards at checkout, and interchange and network fees are the levers networks use to keep issuers and acquirers committed. Expect work on fee simplification, incentive structures and competitive benchmarking rather than local price setting.",
+    "caveat": "The posting names no markets; the Bre-B link is context, not stated.",
     "confidence": "Medium",
     "linked_job_ids": [
       "JOB-0017"
-    ]
+    ],
+    "current_model": "Network fees charged to issuers and acquirers, plus interchange set by Mastercard and paid by acquirers to issuers; Colombian interchange tables are published by Mastercard.",
+    "news": [
+      {
+        "date": "2026-10-06",
+        "summary": "Colombia's Bre-B instant-payment system marked one year: 36 million active users (83% of adults) against 24% of adults holding a credit card, and over 8 million transactions a day.",
+        "source": "EBANX via GlobeNewswire (vendor data)",
+        "url": "https://www.globenewswire.com/news-release/2026/10/06/3375461/0/en/colombia-s-bre-b-marks-one-year-with-faster-adoption-than-brazil-s-pix-ebanx-analysis-finds.html"
+      }
+    ],
+    "open_questions": [
+      "What transformation is under way: fee restructuring, simplification or new products?",
+      "Which regions does the Bogotá team actually cover?"
+    ],
+    "analysis_status": "analyzed"
   },
   {
     "id": "STR-0017",
@@ -246,14 +476,40 @@
     "business_unit": "Consumer goods",
     "baseline_date": "2026-10-10",
     "last_updated": "2026-10-10",
-    "pricing_theme": "Price-pack architecture; promotions",
-    "posting_evidence": "Jefe de RGM: price architecture, promotions and profitability; COP 12.5–15M; hybrid (Adecco listing).",
-    "interpretation": "A standard CPG RGM build. In a direct-selling model, RGM likely also covers consultant pricing and discount ladders.",
-    "caveat": "Inference from job postings only; not a confirmed corporate initiative. The direct-selling link is an inference.",
-    "confidence": "Medium",
+    "pricing_theme": "Price-waterfall discipline across consultants, own stores and e-commerce",
+    "posting_evidence": [
+      "Jefe de RGM, Bogotá; posted Aug 12, 2026; COP 12.5–15M per the Adecco listing.",
+      "Controls the price waterfall from list to net price across direct sales (stated priority), retail, e-commerce and marketplaces; sets discount and incentive direction.",
+      "Audits promotional ROI and flags margin-diluting tactics.",
+      "Leads cross-channel price harmony to avoid cannibalizing direct sales and own stores (\"Set the Price\" vs \"Get the Price\").",
+      "Builds RGM processes from scratch; 6+ years; direct-selling experience (Belcorp, Yanbal) preferred."
+    ],
+    "interpretation": "Sales are shifting fast from consultants to stores and e-commerce, which creates price conflict: if store or online prices undercut the catalogue, consultants lose margin and leave. The priority on direct-sales gross-to-net and channel harmony shows Natura wants one price architecture across channels and less promotional leakage. \"From scratch\" confirms RGM is a new capability in Colombia, and Avon's move upmarket adds a price-ladder question between the two brands.",
+    "caveat": "The Avon repositioning article is regional, not specific to Colombia.",
+    "confidence": "High",
     "linked_job_ids": [
       "JOB-0018"
-    ]
+    ],
+    "current_model": "Catalogue prices for direct-sales consultants, who earn a discount or margin, plus own stores, retail, e-commerce and marketplaces, across the Natura and Avon brands.",
+    "news": [
+      {
+        "date": "2026-02-11",
+        "summary": "Natura Colombia: in 2025 retail grew 500%, e-commerce 45% and direct sales 5%; 11 stores, with 7 more planned for 2026; over 180,000 consultants.",
+        "source": "El Cronista",
+        "url": "https://www.cronista.com/colombia/finanzas-y-economia/natura-colombia-redefine-su-estrategia-de-crecimiento-hacia-2026-la-regeneracion-es-parte-central-de-nuestro-modelo-de-negocio/"
+      },
+      {
+        "date": "2026-03-18",
+        "summary": "Natura is repositioning Avon toward younger consumers with more technology; the CEO expects Avon's prices to rise from current levels.",
+        "source": "Bloomberg Línea",
+        "url": "https://www.bloomberglinea.com/negocios/natura-reposiciona-avon-y-alista-estrategia-para-enfrentar-las-marcas-de-influencers/"
+      }
+    ],
+    "open_questions": [
+      "Who sets consultant discounts and incentives today?",
+      "How will the Natura and Avon price ladders be separated?"
+    ],
+    "analysis_status": "analyzed"
   },
   {
     "id": "STR-0018",
@@ -261,14 +517,26 @@
     "business_unit": "Hospitality",
     "baseline_date": "2026-10-10",
     "last_updated": "2026-10-10",
-    "pricing_theme": "Dynamic hotel pricing; channel mix",
-    "posting_evidence": "Director pricing for a multi-property hotel group: booking pace, inventory and channel optimization, redesign of rate structure; COP 18–21M; posted 2026-08-12.",
-    "interpretation": "'Transforming the rate structure' suggests moving from static or manual rates to dynamic pricing and channel-mix optimization.",
-    "caveat": "Inference from job postings only; not a confirmed corporate initiative. Employer is confidential.",
+    "pricing_theme": "Moving a multi-property hotel group to demand-led, centralized pricing",
+    "posting_evidence": [
+      "Director pricing, Bogotá; hybrid; COP 18–21M; posted Aug 12, 2026; middle-management level.",
+      "Sets pricing strategy from booking pace and market behaviour; optimizes room inventory and distribution channels.",
+      "Builds dashboards for leadership; transforms the rate structure to maximize profitability.",
+      "Requires 7–10 years, 5+ in hotel pricing; RevPAR and forecasting; SQL and Power BI or Tableau."
+    ],
+    "interpretation": "Booking-pace pricing plus \"transform the rate structure\" indicates the group still runs largely static or manual rates and wants a central revenue-management function across properties. Channel optimization usually means shifting the mix toward direct bookings to cut travel-agency commissions. Requiring SQL and BI skills at director level suggests there is no revenue-management system yet, or one is being implemented.",
+    "caveat": "Employer unknown, so no company news can be checked.",
     "confidence": "Medium",
     "linked_job_ids": [
       "JOB-0019"
-    ]
+    ],
+    "current_model": "Room rates set per property and channel (direct and online travel agencies). The employer is confidential.",
+    "news": [],
+    "open_questions": [
+      "Which hotel group is hiring?",
+      "Is a revenue-management system in place or planned?"
+    ],
+    "analysis_status": "analyzed"
   },
   {
     "id": "STR-0019",
@@ -283,7 +551,12 @@
     "confidence": "Medium",
     "linked_job_ids": [
       "JOB-0020"
-    ]
+    ],
+    "analysis_status": "insufficient_detail",
+    "insufficient_reason": "Only a LinkedIn listing; full responsibilities not read.",
+    "current_model": null,
+    "news": [],
+    "open_questions": []
   },
   {
     "id": "STR-0020",
@@ -298,7 +571,12 @@
     "confidence": "Medium",
     "linked_job_ids": [
       "JOB-0021"
-    ]
+    ],
+    "analysis_status": "insufficient_detail",
+    "insufficient_reason": "Only a LinkedIn listing; full responsibilities not read.",
+    "current_model": null,
+    "news": [],
+    "open_questions": []
   },
   {
     "id": "STR-0021",
@@ -313,7 +591,12 @@
     "confidence": "Low",
     "linked_job_ids": [
       "JOB-0022"
-    ]
+    ],
+    "analysis_status": "insufficient_detail",
+    "insufficient_reason": "Only a LinkedIn listing; full responsibilities not read.",
+    "current_model": null,
+    "news": [],
+    "open_questions": []
   },
   {
     "id": "STR-0022",
@@ -328,7 +611,12 @@
     "confidence": "Low",
     "linked_job_ids": [
       "JOB-0023"
-    ]
+    ],
+    "analysis_status": "insufficient_detail",
+    "insufficient_reason": "Unverified lead; only a one-line LinkedIn summary.",
+    "current_model": null,
+    "news": [],
+    "open_questions": []
   },
   {
     "id": "STR-0023",
@@ -337,12 +625,18 @@
     "baseline_date": "2026-10-10",
     "last_updated": "2026-10-10",
     "pricing_theme": "Brand-level price/promo playbooks for the cold beverage portfolio",
-    "posting_evidence": "Montreal/Toronto Associate Manager, Brand RGM (Job ID 147993, CAD 78,300-102,300 plus bonus, individual contributor, 3-5 yrs). It leads RGM initiatives for Snapple, Realemon, Stewart's, Rose's and other assigned brands, and monthly category reviews for Warehouse Direct brands (Clamato, Nestea, Fruitsations, Atypique) covering share, competitors, pricing and promotion. It also builds annual commercial playbooks and brand sales guidelines (pricing, promotion, assortment, distribution), supports innovation business cases and leads the brand ACP/AOP. On the same day, KDP's Montreal careers listing also showed a 'Pricing & Promotion Coordinator' title (not reviewed). Earlier Montreal postings titled Manager, RGM and Manager, Trade Strategy and RGM now return page-not-found.",
+    "posting_evidence": [
+      "Montreal/Toronto Associate Manager, Brand RGM (Job ID 147993, CAD 78,300-102,300 plus bonus, individual contributor, 3-5 yrs). It leads RGM initiatives for Snapple, Realemon, Stewart's, Rose's and other assigned brands, and monthly category reviews for Warehouse Direct brands (Clamato, Nestea, Fruitsations, Atypique) covering share, competitors, pricing and promotion. It also builds annual commercial playbooks and brand sales guidelines (pricing, promotion, assortment, distribution), supports innovation business cases and leads the brand ACP/AOP. On the same day, KDP's Montreal careers listing also showed a 'Pricing & Promotion Coordinator' title (not reviewed). Earlier Montreal postings titled Manager, RGM and Manager, Trade Strategy and RGM now return page-not-found."
+    ],
     "interpretation": "KDP Canada runs RGM as a brand-by-brand discipline. Price and promotion guardrails are written into annual playbooks for smaller allied and Warehouse Direct brands, not only for the flagship lines. Several RGM and pricing/promo postings in Montreal over recent months point to a team adding layers (manager, associate manager, coordinator) to scale promo planning and price-pack execution across a fragmented cold-beverage portfolio.",
     "caveat": "Based on job postings only. The two manager-level RGM postings are no longer live, so it is unclear whether they were filled or withdrawn. Posting dates are not shown.",
     "confidence": "Medium",
     "linked_job_ids": [
       "JOB-0024"
-    ]
+    ],
+    "current_model": null,
+    "news": [],
+    "open_questions": [],
+    "analysis_status": "analyzed"
   }
 ]

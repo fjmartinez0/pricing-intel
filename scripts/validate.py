@@ -50,6 +50,8 @@ def main():
             E("%s: bad lifecycle %r" % (jid, j["lifecycle_status"]))
         if j.get("scope_fit") not in c.SCOPE_FIT:
             E("%s: bad scope_fit" % jid)
+        if j.get("work_mode") not in c.WORK_MODES:
+            E("%s: bad work_mode %r" % (jid, j.get("work_mode")))
         if j.get("country") not in c.COUNTRIES:
             E("%s: bad country %r" % (jid, j.get("country")))
         if not j.get("first_seen"):
@@ -68,9 +70,16 @@ def main():
     if len(sids) != len(set(sids)):
         E("duplicate strategy IDs")
     for s in strategy:
-        for f in ["pricing_theme", "posting_evidence", "interpretation", "caveat"]:
-            if URL_RE.search(s.get(f) or ""):
-                E("%s: URL in %s (not allowed on Pricing Strategy)" % (s["id"], f))
+        for f in ["pricing_theme", "current_model", "posting_evidence", "interpretation", "open_questions", "caveat"]:
+            v = s.get(f)
+            for item in (v if isinstance(v, list) else [v]):
+                if URL_RE.search(str(item or "")):
+                    E("%s: URL in %s (links belong only in news sources)" % (s["id"], f))
+        if s.get("analysis_status") not in c.ANALYSIS_STATUS:
+            E("%s: bad analysis_status %r" % (s["id"], s.get("analysis_status")))
+        for n in s.get("news") or []:
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(n.get("date") or "")) or not n.get("summary") or not n.get("source"):
+                E("%s: news item missing date, summary or source" % s["id"])
         if s.get("confidence") not in c.CONFIDENCE:
             E("%s: bad confidence %r" % (s["id"], s.get("confidence")))
         for lj in s["linked_job_ids"]:

@@ -47,15 +47,22 @@ def fetch(url, accept="text/html,application/xhtml+xml"):
         return None, url, str(e)
 
 
-def result(kind, method, status, note):
-    return {"result": kind, "method": method, "http_status": status, "note": note}
+def result(kind, method, status, note, posted=None):
+    r = {"result": kind, "method": method, "http_status": status, "note": note}
+    if posted and re.fullmatch(r"\d{4}-\d{2}-\d{2}", posted[:10]):
+        r["posted"] = posted[:10]
+    return r
 
 
 def check_greenhouse(board, job_id):
     st, _, body = fetch("https://boards-api.greenhouse.io/v1/boards/%s/jobs/%s" % (board, job_id),
                         "application/json")
     if st == 200 and '"id"' in body:
-        return result("positive", "greenhouse_api", st, "Live on Greenhouse board")
+        try:
+            first = json.loads(body).get("first_published") or ""
+        except ValueError:
+            first = ""
+        return result("positive", "greenhouse_api", st, "Live on Greenhouse board", first)
     if st in (404, 410):
         return result("inactive", "greenhouse_api", st, "Not on Greenhouse board")
     return result("unable_to_verify", "greenhouse_api", st, "Greenhouse API error")
@@ -77,7 +84,7 @@ def check_smartrecruiters(url):
             data = {}
         if data.get("active") is False:
             return result("closed", "smartrecruiters_api", st, "Posting marked inactive")
-        return result("positive", "smartrecruiters_api", st, "Live on SmartRecruiters")
+        return result("positive", "smartrecruiters_api", st, "Live on SmartRecruiters", data.get("releasedDate") or "")
     if st in (404, 410):
         return result("inactive", "smartrecruiters_api", st, "Posting not found")
     return result("unable_to_verify", "smartrecruiters_api", st, "SmartRecruiters API error")
@@ -104,7 +111,7 @@ def check_workday(url):
             return result("unable_to_verify", "workday_api", st, "Unexpected Workday response")
         if info.get("canApply") is False:
             return result("closed", "workday_api", st, "Workday says applications closed")
-        return result("positive", "workday_api", st, "Live on Workday")
+        return result("positive", "workday_api", st, "Live on Workday", info.get("startDate") or "")
     if st in (404, 410):
         return result("inactive", "workday_api", st, "Workday posting not found")
     return result("unable_to_verify", "workday_api", st, "Workday API error")
@@ -172,6 +179,8 @@ def apply_result(job, r, run_date, checks):
             job["inactive_date"] = None
         job["lifecycle_status"] = "active"
         job["last_verified_active"] = run_date
+        if r.get("posted") and not job.get("employer_posting_date"):
+            job["employer_posting_date"] = r["posted"]
         job["verification_note"] = "%s (%s)" % (r["note"], run_date)
     elif kind == "closed":
         if before != "closed":

@@ -14,7 +14,7 @@ import sys
 import common as c
 
 URL_RE = re.compile(r"https?://\S+")
-JOB_FIELDS = ["company", "title", "business_unit", "category", "country", "city", "work_model",
+JOB_FIELDS = ["company", "title", "business_unit", "category", "country", "city", "work_model", "work_mode", "location_note",
               "salary_advertised", "employer_posting_date", "official_url", "secondary_url",
               "requisition_id", "summary", "pricing_focus", "scope_fit", "scope_note",
               "strategy_confidence"]
@@ -115,7 +115,10 @@ def main():
         job["scope_fit"] = job.get("scope_fit") or "in_scope"
         job["salary_advertised"] = job.get("salary_advertised") or "Not stated"
         job["work_model"] = job.get("work_model") or "Not stated"
+        if job.get("work_mode") not in c.WORK_MODES:
+            job["work_mode"] = c.infer_work_mode(job["work_model"])
         order = ["id"] + [k for k in jobs[0].keys() if k != "id"]
+        order += [k for k in job if k not in order]
         jobs.append({k: job.get(k) for k in order})
         ref_map["new:%d" % n] = new_id
         log.append("NEW %s %s / %s (%s)" % (new_id, job["company"], job["title"], job["country"]))
@@ -139,11 +142,23 @@ def main():
     # 3. Strategy updates (no URLs allowed on this tab)
     for s in prop.get("strategy_updates", []):
         s = {k: clean(v) for k, v in s.items()}
-        text_fields = ["pricing_theme", "posting_evidence", "interpretation", "caveat"]
-        if any(URL_RE.search(s.get(f) or "") for f in text_fields):
-            for f in text_fields:
-                if s.get(f):
-                    s[f] = URL_RE.sub("", s[f]).strip()
+        text_fields = ["pricing_theme", "current_model", "interpretation", "caveat"]
+        list_fields = ["posting_evidence", "open_questions"]
+        for f in text_fields:
+            if isinstance(s.get(f), str):
+                s[f] = URL_RE.sub("", s[f]).strip() or None
+        for f in list_fields:
+            v = s.get(f)
+            v = [v] if isinstance(v, str) else (v or [])
+            s[f] = [URL_RE.sub("", str(x)).strip() for x in v if str(x).strip()]
+        news = []
+        for n_ in s.get("news") or []:
+            if isinstance(n_, dict) and re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(n_.get("date") or "")) \
+                    and clean(n_.get("summary")) and clean(n_.get("source")) and is_url(n_.get("url")):
+                news.append({"date": n_["date"], "summary": URL_RE.sub("", n_["summary"]).strip(),
+                             "source": n_["source"].strip(), "url": n_["url"].strip()})
+        s["news"] = news
+        detailed = bool(s.get("interpretation")) and len(s["posting_evidence"]) >= 2
         linked = [ref_map.get(r, r) for r in (s.get("linked_job_refs") or [])]
         linked = [r for r in linked if r in by_id or r in ref_map.values()]
         target = None
@@ -155,20 +170,36 @@ def main():
         if s.get("confidence") not in c.CONFIDENCE:
             s["confidence"] = None
         if target:
-            for f in text_fields + ["confidence"]:
+            if not detailed and target.get("analysis_status") == "analyzed":
+                target["linked_job_ids"] = sorted(set(target["linked_job_ids"]) | set(linked))
+                log.append("STRATEGY linked only %s (update lacked detail)" % target["id"])
+                continue
+            for f in text_fields + list_fields + ["confidence"]:
                 if s.get(f):
                     target[f] = s[f]
+            if news:
+                seen = {(x.get("date"), x.get("summary")) for x in target.get("news") or []}
+                target["news"] = sorted((target.get("news") or []) + [x for x in news if (x["date"], x["summary"]) not in seen],
+                                        key=lambda x: x["date"], reverse=True)[:6]
+            if detailed:
+                target["analysis_status"] = "analyzed"
+                target.pop("insufficient_reason", None)
             target["linked_job_ids"] = sorted(set(target["linked_job_ids"]) | set(linked))
             target["last_updated"] = run_date
             log.append("STRATEGY updated %s %s" % (target["id"], target["company"]))
         elif s.get("company") and s.get("interpretation") and linked:
             new_sid = c.next_id([x["id"] for x in strategy], "STR-")
-            strategy.append(dict(id=new_sid, company=s["company"], business_unit=s.get("business_unit") or "Not identified",
-                                 baseline_date=run_date, last_updated=run_date,
-                                 pricing_theme=s.get("pricing_theme"), posting_evidence=s.get("posting_evidence"),
-                                 interpretation=s["interpretation"],
-                                 caveat=s.get("caveat") or "Inference from job postings only; not a confirmed corporate initiative.",
-                                 confidence=s.get("confidence") or "Low", linked_job_ids=sorted(set(linked))))
+            rec = dict(id=new_sid, company=s["company"], business_unit=s.get("business_unit") or "Not identified",
+                       baseline_date=run_date, last_updated=run_date,
+                       pricing_theme=s.get("pricing_theme"), current_model=s.get("current_model"),
+                       posting_evidence=s["posting_evidence"], news=news,
+                       interpretation=s["interpretation"], open_questions=s["open_questions"],
+                       caveat=s.get("caveat") or "Inference from job postings only; not a confirmed corporate initiative.",
+                       confidence=s.get("confidence") or "Low", linked_job_ids=sorted(set(linked)),
+                       analysis_status="analyzed" if detailed else "insufficient_detail")
+            if not detailed:
+                rec["insufficient_reason"] = "Posting lacks specific responsibilities."
+            strategy.append(rec)
             log.append("STRATEGY new %s %s" % (new_sid, s["company"]))
         else:
             log.append("REJECTED strategy update for %s" % s.get("company"))

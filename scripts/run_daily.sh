@@ -61,6 +61,10 @@ python3 scripts/recheck.py --new-only
 STEP="validate data"
 python3 scripts/validate.py --base-ref "$BASE"
 
+STEP="record run time"
+python3 -c 'import sys; sys.path.insert(0, "scripts"); import common as c; from datetime import datetime
+m = c.load("meta.json"); m["last_run_at"] = datetime.now(c.TZ).isoformat(timespec="seconds"); c.save("meta.json", m)'
+
 STEP="commit and push"
 git add data "proposals/$TODAY.json"
 if ! git diff --cached --quiet; then

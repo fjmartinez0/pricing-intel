@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pricing Roles Tracker</title>
+<title>Pricing Roles Research</title>
 <meta name="robots" content="noindex">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,7 +36,7 @@ body{margin:0;background:var(--paper);color:var(--ink);font-family:"Archivo",sys
   font-size:16px;line-height:1.5;font-variant-numeric:tabular-nums}
 a{color:inherit;text-underline-offset:3px}
 :focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:4px}
-.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+.wrap{max-width:1200px;margin:0 auto;padding:0 16px}
 
 header{padding:40px 0 28px}
 h1{font-stretch:125%;font-weight:800;font-size:clamp(34px,6vw,56px);line-height:1;letter-spacing:-.01em;margin:0}
@@ -89,9 +89,54 @@ label.chk{font-size:14px;color:var(--ink-2);display:flex;gap:6px;align-items:cen
 .detail dt{color:var(--ink-3)}
 .detail dd{margin:0}
 .links{display:flex;gap:16px;flex-wrap:wrap;font-size:14px;font-weight:600;margin-top:4px}
+.tablewrap{overflow-x:auto;border:1px solid var(--rule);border-radius:10px;background:var(--surface)}
+table.jobs{width:100%;border-collapse:collapse;font-size:14px;line-height:1.4}
+table.jobs.open{min-width:900px}
+table.jobs.closed{min-width:760px}
+table.jobs th{text-align:left;font-weight:600;color:var(--ink-2);border-bottom:1px solid var(--rule);padding:0;white-space:nowrap;background:var(--surface)}
+table.jobs th span,table.jobs th button{display:block;padding:10px 12px}
+table.jobs th button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;width:100%;text-align:left}
+table.jobs th button:hover{color:var(--ink)}
+table.jobs th[aria-sort="ascending"] button::after{content:" \2191"}
+table.jobs th[aria-sort="descending"] button::after{content:" \2193"}
+table.jobs th[aria-sort="ascending"],table.jobs th[aria-sort="descending"]{color:var(--ink)}
+table.jobs td{padding:10px 12px;border-top:1px solid var(--rule);vertical-align:top}
+table.jobs tbody tr:first-child td{border-top:0}
+tr.jr{cursor:pointer}
+tr.jr:hover td{background:color-mix(in srgb,var(--paper) 60%,var(--surface))}
+tr.jr[aria-expanded="true"] td{background:var(--paper)}
+tr.jr:focus-visible{outline:2px solid var(--focus);outline-offset:-2px}
+tr.dr td{border-top:0;background:var(--paper);padding:4px 12px 16px}
+tr.dr .detail{padding:0}
+td.c-company{min-width:110px}
+td.c-title{min-width:200px}
+td.c-location{width:210px;max-width:230px}
+td.c-salary_advertised{max-width:180px}
+.clamp{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.clamp.sub{color:var(--ink-2);-webkit-line-clamp:1;margin-top:2px}
+td.c-status{white-space:nowrap}
+td.c-status .chip{margin:0 2px 4px 0}
+td.c-checked,td.c-last_active,td.c-inactive_date{white-space:nowrap}
+td.c-links{white-space:nowrap;font-weight:600}
+td.c-links a{display:inline-block;padding:1px 0}
+.hint{font-size:13px;color:var(--ink-3);margin:8px 2px 0;max-width:90ch}
+.hint.thin{margin-top:20px}
+td .sub{display:block;font-size:13px;color:var(--ink-3)}
+.wm.unk{color:var(--ink-3)}
+td.c-work_mode,td.c-posted{white-space:nowrap}
+table.jobs.people{min-width:900px}
+table.jobs.people .jobref{margin:0;text-align:left}
+table.jobs tr.note td{border-top:0;padding-top:0;font-size:13px;color:var(--ink-3)}
+.strat ul{margin:0;padding-left:18px;max-width:72ch}
+.strat li+li{margin-top:4px}
+.strat ul.news{list-style:none;padding-left:0}
+.strat .nd{font-weight:600;margin-right:8px;white-space:nowrap}
+.strat .src{color:var(--ink-3);font-size:13px;white-space:nowrap}
+.strat .jobref{display:block;text-align:left;max-width:100%}
+tr.jr.flash td{animation:flash 1.6s ease-out}
 .row.flash{animation:flash 1.6s ease-out}
 @keyframes flash{from{background:color-mix(in srgb,var(--tag) 45%,transparent)}to{background:transparent}}
-@media (prefers-reduced-motion:reduce){.row.flash{animation:none;outline:2px solid var(--tag)}}
+@media (prefers-reduced-motion:reduce){.row.flash,tr.jr.flash td{animation:none}tr.jr.flash{outline:2px solid var(--tag)}}
 
 .strat{padding:22px 4px;border-bottom:1px solid var(--rule);display:grid;grid-template-columns:220px minmax(0,1fr);gap:8px 28px}
 .strat h3{margin:0;font-size:19px;font-stretch:108%}
@@ -120,7 +165,7 @@ footer{color:var(--ink-3);font-size:13px;padding:32px 0 48px;max-width:75ch}
 <body>
 <div class="wrap">
   <header>
-    <h1>Pricing roles</h1>
+    <h1>Pricing Roles Research</h1>
     <p class="lede" id="lede">Pricing, monetization and RGM roles in Canada and Colombia, and what the hiring says about each company's pricing strategy.</p>
     <div class="tags" id="tags"></div>
   </header>
@@ -145,7 +190,6 @@ footer{color:var(--ink-3);font-size:13px;padding:32px 0 48px;max-width:75ch}
       <option value="unable_to_verify">Unverified only</option>
     </select>
     <input type="search" id="f-q" placeholder="Search company, role, focus" aria-label="Search">
-    <label class="chk"><input type="checkbox" id="f-border" checked> Include roles whose level needs confirming</label>
   </div>
 
   <main id="view" aria-live="polite"></main>
@@ -156,14 +200,25 @@ footer{color:var(--ink-3);font-size:13px;padding:32px 0 48px;max-width:75ch}
 </div>
 
 <script>
-const S = {jobs:[], strategy:[], people:[], meta:{}, view:"open", country:"", status:"", q:"", border:true};
+const S = {jobs:[], strategy:[], people:[], meta:{}, view:"open", country:"", status:"", q:"",
+  sort:{open:{k:"status", dir:1}, closed:{k:"inactive_date", dir:-1}}};
+const fmtStamp = m => {
+  if (!m.last_run_at) return fmt(m.last_run);
+  const d = new Date(m.last_run_at); if (isNaN(d)) return fmt(m.last_run);
+  return d.toLocaleString("en-CA", {timeZone:"America/Toronto", month:"short", day:"numeric", year:"numeric",
+    hour:"numeric", minute:"2-digit", timeZoneName:"short"});
+};
 const $ = s => document.querySelector(s);
 const esc = v => String(v ?? "").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
 const safeUrl = u => /^https?:\/\//.test(u || "") ? u : null;
 const fmt = d => {
   if (!d) return "";
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(d)) return d;
-  return new Date(d + "T12:00:00").toLocaleDateString("en-CA", {month:"short", day:"numeric", year:"numeric"});
+  const approx = /approx/.test(d) ? " (approx.)" : "";
+  let m = /^(\d{4}-\d{2}-\d{2})/.exec(d);
+  if (m) return new Date(m[1] + "T12:00:00").toLocaleDateString("en-CA", {month:"short", day:"numeric", year:"numeric"}) + approx;
+  m = /^(\d{4})-(\d{2})(?!\d)/.exec(d);
+  if (m) return new Date(`${m[1]}-${m[2]}-15T12:00:00`).toLocaleDateString("en-CA", {month:"short", year:"numeric"}) + approx;
+  return d;
 };
 const daysSince = d => /^\d{4}-\d{2}-\d{2}/.test(d||"") ? (Date.now() - new Date(d.slice(0,10)+"T12:00:00"))/864e5 : 999;
 const isOpen = j => j.lifecycle_status === "active" || j.lifecycle_status === "unable_to_verify";
@@ -188,10 +243,10 @@ function renderTags(){
     S.status = b.dataset.status || ""; S.q = ""; $("#f-q").value = ""; $("#f-status").value = S.status;
     S.newOnly = !!b.dataset.new; setView("open");
   });
-  $("#lede").textContent = `Pricing, monetization and RGM roles in Canada and Colombia, and what the hiring says about each company's pricing strategy. Last updated ${fmt(S.meta.last_run)}.`;
+  $("#lede").textContent = `Pricing, monetization and RGM roles in Canada and Colombia, and what the hiring says about each company's pricing strategy. Last updated ${fmtStamp(S.meta)}.`;
   $("#n-open").textContent = open.length;
   $("#n-closed").textContent = S.jobs.length - open.length;
-  $("#n-strategy").textContent = S.strategy.length;
+  $("#n-strategy").textContent = analyzed().length;
   $("#n-people").textContent = S.people.length;
 }
 
@@ -201,128 +256,186 @@ function matchesQ(obj, fields){
   return S.q.toLowerCase().split(/\s+/).every(t => hay.includes(t));
 }
 
-function jobRow(j){
+const COLS_OPEN = [
+  {k:"company", t:"Company"}, {k:"title", t:"Role"}, {k:"location", t:"Country / City"},
+  {k:"work_mode", t:"Work model"}, {k:"salary_advertised", t:"Salary"}, {k:"status", t:"Status"},
+  {k:"posted", t:"Date posted"}, {k:"links", t:"Links", nosort:true}];
+const COLS_CLOSED = [
+  {k:"company", t:"Company"}, {k:"title", t:"Role"}, {k:"location", t:"Location"},
+  {k:"status", t:"Status"}, {k:"last_active", t:"Last active"}, {k:"inactive_date", t:"Gone since"},
+  {k:"links", t:"Links", nosort:true}];
+const loc = j => j.city && j.country && j.city !== j.country ? `${j.country} / ${j.city}` : (j.country || j.city || "");
+const postedKey = j => (j.employer_posting_date || j.first_seen || "").slice(0,10);
+const sortVal = (j, k) => {
+  if (k === "location") return loc(j).toLowerCase();
+  if (k === "status") return ({active:0, unable_to_verify:1, inactive:2, closed:3}[j.lifecycle_status] ?? 9) + (isNew(j) ? -0.5 : 0);
+  if (k === "posted") return postedKey(j);
+  if (k === "work_mode") return ({"Remote":0, "Hybrid":1, "In person":2}[j.work_mode] ?? 3);
+  return String(j[k] || "").toLowerCase();
+};
+function sortRows(rows, view){
+  const s = S.sort[view]; if (!s) return rows;
+  return rows.slice().sort((a,b) => {
+    const x = sortVal(a, s.k), y = sortVal(b, s.k);
+    return (x < y ? -1 : x > y ? 1 : 0) * s.dir || a.company.localeCompare(b.company);
+  });
+}
+function linkCell(j, closed){
   const off = safeUrl(j.official_url), sec = safeUrl(j.secondary_url);
-  const secLabel = /linkedin/.test(sec||"") ? "LinkedIn" : "Other listing";
+  if (closed){ const u = off || sec; return u ? `<a href="${esc(u)}" target="_blank" rel="noopener">Original</a>` : ""; }
+  return [off ? `<a href="${esc(off)}" target="_blank" rel="noopener">Posting</a>` : "",
+          sec ? `<a href="${esc(sec)}" target="_blank" rel="noopener">${/linkedin/.test(sec) ? "LinkedIn" : "Listing"}</a>` : ""]
+    .filter(Boolean).join("<br>");
+}
+function postedCell(j){
+  if (j.employer_posting_date) return esc(fmt(j.employer_posting_date));
+  return `<span class="date">Not stated</span><span class="sub">First seen ${esc(fmt(j.first_seen))}</span>`;
+}
+function detailRow(j, span){
   const aliases = (j.title_aliases||[]).length ? `<dt>Also listed as</dt><dd>${esc(j.title_aliases.join("; "))}</dd>` : "";
-  return `<details class="row" id="${esc(j.id)}">
-    <summary>
-      <div><div class="co">${esc(j.company)}</div><div class="ti">${esc(j.title)}</div></div>
-      <div class="meta"><div>${esc(j.city)}${j.country && j.city !== j.country ? ", " + esc(j.country) : ""}</div>
-        <div>${esc(j.work_model)}</div><div>${esc(j.salary_advertised)}</div></div>
-      <div class="state">
-        ${isNew(j) ? '<span class="chip new">New</span>' : ""}
-        ${statusChip(j)}
-        ${j.scope_fit === "borderline" ? '<span class="chip line">Level to confirm</span>' : ""}
-        <span class="date">${j.last_verified_active ? "Checked " + esc(fmt(j.last_verified_active)) : "Not yet verified"}</span>
-      </div>
-    </summary>
-    <div class="detail">
-      <div>
-        <p>${esc(j.summary)}</p>
-        ${j.scope_note ? `<p class="meta">${esc(j.scope_note)}</p>` : ""}
-        <div class="links">
-          ${off ? `<a href="${esc(off)}" target="_blank" rel="noopener">Official posting</a>` : ""}
-          ${sec ? `<a href="${esc(sec)}" target="_blank" rel="noopener">${secLabel}</a>` : ""}
-        </div>
-      </div>
-      <dl>
-        <dt>Pricing focus</dt><dd>${esc(j.pricing_focus)}</dd>
-        <dt>Business unit</dt><dd>${esc(j.business_unit)}</dd>
-        <dt>Category</dt><dd>${esc(j.category)}</dd>
-        ${aliases}
-        <dt>First seen</dt><dd>${esc(fmt(j.first_seen))}</dd>
-        ${j.employer_posting_date ? `<dt>Employer posted</dt><dd>${esc(fmt(j.employer_posting_date))}</dd>` : ""}
-        ${j.repost_count ? `<dt>Reposted</dt><dd>${j.repost_count}×</dd>` : ""}
-        <dt>Last check</dt><dd>${esc(j.verification_note)}</dd>
-        <dt>Tracker ID</dt><dd>${esc(j.id)}</dd>
-      </dl>
-    </div>
-  </details>`;
+  const arrangement = j.location_note || (j.work_model && !/^Not (stated|verified)$/.test(j.work_model) ? j.work_model : "");
+  return `<tr class="dr" id="d-${esc(j.id)}" hidden><td colspan="${span}"><div class="detail">
+    <div><p>${esc(j.summary || j.verification_note)}</p>${j.scope_note ? `<p class="meta">${esc(j.scope_note)}</p>` : ""}</div>
+    <dl>
+      <dt>Location</dt><dd>${esc(loc(j))}</dd>
+      ${arrangement ? `<dt>Arrangement</dt><dd>${esc(arrangement)}</dd>` : ""}
+      ${j.salary_advertised ? `<dt>Salary</dt><dd>${esc(j.salary_advertised)}</dd>` : ""}
+      ${j.pricing_focus ? `<dt>Pricing focus</dt><dd>${esc(j.pricing_focus)}</dd>` : ""}
+      ${j.business_unit ? `<dt>Business unit</dt><dd>${esc(j.business_unit)}</dd>` : ""}
+      ${aliases}
+      <dt>First seen</dt><dd>${esc(fmt(j.first_seen))}</dd>
+      ${j.repost_count ? `<dt>Reposted</dt><dd>${j.repost_count}×</dd>` : ""}
+      <dt>Last check</dt><dd>${esc(j.verification_note)}</dd>
+      <dt>Tracker ID</dt><dd>${esc(j.id)}</dd>
+    </dl></div></td></tr>`;
+}
+function table(rows, view){
+  const closed = view === "closed", cols = closed ? COLS_CLOSED : COLS_OPEN, s = S.sort[view] || {};
+  const head = cols.map(c => c.nosort ? `<th scope="col"><span>${c.t}</span></th>`
+    : `<th scope="col" aria-sort="${s.k===c.k ? (s.dir>0?"ascending":"descending") : "none"}"><button data-sort="${c.k}">${c.t}</button></th>`).join("");
+  const body = sortRows(rows, view).map(j => {
+    const cells = closed
+      ? [`<strong>${esc(j.company)}</strong>`, esc(j.title), esc(loc(j)), statusChip(j),
+         esc(fmt(j.last_active)) || "Unknown", esc(fmt(j.inactive_date)), linkCell(j, true)]
+      : [`<strong>${esc(j.company)}</strong>`, esc(j.title),
+         `<span title="${esc(j.location_note || "")}">${esc(loc(j))}</span>`,
+         `<span class="wm ${j.work_mode === "Unknown" ? "unk" : ""}">${esc(j.work_mode || "Unknown")}</span>`,
+         `<span class="clamp" title="${esc(j.salary_advertised)}">${esc(j.salary_advertised)}</span>`,
+         `${isNew(j) ? '<span class="chip new">New</span> ' : ""}${statusChip(j)}`,
+         postedCell(j), linkCell(j)];
+    return `<tr class="jr" id="${esc(j.id)}" tabindex="0" aria-expanded="false" aria-controls="d-${esc(j.id)}">${cells.map((c,i) => `<td class="c-${cols[i].k}">${c}</td>`).join("")}</tr>${detailRow(j, cols.length)}`;
+  }).join("");
+  return `<div class="tablewrap"><table class="jobs ${view}"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>
+    <p class="hint">Click a column name to sort. Click a row for details. Every weekday at 20:00 each link is rechecked, so a role moves to Closed soon after its posting comes down.</p>`;
 }
 
 function renderOpen(){
-  let rows = S.jobs.filter(isOpen)
+  const rows = S.jobs.filter(isOpen)
     .filter(j => !S.country || j.country === S.country)
     .filter(j => !S.status || j.lifecycle_status === S.status)
-    .filter(j => S.border || j.scope_fit !== "borderline")
     .filter(j => !S.newOnly || isNew(j))
-    .filter(j => matchesQ(j, ["company","title","pricing_focus","summary","city","business_unit"]));
-  rows.sort((a,b) => (b.lifecycle_status==="active") - (a.lifecycle_status==="active") || (isNew(b)-isNew(a)) || a.company.localeCompare(b.company));
-  return rows.length ? `<div class="list">${rows.map(jobRow).join("")}</div>`
+    .filter(j => matchesQ(j, ["company","title","pricing_focus","summary","city","country","business_unit","work_mode"]));
+  return rows.length ? table(rows, "open")
     : `<p class="empty">No roles match these filters. Clear the search or switch the country to All.</p>`;
 }
 
 function renderClosed(){
   const rows = S.jobs.filter(j => !isOpen(j)).filter(j => !S.country || j.country === S.country)
     .filter(j => matchesQ(j, ["company","title","city"]));
-  return rows.length ? `<div class="list">${rows.map(j => {
-    const u = safeUrl(j.official_url) || safeUrl(j.secondary_url);
-    return `<details class="row" id="${esc(j.id)}"><summary>
-      <div><div class="co">${esc(j.company)}</div><div class="ti">${esc(j.title)}</div></div>
-      <div class="meta"><div>${esc(j.city)}, ${esc(j.country)}</div>
-        <div>Last active ${esc(fmt(j.last_active)) || "unknown"}</div></div>
-      <div class="state">${statusChip(j)}<span class="date">Gone since ${esc(fmt(j.inactive_date))}</span></div>
-    </summary><div class="detail"><div><p>${esc(j.verification_note)}</p>
-      ${u ? `<div class="links"><a href="${esc(u)}" target="_blank" rel="noopener">Original posting</a></div>` : ""}</div>
-      <dl><dt>Tracker ID</dt><dd>${esc(j.id)}</dd><dt>First seen</dt><dd>${esc(fmt(j.first_seen))}</dd></dl></div></details>`;
-  }).join("")}</div>` : `<p class="empty">Nothing has closed yet.</p>`;
+  return rows.length ? table(rows, "closed") : `<p class="empty">Nothing has closed yet.</p>`;
 }
 
+function toggleRow(tr, force){
+  const open = force ?? tr.getAttribute("aria-expanded") !== "true";
+  tr.setAttribute("aria-expanded", open);
+  document.getElementById("d-" + tr.id).hidden = !open;
+}
+
+const analyzed = () => S.strategy.filter(s => s.analysis_status !== "insufficient_detail");
+const list = items => `<ul>${(Array.isArray(items) ? items : [items]).filter(Boolean).map(i => `<li>${esc(i)}</li>`).join("")}</ul>`;
 function renderStrategy(){
   const byId = Object.fromEntries(S.jobs.map(j => [j.id, j]));
-  const rows = S.strategy.filter(s => matchesQ(s, ["company","business_unit","pricing_theme","posting_evidence","interpretation"]))
+  const rows = analyzed()
+    .filter(s => matchesQ({...s, posting_evidence: [].concat(s.posting_evidence).join(" ")},
+      ["company","business_unit","pricing_theme","current_model","posting_evidence","interpretation"]))
     .filter(s => !S.country || s.linked_job_ids.some(id => byId[id] && byId[id].country === S.country));
   const rank = {High:0, Medium:1, Low:2};
   rows.sort((a,b) => rank[a.confidence]-rank[b.confidence] || a.company.localeCompare(b.company));
-  return rows.length ? rows.map(s => `<article class="strat">
+  const thin = S.strategy.filter(s => s.analysis_status === "insufficient_detail").map(s => s.company);
+  const cards = rows.map(s => `<article class="strat">
     <div><h3>${esc(s.company)}</h3><div class="bu">${esc(s.business_unit)}</div>
       <div style="margin-top:8px"><span class="chip ${s.confidence==="High"?"ok":s.confidence==="Medium"?"warn":"off"}">${esc(s.confidence)} confidence</span></div>
-      <div>${s.linked_job_ids.map(id => byId[id] ? `<button class="jobref" data-job="${esc(id)}" title="${esc(byId[id].title)}">${esc(id)}</button>` : "").join("")}</div>
+      <div>${s.linked_job_ids.map(id => byId[id] ? `<button class="jobref" data-job="${esc(id)}" title="${esc(byId[id].title)}">${esc(byId[id].title)}</button>` : "").join("")}</div>
       <div class="date" style="margin-top:8px">Updated ${esc(fmt(s.last_updated))}</div></div>
     <div><p class="theme">${esc(s.pricing_theme)}</p>
-      <h4>What the postings say</h4><p>${esc(s.posting_evidence)}</p>
+      ${s.current_model ? `<h4>How they charge today</h4><p>${esc(s.current_model)}</p>` : ""}
+      <h4>What the postings say</h4>${list(s.posting_evidence)}
+      <h4>Recent pricing news</h4>${(s.news||[]).length
+        ? `<ul class="news">${s.news.map(n => `<li><span class="nd">${esc(fmt(n.date))}</span>${esc(n.summary)} <span class="src">${esc(n.source)}</span></li>`).join("")}</ul>`
+        : `<p class="cav">No pricing-related news found in recent months.</p>`}
       <h4>What it suggests</h4><p>${esc(s.interpretation)}</p>
+      ${(s.open_questions||[]).length ? `<h4>Open questions</h4>${list(s.open_questions)}` : ""}
       <h4>Caveat</h4><p class="cav">${esc(s.caveat)}</p></div>
-  </article>`).join("") : `<p class="empty">No strategy records match.</p>`;
+  </article>`).join("");
+  return (cards || `<p class="empty">No strategy records match.</p>`) +
+    (thin.length ? `<p class="hint thin">Not analyzed yet because the posting is too thin to read: ${esc(thin.join(", "))}. A company appears here once a full posting has been read.</p>` : "");
 }
 
 function renderPeople(){
   const byId = Object.fromEntries(S.jobs.map(j => [j.id, j]));
   const rows = S.people.filter(p => matchesQ(p, ["name","title","company"]));
-  return rows.length ? `<div class="list">${rows.map(p => {
+  if (!rows.length) return `<p class="empty">No named contacts yet.</p>`;
+  const body = rows.map(p => {
     const prof = safeUrl(p.linkedin_profile), ev = safeUrl(p.evidence_url), job = byId[p.opportunity_id];
-    return `<div class="row"><div class="detail" style="padding-top:16px">
-      <div><div class="co">${esc(p.name)}</div><div class="ti">${esc(p.title)}, ${esc(p.company)}</div>
-        <p class="meta">${esc(p.relationship)}${job ? " for " + esc(job.title) : ""}</p>
-        <div class="links">${prof ? `<a href="${esc(prof)}" target="_blank" rel="noopener">LinkedIn profile</a>` : ""}
-          ${ev ? `<a href="${esc(ev)}" target="_blank" rel="noopener">Where they are named</a>` : ""}
-          ${job ? `<button class="jobref" data-job="${esc(job.id)}">${esc(job.id)}</button>` : ""}</div></div>
-      <dl><dt>Verified by</dt><dd>${esc(p.verification)}</dd><dt>First seen</dt><dd>${esc(fmt(p.first_seen))}</dd>
-        ${p.notes ? `<dt>Note</dt><dd>${esc(p.notes)}</dd>` : ""}</dl></div></div>`;
-  }).join("")}</div>` : `<p class="empty">No named contacts yet.</p>`;
+    return `<tr>
+      <td class="c-company"><strong>${esc(p.name)}</strong></td><td>${esc(p.title)}</td><td>${esc(p.company)}</td>
+      <td>${esc(p.relationship)}</td>
+      <td>${job ? `<button class="jobref" data-job="${esc(job.id)}">${esc(job.title)}</button>` : ""}</td>
+      <td class="c-links">${prof ? `<a href="${esc(prof)}" target="_blank" rel="noopener">Profile</a>` : '<span class="date">Not found</span>'}</td>
+      <td class="c-links">${ev ? `<a href="${esc(ev)}" target="_blank" rel="noopener">Source</a>` : ""}</td>
+      <td class="c-checked">${esc(fmt(p.first_seen))}</td></tr>
+      ${p.notes || p.verification ? `<tr class="note"><td colspan="8">${esc([p.verification, p.notes].filter(Boolean).join(". "))}</td></tr>` : ""}`;
+  }).join("");
+  return `<div class="tablewrap"><table class="jobs people"><thead><tr>
+    <th scope="col"><span>Name</span></th><th scope="col"><span>Title</span></th><th scope="col"><span>Company</span></th>
+    <th scope="col"><span>Relationship</span></th><th scope="col"><span>Role</span></th><th scope="col"><span>LinkedIn</span></th>
+    <th scope="col"><span>Named in</span></th><th scope="col"><span>First seen</span></th></tr></thead><tbody>${body}</tbody></table></div>`;
 }
 
 function render(){
   $("#tabs").querySelectorAll("button").forEach(b => b.setAttribute("aria-selected", b.dataset.view === S.view));
   $("#f-status").hidden = S.view !== "open";
-  $("#f-border").parentElement.hidden = S.view !== "open";
   const fn = {open:renderOpen, closed:renderClosed, strategy:renderStrategy, people:renderPeople}[S.view];
   $("#view").innerHTML = fn();
   $("#view").querySelectorAll(".jobref").forEach(b => b.onclick = () => openJob(b.dataset.job));
 }
 
+$("#view").addEventListener("click", e => {
+  const sb = e.target.closest("th button[data-sort]");
+  if (sb){
+    const k = sb.dataset.sort, cur = S.sort[S.view];
+    S.sort[S.view] = {k, dir: cur && cur.k === k ? -cur.dir : (["posted","inactive_date","last_active"].includes(k) ? -1 : 1)};
+    render(); return;
+  }
+  if (e.target.closest("a")) return;
+  const tr = e.target.closest("tr.jr"); if (tr) toggleRow(tr);
+});
+$("#view").addEventListener("keydown", e => {
+  const tr = e.target.closest && e.target.closest("tr.jr");
+  if (tr && (e.key === "Enter" || e.key === " ")){ e.preventDefault(); toggleRow(tr); }
+});
+
 function setView(v){ S.view = v; try{history.replaceState(null,"","#"+v)}catch(e){} render(); }
 
 function openJob(id){
   const j = S.jobs.find(x => x.id === id); if (!j) return;
-  S.country = ""; S.status = ""; S.q = ""; S.border = true; S.newOnly = false;
-  $("#f-q").value = ""; $("#f-status").value = ""; $("#f-border").checked = true;
+  S.country = ""; S.status = ""; S.q = ""; S.newOnly = false;
+  $("#f-q").value = ""; $("#f-status").value = "";
   $("#f-country").querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === ""));
   setView(isOpen(j) ? "open" : "closed");
   const el = document.getElementById(id);
-  if (el){ el.open = true; el.scrollIntoView({block:"center", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"});
-    el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash"); el.querySelector("summary").focus({preventScroll:true}); }
+  if (el){ toggleRow(el, true); el.scrollIntoView({block:"center", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"});
+    el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash"); el.focus({preventScroll:true}); }
 }
 
 $("#tabs").addEventListener("click", e => { const b = e.target.closest("button"); if (b){ S.newOnly = false; setView(b.dataset.view); } });
@@ -334,10 +447,11 @@ $("#f-country").addEventListener("click", e => {
 });
 $("#f-status").onchange = e => { S.status = e.target.value; S.newOnly = false; render(); };
 $("#f-q").oninput = e => { S.q = e.target.value.trim(); render(); };
-$("#f-border").onchange = e => { S.border = e.target.checked; render(); };
 
-Promise.all(["opportunities","strategy","people","meta"].map(n => fetch(`data/${n}.json`, {cache:"no-store"}).then(r => {
-  if (!r.ok) throw new Error(n); return r.json(); })))
+const NAMES = ["opportunities","strategy","people","meta"];
+(window.EMBEDDED_DATA ? Promise.resolve(NAMES.map(n => window.EMBEDDED_DATA[n]))
+  : Promise.all(NAMES.map(n => fetch(`data/${n}.json`, {cache:"no-store"}).then(r => {
+  if (!r.ok) throw new Error(n); return r.json(); }))))
   .then(([jobs, strategy, people, meta]) => {
     Object.assign(S, {jobs, strategy, people, meta});
     const h = location.hash.slice(1);

@@ -85,3 +85,21 @@ def host_in(url, hosts):
 def next_id(existing_ids, prefix, width=4):
     nums = [int(m.group(1)) for i in existing_ids for m in [re.match(prefix + r"(\d+)$", i)] if m]
     return "%s%0*d" % (prefix, width, (max(nums) + 1) if nums else 1)
+
+WORK_MODES = ["Remote", "Hybrid", "In person", "Unknown"]
+ANALYSIS_STATUS = ["analyzed", "insufficient_detail"]
+
+
+def infer_work_mode(text):
+    """Map free-text work arrangements (EN/FR/ES) to one of WORK_MODES."""
+    t = norm(text)
+    if not t or t in ("not stated", "not verified", "unknown"):
+        return "Unknown"
+    if any(w in t for w in ["hybrid", "hybride", "hibrido"]):
+        return "Hybrid"
+    if any(w in t for w in ["remote", "teletravail", "a distance", "remoto", "teletrabajo"]):
+        return "Remote"
+    if any(w in t for w in ["on site", "onsite", "in office", "office based", "in person",
+                            "presencial", "sur place", "au bureau"]):
+        return "In person"
+    return "Unknown"

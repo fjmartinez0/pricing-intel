@@ -48,7 +48,11 @@ Rules for each new role:
   `official_url` null and put the job-level page you found in `secondary_url`.
 - Salary: copy exactly as advertised, including currency and period; otherwise "Not stated".
   Never estimate a salary.
-- Work model: as stated; otherwise "Not stated". Never assume remote eligibility.
+- `work_mode`: exactly one of "Remote", "Hybrid", "In person", "Unknown". Use "Unknown" unless
+  the source states it. Put the source's own wording in `work_model` (e.g. "Hybrid, 3 days in office")
+  or "Not stated". Never assume remote eligibility.
+- `city`: the city name only (e.g. "Montreal", "Bogotá"; "Anywhere" for country-wide remote;
+  "Not stated" if absent). Put qualifiers such as extra cities or travel in `location_note`.
 - `employer_posting_date` only if the source states a date (YYYY-MM-DD); otherwise null.
 - Skip anything already in `data/opportunities.json` (same company and role, same requisition ID
   or same URL), unless it is inactive or closed and has clearly been reposted. Then include it
@@ -59,15 +63,31 @@ For records with `official_url` null and `lifecycle_status` not "closed", try to
 employer's own posting. Propose it under `url_updates` only if it is clearly the same job.
 
 ## Task 3: pricing-strategy intelligence (equal priority with jobs)
-For each company with a new role, and for any existing company where you find new job-level
-evidence, write or update one strategy record per company and business unit:
-- `posting_evidence`: what the posting(s) actually say. Facts only.
-- `interpretation`: what this reasonably implies about the company's pricing direction (2 to 3
-  sentences, specific, practitioner-level). External context (a public pricing change, a product
-  launch) may be used only if you found it in a source today; never invent changes.
-- `caveat`: the main limit of the inference.
+Act as a senior pricing consultant trying to understand each company from its postings and its
+recent pricing-related news. Be concise but complete. One record per company and business unit.
+
+Only write an analysis when you have read the posting's actual responsibilities (the employer's
+page or a full job-level copy). If all you have is a title or a one-line summary, do not analyze;
+skip it. Existing records with `analysis_status` "insufficient_detail" should be analyzed once you
+can read a full posting for them.
+
+Write or update a record for each company with a new role, for held-back companies you can now
+read in full, and for analyzed companies with material new news. Fields:
+- `pricing_theme`: one line naming what the company is doing with pricing.
+- `current_model`: how the company charges today (pricing metric, tiers, published prices), from
+  its own pricing page or filings. Facts only; null if you could not find it.
+- `posting_evidence`: 3 to 5 bullets of specifics the posting states: level, location and date,
+  mandate, scope, tools, and anything revealing (reporting line, "build from scratch", named products).
+- `news`: pricing-related news from roughly the last 3 months (price changes, new packaging or
+  metering, launches with pricing, earnings commentary on pricing, regulation, competitive moves).
+  Each item: `date` (YYYY-MM-DD), `summary` (one sentence with the specific facts), `source`
+  (outlet or company name), `url`. Only items you actually read today. Use an empty list if none.
+- `interpretation`: 3 to 4 sentences: what the company is likely trying to achieve with pricing,
+  why now, and what that implies for the role. Tie it to the evidence; label inferences as such.
+- `open_questions`: 2 or 3 questions a candidate should ask or an analyst should watch.
+- `caveat`: the main limit of the analysis.
 - `confidence`: High, Medium or Low, for the interpretation.
-- No URLs anywhere in strategy fields.
+- URLs only inside `news[].url`, nowhere else in strategy fields.
 - `linked_job_refs`: existing IDs (e.g. "JOB-0009") and/or "new:N", where N is the index of the
   role in your `new_opportunities` array.
 
@@ -86,7 +106,8 @@ Always write the file, even if you found nothing (use empty arrays). Write valid
   "new_opportunities": [
     {
       "company": "", "title": "", "business_unit": "", "category": "Pricing|Monetization|RGM|Revenue Management",
-      "country": "Canada|Colombia|Global remote", "city": "", "work_model": "", "salary_advertised": "",
+      "country": "Canada|Colombia|Global remote", "city": "", "location_note": null,
+      "work_mode": "Remote|Hybrid|In person|Unknown", "work_model": "", "salary_advertised": "",
       "employer_posting_date": null, "official_url": null, "secondary_url": null, "requisition_id": null,
       "summary": "one sentence on what the role owns", "pricing_focus": "short theme",
       "scope_fit": "in_scope|borderline", "scope_note": null, "strategy_confidence": "High|Medium|Low"
@@ -94,8 +115,11 @@ Always write the file, even if you found nothing (use empty arrays). Write valid
   ],
   "url_updates": [ { "id": "JOB-0000", "official_url": "", "requisition_id": null, "note": "" } ],
   "strategy_updates": [
-    { "id": null, "company": "", "business_unit": "", "pricing_theme": "", "posting_evidence": "",
-      "interpretation": "", "caveat": "", "confidence": "High|Medium|Low", "linked_job_refs": [] }
+    { "id": null, "company": "", "business_unit": "", "pricing_theme": "", "current_model": null,
+      "posting_evidence": ["", ""],
+      "news": [ { "date": "YYYY-MM-DD", "summary": "", "source": "", "url": "" } ],
+      "interpretation": "", "open_questions": ["", ""], "caveat": "",
+      "confidence": "High|Medium|Low", "linked_job_refs": [] }
   ],
   "people": [
     { "name": "", "title": "", "company": "", "relationship": "Publicly named poster / hiring team",

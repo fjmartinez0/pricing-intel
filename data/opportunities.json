@@ -7,7 +7,7 @@
     "business_unit": "B2B AI tax software",
     "category": "Monetization",
     "country": "Canada",
-    "city": "Canada-wide (occasional Toronto travel)",
+    "city": "Anywhere",
     "work_model": "Remote (anywhere in Canada; must be eligible to work in Canada)",
     "salary_advertised": "165,000–206,500 base (official posting does not state currency; Oak HC/FT board lists USD) + equity",
     "employer_posting_date": "2026-10-07",
@@ -26,7 +26,9 @@
     "strategy_confidence": "High",
     "last_active": null,
     "inactive_date": null,
-    "check": null
+    "check": null,
+    "work_mode": "Remote",
+    "location_note": "Remote anywhere in Canada; occasional travel to Toronto"
   },
   {
     "id": "JOB-0002",
@@ -36,7 +38,7 @@
     "business_unit": "Bell Business Markets",
     "category": "Pricing",
     "country": "Canada",
-    "city": "Montreal / Ottawa / Toronto",
+    "city": "Montreal, Ottawa, Toronto",
     "work_model": "Hybrid, 3 days office",
     "salary_advertised": "Not stated",
     "employer_posting_date": "2026-10-06",
@@ -48,14 +50,16 @@
     "scope_note": null,
     "official_url": "https://jobs.bce.ca/bell/job/Montreal-Product-Manager%2C-Strategic-Pricing-QC/1437489300/",
     "secondary_url": null,
-    "requisition_id": null,
+    "requisition_id": "431648",
     "repost_count": 0,
     "summary": "Set enterprise strategic pricing across connectivity and digital solutions; application deadline Oct 20.",
     "pricing_focus": "Enterprise B2B pricing",
     "strategy_confidence": "High",
     "last_active": null,
     "inactive_date": null,
-    "check": null
+    "check": null,
+    "work_mode": "Hybrid",
+    "location_note": "3 days a week in office; must be based in Canada"
   },
   {
     "id": "JOB-0003",
@@ -88,7 +92,9 @@
       "type": "greenhouse",
       "board": "mongodb",
       "id": "8122634"
-    }
+    },
+    "work_mode": "Hybrid",
+    "location_note": "Toronto office or remote within the Toronto region"
   },
   {
     "id": "JOB-0004",
@@ -117,7 +123,9 @@
     "strategy_confidence": "High",
     "last_active": null,
     "inactive_date": null,
-    "check": null
+    "check": null,
+    "work_mode": "In person",
+    "location_note": "Office-based"
   },
   {
     "id": "JOB-0005",
@@ -146,7 +154,9 @@
     "strategy_confidence": "High",
     "last_active": null,
     "inactive_date": null,
-    "check": null
+    "check": null,
+    "work_mode": "In person",
+    "location_note": "Office-based"
   },
   {
     "id": "JOB-0006",
@@ -175,7 +185,9 @@
     "strategy_confidence": "High",
     "last_active": null,
     "inactive_date": null,
-    "check": null
+    "check": null,
+    "work_mode": "Unknown",
+    "location_note": null
   },
   {
     "id": "JOB-0007",
@@ -206,7 +218,9 @@
     "strategy_confidence": "Low",
     "last_active": null,
     "inactive_date": null,
-    "check": null
+    "check": null,
+    "work_mode": "Unknown",
+    "location_note": null
   },
   {
     "id": "JOB-0008",
@@ -216,7 +230,7 @@
     "business_unit": "Direct Venture",
     "category": "Pricing",
     "country": "Canada",
-    "city": "Montreal (one of 10 listed Canadian locations)",
+    "city": "Montreal + 9 other cities",
     "work_model": "Hybrid, 2 days or 15 hrs/week in office",
     "salary_advertised": "$170,000–220,000 (estimated range in posting)",
     "employer_posting_date": "2026-09-26",
@@ -235,7 +249,9 @@
     "strategy_confidence": "High",
     "last_active": null,
     "inactive_date": null,
-    "check": null
+    "check": null,
+    "work_mode": "Hybrid",
+    "location_note": "Also North York, Kitchener, Ottawa, Calgary, Edmonton, Vancouver, Winnipeg, Moncton, Dartmouth; 2 days or 15 hours a week in office"
   },
   {
     "id": "JOB-0009",
@@ -266,7 +282,9 @@
     "strategy_confidence": "Medium",
     "last_active": null,
     "inactive_date": null,
-    "check": null
+    "check": null,
+    "work_mode": "In person",
+    "location_note": "In-office per Built In listing; official posting does not say"
   },
   {
     "id": "JOB-0010",
@@ -278,7 +296,7 @@
     "business_unit": "Legal services",
     "category": "Pricing",
     "country": "Canada",
-    "city": "Montreal / Canada",
+    "city": "Montreal",
     "work_model": "Primarily remote (previous listing)",
     "salary_advertised": "Not verified",
     "employer_posting_date": null,
@@ -297,7 +315,9 @@
     "strategy_confidence": "Medium",
     "last_active": null,
     "inactive_date": null,
-    "check": null
+    "check": null,
+    "work_mode": "Remote",
+    "location_note": "Primarily remote per an earlier listing; not reconfirmed"
   },
   {
     "id": "JOB-0011",
@@ -309,7 +329,7 @@
     "business_unit": "EV charging",
     "category": "Monetization",
     "country": "Canada",
-    "city": "Montreal / Quebec City",
+    "city": "Montreal, Quebec City",
     "work_model": "Remote Montreal + monthly travel (previous listing)",
     "salary_advertised": "Not stated",
     "employer_posting_date": null,
@@ -328,7 +348,9 @@
     "strategy_confidence": "Low",
     "last_active": null,
     "inactive_date": null,
-    "check": null
+    "check": null,
+    "work_mode": "Remote",
+    "location_note": "Remote from Montreal with monthly travel, per an earlier listing"
   },
   {
     "id": "JOB-0012",
@@ -338,7 +360,7 @@
     "business_unit": "AMER Finance",
     "category": "Pricing",
     "country": "Canada",
-    "city": "Canada",
+    "city": "Anywhere",
     "work_model": "Remote (secondary listings)",
     "salary_advertised": "CAD 114,000–132,000 (secondary listing)",
     "employer_posting_date": null,
@@ -357,7 +379,9 @@
     "strategy_confidence": "Low",
     "last_active": null,
     "inactive_date": null,
-    "check": null
+    "check": null,
+    "work_mode": "Remote",
+    "location_note": "Remote in Canada, per secondary listings"
   },
   {
     "id": "JOB-0013",
@@ -367,7 +391,7 @@
     "business_unit": "Commercial strategy",
     "category": "Pricing",
     "country": "Canada",
-    "city": "Montreal (not stated on official posting)",
+    "city": "Not stated",
     "work_model": "Hybrid (official posting tag)",
     "salary_advertised": "Not stated",
     "employer_posting_date": null,
@@ -386,7 +410,9 @@
     "strategy_confidence": "Medium",
     "last_active": null,
     "inactive_date": null,
-    "check": null
+    "check": null,
+    "work_mode": "Hybrid",
+    "location_note": "Official posting gives no city; earlier tracker recorded Montreal"
   },
   {
     "id": "JOB-0014",
@@ -417,7 +443,9 @@
     "strategy_confidence": "Low",
     "last_active": null,
     "inactive_date": null,
-    "check": null
+    "check": null,
+    "work_mode": "Unknown",
+    "location_note": null
   },
   {
     "id": "JOB-0015",
@@ -448,7 +476,9 @@
     "strategy_confidence": "Low",
     "last_active": null,
     "inactive_date": null,
-    "check": null
+    "check": null,
+    "work_mode": "Hybrid",
+    "location_note": "Hybrid per an earlier listing"
   },
   {
     "id": "JOB-0016",
@@ -460,7 +490,7 @@
     "business_unit": "Product / Memberships",
     "category": "Monetization",
     "country": "Colombia",
-    "city": "Colombia",
+    "city": "Anywhere",
     "work_model": "Remote; residents or work permit in Colombia, Mexico or Peru",
     "salary_advertised": "Not stated",
     "employer_posting_date": null,
@@ -479,7 +509,9 @@
     "strategy_confidence": "High",
     "last_active": null,
     "inactive_date": null,
-    "check": null
+    "check": null,
+    "work_mode": "Remote",
+    "location_note": "Must reside in or hold a work permit for Colombia, Mexico or Peru"
   },
   {
     "id": "JOB-0017",
@@ -492,7 +524,7 @@
     "city": "Bogotá",
     "work_model": "Not stated",
     "salary_advertised": "Not stated",
-    "employer_posting_date": null,
+    "employer_posting_date": "2026-08-12",
     "first_seen": "2026-09 (approx.)",
     "last_verified_active": "2026-10-10",
     "lifecycle_status": "active",
@@ -508,7 +540,9 @@
     "strategy_confidence": "Medium",
     "last_active": null,
     "inactive_date": null,
-    "check": null
+    "check": null,
+    "work_mode": "Unknown",
+    "location_note": "Occasional global travel"
   },
   {
     "id": "JOB-0018",
@@ -523,7 +557,7 @@
     "city": "Bogotá",
     "work_model": "Hybrid (secondary listing)",
     "salary_advertised": "COP 12,500,000–15,000,000 (secondary listing)",
-    "employer_posting_date": null,
+    "employer_posting_date": "2026-08-12",
     "first_seen": "2026-09 (approx.)",
     "last_verified_active": "2026-10-10",
     "lifecycle_status": "active",
@@ -539,7 +573,9 @@
     "strategy_confidence": "Medium",
     "last_active": null,
     "inactive_date": null,
-    "check": null
+    "check": null,
+    "work_mode": "Hybrid",
+    "location_note": "Hybrid per Adecco listing; official posting does not say"
   },
   {
     "id": "JOB-0019",
@@ -568,7 +604,9 @@
     "strategy_confidence": "Medium",
     "last_active": null,
     "inactive_date": null,
-    "check": null
+    "check": null,
+    "work_mode": "Hybrid",
+    "location_note": null
   },
   {
     "id": "JOB-0020",
@@ -597,7 +635,9 @@
     "strategy_confidence": "Medium",
     "last_active": null,
     "inactive_date": null,
-    "check": null
+    "check": null,
+    "work_mode": "Unknown",
+    "location_note": null
   },
   {
     "id": "JOB-0021",
@@ -626,7 +666,9 @@
     "strategy_confidence": "Medium",
     "last_active": null,
     "inactive_date": null,
-    "check": null
+    "check": null,
+    "work_mode": "Unknown",
+    "location_note": null
   },
   {
     "id": "JOB-0022",
@@ -655,7 +697,9 @@
     "strategy_confidence": "Low",
     "last_active": null,
     "inactive_date": null,
-    "check": null
+    "check": null,
+    "work_mode": "Unknown",
+    "location_note": null
   },
   {
     "id": "JOB-0023",
@@ -684,7 +728,9 @@
     "strategy_confidence": "Low",
     "last_active": null,
     "inactive_date": null,
-    "check": null
+    "check": null,
+    "work_mode": "Unknown",
+    "location_note": null
   },
   {
     "id": "JOB-H001",
@@ -713,7 +759,9 @@
     "strategy_confidence": null,
     "last_active": "2026-10-06",
     "inactive_date": "2026-10-06",
-    "check": null
+    "check": null,
+    "work_mode": "Unknown",
+    "location_note": null
   },
   {
     "id": "JOB-H002",
@@ -723,7 +771,7 @@
     "business_unit": null,
     "category": "Pricing",
     "country": "Colombia",
-    "city": "Colombia",
+    "city": "Not stated",
     "work_model": null,
     "salary_advertised": null,
     "employer_posting_date": null,
@@ -742,7 +790,9 @@
     "strategy_confidence": null,
     "last_active": "2026-10-06",
     "inactive_date": "2026-10-06",
-    "check": null
+    "check": null,
+    "work_mode": "Unknown",
+    "location_note": null
   },
   {
     "id": "JOB-0024",
@@ -771,6 +821,8 @@
     "strategy_confidence": "Medium",
     "last_active": null,
     "inactive_date": null,
-    "check": null
+    "check": null,
+    "work_mode": "Unknown",
+    "location_note": null
   }
 ]
