@@ -210,8 +210,9 @@ footer{color:var(--ink-3);font-size:13px;padding:32px 0 48px;max-width:75ch}
 const S = {jobs:[], strategy:[], people:[], meta:{}, view:"ca", country:"", status:"", q:"",
   sort:{ca:{k:"posted", dir:-1}, co:{k:"posted", dir:-1}, us:{k:"posted", dir:-1}, gr:{k:"posted", dir:-1}, closed:{k:"inactive_date", dir:-1}}};
 const fmtStamp = m => {
-  if (!m.last_run_at) return fmt(m.last_run);
-  const d = new Date(m.last_run_at); if (isNaN(d)) return fmt(m.last_run);
+  const stamp = m.last_updated_at || m.last_run_at;
+  if (!stamp) return fmt(m.last_run);
+  const d = new Date(stamp); if (isNaN(d)) return fmt(m.last_run);
   return d.toLocaleString("en-CA", {timeZone:"America/Toronto", month:"short", day:"numeric", year:"numeric",
     hour:"numeric", minute:"2-digit", timeZoneName:"short"});
 };

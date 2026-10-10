@@ -23,7 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -39,6 +39,17 @@ jobs:
           mkdir -p _site/data
           cp index.html _site/
           cp data/opportunities.json data/strategy.json data/people.json data/meta.json _site/data/
+      - name: Stamp the time the data last changed
+        run: |
+          python3 - <<'PY'
+          import json, subprocess
+          path = "_site/data/meta.json"
+          meta = json.load(open(path))
+          meta["last_updated_at"] = subprocess.check_output(
+              ["git", "log", "-1", "--format=%cI", "--", "data"], text=True).strip()
+          json.dump(meta, open(path, "w"), indent=2)
+          print("last_updated_at =", meta["last_updated_at"])
+          PY
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
