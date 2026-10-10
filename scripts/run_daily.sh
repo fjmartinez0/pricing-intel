@@ -37,20 +37,24 @@ STEP="Claude login check"
 claude auth status >/dev/null
 
 STEP="Claude discovery"
-PROMPT="$(sed "s/{{TODAY}}/$TODAY/g" agent/discovery_prompt.md)"
+WEEKDAY="$(TZ=America/Toronto date +%u)"
+PROMPT="$(sed -e "s/{{TODAY}}/$TODAY/g" -e "s/{{WEEKDAY}}/$WEEKDAY/g" agent/discovery_prompt.md)"
 claude -p "$PROMPT" \
   --model "${CLAUDE_MODEL:-opus}" \
   --tools "WebSearch,WebFetch,Read,Write,Edit,Glob,Grep" \
   --allowedTools "WebSearch,WebFetch,Read,Glob,Grep,Edit(./proposals/**)" \
   --permission-mode dontAsk \
   --permission-prompts none \
-  --max-turns "${CLAUDE_MAX_TURNS:-150}" \
+  --max-turns "${CLAUDE_MAX_TURNS:-250}" \
   --no-session-persistence \
-  --output-format json > ".run/claude_$TODAY.json"
+  --output-format json > ".run/claude_$TODAY.json" || echo "Claude exited with code $? (continuing if a proposal was written)"
 
 STEP="read Claude proposal"
 test -s "proposals/$TODAY.json"
 python3 -c "import json,sys; json.load(open(sys.argv[1]))" "proposals/$TODAY.json"
+
+STEP="coverage check"
+python3 scripts/coverage_check.py "proposals/$TODAY.json"
 
 STEP="merge proposal"
 python3 scripts/apply_proposals.py "proposals/$TODAY.json"

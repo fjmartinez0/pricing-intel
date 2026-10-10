@@ -124,7 +124,8 @@ td.c-links a{display:inline-block;padding:1px 0}
 td .sub{display:block;font-size:13px;color:var(--ink-3)}
 .wm.unk{color:var(--ink-3)}
 td.c-work_mode,td.c-posted{white-space:nowrap}
-table.jobs.people{min-width:900px}
+table.jobs.people{min-width:1100px}
+table.jobs.people td{max-width:260px}
 table.jobs.people .jobref{margin:0;text-align:left}
 table.jobs tr.note td{border-top:0;padding-top:0;font-size:13px;color:var(--ink-3)}
 .strat ul{margin:0;padding-left:18px;max-width:72ch}
@@ -133,6 +134,8 @@ table.jobs tr.note td{border-top:0;padding-top:0;font-size:13px;color:var(--ink-
 .strat .nd{font-weight:600;margin-right:8px;white-space:nowrap}
 .strat .src{color:var(--ink-3);font-size:13px;white-space:nowrap}
 .strat .jobref{display:block;text-align:left;max-width:100%}
+.jobref.off{display:inline-block;color:var(--ink-3);cursor:default;border-style:dashed}
+.strat .jobref.off{display:block}
 tr.jr.flash td{animation:flash 1.6s ease-out}
 .row.flash{animation:flash 1.6s ease-out}
 @keyframes flash{from{background:color-mix(in srgb,var(--tag) 45%,transparent)}to{background:transparent}}
@@ -166,15 +169,18 @@ footer{color:var(--ink-3);font-size:13px;padding:32px 0 48px;max-width:75ch}
 <div class="wrap">
   <header>
     <h1>Pricing Roles Research</h1>
-    <p class="lede" id="lede">Pricing, monetization and RGM roles in Canada and Colombia, and what the hiring says about each company's pricing strategy.</p>
+    <p class="lede" id="lede">Pricing, monetization and RGM roles in Canada, Colombia and the United States, and what the hiring says about each company's pricing strategy.</p>
     <div class="tags" id="tags"></div>
   </header>
 
   <nav role="tablist" aria-label="Views" id="tabs">
-    <button role="tab" data-view="open" aria-selected="true">Open roles<small id="n-open"></small></button>
-    <button role="tab" data-view="closed" aria-selected="false">Closed<small id="n-closed"></small></button>
+    <button role="tab" data-view="ca" aria-selected="true">Canada<small id="n-ca"></small></button>
+    <button role="tab" data-view="co" aria-selected="false">Colombia<small id="n-co"></small></button>
+    <button role="tab" data-view="us" aria-selected="false">United States<small id="n-us"></small></button>
+    <button role="tab" data-view="gr" aria-selected="false" hidden>Global remote<small id="n-gr"></small></button>
     <button role="tab" data-view="strategy" aria-selected="false">Strategy<small id="n-strategy"></small></button>
     <button role="tab" data-view="people" aria-selected="false">People<small id="n-people"></small></button>
+    <button role="tab" data-view="closed" aria-selected="false">Closed<small id="n-closed"></small></button>
   </nav>
 
   <div id="filters" class="filters">
@@ -182,26 +188,27 @@ footer{color:var(--ink-3);font-size:13px;padding:32px 0 48px;max-width:75ch}
       <button aria-pressed="true" data-v="">All</button>
       <button aria-pressed="false" data-v="Canada">Canada</button>
       <button aria-pressed="false" data-v="Colombia">Colombia</button>
-      <button aria-pressed="false" data-v="Global remote">Remote</button>
+      <button aria-pressed="false" data-v="United States">United States</button>
     </div>
-    <select id="f-status" aria-label="Verification">
-      <option value="">Verified and unverified</option>
-      <option value="active">Verified open only</option>
-      <option value="unable_to_verify">Unverified only</option>
-    </select>
+    <div class="seg" role="group" aria-label="Contact type" id="f-ptype" hidden>
+      <button aria-pressed="true" data-v="">All</button>
+      <button aria-pressed="false" data-v="confirmed_poster">Confirmed posters</button>
+      <button aria-pressed="false" data-v="relevant_contact">Relevant contacts</button>
+      <button aria-pressed="false" data-v="added_by_you">Added by you</button>
+    </div>
     <input type="search" id="f-q" placeholder="Search company, role, focus" aria-label="Search">
   </div>
 
   <main id="view" aria-live="polite"></main>
 
   <footer>
-    Verified means the employer's own posting was checked and open on the date shown. Unverified leads were found but could not be confirmed, often because the only source is LinkedIn. First seen is when this tracker first saw the role, not when the employer posted it. Strategy notes are inferences from job postings, not confirmed company plans.
+    Only verified roles are shown: the employer's own posting was checked and open. Leads that can't be confirmed yet, often because the only source is LinkedIn, stay hidden until an employer posting is found, and close automatically after 14 days. First seen is when this tracker first saw the role, not when the employer posted it. Strategy notes are inferences from job postings, not confirmed company plans.
   </footer>
 </div>
 
 <script>
-const S = {jobs:[], strategy:[], people:[], meta:{}, view:"open", country:"", status:"", q:"",
-  sort:{open:{k:"status", dir:1}, closed:{k:"inactive_date", dir:-1}}};
+const S = {jobs:[], strategy:[], people:[], meta:{}, view:"ca", country:"", status:"", q:"",
+  sort:{ca:{k:"posted", dir:-1}, co:{k:"posted", dir:-1}, us:{k:"posted", dir:-1}, gr:{k:"posted", dir:-1}, closed:{k:"inactive_date", dir:-1}}};
 const fmtStamp = m => {
   if (!m.last_run_at) return fmt(m.last_run);
   const d = new Date(m.last_run_at); if (isNaN(d)) return fmt(m.last_run);
@@ -231,22 +238,26 @@ function statusChip(j){
   return `<span class="chip ${cls}">${txt}</span>`;
 }
 
+const COUNTRY_VIEW = {ca:"Canada", co:"Colombia", us:"United States", gr:"Global remote"};
+const verified = c => S.jobs.filter(j => j.lifecycle_status === "active" && j.country === c);
 function renderTags(){
-  const open = S.jobs.filter(isOpen);
-  const ver = open.filter(j => j.lifecycle_status === "active").length;
-  const unv = open.length - ver;
-  const fresh = open.filter(isNew).length;
+  const n = Object.fromEntries(Object.entries(COUNTRY_VIEW).map(([v, c]) => [v, verified(c).length]));
+  const fresh = S.jobs.filter(j => j.lifecycle_status === "active" && isNew(j)).length;
   $("#tags").innerHTML = `
-    <button class="tag" data-status="active"><b>${ver}</b><span>Verified open</span></button>
-    <button class="tag quiet" data-status="unable_to_verify"><b>${unv}</b><span>Unverified leads</span></button>
+    <button class="tag" data-go="ca"><b>${n.ca}</b><span>Canada</span></button>
+    <button class="tag" data-go="co"><b>${n.co}</b><span>Colombia</span></button>
+    <button class="tag" data-go="us"><b>${n.us}</b><span>United States</span></button>
     <button class="tag quiet" data-new="1"><b>${fresh}</b><span>New this week</span></button>`;
   $("#tags").querySelectorAll("button").forEach(b => b.onclick = () => {
-    S.status = b.dataset.status || ""; S.q = ""; $("#f-q").value = ""; $("#f-status").value = S.status;
-    S.newOnly = !!b.dataset.new; setView("open");
+    S.q = ""; $("#f-q").value = ""; S.newOnly = !!b.dataset.new;
+    if (b.dataset.go) return setView(b.dataset.go);
+    const first = Object.keys(COUNTRY_VIEW).find(v => S.jobs.some(j => j.lifecycle_status === "active" && isNew(j) && j.country === COUNTRY_VIEW[v]));
+    setView(first || S.view);
   });
-  $("#lede").textContent = `Pricing, monetization and RGM roles in Canada and Colombia, and what the hiring says about each company's pricing strategy. Last updated ${fmtStamp(S.meta)}.`;
-  $("#n-open").textContent = open.length;
-  $("#n-closed").textContent = S.jobs.length - open.length;
+  $("#lede").textContent = `Verified pricing, monetization and RGM roles in Canada, Colombia and the United States, and what the hiring says about each company's pricing strategy. Last updated ${fmtStamp(S.meta)}.`;
+  for (const v in COUNTRY_VIEW) $("#n-" + v).textContent = n[v];
+  $('nav button[data-view="gr"]').hidden = !n.gr;
+  $("#n-closed").textContent = S.jobs.filter(j => !isOpen(j)).length;
   $("#n-strategy").textContent = analyzed().length;
   $("#n-people").textContent = S.people.length;
 }
@@ -258,7 +269,7 @@ function matchesQ(obj, fields){
 }
 
 const COLS_OPEN = [
-  {k:"company", t:"Company"}, {k:"title", t:"Role"}, {k:"location", t:"Country / City"},
+  {k:"company", t:"Company"}, {k:"title", t:"Role"}, {k:"location", t:"City"},
   {k:"work_mode", t:"Work model"}, {k:"salary_advertised", t:"Salary"}, {k:"status", t:"Status"},
   {k:"posted", t:"Date posted"}, {k:"links", t:"Links", nosort:true}];
 const COLS_CLOSED = [
@@ -319,7 +330,7 @@ function table(rows, view){
       ? [`<strong>${esc(j.company)}</strong>`, esc(j.title), esc(loc(j)), statusChip(j),
          esc(fmt(j.last_active)) || "Unknown", esc(fmt(j.inactive_date)), linkCell(j, true)]
       : [`<strong>${esc(j.company)}</strong>`, esc(j.title),
-         `<span title="${esc(j.location_note || "")}">${esc(loc(j))}</span>`,
+         `<span title="${esc(j.location_note || "")}">${esc(j.city || "Not stated")}</span>`,
          `<span class="wm ${j.work_mode === "Unknown" ? "unk" : ""}">${esc(j.work_mode || "Unknown")}</span>`,
          `<span class="clamp" title="${esc(j.salary_advertised)}">${esc(j.salary_advertised)}</span>`,
          `${isNew(j) ? '<span class="chip new">New</span> ' : ""}${statusChip(j)}`,
@@ -330,18 +341,20 @@ function table(rows, view){
     <p class="hint">Click a column name to sort. Click a row for details. Every weekday at 20:00 each link is rechecked, so a role moves to Closed soon after its posting comes down.</p>`;
 }
 
-function renderOpen(){
-  const rows = S.jobs.filter(isOpen)
-    .filter(j => !S.country || j.country === S.country)
-    .filter(j => !S.status || j.lifecycle_status === S.status)
+function renderCountry(view){
+  const country = COUNTRY_VIEW[view];
+  const rows = verified(country)
     .filter(j => !S.newOnly || isNew(j))
-    .filter(j => matchesQ(j, ["company","title","pricing_focus","summary","city","country","business_unit","work_mode"]));
-  return rows.length ? table(rows, "open")
-    : `<p class="empty">No roles match these filters. Clear the search or switch the country to All.</p>`;
+    .filter(j => matchesQ(j, ["company","title","pricing_focus","summary","city","business_unit","work_mode"]));
+  const hidden = S.jobs.filter(j => j.lifecycle_status === "unable_to_verify" && j.country === country).length;
+  const note = hidden ? `<p class="hint">${hidden} more ${hidden === 1 ? "lead" : "leads"} in ${esc(country)} ${hidden === 1 ? "is" : "are"} hidden until an employer posting confirms ${hidden === 1 ? "it" : "them"}.</p>` : "";
+  const extra = view === "us" ? `<p class="hint" style="margin:0 2px 12px">US roles generally require US work authorization unless the posting says otherwise. New US roles don't trigger phone alerts.</p>` : "";
+  return extra + (rows.length ? table(rows, view)
+    : `<p class="empty">${S.q || S.newOnly ? "No verified roles match. Clear the search to see all." : "No verified roles in " + esc(country) + " right now."}</p>`) + note;
 }
 
 function renderClosed(){
-  const rows = S.jobs.filter(j => !isOpen(j)).filter(j => !S.country || j.country === S.country)
+  const rows = S.jobs.filter(j => !isOpen(j))
     .filter(j => matchesQ(j, ["company","title","city"]));
   return rows.length ? table(rows, "closed") : `<p class="empty">Nothing has closed yet.</p>`;
 }
@@ -366,7 +379,7 @@ function renderStrategy(){
   const cards = rows.map(s => `<article class="strat">
     <div><h3>${esc(s.company)}</h3><div class="bu">${esc(s.business_unit)}</div>
       <div style="margin-top:8px"><span class="chip ${s.confidence==="High"?"ok":s.confidence==="Medium"?"warn":"off"}">${esc(s.confidence)} confidence</span></div>
-      <div>${s.linked_job_ids.map(id => byId[id] ? `<button class="jobref" data-job="${esc(id)}" title="${esc(byId[id].title)}">${esc(byId[id].title)}</button>` : "").join("")}</div>
+      <div>${s.linked_job_ids.map(id => jobLink(byId[id])).join("")}</div>
       <div class="date" style="margin-top:8px">Updated ${esc(fmt(s.last_updated))}</div></div>
     <div><p class="theme">${esc(s.pricing_theme)}</p>
       ${s.current_model ? `<h4>How they charge today</h4><p>${esc(s.current_model)}</p>` : ""}
@@ -382,31 +395,47 @@ function renderStrategy(){
     (thin.length ? `<p class="hint thin">Not analyzed yet because the posting is too thin to read: ${esc(thin.join(", "))}. A company appears here once a full posting has been read.</p>` : "");
 }
 
+const PTYPE = {confirmed_poster:["ok","Confirmed poster"], relevant_contact:["warn","Relevant contact"], added_by_you:["line","Added by you"]};
 function renderPeople(){
   const byId = Object.fromEntries(S.jobs.map(j => [j.id, j]));
-  const rows = S.people.filter(p => matchesQ(p, ["name","title","company"]));
-  if (!rows.length) return `<p class="empty">No named contacts yet.</p>`;
+  const rows = S.people.filter(p => !S.ptype || (p.contact_type || "confirmed_poster") === S.ptype)
+    .filter(p => matchesQ(p, ["name","title","company","relevance"]));
+  if (!rows.length) return `<p class="empty">No contacts match.</p>${peopleHint()}`;
+  const order = {confirmed_poster:0, added_by_you:1, relevant_contact:2};
+  rows.sort((a,b) => (order[a.contact_type]??3) - (order[b.contact_type]??3) || a.company.localeCompare(b.company));
   const body = rows.map(p => {
     const prof = safeUrl(p.linkedin_profile), ev = safeUrl(p.evidence_url), job = byId[p.opportunity_id];
+    const [cls, label] = PTYPE[p.contact_type || "confirmed_poster"] || ["off", p.contact_type];
+    const why = p.relevance || p.relationship || "";
     return `<tr>
       <td class="c-company"><strong>${esc(p.name)}</strong></td><td>${esc(p.title)}</td><td>${esc(p.company)}</td>
-      <td>${esc(p.relationship)}</td>
-      <td>${job ? `<button class="jobref" data-job="${esc(job.id)}">${esc(job.title)}</button>` : ""}</td>
-      <td class="c-links">${prof ? `<a href="${esc(prof)}" target="_blank" rel="noopener">Profile</a>` : '<span class="date">Not found</span>'}</td>
-      <td class="c-links">${ev ? `<a href="${esc(ev)}" target="_blank" rel="noopener">Source</a>` : ""}</td>
-      <td class="c-checked">${esc(fmt(p.first_seen))}</td></tr>
-      ${p.notes || p.verification ? `<tr class="note"><td colspan="8">${esc([p.verification, p.notes].filter(Boolean).join(". "))}</td></tr>` : ""}`;
+      <td class="c-status"><span class="chip ${cls}">${label}</span></td>
+      <td>${esc(why)}</td>
+      <td>${jobLink(job)}</td>
+      <td class="c-links">${prof ? `<a href="${esc(prof)}" target="_blank" rel="noopener">Profile</a>` : '<span class="date">Not looked up</span>'}</td>
+      <td class="c-links">${ev && ev !== prof ? `<a href="${esc(ev)}" target="_blank" rel="noopener">Source</a>` : ""}${p.found_via ? `<span class="sub">${esc(p.found_via)}</span>` : ""}</td>
+      <td class="c-checked">${esc(fmt(p.first_seen))}</td></tr>`;
   }).join("");
   return `<div class="tablewrap"><table class="jobs people"><thead><tr>
     <th scope="col"><span>Name</span></th><th scope="col"><span>Title</span></th><th scope="col"><span>Company</span></th>
-    <th scope="col"><span>Relationship</span></th><th scope="col"><span>Role</span></th><th scope="col"><span>LinkedIn</span></th>
-    <th scope="col"><span>Named in</span></th><th scope="col"><span>First seen</span></th></tr></thead><tbody>${body}</tbody></table></div>`;
+    <th scope="col"><span>Type</span></th><th scope="col"><span>Why relevant</span></th><th scope="col"><span>Role</span></th>
+    <th scope="col"><span>LinkedIn</span></th><th scope="col"><span>Source</span></th><th scope="col"><span>First seen</span></th>
+    </tr></thead><tbody>${body}</tbody></table></div>${peopleHint()}`;
+}
+const peopleHint = () => `<p class="hint">Confirmed posters are named in the job posting itself. Relevant contacts are leaders named in public sources, such as news or company events; they are not confirmed as the poster. Profiles are never opened automatically. To add someone from LinkedIn's "Meet the hiring team" box, run scripts/add_person.py on the Mac mini.</p>`;
+
+function jobLink(j){
+  if (!j) return "";
+  if (j.lifecycle_status === "unable_to_verify") return `<span class="jobref off" title="Not yet verified">${esc(j.title)}</span>`;
+  return `<button class="jobref" data-job="${esc(j.id)}" title="${esc(j.title)}">${esc(j.title)}</button>`;
 }
 
 function render(){
   $("#tabs").querySelectorAll("button").forEach(b => b.setAttribute("aria-selected", b.dataset.view === S.view));
-  $("#f-status").hidden = S.view !== "open";
-  const fn = {open:renderOpen, closed:renderClosed, strategy:renderStrategy, people:renderPeople}[S.view];
+  $("#f-country").hidden = S.view !== "strategy";
+  $("#f-ptype").hidden = S.view !== "people";
+  const fn = COUNTRY_VIEW[S.view] ? () => renderCountry(S.view)
+    : {closed:renderClosed, strategy:renderStrategy, people:renderPeople}[S.view];
   $("#view").innerHTML = fn();
   $("#view").querySelectorAll(".jobref").forEach(b => b.onclick = () => openJob(b.dataset.job));
 }
@@ -431,9 +460,11 @@ function setView(v){ S.view = v; try{history.replaceState(null,"","#"+v)}catch(e
 function openJob(id){
   const j = S.jobs.find(x => x.id === id); if (!j) return;
   S.country = ""; S.status = ""; S.q = ""; S.newOnly = false;
-  $("#f-q").value = ""; $("#f-status").value = "";
+  $("#f-q").value = "";
   $("#f-country").querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === ""));
-  setView(isOpen(j) ? "open" : "closed");
+  const view = Object.keys(COUNTRY_VIEW).find(v => COUNTRY_VIEW[v] === j.country);
+  if (j.lifecycle_status === "unable_to_verify") return;
+  setView(j.lifecycle_status === "active" && view ? view : "closed");
   const el = document.getElementById(id);
   if (el){ toggleRow(el, true); el.scrollIntoView({block:"center", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"});
     el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash"); el.focus({preventScroll:true}); }
@@ -446,8 +477,13 @@ $("#f-country").addEventListener("click", e => {
   $("#f-country").querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b));
   render();
 });
-$("#f-status").onchange = e => { S.status = e.target.value; S.newOnly = false; render(); };
 $("#f-q").oninput = e => { S.q = e.target.value.trim(); render(); };
+$("#f-ptype").addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b) return;
+  S.ptype = b.dataset.v;
+  $("#f-ptype").querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b));
+  render();
+});
 
 const NAMES = ["opportunities","strategy","people","meta"];
 (window.EMBEDDED_DATA ? Promise.resolve(NAMES.map(n => window.EMBEDDED_DATA[n]))
@@ -457,7 +493,7 @@ const NAMES = ["opportunities","strategy","people","meta"];
     Object.assign(S, {jobs, strategy, people, meta});
     const h = location.hash.slice(1);
     if (/^JOB-/.test(h)) { renderTags(); openJob(h); return; }
-    if (["open","closed","strategy","people"].includes(h)) S.view = h;
+    if (["ca","co","us","gr","closed","strategy","people"].includes(h)) S.view = h;
     renderTags(); render();
   })
   .catch(err => { $("#view").innerHTML = `<p class="empty">The data files could not be loaded (${esc(err.message)}). If you opened this page from your disk, serve the folder instead, for example with: python3 -m http.server</p>`; });

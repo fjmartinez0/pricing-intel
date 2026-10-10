@@ -13,7 +13,7 @@ TZ = ZoneInfo("America/Toronto")
 LIFECYCLE = ["active", "unable_to_verify", "inactive", "closed"]
 SCOPE_FIT = ["in_scope", "borderline"]
 CATEGORIES = ["Pricing", "Monetization", "RGM", "Revenue Management"]
-COUNTRIES = ["Canada", "Colombia", "Global remote"]
+COUNTRIES = ["Canada", "Colombia", "United States", "Global remote"]
 CORE_COUNTRIES = ["Canada", "Colombia"]
 CONFIDENCE = ["High", "Medium", "Low"]
 
@@ -103,3 +103,6 @@ def infer_work_mode(text):
                             "presencial", "sur place", "au bureau"]):
         return "In person"
     return "Unknown"
+
+CONTACT_TYPES = ["confirmed_poster", "relevant_contact", "added_by_you"]
+MAX_RELEVANT_PER_COMPANY = 3

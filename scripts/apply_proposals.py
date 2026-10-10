@@ -162,6 +162,10 @@ def main():
         detailed = bool(s.get("interpretation")) and len(s["posting_evidence"]) >= 2
         linked = [ref_map.get(r, r) for r in (s.get("linked_job_refs") or [])]
         linked = [r for r in linked if r in by_id or r in ref_map.values()]
+        countries = {by_id[r]["country"] for r in linked if r in by_id}
+        if countries == {"United States"} and c.norm(s.get("industry")) not in ("software", "saas"):
+            log.append("REJECTED strategy for %s (US analyses are for software companies only)" % s.get("company"))
+            continue
         target = None
         if s.get("id"):
             target = next((x for x in strategy if x["id"] == s["id"]), None)
@@ -175,7 +179,7 @@ def main():
                 target["linked_job_ids"] = sorted(set(target["linked_job_ids"]) | set(linked))
                 log.append("STRATEGY linked only %s (update lacked detail)" % target["id"])
                 continue
-            for f in text_fields + list_fields + ["confidence"]:
+            for f in text_fields + list_fields + ["confidence", "industry"]:
                 if s.get(f):
                     target[f] = s[f]
             if news:
@@ -196,7 +200,7 @@ def main():
                        posting_evidence=s["posting_evidence"], news=news,
                        interpretation=s["interpretation"], open_questions=s["open_questions"],
                        caveat=s.get("caveat") or "Inference from job postings only; not a confirmed corporate initiative.",
-                       confidence=s.get("confidence") or "Low", linked_job_ids=sorted(set(linked)),
+                       confidence=s.get("confidence") or "Low", linked_job_ids=sorted(set(linked)), industry=s.get("industry"),
                        analysis_status="analyzed" if detailed else "insufficient_detail")
             if not detailed:
                 rec["insufficient_reason"] = "Posting lacks specific responsibilities."
@@ -215,14 +219,24 @@ def main():
         if any(c.norm(x["name"]) == c.norm(p["name"]) and c.norm(x["company"]) == c.norm(p.get("company")) for x in people):
             log.append("DUPLICATE person %s" % p["name"])
             continue
+        ctype = p.get("contact_type") if p.get("contact_type") in ("confirmed_poster", "relevant_contact") else "relevant_contact"
+        if ctype == "relevant_contact":
+            if not p.get("title") or not p.get("relevance"):
+                log.append("REJECTED person %s (relevant contact needs title and relevance)" % p.get("name"))
+                continue
+            same_co = [x for x in people if x.get("contact_type") == "relevant_contact" and c.norm(x["company"]) == c.norm(p.get("company"))]
+            if len(same_co) >= c.MAX_RELEVANT_PER_COMPANY:
+                log.append("SKIPPED person %s (already %d contacts at %s)" % (p["name"], len(same_co), p.get("company")))
+                continue
         profile = p.get("linkedin_profile")
         if not (is_url(profile) and "linkedin.com/in/" in profile):
             profile = None
         people.append(dict(id=c.next_id([x["id"] for x in people], "PERSON-"), name=p["name"], title=p.get("title"),
-                           company=p.get("company"), relationship=p.get("relationship") or "Relevant contact",
-                           opportunity_id=opp, linkedin_profile=profile,
+                           company=p.get("company"), contact_type=ctype,
+                           relationship=p.get("relationship") or ("Publicly named poster / hiring team" if ctype == "confirmed_poster" else "Relevant contact"),
+                           relevance=p.get("relevance"), opportunity_id=opp, linkedin_profile=profile,
                            verification=p.get("verification") or "Named in public source",
-                           evidence_url=p["evidence_url"], first_seen=run_date, notes=p.get("notes")))
+                           evidence_url=p["evidence_url"], found_via=p.get("found_via"), first_seen=run_date, notes=p.get("notes")))
         log.append("PERSON added %s (%s)" % (p["name"], p.get("company")))
 
     print("\n".join(log) or "Proposal contained no changes")

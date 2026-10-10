@@ -88,6 +88,10 @@ def main():
     for p in people:
         if p.get("opportunity_id") and p["opportunity_id"] not in ids:
             E("%s: links unknown job" % p["id"])
+        if p.get("contact_type") not in c.CONTACT_TYPES:
+            E("%s: bad contact_type %r" % (p["id"], p.get("contact_type")))
+        if p.get("contact_type") == "relevant_contact" and not (p.get("relevance") and p.get("evidence_url")):
+            E("%s: relevant contact needs relevance and a public source" % p["id"])
         prof = p.get("linkedin_profile")
         if prof and "linkedin.com/in/" not in prof:
             E("%s: profile URL is not a LinkedIn profile" % p["id"])

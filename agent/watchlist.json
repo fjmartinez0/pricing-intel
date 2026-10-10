@@ -1,0 +1,28 @@
+{
+  "_note": "Employers whose own careers sites are checked for pricing, monetization, revenue management and RGM roles. One group per weekday (1 = Monday ... 5 = Friday), so every employer is checked once a week. Edit freely; keep each group a similar size.",
+  "1": {
+    "Canada": ["Shopify", "Lightspeed", "Coveo", "Nuvei", "Wealthsimple", "Clio", "Unity", "Electronic Arts Montreal", "Ubisoft", "Autodesk"],
+    "Colombia": ["Bancolombia", "Davivienda", "Nubank Colombia", "Addi", "Bold", "Mastercard", "Visa", "Twilio"],
+    "United States": ["Salesforce", "Microsoft", "Adobe", "Atlassian", "ServiceNow", "Twilio"]
+  },
+  "2": {
+    "Canada": ["Bell", "Rogers", "Telus", "Videotron / Quebecor", "Cogeco", "Air Canada", "Air Transat", "Via Rail", "Bombardier", "CAE"],
+    "Colombia": ["Claro Colombia", "Movistar Colombia", "Tigo", "Avianca", "LATAM Airlines Colombia", "GHL Hoteles", "Grupo Aval", "Siigo"],
+    "United States": ["Datadog", "Snowflake", "MongoDB", "HubSpot", "Okta", "Cloudflare"]
+  },
+  "3": {
+    "Canada": ["Desjardins", "National Bank", "RBC", "TD", "BMO", "Scotiabank", "Intact", "Wawanesa", "Sun Life", "Manulife"],
+    "Colombia": ["Grupo Nutresa", "Alpina", "Postobón", "Bavaria (AB InBev)", "Colombina", "Coca-Cola FEMSA", "Diageo", "Quala"],
+    "United States": ["Stripe", "Intuit", "Gusto", "DocuSign", "Zoom", "PagerDuty"]
+  },
+  "4": {
+    "Canada": ["Loblaw", "Metro", "Sobeys / Empire", "Couche-Tard", "Dollarama", "Canadian Tire", "Saputo", "Molson Coors Canada", "BRP", "Belron Canada"],
+    "Colombia": ["Procter & Gamble", "Unilever", "Nestlé", "Kimberly-Clark", "Colgate-Palmolive", "Natura &Co", "Belcorp", "Softys"],
+    "United States": ["OpenAI", "Anthropic", "Databricks", "Figma", "Notion", "Cisco"]
+  },
+  "5": {
+    "Canada": ["EY", "Deloitte", "PwC", "KPMG", "McKinsey Montreal", "Fasken", "Blue J", "FLO", "C.A.T. North America", "MongoDB Toronto"],
+    "Colombia": ["Rappi", "Mercado Libre", "Uber", "DiDi", "Grupo Éxito", "Falabella", "Alegra", "Holcim Colombia"],
+    "United States": ["Veeam", "Workday", "Autodesk", "Zendesk", "Box", "Dropbox"]
+  }
+}
