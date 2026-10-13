@@ -1,0 +1,255 @@
+{
+  "run_date": "2026-10-12",
+  "searches_run": 75,
+  "searches_by_country": { "Canada": 23, "Colombia": 26, "United States": 15 },
+  "watchlist_checked": [
+    "Shopify", "Lightspeed", "Wealthsimple", "Clio", "Unity", "Electronic Arts Montreal", "Ubisoft",
+    "Bancolombia", "Davivienda", "Nubank Colombia", "Addi", "Bold", "Visa", "Twilio",
+    "Salesforce", "Microsoft", "Atlassian", "ServiceNow"
+  ],
+  "new_opportunities": [
+    {
+      "company": "Financeit", "title": "Senior Director, Pricing", "business_unit": "Revenue", "category": "Pricing",
+      "country": "Canada", "city": "Toronto", "location_note": null,
+      "work_mode": "Hybrid", "work_model": "Hybrid", "salary_advertised": "CAD 175,000–195,000 base plus 30% annual bonus",
+      "employer_posting_date": "2026-07-27", "official_url": "https://apply.workable.com/financeit/j/56B41FA838/", "secondary_url": "https://www.careerbeacon.com/en/job-1/3505389/financeit/senior-director-pricing/toronto-on", "requisition_id": "56B41FA838",
+      "summary": "Own unit economics and product-level pricing across all point-of-sale lending lines, present the pricing vision to the Executive Team and Board, run pricing pilots and build the pricing analyst team.",
+      "pricing_focus": "Consumer lending pricing; promotional subsidies; test-and-learn",
+      "scope_fit": "in_scope", "scope_note": null, "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Coke Canada Bottling", "title": "Senior Manager, Revenue Growth Management & Strategy (Large Store)", "business_unit": "Revenue Growth Management (Large Store)", "category": "RGM",
+      "country": "Canada", "city": "Toronto", "location_note": "Initial posting close date Oct 16, 2026",
+      "work_mode": "Hybrid", "work_model": "Hybrid, at least three in-office days per week (Tuesday, Wednesday, Thursday)", "salary_advertised": "$121,500 to $135,000 annually",
+      "employer_posting_date": null, "official_url": null, "secondary_url": "https://employmenthero.com/en-ca/jobs/position/cb-senior-manager-revenue-growth-management-strategy-3ze5k/", "requisition_id": null,
+      "summary": "Own the revenue plan for Large Store customers (conventional grocery, discount grocery, club, wholesale): customer pricing strategies within price-pack architecture guardrails, trade promotion ROI and elasticity modelling.",
+      "pricing_focus": "CPG RGM; trade investment; price-pack architecture",
+      "scope_fit": "in_scope", "scope_note": null, "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Twilio", "title": "Principal Price Realization Strategy Manager - Digital & PLG Pricing", "business_unit": "Monetization & Pricing Strategy", "category": "Pricing",
+      "country": "United States", "city": "Anywhere", "location_note": "Remote - US; not eligible to be hired in CA, CT, NJ, NY, PA, WA; occasional travel",
+      "work_mode": "Remote", "work_model": "Remote - US", "salary_advertised": "USD 141,520–176,900 (CO, HI, IL, MD, MA, MN, VT, DC); USD 149,840–187,300 (NY, NJ, WA, CA outside SF Bay Area); USD 166,400–208,000 (SF Bay Area); equity and bonus eligible",
+      "employer_posting_date": "2026-06-16", "official_url": "https://job-boards.greenhouse.io/twilio/jobs/7987837", "secondary_url": null, "requisition_id": "50220",
+      "summary": "Build price optimization models and align self-serve/PLG pricing across digital touchpoints with Growth Marketing, Self-service Sales, Console Engineering and Finance; reports to the Director of Price Realization Strategy.",
+      "pricing_focus": "Consumption pricing; PLG self-serve price optimization",
+      "scope_fit": "in_scope", "scope_note": "Principal individual-contributor title with manager scope (8+ yrs, 5+ owning consumption pricing). Posting says applications were intended to be accepted until Oct 1, but it was still listed on Oct 9.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Twilio", "title": "Principal Price Realization Strategy Manager - Enterprise & Account-Led Pricing", "business_unit": "Monetization & Pricing Strategy", "category": "Pricing",
+      "country": "United States", "city": "Anywhere", "location_note": "Remote - US; not eligible to be hired in CA, CT, NJ, NY, PA, WA (posting is internally inconsistent on eligible states); occasional travel",
+      "work_mode": "Remote", "work_model": "Remote - US", "salary_advertised": "USD 141,520–176,900 (CO, HI, IL, MD, MA, MN, VT, DC); USD 149,840–187,300 (NY, NJ, WA, CA outside SF Bay Area); USD 166,400–208,000 (SF Bay Area); equity and bonus eligible",
+      "employer_posting_date": "2026-06-16", "official_url": "https://job-boards.greenhouse.io/twilio/jobs/7987840", "secondary_url": null, "requisition_id": "50340",
+      "summary": "Own enterprise price realization with Deal Desk, Enterprise Sales and Finance: renewal strategy, concession frameworks and account-level profitability to protect gross margin; reports to the Director of Price Realization Strategy.",
+      "pricing_focus": "Enterprise discount governance; renewals; margin recovery",
+      "scope_fit": "in_scope", "scope_note": "Principal individual-contributor title; requires 8+ yrs and 4+ yrs of Tableau/SQL dashboard building, so analytics-heavy. Posting says applications were intended to be accepted until Oct 1, but it was still listed on Oct 9.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "ServiceNow", "title": "Monetization Strategy Manager", "business_unit": "Pricing Strategy", "category": "Monetization",
+      "country": "United States", "city": "San Diego", "location_note": "Posting flagged remote; work persona 'Flexible or Remote'",
+      "work_mode": "Remote", "work_model": "Flexible or Remote (work persona)", "salary_advertised": "USD 114,200–199,900 base for positions in this location, plus equity and variable/incentive compensation",
+      "employer_posting_date": "2026-10-07", "official_url": "https://jobs.smartrecruiters.com/ServiceNow/744000154206359-monetization-strategy-manager", "secondary_url": null, "requisition_id": "JB0075274",
+      "summary": "Strategy (not analytics) role supporting C-suite top-line initiatives; bridges Product Pricing and Deal Desk to set commercial principles and guardrails; recommendations go to the Pricing Committee.",
+      "pricing_focus": "Enterprise SaaS monetization; deal guardrails",
+      "scope_fit": "in_scope", "scope_note": "A second requisition with the same title (JB0075481) is also open.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "ServiceNow", "title": "Monetization Strategy Manager", "business_unit": "Commercial Operations", "category": "Monetization",
+      "country": "United States", "city": "San Diego", "location_note": "Posting flagged remote; work persona 'Flexible or Remote'",
+      "work_mode": "Remote", "work_model": "Flexible or Remote (work persona)", "salary_advertised": "USD 114,200–199,900 base for positions in this location, plus equity and variable/incentive compensation",
+      "employer_posting_date": "2026-09-21", "official_url": "https://jobs.smartrecruiters.com/ServiceNow/744000150761409-monetization-strategy-manager", "secondary_url": null, "requisition_id": "JB0075481",
+      "summary": "Same mandate as JB0075274 but in the Commercial Operations cost centre: bridge Product Pricing and Deal Desk on commercial guardrails and align monetization with the pricing and packaging roadmap.",
+      "pricing_focus": "Enterprise SaaS monetization; deal guardrails",
+      "scope_fit": "in_scope", "scope_note": "Separate requisition from JB0075274 with identical description; cost centre is 3115 Commercial Operations rather than 3145 Pricing Strategy.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "ServiceNow", "title": "Monetization Strategy Director", "business_unit": "Pricing Strategy (CRM and Industry Workflows)", "category": "Monetization",
+      "country": "United States", "city": "San Diego", "location_note": "Posting flagged remote; work persona 'Flexible'",
+      "work_mode": "Unknown", "work_model": "Flexible (work persona); posting flagged remote", "salary_advertised": "USD 165,600–289,800 base for positions in this location, plus equity and variable/incentive compensation",
+      "employer_posting_date": "2026-08-31", "official_url": "https://jobs.smartrecruiters.com/ServiceNow/744000146501509-monetization-strategy-director", "secondary_url": null, "requisition_id": "JB0075030",
+      "summary": "Monetization lead for CRM and Industry Workflows: prioritize pricing and packaging across business units, prepare product leaders for Pricing Committee reviews, feed BU 3-year plans and run conjoint and pricing research.",
+      "pricing_focus": "Packaging for new AI-era innovations; pricing research",
+      "scope_fit": "in_scope", "scope_note": null, "strategy_confidence": "Medium"
+    },
+    {
+      "company": "ServiceNow", "title": "Senior Director, Pricing Operations Transformation", "business_unit": "Pricing Strategy", "category": "Pricing",
+      "country": "United States", "city": "Santa Clara", "location_note": "Posting flagged remote; work persona 'Flexible or Remote'",
+      "work_mode": "Remote", "work_model": "Flexible or Remote (work persona)", "salary_advertised": "USD 220,300–396,500 base for positions in this location, plus equity and variable/incentive compensation",
+      "employer_posting_date": "2026-09-10", "official_url": "https://jobs.smartrecruiters.com/ServiceNow/744000148666769-senior-director-pricing-operations-transformation", "secondary_url": null, "requisition_id": "JB0075002",
+      "summary": "Lead operational execution of approved pricing proposals and new commercial models: requirements for product setup, quoting, entitlements and usage tracking; process governance; leads a team.",
+      "pricing_focus": "Pricing operations; quote-to-cash for new commercial models",
+      "scope_fit": "borderline", "scope_note": "Pricing operations and systems implementation rather than pricing decisions; close to RevOps/CPQ work. Senior executive level.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Talkdesk", "title": "Pricing Strategy Manager", "business_unit": "Pricing (Marketing)", "category": "Pricing",
+      "country": "United States", "city": "Anywhere", "location_note": "Remote - United States",
+      "work_mode": "Remote", "work_model": "Remote - United States", "salary_advertised": "$93,000 - $140,000 base; may be eligible for equity and bonus or commission",
+      "employer_posting_date": "2026-10-04", "official_url": "https://job-boards.greenhouse.io/talkdesk2/jobs/7960848", "secondary_url": null, "requisition_id": "R0011499",
+      "summary": "Partner with Product Managers on pricing and packaging (meters, packaging structure, buying rules) across AI and contact-centre products; run Pricing Committee preparation and governance; reports to the Pricing Director.",
+      "pricing_focus": "AI/CCaaS packaging; pricing governance",
+      "scope_fit": "borderline", "scope_note": "Manager title, 5+ yrs, but the role reviews PM-owned proposals and coordinates the committee rather than owning pricing decisions; salary band suggests mid-level. Posting text says posted 10/4/2026; Greenhouse first published it Jun 1, 2026.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Salesforce", "title": "Pricing Strategy, Manager/Senior Manager", "business_unit": "Pricing Strategy (Product)", "category": "Pricing",
+      "country": "United States", "city": "San Francisco", "location_note": "Also Herndon VA, New York NY, Washington DC, Chicago IL; up to 10% travel",
+      "work_mode": "Unknown", "work_model": "Not stated", "salary_advertised": "Not stated",
+      "employer_posting_date": "2026-06-29", "official_url": "https://www.salesforce.com/company/careers/jobs/JR342675/pricing-strategy-managersenior-manager/", "secondary_url": "https://jobs.accel.com/companies/airkit-2/jobs/84487200-pricing-strategy-manager-senior-manager", "requisition_id": "JR342675",
+      "summary": "Develop long-term pricing and packaging strategy with Product, PMM, GTM, Sales and Deal Desk; help create SKUs for launches; evaluate new pricing models and run customer research to test them.",
+      "pricing_focus": "Enterprise SaaS packaging; AI editions",
+      "scope_fit": "in_scope", "scope_note": "Salesforce's own job page did not render for automated reading, so live status is unconfirmed; responsibilities read from the Accel job-board copy, which links to the Salesforce page.", "strategy_confidence": "Medium"
+    }
+  ],
+  "url_updates": [],
+  "strategy_updates": [
+    {
+      "id": null, "company": "Financeit", "business_unit": "Revenue",
+      "pricing_theme": "Building a central pricing function for point-of-sale consumer lending: unit economics, promotional subsidies and test-and-learn",
+      "current_model": "Point-of-sale consumer loans offered through merchants (home improvement, retail, vehicles), up to $100,000. Merchants receive the full purchase amount and the standard program has no merchant fees. Promotional programs (0% interest for 12, 18 or 24 months; no-payment deferrals of 3 or 6 months; interest-rate buy-downs) are offered, and Financeit's materials say these carry a merchant cost based on a percentage of the purchase. No rate or fee schedule is published.",
+      "industry": "Financial services (consumer lending)",
+      "posting_evidence": [
+        "Senior Director, Pricing in the Revenue department; Toronto, hybrid; CAD 175,000–195,000 base plus 30% bonus; posted Jul 27, 2026.",
+        "Owns unit economics and product-level pricing across all business lines to grow origination profitably; presents pricing vision, margin analyses and changes to the Executive Team and Board.",
+        "Aligns pricing with capital costs, merchant behaviour and consumer trends with Finance, Risk and Product; analyses promotion usage and channel profitability.",
+        "Leads test-and-learn (pricing pilots, multivariate tests) and deal structuring for new product launches.",
+        "Builds a pricing analyst team and sets its headcount; 8+ years, hands-on SQL and financial modelling, Python or R preferred."
+      ],
+      "news": [],
+      "interpretation": "Financeit earns on two prices: the rate the consumer pays and the subsidy merchants pay to offer 0% or deferred promotions, both set against its own funding cost. The focus on origination profitability, capital costs and promotion usage suggests the aim is to make each promotional program and rate tier cover its cost of capital rather than to maximize volume (inference). Because the hire sizes and builds the analyst team and reports pricing to the Board, pricing appears to be becoming a central function rather than being run inside sales or finance. Likely early work: risk- and channel-based rate segmentation and repricing merchant promotional programs.",
+      "open_questions": [
+        "Who sets merchant promotional fees today, and how much are they negotiated with large merchant partners?",
+        "How closely does consumer pricing track funding cost from its securitization programs?",
+        "Does the role cover all verticals (home improvement, retail, vehicles) equally?"
+      ],
+      "caveat": "Based on one posting and Financeit's marketing pages; no published rate or fee schedule and no recent pricing news found.",
+      "confidence": "Medium", "linked_job_refs": ["new:0"]
+    },
+    {
+      "id": null, "company": "Coke Canada Bottling", "business_unit": "Revenue Growth Management (Large Store)",
+      "pricing_theme": "Customer-level revenue plans and trade-spend efficiency within price-pack architecture guardrails for large grocery, discount, club and wholesale accounts",
+      "current_model": null,
+      "industry": "CPG (beverages)",
+      "posting_evidence": [
+        "Senior Manager, Revenue Growth Management & Strategy (Large Store), Toronto; hybrid with Tuesday–Thursday in office; $121,500–$135,000; initial close date Oct 16, 2026.",
+        "Owns the revenue plan for a set of Large Store customers across conventional grocery, discount grocery, club and wholesale.",
+        "Builds customer-specific revenue strategies within corporate price-pack architecture guardrails; leads pricing and elasticity modelling for annual planning and in-year decisions.",
+        "Improves trade promotion and customer investment efficiency through scenario evaluation, post-event analysis and ROI; leads financial evaluation of incremental customer investments and new agreements.",
+        "Team leadership and TPM/TPO system experience listed as assets."
+      ],
+      "news": [],
+      "interpretation": "Coke Canada runs RGM customer by customer: price-pack architecture is set centrally, and this role turns it into account plans and trade investment for the largest retail customers. The emphasis on trade ROI and on approving incremental customer investment suggests the priority is more volume per dollar of trade spend rather than list-price increases (inference). Naming discount grocery and club next to conventional grocery points to managing pack and price differences across banners as shoppers trade down (inference). The role mixes commercial finance with key-account economics more than list-price setting.",
+      "open_questions": [
+        "Who owns list pricing and price-pack architecture, and how much latitude does this role have on customer-specific pricing?",
+        "Which TPM/TPO tools are in place, and does the role manage people?"
+      ],
+      "caveat": "Based on one posting seen on Employment Hero; no Coke Canada pricing news from the last three months found.",
+      "confidence": "Medium", "linked_job_refs": ["new:1"]
+    },
+    {
+      "id": null, "company": "ServiceNow", "business_unit": "Pricing Strategy / Monetization",
+      "pricing_theme": "Monetizing AI across a newly re-tiered portfolio: pricing-committee governance, deal guardrails and operationalizing new commercial models",
+      "current_model": "No public list prices. Since April 9, 2026, products are sold in Foundation, Advanced and Prime tiers that bundle AI layers previously sold separately (AI Control Tower, Workflow Data Fabric, a Context Engine). Licensing is per seat plus other meters such as assets and storage, with a pool of AI tokens included per product (per TechTarget reporting).",
+      "industry": "Software",
+      "posting_evidence": [
+        "Four open US roles, all flagged remote: two Monetization Strategy Managers (posted Sep 21 and Oct 7, 2026; base $114,200–$199,900, San Diego), a Monetization Strategy Director (Aug 31; $165,600–$289,800) and a Senior Director, Pricing Operations Transformation (Sep 10; $220,300–$396,500, Santa Clara).",
+        "Managers: 'not an operational or analytics seat'; support C-suite sponsored top-line initiatives; bridge the Product Pricing and Deal Desk teams to set commercial principles and guardrails; recommendations must hold up in the Pricing Committee.",
+        "Director: monetization lead for CRM and Industry Workflows; prioritizes pricing and packaging across business units, prepares product leaders for Pricing Committee reviews, feeds BU 3-year plans, runs conjoint and other pricing research.",
+        "Senior Director: turns approved pricing proposals and new commercial models into requirements for product setup, quoting, entitlements and usage tracking; leads a team.",
+        "All four ask for experience applying AI to the work itself."
+      ],
+      "news": [
+        {
+          "date": "2026-07-22",
+          "summary": "Q2 2026: subscription revenue $3,877M (+24.5%), cRPO $13.20B (+21%); ServiceNow AI crossed $1B in annual contract value with a long-term goal of 30% of ACV from AI; full-year subscription guidance raised to $15,760–15,780M.",
+          "source": "ServiceNow (Form 8-K, SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001373715/000137371526000072/erq2fy26.htm"
+        }
+      ],
+      "interpretation": "ServiceNow has just moved to AI-inclusive tiers with token pools, and AI already exceeds $1B ACV, so the open question is how much AI value it captures through tier upgrades versus consumption above the pools. Hiring a director for CRM and Industry Workflows, two managers between product pricing and deal desk, and a senior director to put new commercial models into systems suggests the new model is being pushed into deals and quoting at the same time (inference). The manager roles govern discounting and commercial guardrails on executive-sponsored initiatives; the director role is classic packaging and pricing research. Likely topics: upgrade paths from legacy SKUs and token-pool sizing.",
+      "open_questions": [
+        "How are AI token pools sized per tier, and how is usage above them priced?",
+        "Which business units does each manager role cover?",
+        "How much discount authority does Deal Desk have relative to the Pricing Committee?"
+      ],
+      "caveat": "Tier details come from trade press; ServiceNow publishes no prices and the postings name few products.",
+      "confidence": "Medium", "linked_job_refs": ["new:4", "new:5", "new:6", "new:7"]
+    },
+    {
+      "id": null, "company": "Salesforce", "business_unit": "Pricing Strategy (Product)",
+      "pricing_theme": "Repackaging core clouds into AI-inclusive editions with credit allowances to drive edition upgrades",
+      "current_model": "Per-user editions billed annually. On Sep 3, 2026 Salesforce introduced Core ($195), Advanced ($395) and Max ($550) per user per month for Agentforce Sales and Service, each bundling Agentforce, Slack, embedded analytics, security and Premier Success, with 500,000, 1 million and 2.75 million Flex Credits respectively. Pricing for existing customers on legacy editions is unchanged; Agentforce 1 customers can move to Max at no extra cost.",
+      "industry": "Software",
+      "posting_evidence": [
+        "Pricing Strategy, Manager/Senior Manager (JR342675); San Francisco, Herndon, New York, Washington DC or Chicago; posted Jun 29, 2026; 6+ years, SaaS pricing and consulting background preferred.",
+        "Develops long-term pricing and packaging strategy with Product Management, Product Marketing, GTM, Sales and Deal Desk.",
+        "Helps product operations prioritize launches and create SKUs matched to feature sets; evaluates new pricing models against complexity and impact on the installed base.",
+        "Designs qualitative and quantitative sales and customer research to test pricing and packaging hypotheses; must win alignment from EVP and SVP leaders."
+      ],
+      "news": [
+        {
+          "date": "2026-09-03",
+          "summary": "Salesforce launched Core, Advanced and Max editions at $195, $395 and $550 per user per month with bundled Agentforce, Slack and 0.5M/1M/2.75M Flex Credits; only about 5% of Sales and Service Cloud users are on higher-end editions, per the article.",
+          "source": "Salesforce Ben",
+          "url": "https://www.salesforceben.com/salesforce-announces-3-replacement-editions-bundling-ai-slack-and-security/"
+        }
+      ],
+      "interpretation": "The new editions raise entry prices while bundling AI credits and Slack, so AI adoption is sold through edition upgrades rather than separate add-ons. With only about 5% of users on higher editions, the likely economic goal is mix shift toward Advanced and Max (inference). A role that creates SKUs and weighs impact on the installed base fits the work this implies: defining edition contents and credit pools and moving legacy customers. The posting predates the launch, so the hire would probably work on post-launch packaging and the pending Industries pricing.",
+      "open_questions": [
+        "Which clouds or products would the role cover?",
+        "How will Flex Credit use above edition allowances be priced and governed?",
+        "Is the hire at Manager or Senior Manager level, and who does the role report to?"
+      ],
+      "caveat": "Edition details come from Salesforce Ben, not Salesforce's own page; the Salesforce job page could not be read, so the posting's live status is unconfirmed.",
+      "confidence": "Medium", "linked_job_refs": ["new:9"]
+    },
+    {
+      "id": null, "company": "Talkdesk", "business_unit": "Pricing (Marketing)",
+      "pricing_theme": "Governing PM-led pricing and packaging for AI and contact-centre products through a pricing committee",
+      "current_model": "Per-user monthly plans: Digital Essentials $85, Voice Essentials $105, Elite $165, Industry Experience Clouds $225 (Government custom-priced). AI products (Copilot, Autopilot, Navigator, Interaction & Quality Analytics) are described without published prices; add-ons are sold through sales.",
+      "industry": "Software",
+      "posting_evidence": [
+        "Pricing Strategy Manager, remote US; reports to the Pricing Director; $93,000–$140,000 base; posting text dated Oct 4, 2026 (first published Jun 1).",
+        "Partners with Product Managers on pricing and packaging across the AI and Contact Center portfolio: competitive positioning, unit economics, meter or unit of measure, packaging structure, buying rules, billing/CPQ feasibility.",
+        "Prepares PMs for the Pricing Committee, documents decisions and pushes approved changes to SFDC/CPQ, the website and sales enablement.",
+        "Supports discounting analysis and packaging dashboards; prefers experience with usage-based, subscription or outcome-based pricing."
+      ],
+      "news": [],
+      "interpretation": "Talkdesk publishes seat prices for its core plans but not for its AI products, so pricing the AI layer is where decisions are open. A role centred on meters, units of measure and buying rules suggests new AI products are being priced on usage or outcomes rather than seats (inference, supported by the preferred-experience list). Pricing sits in Marketing with a committee process and PMs owning proposals, so this hire reviews and governs rather than sets prices; the salary band points to a mid-level manager.",
+      "open_questions": [
+        "Will AI agents be priced per interaction, per resolution or per seat?",
+        "How many PMs and products does the role support?"
+      ],
+      "caveat": "No recent Talkdesk pricing announcements found; AI pricing is not public.",
+      "confidence": "Medium", "linked_job_refs": ["new:8"]
+    },
+    {
+      "id": "STR-0024", "company": "Twilio", "business_unit": "Monetization & Pricing Strategy",
+      "pricing_theme": "Building a price realization function across self-serve (PLG) and enterprise motions on a usage-priced platform",
+      "current_model": "Pay-as-you-go usage pricing per message and minute (SMS from $0.0083, outbound voice $0.014 per minute) with volume discounts as usage grows; custom enterprise deals through sales; some per-user pricing (Flex at $150 per named user per month). Carrier A2P fees are passed through at cost.",
+      "industry": "Software",
+      "posting_evidence": [
+        "Two new US-remote Principal Price Realization Strategy Manager roles (Digital & PLG Pricing; Enterprise & Account-Led Pricing), first published Jun 16, 2026 and updated Oct 9; both report to the Director of Price Realization Strategy; $141,520–$208,000 by location.",
+        "Digital & PLG: price optimization models using elasticity and competitive positioning with Growth Marketing, Self-service Sales, Console Engineering and Finance; 5+ years owning consumption pricing in IaaS/PaaS or developer PLG.",
+        "Enterprise: works with Deal Desk, Enterprise Sales and Finance on renewal strategy, concession frameworks and account-level profitability to 'protect gross margins and maximize revenue realization'.",
+        "Earlier Colombia-based Senior Price Realization Strategy Manager shaped pricing and discounting strategy and built pricing operations with Product, Deal Desk and Finance; it was not on Twilio's Greenhouse board on Oct 12, 2026."
+      ],
+      "news": [
+        {
+          "date": "2026-08-06",
+          "summary": "Q2 2026: revenue $1.50B (+22%, 17% organic); dollar-based net expansion 116% vs 108% a year earlier; non-GAAP gross margin 49% vs 51%; full-year growth guidance raised to 18–18.5% reported.",
+          "source": "Twilio press release",
+          "url": "https://www.twilio.com/en-us/press/releases/q2-2026-earnings"
+        }
+      ],
+      "interpretation": "Twilio has split price realization into a self-serve track and an enterprise track under one director, which supports the earlier reading: the priority is keeping more margin on usage revenue while net expansion rises and gross margin slips. The enterprise role's concession frameworks and renewal strategy target discount leakage on large accounts; the PLG role targets list and tier optimization in the console. The Colombia role's removal from the board may mean it was filled or that the work moved into these US roles (unconfirmed).",
+      "open_questions": [
+        "How much discount authority does sales have today, and how is realization measured?",
+        "Was the Colombia role filled, or was the work moved to the US?",
+        "Will newer AI voice products get their own pricing?"
+      ],
+      "caveat": "The postings name no products; the margin link is inference. The US postings said applications were intended to close Oct 1 but were still listed Oct 9.",
+      "confidence": "Medium", "linked_job_refs": ["JOB-0033", "new:2", "new:3"]
+    }
+  ],
+  "people": [],
+  "notes": "Searched Canada (EN/FR, Montreal, Quebec City, Toronto, Ottawa, Canada remote), Colombia (ES/EN, Bogotá, Medellín, Cali, LATAM remote; elempleo pricing/revenue-management/revenue-growth pages) and US (SaaS first, then CPG RGM and industrial), plus ATS APIs for Twilio, Nubank, Wealthsimple (partial), Ubisoft, Visa and ServiceNow. Flags: Twilio's Colombia role JOB-0033 (Greenhouse 7078821) is no longer on Twilio's board; many leads were closed (Clutch, 1Password, Jobber, AutoTrader, Rogers x3, Aylo, Amgen, Novo Nordisk, Talma, Félix, confidential Gerente RGM). Coke Canada's own careers site (careers.cokeonena.com) did not surface the posting, so official_url is null. Colombia: no new eligible roles found. Not checked or failed: Autodesk, Mastercard (Workday API error), Coveo, Nuvei, Adobe (no results). No url_updates found for C.A.T., Alegra (Get on Board shows no openings), Mercado Libre or Softys. No people were named in sources read today."
+}
