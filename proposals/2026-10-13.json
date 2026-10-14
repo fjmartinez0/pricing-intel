@@ -1,0 +1,216 @@
+{
+  "run_date": "2026-10-13",
+  "searches_run": 86,
+  "searches_by_country": { "Canada": 34, "Colombia": 24, "United States": 19 },
+  "watchlist_checked": [
+    "Bell", "Rogers", "Telus", "Videotron / Quebecor", "Cogeco", "Air Canada", "Air Transat", "Via Rail", "Bombardier", "CAE",
+    "Claro Colombia", "Movistar Colombia", "Tigo", "Avianca", "LATAM Airlines Colombia", "GHL Hoteles", "Grupo Aval", "Siigo",
+    "Datadog", "Snowflake", "MongoDB", "HubSpot", "Okta", "Cloudflare"
+  ],
+  "new_opportunities": [
+    {
+      "company": "Bell", "title": "Senior Product Manager, Strategic Pricing", "business_unit": "Bell Business Markets", "category": "Pricing",
+      "country": "Canada", "city": "Toronto", "location_note": "Posting also lists Montreal, Ottawa, Saint John, Bedford and Halifax; must be based in Canada; adequate French required for Quebec positions; application deadline 2026-10-20",
+      "work_mode": "Hybrid", "work_model": "Hybrid; work from a set Bell office at least 3 days a week", "salary_advertised": "Not stated",
+      "employer_posting_date": "2026-09-18", "official_url": "https://jobs.bce.ca/bell/job/Toronto-Senior-Product-Manager%2C-Strategic-Pricing-ON/1431636500/", "secondary_url": null, "requisition_id": "431745",
+      "summary": "Senior enterprise pricing role in Bell Business Markets: pricing intelligence and margin analysis, TCO-based pricing structures, pricing governance and sales training on pricing.",
+      "pricing_focus": "Enterprise B2B telecom pricing; governance", "scope_fit": "in_scope",
+      "scope_note": "Senior counterpart to the tracked Montreal Product Manager, Strategic Pricing (JOB-0002); separate requisition (431745 vs 431648). Management position type; 5+ years.",
+      "strategy_confidence": "High"
+    },
+    {
+      "company": "Rogers", "title": "Sr Mgr, Acquisition Pricing", "business_unit": "Residential Pricing (Marketing)", "category": "Pricing",
+      "country": "Canada", "city": "Calgary", "location_note": "Posting also lists Toronto; up to 10% travel",
+      "work_mode": "In person", "work_model": "All Corporate Employees are expected to work onsite", "salary_advertised": "Not stated",
+      "employer_posting_date": null, "official_url": "https://jobs.rogers.com/job/Calgary-Sr-Mgr%2C-Acquisition-Pricing-AB/1436762200/", "secondary_url": null, "requisition_id": "343948",
+      "summary": "Lead a team setting acquisition pricing for Rogers' Residential (Home) services to meet subscriber and revenue targets, including contract and rate-card launches and business cases for pricing proposals.",
+      "pricing_focus": "Residential broadband/TV acquisition pricing; rate cards", "scope_fit": "in_scope",
+      "scope_note": "Rogers' search results date the posting Oct 5, 2026; the job page itself shows no date. No Montreal option.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Belron Canada", "title": "Commercial Agreements & Pricing Manager", "business_unit": "Commercial strategy", "category": "Pricing",
+      "country": "Canada", "city": "Montreal", "location_note": null,
+      "work_mode": "Hybrid", "work_model": "#LI-Hybrid tag; arrangement not described", "salary_advertised": "To be discussed",
+      "employer_posting_date": null, "official_url": null, "secondary_url": "https://www.jobillico.com/en/job-offer/belron-canada-incovffyz/commercial-agreements-pricing-manager/17335139", "requisition_id": "JR71565",
+      "summary": "Lead a team that builds pricing strategies for revenue growth and profitability and structures and negotiates strategic commercial agreements; executive presentations, budget input and pricing dashboards.",
+      "pricing_focus": "Commercial (insurer/fleet) agreements; pricing strategy", "scope_fit": "in_scope",
+      "scope_note": "People manager, but asks for only 3–6 years of experience. Jobillico's employer page dates it Oct 5, 2026 while a search snippet showed July 7, 2026, so the date is left null. Belron's Workday page for JR71565 could not be loaded.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Bluebeam", "title": "Pricing and Packaging Manager", "business_unit": "Build and Construct Division (Nemetschek Group)", "category": "Pricing",
+      "country": "United States", "city": "Not stated", "location_note": "Location listed only as 'US'",
+      "work_mode": "Remote", "work_model": "#LI-Remote tag; location 'US'", "salary_advertised": "USD 108,900–136,000 base",
+      "employer_posting_date": "2026-09-20", "official_url": "https://careers.nemetschek.com/Bluebeam/job/Pricing-and-Packaging-Manager/1353630655/", "secondary_url": null, "requisition_id": null,
+      "summary": "Own pricing and packaging analysis for Bluebeam's construction software: willingness-to-pay research, tier design, forecasting models, KPIs and cross-functional pricing projects.",
+      "pricing_focus": "B2B SaaS tiering; WTP research; AI tier", "scope_fit": "in_scope",
+      "scope_note": "Manager title for a senior individual contributor working within existing governance; salary band suggests mid-to-senior level.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Agiloft", "title": "Pricing and Packaging Manager", "business_unit": "Product Management (Product GTM)", "category": "Pricing",
+      "country": "United States", "city": "Anywhere", "location_note": null,
+      "work_mode": "Remote", "work_model": "Remote; location United States", "salary_advertised": "Not stated",
+      "employer_posting_date": "2026-09-29", "official_url": "https://jobs.lever.co/agiloft/1d95a7d7-24e6-4c73-ba9b-c90dbbbd2b86", "secondary_url": null, "requisition_id": null,
+      "summary": "Design and maintain subscription, seat, usage, outcome-based and hybrid pricing models for Agiloft's contract-management platform; financial modelling, packaging and entitlements, and recommendations to the pricing committee.",
+      "pricing_focus": "Enterprise SaaS; consumption and outcome-based pricing", "scope_fit": "in_scope",
+      "scope_note": "Reports to the Director of Product GTM; 4–7+ years; hands-on individual contributor rather than a people manager.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "HighLevel", "title": "Sr. Director, Product Pricing and Monetisation (Product Led Pricing)", "business_unit": "Office of the Chief of Staff", "category": "Monetization",
+      "country": "United States", "city": "Anywhere", "location_note": "Some aggregator copies list the location as worldwide; Built In says hiring in the United States",
+      "work_mode": "Remote", "work_model": "Remote, hiring in the United States", "salary_advertised": "USD 248,000–322,000 annually per description (Built In header shows 207K–269K)",
+      "employer_posting_date": "2026-09-08", "official_url": null, "secondary_url": "https://www.builtinboston.com/job/director-product-pricing-and-monetisation/11045378", "requisition_id": null,
+      "summary": "Set HighLevel's company-wide pricing, packaging and monetization across subscriptions, bundles, add-ons and usage-based offerings; run customer and willingness-to-pay research and pricing experiments; build a pricing and insights team.",
+      "pricing_focus": "SMB/agency SaaS; usage-based AI add-ons", "scope_fit": "in_scope",
+      "scope_note": "The original Lever posting could not be located; posting date comes from an aggregator (RemoWork) and Built In shows 'posted one month ago'. Some copies drop 'Sr.' from the title. 14+ years required.",
+      "strategy_confidence": "Medium"
+    }
+  ],
+  "url_updates": [],
+  "strategy_updates": [
+    {
+      "id": "STR-0002", "company": "Bell", "business_unit": "Bell Business Markets",
+      "pricing_theme": "Building out an enterprise strategic pricing team: TCO-based solution pricing, discount governance and AI-assisted deal pricing",
+      "current_model": "Custom enterprise contracts across IoT, mobility and 5G, cloud, cybersecurity, voice, collaboration and contact centre, and internet and private networks. Prices are not public.",
+      "industry": "Telecom",
+      "posting_evidence": [
+        "Two concurrent BBM Strategic Pricing requisitions: Product Manager (Montreal, 431648, posted Oct 6, 2026) and Senior Product Manager (Toronto plus Montreal, Ottawa, Saint John, Bedford and Halifax, 431745, posted Sep 18, 2026); both hybrid 3 days a week with an Oct 20 deadline.",
+        "Senior role: pricing intelligence and financial analysis to protect margins and competitiveness across BBM segments; designs pricing structures with SWOT and total-cost-of-ownership methods; enforces pricing governance and tracks the opportunity funnel.",
+        "Senior role requires 5+ years in pricing, finance, product management or telecom and practical AI/ML knowledge for pricing, forecasting or dynamic pricing, plus familiarity with generative AI tools.",
+        "Both roles train and support sales on pricing strategy and product value; adequate French required for Quebec positions."
+      ],
+      "news": [
+        { "date": "2026-08-06", "summary": "BCE Q2 2026 call: wireless pricing improved quarter over quarter and year over year and into July; Bell will keep hardware discounting disciplined and lean on trade-in and device-residual programs; enterprise performed strongly, including a large government contract.", "source": "Yahoo Finance (GuruFocus summary of BCE Q2 2026 call)", "url": "https://finance.yahoo.com/technology/articles/bce-inc-bce-q2-2026-190501108.html" }
+      ],
+      "interpretation": "Bell is hiring two layers of enterprise pricing at once, which suggests a team being built rather than a single backfill (inference). Both postings stress TCO-based structures, governance and sales training, pointing to bundled solution pricing and tighter control of rep discounting as the mix shifts toward cloud, security and AI services. Management's stated discipline on consumer hardware discounting fits the same theme of protecting realized price. The role is likely to involve deal-pricing tools and governance more than list-price setting.",
+      "open_questions": [
+        "How are the Product Manager and Senior Product Manager roles split: by segment, product line or deal size?",
+        "Does the team price AI Fabric or data-centre deals, or only telecom and IT bundles?",
+        "How much discount authority do account teams hold today?"
+      ],
+      "caveat": "Neither posting names products or a reporting line; the link to AI Fabric and team build-out is inference.",
+      "confidence": "Medium",
+      "linked_job_refs": ["JOB-0002", "new:0"]
+    },
+    {
+      "id": null, "company": "Rogers", "business_unit": "Residential Pricing (Marketing)",
+      "pricing_theme": "Raising realized price in residential broadband while moving away from promotional discounting",
+      "current_model": "Monthly residential internet and TV packages, with promotional discounts and guaranteed-price terms; in-term increases applied to certain internet packages ($7 a month from March 2026 and another $7 from bills on or after Aug 18, 2026, per customer notices). Promotional discounts and guaranteed rates are honoured until their end dates.",
+      "industry": "Telecom",
+      "posting_evidence": [
+        "Sr Mgr, Acquisition Pricing on the Residential Pricing team within Marketing; Calgary (Shaw Court) or Toronto; fully onsite; requisition 343948; dated Oct 5, 2026 on Rogers' search page.",
+        "Leads a team that builds acquisition pricing strategies from customer, financial, demand and industry data to meet Home revenue and subscriber targets.",
+        "Runs pricing programs including contracts and rate-card launches; works with Sales Channels and IT on measures and tools, and with forecasting teams to close target gaps.",
+        "Backs pricing proposals with business cases, measures program effectiveness and takes part in quarterly Residential marketing planning; asks for deep understanding of recurring-revenue businesses."
+      ],
+      "news": [
+        { "date": "2026-07-06", "summary": "Rogers notified customers of a $7 monthly increase on certain internet packages from the first bill on or after Aug 18, 2026, the second increase of 2026 after a $7 rise in March; promotional and guaranteed rates are exempt until they end.", "source": "iPhone in Canada", "url": "https://www.iphoneincanada.ca/2026/07/06/rogers-is-raising-home-internet-prices-for-the-second-time-this-year/" },
+        { "date": "2026-07-22", "summary": "Q2 2026 call: mobile ARPU C$54.25 (−2%); CEO said Rogers has moved away from short-term promotional discounting toward value levers; cable service revenue +1% with 17,000 retail internet net adds and a 58% cable margin.", "source": "Rogers Q2 2026 earnings call transcript (Mitrade)", "url": "https://www.mitrade.com/insights/news/live-news/article-8-1926961-20260723" }
+      ],
+      "interpretation": "Rogers is pushing base price up on existing internet customers while saying it is retreating from short-term promotional discounting, so acquisition pricing is where the trade-off between growth and realized price is decided. A senior manager owning acquisition offers and rate cards would set the entry price and promotion depth that new customers get against that higher base (inference). Rate-card launches and contracts in scope suggest work on term commitments and bundles that limit churn after price increases. The role is likely measured on subscriber targets as much as on revenue.",
+      "open_questions": [
+        "How are acquisition offers balanced against the gap with in-base pricing after two 2026 increases?",
+        "Does the role cover Shaw-footprint markets in Western Canada separately from Ontario?",
+        "Who owns base-management and retention pricing?"
+      ],
+      "caveat": "Price-increase details come from customer billing notices reported by the press, not a Rogers announcement; the posting does not state products or reporting line.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:1"]
+    },
+    {
+      "id": "STR-0012", "company": "Belron Canada", "business_unit": "Commercial strategy",
+      "pricing_theme": "Building a pricing and commercial-agreements team to standardize pricing across brands and insurer/fleet contracts",
+      "current_model": "Glass repair and replacement priced through insurer and fleet agreements plus retail prices, across Speedy Glass, Apple Auto Glass and Lebeau Vitres d'autos.",
+      "industry": "Automotive services",
+      "posting_evidence": [
+        "New Commercial Agreements & Pricing Manager (JR71565), Montreal, hybrid tag, salary to be discussed; leads and motivates a team; 3–6 years incl. team leadership; bilingual.",
+        "Builds and runs pricing strategies for revenue growth and profitability, and structures, negotiates and optimizes strategic commercial agreements.",
+        "Tracks market trends and recommends pricing changes; prepares executive presentations; improves tools and dashboards (Excel, SQL, Power BI); contributes to budget planning.",
+        "Existing Senior Advisor, Pricing Management and Commercial Strategy (JR66562) is a senior individual contributor focused on consistent pricing methods, calculators and dashboards; Jobillico also lists a Pricing Specialist."
+      ],
+      "news": [],
+      "interpretation": "With a manager over commercial agreements and pricing, a senior advisor and a specialist posted within weeks, Belron Canada appears to be building a small pricing team under commercial strategy (inference). Pairing pricing with negotiating strategic agreements points to insurer and fleet contracts as the main lever, where rates and terms are set in negotiation rather than by list price. The earlier focus on consistent methods and calculators suggests the team will first harmonize how contracts are priced across brands. The manager role is the more senior of the two and the more likely owner of pricing decisions.",
+      "open_questions": [
+        "Do the manager and senior advisor sit on the same team, and does the advisor report to the manager?",
+        "Which agreements are in scope: insurers, fleets, dealerships or all?",
+        "Is camera recalibration priced separately in these agreements?"
+      ],
+      "caveat": "Read from a Jobillico copy; Belron's own Workday page for JR71565 could not be opened, and no recent pricing news was found.",
+      "confidence": "Medium",
+      "linked_job_refs": ["JOB-0013", "new:2"]
+    },
+    {
+      "id": null, "company": "Bluebeam", "business_unit": "Build and Construct Division (Nemetschek Group)",
+      "pricing_theme": "Monetizing AI through a premium tier on top of per-user annual subscriptions, after retiring perpetual licences",
+      "current_model": "Per-user annual subscriptions: Basics $260, Core $330, Complete $440, and Max $590 (introductory price) per user per year. Max adds AI drawing review and comparison, AI multi-view stitching, Magic Markups, an MCP AI integration and Connected Studio Sessions with Revit.",
+      "industry": "Software",
+      "posting_evidence": [
+        "Pricing and Packaging Manager; US, #LI-Remote; USD 108,900–136,000 base; posted Sep 20, 2026.",
+        "Researches customers and the AEC market to understand needs and willingness to pay; runs analytical tests and defines pricing and packaging KPIs.",
+        "Builds models forecasting revenue and behavioural effects of changes and validates them against history; turns data into business cases.",
+        "Requires knowledge of conjoint, Van Westendorp and A/B testing, tier design and competitive positioning; works within existing governance."
+      ],
+      "news": [
+        { "date": "2026-05-19", "summary": "Bluebeam Max became available globally as a premium subscription with AI review, comparison and markup tools and Anthropic Claude integration via MCP; existing customers can upgrade through the webstore.", "source": "Bluebeam press release", "url": "https://press.bluebeam.com/2026/05/bluebeam-max-launches-globally-bringing-ai-powered-productivity-to-aec-teams-everywhere/" }
+      ],
+      "interpretation": "Bluebeam now sells AI as a fourth tier priced about a third above Complete, at an introductory rate, so the open decisions are the post-introductory price, upgrade paths from lower tiers and whether AI use stays unlimited inside a seat price (inference). A role centred on willingness-to-pay research, tier design and forecasting fits that work. Because the posting says to work within existing governance and the salary is mid-level, this hire likely supplies analysis for decisions made above it.",
+      "open_questions": [
+        "When does the Max introductory price end, and what will it become?",
+        "Will AI usage stay inside the seat price or move to metered credits?",
+        "Who owns pricing decisions: Bluebeam product leadership or Nemetschek group?"
+      ],
+      "caveat": "The only pricing news found is the May 2026 Max launch, older than three months; the posting names no products and no reporting line.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:3"]
+    },
+    {
+      "id": null, "company": "Agiloft", "business_unit": "Product Management (Product GTM)",
+      "pricing_theme": "Adding consumption- and outcome-based monetization paths to quote-based enterprise contract-management software",
+      "current_model": null,
+      "industry": "Software",
+      "posting_evidence": [
+        "Pricing and Packaging Manager; remote, United States; created on Lever Sep 29, 2026; reports to the Director of Product GTM; makes recommendations to the pricing committee.",
+        "Owns the analytical and operational work behind 'new monetization paths', including consumption and outcome-based models alongside subscription tiers, seats and hybrids.",
+        "Runs monetization experiments and revenue-impact models; tracks ASP, discounting, tier attach and expansion revenue.",
+        "Defines packaging, entitlements and upgrade triggers; writes pricing playbooks and deal-desk guidance for Sales; pricing-function build-out experience is a plus."
+      ],
+      "news": [],
+      "interpretation": "Agiloft does not publish prices and sells through quotes, so new consumption and outcome-based paths most likely target its AI contract features, where value tracks volume of contracts processed rather than seats (inference). Tracking discounting and ASP and writing deal-desk guidance suggests list-to-net leakage is also a concern. The 'pricing-function build-out' preference and a manager reporting into Product GTM indicate pricing is a young function, so the hire would shape process as well as models.",
+      "open_questions": [
+        "Which products or AI features will get consumption or outcome metering first?",
+        "How is the pricing committee composed, and who decides?",
+        "Is this the first dedicated pricing hire?"
+      ],
+      "caveat": "No public price list and no recent pricing news found; current model unknown.",
+      "confidence": "Low",
+      "linked_job_refs": ["new:4"]
+    },
+    {
+      "id": null, "company": "HighLevel", "business_unit": "Office of the Chief of Staff",
+      "pricing_theme": "Creating a company-wide pricing function for an agency SaaS platform that mixes flat plans, per-sub-account add-ons and usage-based AI and messaging fees",
+      "current_model": "Starter $97/mo ($970/yr, 3 sub-accounts), Unlimited $297/mo ($2,970/yr), Agency Pro $497/mo ($4,970/yr), Enterprise custom. Usage-based charges for Conversation AI, Voice AI, Reviews AI, email, SMS and calling. Many per-sub-account add-ons, e.g. AI Employee Growth $50/mo and Unlimited $97/mo, branded client portal $49/mo, HIPAA $297/mo, white-label mobile app $497/mo.",
+      "industry": "Software",
+      "posting_evidence": [
+        "Sr. Director, Product Pricing and Monetisation (Product Led Pricing); remote US; USD 248,000–322,000 in description; posted around Sep 8, 2026; reports to the Chief of Staff; 14+ years.",
+        "Sets company-wide pricing and packaging across subscriptions, bundles, add-ons, usage-based offerings and new launches; chooses value metrics and builds business cases on conversion, revenue, retention and LTV.",
+        "Runs a continuous customer research program (interviews, surveys, win/loss, willingness to pay) and designs and measures pricing experiments and rollouts with Product, Finance, Billing, Sales and CS.",
+        "Sets cross-functional governance and decision rights; starts hands-on, then builds a pricing, analytics and customer-insights team."
+      ],
+      "news": [],
+      "interpretation": "HighLevel's price list has grown into three plans plus more than a dozen add-ons and several usage meters, and the posting asks for value metrics, governance and decision rights, which suggests pricing has been decided product by product without a central owner (inference). Reporting to the Chief of Staff rather than Product or Finance signals an executive priority. Likely early work: rationalizing add-ons into bundles or tiers and deciding how AI usage is metered versus included as AI features expand.",
+      "open_questions": [
+        "Will AI Employee and usage fees be folded into plans or kept as add-ons?",
+        "How do agency resale (rebilling) margins constrain HighLevel's own price points?",
+        "Is the role US-only, as Built In says, or worldwide, as some copies suggest?"
+      ],
+      "caveat": "Read from a Built In copy; the original Lever posting was not found, and no pricing news from the last three months was found.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:5"]
+    }
+  ],
+  "people": [],
+  "notes": "Searched Canada (EN/FR, Montreal/Quebec City/Toronto/Ottawa/remote), Colombia (ES/EN, elempleo pricing/RM/RGM pages, Magneto, Computrabajo, LATAM remote) and the US (SaaS first, then CPG RGM), plus watchlist group 2. Many leads were closed on check (Rogers/TELUS earlier pricing roles, Instacart, Maple Leaf RGM, Clutch, Félix, Amgen and Novo Nordisk Bogotá, Datadog, Cloudflare, Okta, HubSpot, Asana, ServiceNow, 3M Consumer RGM, Priceline Toronto, eBay Sr Monetization Strategy). No new Colombia roles and no official links found for the unverified leads (C.A.T., Alegra, Mercado Libre, Softys, Coke Canada). Belron JR71565 and HighLevel lack employer URLs."
+}
