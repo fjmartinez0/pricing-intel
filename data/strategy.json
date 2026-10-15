@@ -1097,5 +1097,177 @@
     ],
     "industry": "Software",
     "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0037",
+    "company": "Scotiabank",
+    "business_unit": "Canadian Banking – Retail Deposits & Day-to-Day Banking",
+    "baseline_date": "2026-10-14",
+    "last_updated": "2026-10-14",
+    "pricing_theme": "Building a deposit-rate and fee pricing function that uses testing to protect margin and grow non-interest revenue",
+    "current_model": "Posted GIC rate grid by term and type (cashable, non-redeemable, market-linked, $500 minimum) plus account packages with monthly fees, rebates and transaction fees; exception pricing is handled through a deposits exception pricing desk.",
+    "posting_evidence": [
+      "Two Toronto Senior Manager roles posted 2026-10-09: Pricing Strategy & Optimization (req 276112) and Day to Day Banking Fee Optimization (req 276125)",
+      "Deposit role leads the pricing meeting, carries out approved rate changes and runs pricing pilots, A/B tests and controlled rollouts; supports the Director, Pricing, Portfolio Management and ADS",
+      "Fee role owns a fee-optimization roadmap (fee structures, transaction fees, account packages, service charges, waivers) to grow non-interest revenue, using elasticity analysis",
+      "Deposit role asks for evaluation of AI/ML for pricing analytics and forecasting; a separate Manager, Pricing & Portfolio Management role runs the exception pricing desk and SmartBot tool"
+    ],
+    "news": [
+      {
+        "date": "2026-08-25",
+        "summary": "Scotiabank reported record Q3 2026 results; Canadian Banking earned $1,071M (up 12% year over year) on a fifth consecutive quarter of margin expansion and strong fee income growth, with ROE of 19.4%.",
+        "source": "Scotiabank (Newswire release)",
+        "url": "https://www.newswire.ca/news-releases/scotiabank-reports-third-quarter-results-856214963.html"
+      }
+    ],
+    "interpretation": "Inference: after five quarters of margin expansion, Scotiabank is trying to make deposit pricing and fee pricing repeatable, test-driven disciplines rather than periodic rate-sheet decisions. Hiring two senior pricing managers on the same day suggests it is building a team rather than backfilling. The deposit role is about protecting margin as rates move and competitors run GIC specials. The fee role points to non-interest revenue as a growth lever, so candidates should expect conduct and regulatory scrutiny of any fee increases.",
+    "open_questions": [
+      "How much pricing authority does the pricing meeting have compared with Treasury and Finance on deposit rates?",
+      "Is the fee-optimization roadmap aimed at fee increases, repackaging accounts, or reducing waivers, and how are conduct and FCAC constraints handled?",
+      "What testing infrastructure exists today for rate and fee experiments?"
+    ],
+    "caveat": "Interpretation rests on the postings and one earnings release; no deposit- or fee-specific pricing news from the last three months was read.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0049",
+      "JOB-0051"
+    ],
+    "industry": "Banking",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0038",
+    "company": "Scotiabank",
+    "business_unit": "Global Transaction Banking",
+    "baseline_date": "2026-10-14",
+    "last_updated": "2026-10-14",
+    "pricing_theme": "Repricing cash-management and operating-deposit relationships while modernizing billing",
+    "current_model": null,
+    "posting_evidence": [
+      "Director, Revenue Management, Global Transaction Banking (req 273028), Toronto, posted 2026-09-08",
+      "Leads strategic pricing, repricing and revenue optimization across GTB products, including pricing approval for cash management products and operating deposits",
+      "Leads a billing and pricing transformation: target-state billing operating model, billing infrastructure modernization, billing standards and controls",
+      "People leader; requires 5+ years of management experience and an understanding of GTB product financials and P&L levers"
+    ],
+    "news": [],
+    "interpretation": "Inference: GTB appears to be treating pricing as a revenue lever and fixing billing leakage at the same time. Pairing repricing with billing modernization usually means fee schedules and exceptions have drifted and are not enforced consistently in billing systems. The role is likely part commercial (approving and repricing client relationships) and part transformation lead (billing operating model), so change-management skills will matter as much as pricing analytics.",
+    "open_questions": [
+      "Where does pricing approval authority sit today: relationship managers, product, or this team?",
+      "How much revenue leakage from unbilled or mis-billed services is believed to exist?",
+      "Does the mandate cover only Canada or GTB's Latin American footprint as well?"
+    ],
+    "caveat": "Based on the posting alone; no GTB pricing news or published fee schedules were found.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0050"
+    ],
+    "industry": "Banking",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0039",
+    "company": "Wawanesa Insurance",
+    "business_unit": "Commercial Actuarial Pricing",
+    "baseline_date": "2026-10-14",
+    "last_updated": "2026-10-14",
+    "pricing_theme": "Making commercial auto rate-making more sophisticated",
+    "current_model": null,
+    "posting_evidence": [
+      "Manager, Actuarial Commercial Auto Pricing (job ID 10363), posted 2026-10-02, hybrid in Montreal and 13 other Canadian cities; $140,000–$160,000 estimated range",
+      "Leads pricing reviews for all commercial auto products 'with a focus on improving pricing sophistication' and recommends strategies that vary by product type and regulatory framework",
+      "Prepares regulatory rate filings, designs new pricing models and tools, and manages direct reports; the Director, Commercial Actuarial Pricing assigns special projects",
+      "Several other Wawanesa actuarial pricing roles are open at the same time (pricing modelling, Alberta auto pricing), alongside the tracked Director, Direct Venture Pricing role"
+    ],
+    "news": [],
+    "interpretation": "Inference: Wawanesa is rebuilding its actuarial pricing capability across lines; the careers site shows a cluster of pricing-modelling and auto-pricing roles opened in September–October 2026. For commercial auto, 'pricing sophistication' usually means more rating variables and model-based segmentation, which suggests a shift from manual or legacy rating to model-driven rating. The role is technical and regulatory, closer to actuarial than to commercial pricing strategy.",
+    "open_questions": [
+      "Is an actuarial designation effectively required despite being listed as an asset?",
+      "Which provinces' commercial auto filings are the priority, and how does the regulatory framework constrain rate changes?"
+    ],
+    "caveat": "No company pricing news was found; the interpretation rests on this posting and the visible cluster of related openings.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0052"
+    ],
+    "industry": "Insurance",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0040",
+    "company": "Intuit",
+    "business_unit": "Business platform (QuickBooks, Payroll, Payments, Mailchimp)",
+    "baseline_date": "2026-10-14",
+    "last_updated": "2026-10-14",
+    "pricing_theme": "Raising QuickBooks prices and bundling AI into tiers, while testing new models for AI agents",
+    "current_model": "QuickBooks Online (US pricing page, read 2026-10-14): Free $0 (1 user), Simple Start $38/mo, Essentials $85/mo (3 users), Plus $140/mo (5 users), Advanced $340/mo (25 users), each with a 50%-off-for-3-months promo; AI features are bundled by tier; ACH bill pay has a $0.50 overage fee beyond monthly allotments; payroll is an add-on.",
+    "posting_evidence": [
+      "Principal, Monetization Strategy (job ID 22644), Mountain View or Atlanta; base $222,000–$300,500; no posting date shown",
+      "Owns pricing and packaging across QuickBooks, Payroll, Payments, Mailchimp and Intuit Intelligence: tiering, good/better/best design, price points, discount logic and guardrails",
+      "Explicit mandate to design and test subscription, consumption-based and outcome-based models for AI and platform capabilities",
+      "Analytical toolkit named: willingness-to-pay studies, elasticity, conjoint, A/B price tests, demand modelling; player-coach mentoring pricing analysts; 10+ years required"
+    ],
+    "news": [
+      {
+        "date": "2026-08-25",
+        "summary": "Intuit reported fiscal 2026 results (revenue $21.4B, up 14%) and guided fiscal 2027 growth to 9–10%; online ARPC growth was 15% for fiscal 2026 against 3% growth in online paying customers, QuickBooks Free passed 20,000 customers, and the three-year growth target for Global Business Solutions was reset to 10–15%.",
+        "source": "Trefis (analysis of Intuit's Q4 FY2026 results, published 2026-08-28)",
+        "url": "https://www.trefis.com/articles/613541/intuits-real-problem-is-not-on-its-income-statement/2026-08-28"
+      },
+      {
+        "date": "2026-08-17",
+        "summary": "A third-party guide reports QuickBooks Online increases of about 17–25% effective May 1, 2026 and a further adjustment on August 1, 2026, with Payroll up about 20%; Intuit's own pricing page now shows higher list prices than the guide ($38/$85/$140/$340).",
+        "source": "Beancount.io blog",
+        "url": "https://beancount.io/blog/2026/08/17/quickbooks-online-price-hike-2026-migrate-before-renewal-guide"
+      }
+    ],
+    "interpretation": "Intuit's growth now depends on price and mix rather than customer count: ARPC grew 15% while paying customers grew only 3%. That puts the price-increase strategy under pressure as growth guidance falls. Inference: this role is meant to find the next monetization lever beyond list-price increases, namely consumption- or outcome-based pricing for AI agents, plus a Free tier funnel that converts to paid. Expect scrutiny of churn and of the price-value story, since Intuit already concedes it lost price-sensitive TurboTax customers to cheaper rivals.",
+    "open_questions": [
+      "Will AI agent capabilities be metered separately or kept inside tier bundles?",
+      "How is churn after the 2026 QuickBooks increases being measured, and does it constrain further increases?",
+      "How does this role divide work with the existing Global Business Solutions pricing team?"
+    ],
+    "caveat": "Price-increase history comes from a third-party blog whose figures conflict with Intuit's current page; Intuit's own call transcript was not read.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0053"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0041",
+    "company": "PagerDuty",
+    "business_unit": "Product Strategy & Growth (Product Development)",
+    "baseline_date": "2026-10-14",
+    "last_updated": "2026-10-14",
+    "pricing_theme": "Moving from per-seat incident management to a platform fee plus credits",
+    "current_model": "Per its pricing page (read 2026-10-14): PD Reliability Platform tiers with an annual platform fee and bundled seats, events and AI actions: Starter $2,800/yr (10 seats), Essential $12,000/yr (20 seats), Plus $48,000/yr (50 seats), Ultimate custom; extra usage via prepaid credit packs that expire annually. Legacy Incident Management: Free (5 users) and Professional at $21/user/month annual ($25 monthly); AIOps and Advance still sold as add-ons.",
+    "posting_evidence": [
+      "Director of Pricing & Monetization, San Francisco hybrid (2 days a week in office), base $180,000–$303,600",
+      "Reports to the VP of Product Strategy & Growth inside Product Development; inherits a Pricing Analyst, a Pricing Manager (SKU migrations) and a Technical PM / Monetization Ops role",
+      "Mandate: packaging architecture, feature tiering and entitlements, SKU design and experiments, discount governance, the monetization platform roadmap, and migrating legacy customers to the new plans",
+      "Prefers experience of a transition to usage-based pricing and of scaling toward $1B+ ARR"
+    ],
+    "news": [
+      {
+        "date": "2026-08-27",
+        "summary": "PagerDuty reported Q2 FY2027 revenue of $124.4M (up 0.8%), ARR of $501M and dollar-based net retention of 98%, guided FY2027 revenue to $491.5–496.5M, and cited a recent restructuring and AI-agent product upgrades.",
+        "source": "PagerDuty",
+        "url": "https://www.pagerduty.com/newsroom/pagerduty-announces-second-quarter-fiscal-2027-financial-results/"
+      }
+    ],
+    "interpretation": "With revenue flat and net retention below 100%, PagerDuty is using packaging to restart expansion: moving seat-based customers onto a platform fee with bundled AI actions and credits. The posting confirms the migration of legacy customers is the main job and that the team must move 'from execution support to strategic'. Inference: the hire will be judged on migration uplift and on stopping seat contraction, under a new CEO and after a roughly 15% workforce reduction, so pricing decisions will be closely watched by leadership.",
+    "open_questions": [
+      "What share of the base is already on the Reliability Platform, and is migration forced at renewal or optional?",
+      "How are AI actions and credits priced relative to seats, and how much overage revenue is expected?",
+      "Does the new leadership team want price realization or adoption-led expansion first?"
+    ],
+    "caveat": "The earnings release does not discuss pricing; the link between packaging and net retention is inference.",
+    "confidence": "High",
+    "linked_job_ids": [
+      "JOB-0054"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
   }
 ]

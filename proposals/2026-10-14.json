@@ -1,0 +1,199 @@
+{
+  "run_date": "2026-10-14",
+  "searches_run": 69,
+  "searches_by_country": { "Canada": 30, "Colombia": 17, "United States": 15 },
+  "watchlist_checked": [
+    "Desjardins", "National Bank", "RBC", "TD", "BMO", "Scotiabank", "Intact", "Wawanesa", "Sun Life", "Manulife",
+    "Grupo Nutresa", "Alpina", "Postobón", "Bavaria (AB InBev)", "Colombina", "Coca-Cola FEMSA", "Diageo", "Quala",
+    "Stripe", "Intuit", "Gusto", "DocuSign", "Zoom", "PagerDuty"
+  ],
+  "new_opportunities": [
+    {
+      "company": "Scotiabank", "title": "Senior Manager, Pricing Strategy & Optimization", "business_unit": "Canadian Banking – Retail Deposits & Investments", "category": "Pricing",
+      "country": "Canada", "city": "Toronto", "location_note": null,
+      "work_mode": "Unknown", "work_model": "Not stated", "salary_advertised": "Not stated",
+      "employer_posting_date": "2026-10-09", "official_url": "https://jobs.scotiabank.com/job/Toronto-Senior-Manager%2C-Pricing-Strategy-&-Optimization-ON-M5C-2W1/606918017/", "secondary_url": null, "requisition_id": "276112",
+      "summary": "Sets pricing strategy for retail deposits (GICs, savings) and Advisor Deposit Services, leads the weekly pricing meeting, carries out approved rate changes and runs pricing pilots and A/B tests.",
+      "pricing_focus": "Retail deposit rate pricing; pricing experiments",
+      "scope_fit": "in_scope", "scope_note": "Supports the Director, Pricing, Portfolio Management and ADS in leading the team; 5+ years in financial services. Posting date comes from Scotiabank's own search results; the job page shows no date.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Scotiabank", "title": "Director, Revenue Management, Global Transaction Banking - Toronto", "business_unit": "Global Transaction Banking", "category": "Revenue Management",
+      "country": "Canada", "city": "Toronto", "location_note": null,
+      "work_mode": "Unknown", "work_model": "Not stated", "salary_advertised": "Not stated",
+      "employer_posting_date": "2026-09-08", "official_url": "https://jobs.scotiabank.com/job/Toronto-Director%2C-Revenue-Management%2C-Global-Transaction-Banking-Toronto-ON-M5H-0B4/605882417/", "secondary_url": null, "requisition_id": "273028",
+      "summary": "Leads strategic pricing, repricing and pricing approval for cash management products and operating deposits across Global Transaction Banking, plus a billing and pricing transformation; manages a team.",
+      "pricing_focus": "Commercial cash-management pricing; repricing; billing modernization",
+      "scope_fit": "in_scope", "scope_note": "Asks for 5+ years of management experience. Posting date comes from Scotiabank's own search results; the job page shows no date.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Scotiabank", "title": "Senior Manager, Day to Day Banking Fee Optimization", "business_unit": "Canadian Banking – Day-to-Day Banking", "category": "Pricing",
+      "country": "Canada", "city": "Toronto", "location_note": null,
+      "work_mode": "Unknown", "work_model": "Not stated", "salary_advertised": "Not stated",
+      "employer_posting_date": "2026-10-09", "official_url": "https://jobs.scotiabank.com/job/Toronto-Senior-Manager%2C-Day-to-Day-Banking-Fee-Optimization-ON-M5C-2W1/606922017/", "secondary_url": null, "requisition_id": "276125",
+      "summary": "Owns a fee-optimization roadmap for chequing and everyday accounts to grow non-interest revenue (fee structures, transaction fees, account packages, waivers) using price-elasticity analysis, and manages the product-line P&L.",
+      "pricing_focus": "Retail bank fee pricing; account packaging",
+      "scope_fit": "borderline", "scope_note": "Fee pricing is central, but the role also carries general product management (product P&L, marketing budget, retention programs), so it is part pricing and part product manager.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Wawanesa Insurance", "title": "Manager, Actuarial Commercial Auto Pricing", "business_unit": "Commercial Actuarial Pricing", "category": "Pricing",
+      "country": "Canada", "city": "Montreal", "location_note": "Also listed as hybrid in North York (Toronto), Ottawa, Thunder Bay, Kitchener, Calgary, Edmonton, Lethbridge, Lloydminster, Winnipeg, Wawanesa MB, Vancouver, Moncton and Dartmouth; working language English",
+      "work_mode": "Hybrid", "work_model": "Hybrid: 2 days a week or 15 hours a week in a Wawanesa office", "salary_advertised": "$140,000 - $160,000 (estimated range in posting) plus annual bonus",
+      "employer_posting_date": "2026-10-02", "official_url": "https://jobs.wawanesa.com/job/Montreal%2C-QC-%28Hybrid%29-Manager%2C-Actuarial-Commercial-Auto-Pricing-QC/606676617/", "secondary_url": null, "requisition_id": "10363",
+      "summary": "Leads pricing reviews and rate strategy for all commercial auto products, prepares regulatory rate filings, builds pricing models and tools, and manages a team of direct reports.",
+      "pricing_focus": "Commercial auto insurance rate-making",
+      "scope_fit": "borderline", "scope_note": "People manager in pricing, but this is actuarial rate-making: requires an actuarial, math or statistics degree and 7+ years of actuarial pricing or similar P&C experience (FCAS/FCIA preferred, not required).", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Intuit", "title": "Principal, Monetization Strategy", "business_unit": "Business platform (QuickBooks, Payroll, Payments, Mailchimp)", "category": "Monetization",
+      "country": "United States", "city": "Mountain View", "location_note": "Also Atlanta, GA",
+      "work_mode": "Unknown", "work_model": "Not stated", "salary_advertised": "The expected base pay range for this position is: $222,000 - $300,500.",
+      "employer_posting_date": null, "official_url": "https://jobs.intuit.com/job/mountain-view/principal-monetization-strategy/27595/97522124624", "secondary_url": null, "requisition_id": "22644",
+      "summary": "Owns pricing and packaging across Intuit's business platform (tiering, price points, discounts, guardrails) and designs subscription, consumption- and outcome-based models for AI capabilities, backed by willingness-to-pay, elasticity and A/B price tests.",
+      "pricing_focus": "SMB SaaS packaging; AI monetization models",
+      "scope_fit": "in_scope", "scope_note": "Senior player-coach individual contributor (10+ years) who mentors pricing analysts; no direct team is stated.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "PagerDuty", "title": "Director of Pricing & Monetization", "business_unit": "Product Strategy & Growth (Product Development)", "category": "Monetization",
+      "country": "United States", "city": "San Francisco", "location_note": null,
+      "work_mode": "Hybrid", "work_model": "Expected to come into the San Francisco office 2 days a week", "salary_advertised": "The base salary range for this position is 180,000 - 303,600 USD.",
+      "employer_posting_date": null, "official_url": "https://job-boards.greenhouse.io/pagerduty/jobs/5841387004", "secondary_url": null, "requisition_id": "5841387004",
+      "summary": "Owns packaging architecture, feature tiering, SKU design, discount governance and the monetization platform roadmap, and leads the migration of legacy customers to new plans; reports to the VP of Product Strategy & Growth and leads a three-person team.",
+      "pricing_focus": "Seat-to-usage/platform migration; packaging; discount governance",
+      "scope_fit": "in_scope", "scope_note": "Greenhouse board last updated the job 2026-08-26; there is no posting date. Aggregator copies suggest it has been open since about April 2026.", "strategy_confidence": "High"
+    },
+    {
+      "company": "Stripe", "title": "Portfolio Pricing Strategist", "business_unit": "Pricing Strategy (Product Marketing)", "category": "Pricing",
+      "country": "United States", "city": "Anywhere", "location_note": "Location listed as US-Remote",
+      "work_mode": "Remote", "work_model": "US-Remote", "salary_advertised": "Not stated",
+      "employer_posting_date": "2026-05-04", "official_url": "https://stripe.com/jobs/search?gh_jid=7858811", "secondary_url": null, "requisition_id": "7858811",
+      "summary": "Builds frameworks for how Stripe's products are priced and packaged together: portfolio value analysis, willingness-to-pay research, pricing impact models and alignment of Finance, Legal, Product and GTM on pricing architecture.",
+      "pricing_focus": "Multi-product payments portfolio packaging",
+      "scope_fit": "borderline", "scope_note": "Strategist title with no stated level or people management; asks for 5–7 years of experience. Strategic in content but could sit below Manager. Date is the Greenhouse first-published date. URL is Stripe's own job link from its Greenhouse feed. A related 'Pricing Strategist' role (gh_jid 8187578, 3–5 years) was skipped as too junior.", "strategy_confidence": "Medium"
+    }
+  ],
+  "url_updates": [],
+  "strategy_updates": [
+    {
+      "id": null, "company": "Scotiabank", "business_unit": "Canadian Banking – Retail Deposits & Day-to-Day Banking",
+      "pricing_theme": "Building a deposit-rate and fee pricing function that uses testing to protect margin and grow non-interest revenue",
+      "current_model": "Posted GIC rate grid by term and type (cashable, non-redeemable, market-linked, $500 minimum) plus account packages with monthly fees, rebates and transaction fees; exception pricing is handled through a deposits exception pricing desk.",
+      "industry": "Banking",
+      "posting_evidence": [
+        "Two Toronto Senior Manager roles posted 2026-10-09: Pricing Strategy & Optimization (req 276112) and Day to Day Banking Fee Optimization (req 276125)",
+        "Deposit role leads the pricing meeting, carries out approved rate changes and runs pricing pilots, A/B tests and controlled rollouts; supports the Director, Pricing, Portfolio Management and ADS",
+        "Fee role owns a fee-optimization roadmap (fee structures, transaction fees, account packages, service charges, waivers) to grow non-interest revenue, using elasticity analysis",
+        "Deposit role asks for evaluation of AI/ML for pricing analytics and forecasting; a separate Manager, Pricing & Portfolio Management role runs the exception pricing desk and SmartBot tool"
+      ],
+      "news": [
+        { "date": "2026-08-25", "summary": "Scotiabank reported record Q3 2026 results; Canadian Banking earned $1,071M (up 12% year over year) on a fifth consecutive quarter of margin expansion and strong fee income growth, with ROE of 19.4%.", "source": "Scotiabank (Newswire release)", "url": "https://www.newswire.ca/news-releases/scotiabank-reports-third-quarter-results-856214963.html" }
+      ],
+      "interpretation": "Inference: after five quarters of margin expansion, Scotiabank is trying to make deposit pricing and fee pricing repeatable, test-driven disciplines rather than periodic rate-sheet decisions. Hiring two senior pricing managers on the same day suggests it is building a team rather than backfilling. The deposit role is about protecting margin as rates move and competitors run GIC specials. The fee role points to non-interest revenue as a growth lever, so candidates should expect conduct and regulatory scrutiny of any fee increases.",
+      "open_questions": ["How much pricing authority does the pricing meeting have compared with Treasury and Finance on deposit rates?", "Is the fee-optimization roadmap aimed at fee increases, repackaging accounts, or reducing waivers, and how are conduct and FCAC constraints handled?", "What testing infrastructure exists today for rate and fee experiments?"],
+      "caveat": "Interpretation rests on the postings and one earnings release; no deposit- or fee-specific pricing news from the last three months was read.",
+      "confidence": "Medium", "linked_job_refs": ["new:0", "new:2"]
+    },
+    {
+      "id": null, "company": "Scotiabank", "business_unit": "Global Transaction Banking",
+      "pricing_theme": "Repricing cash-management and operating-deposit relationships while modernizing billing",
+      "current_model": null,
+      "industry": "Banking",
+      "posting_evidence": [
+        "Director, Revenue Management, Global Transaction Banking (req 273028), Toronto, posted 2026-09-08",
+        "Leads strategic pricing, repricing and revenue optimization across GTB products, including pricing approval for cash management products and operating deposits",
+        "Leads a billing and pricing transformation: target-state billing operating model, billing infrastructure modernization, billing standards and controls",
+        "People leader; requires 5+ years of management experience and an understanding of GTB product financials and P&L levers"
+      ],
+      "news": [],
+      "interpretation": "Inference: GTB appears to be treating pricing as a revenue lever and fixing billing leakage at the same time. Pairing repricing with billing modernization usually means fee schedules and exceptions have drifted and are not enforced consistently in billing systems. The role is likely part commercial (approving and repricing client relationships) and part transformation lead (billing operating model), so change-management skills will matter as much as pricing analytics.",
+      "open_questions": ["Where does pricing approval authority sit today: relationship managers, product, or this team?", "How much revenue leakage from unbilled or mis-billed services is believed to exist?", "Does the mandate cover only Canada or GTB's Latin American footprint as well?"],
+      "caveat": "Based on the posting alone; no GTB pricing news or published fee schedules were found.",
+      "confidence": "Medium", "linked_job_refs": ["new:1"]
+    },
+    {
+      "id": null, "company": "Wawanesa Insurance", "business_unit": "Commercial Actuarial Pricing",
+      "pricing_theme": "Making commercial auto rate-making more sophisticated",
+      "current_model": null,
+      "industry": "Insurance",
+      "posting_evidence": [
+        "Manager, Actuarial Commercial Auto Pricing (job ID 10363), posted 2026-10-02, hybrid in Montreal and 13 other Canadian cities; $140,000–$160,000 estimated range",
+        "Leads pricing reviews for all commercial auto products 'with a focus on improving pricing sophistication' and recommends strategies that vary by product type and regulatory framework",
+        "Prepares regulatory rate filings, designs new pricing models and tools, and manages direct reports; the Director, Commercial Actuarial Pricing assigns special projects",
+        "Several other Wawanesa actuarial pricing roles are open at the same time (pricing modelling, Alberta auto pricing), alongside the tracked Director, Direct Venture Pricing role"
+      ],
+      "news": [],
+      "interpretation": "Inference: Wawanesa is rebuilding its actuarial pricing capability across lines; the careers site shows a cluster of pricing-modelling and auto-pricing roles opened in September–October 2026. For commercial auto, 'pricing sophistication' usually means more rating variables and model-based segmentation, which suggests a shift from manual or legacy rating to model-driven rating. The role is technical and regulatory, closer to actuarial than to commercial pricing strategy.",
+      "open_questions": ["Is an actuarial designation effectively required despite being listed as an asset?", "Which provinces' commercial auto filings are the priority, and how does the regulatory framework constrain rate changes?"],
+      "caveat": "No company pricing news was found; the interpretation rests on this posting and the visible cluster of related openings.",
+      "confidence": "Low", "linked_job_refs": ["new:3"]
+    },
+    {
+      "id": null, "company": "Intuit", "business_unit": "Business platform (QuickBooks, Payroll, Payments, Mailchimp)",
+      "pricing_theme": "Raising QuickBooks prices and bundling AI into tiers, while testing new models for AI agents",
+      "current_model": "QuickBooks Online (US pricing page, read 2026-10-14): Free $0 (1 user), Simple Start $38/mo, Essentials $85/mo (3 users), Plus $140/mo (5 users), Advanced $340/mo (25 users), each with a 50%-off-for-3-months promo; AI features are bundled by tier; ACH bill pay has a $0.50 overage fee beyond monthly allotments; payroll is an add-on.",
+      "industry": "Software",
+      "posting_evidence": [
+        "Principal, Monetization Strategy (job ID 22644), Mountain View or Atlanta; base $222,000–$300,500; no posting date shown",
+        "Owns pricing and packaging across QuickBooks, Payroll, Payments, Mailchimp and Intuit Intelligence: tiering, good/better/best design, price points, discount logic and guardrails",
+        "Explicit mandate to design and test subscription, consumption-based and outcome-based models for AI and platform capabilities",
+        "Analytical toolkit named: willingness-to-pay studies, elasticity, conjoint, A/B price tests, demand modelling; player-coach mentoring pricing analysts; 10+ years required"
+      ],
+      "news": [
+        { "date": "2026-08-25", "summary": "Intuit reported fiscal 2026 results (revenue $21.4B, up 14%) and guided fiscal 2027 growth to 9–10%; online ARPC growth was 15% for fiscal 2026 against 3% growth in online paying customers, QuickBooks Free passed 20,000 customers, and the three-year growth target for Global Business Solutions was reset to 10–15%.", "source": "Trefis (analysis of Intuit's Q4 FY2026 results, published 2026-08-28)", "url": "https://www.trefis.com/articles/613541/intuits-real-problem-is-not-on-its-income-statement/2026-08-28" },
+        { "date": "2026-08-17", "summary": "A third-party guide reports QuickBooks Online increases of about 17–25% effective May 1, 2026 and a further adjustment on August 1, 2026, with Payroll up about 20%; Intuit's own pricing page now shows higher list prices than the guide ($38/$85/$140/$340).", "source": "Beancount.io blog", "url": "https://beancount.io/blog/2026/08/17/quickbooks-online-price-hike-2026-migrate-before-renewal-guide" }
+      ],
+      "interpretation": "Intuit's growth now depends on price and mix rather than customer count: ARPC grew 15% while paying customers grew only 3%. That puts the price-increase strategy under pressure as growth guidance falls. Inference: this role is meant to find the next monetization lever beyond list-price increases, namely consumption- or outcome-based pricing for AI agents, plus a Free tier funnel that converts to paid. Expect scrutiny of churn and of the price-value story, since Intuit already concedes it lost price-sensitive TurboTax customers to cheaper rivals.",
+      "open_questions": ["Will AI agent capabilities be metered separately or kept inside tier bundles?", "How is churn after the 2026 QuickBooks increases being measured, and does it constrain further increases?", "How does this role divide work with the existing Global Business Solutions pricing team?"],
+      "caveat": "Price-increase history comes from a third-party blog whose figures conflict with Intuit's current page; Intuit's own call transcript was not read.",
+      "confidence": "Medium", "linked_job_refs": ["new:4"]
+    },
+    {
+      "id": null, "company": "PagerDuty", "business_unit": "Product Strategy & Growth (Product Development)",
+      "pricing_theme": "Moving from per-seat incident management to a platform fee plus credits",
+      "current_model": "Per its pricing page (read 2026-10-14): PD Reliability Platform tiers with an annual platform fee and bundled seats, events and AI actions: Starter $2,800/yr (10 seats), Essential $12,000/yr (20 seats), Plus $48,000/yr (50 seats), Ultimate custom; extra usage via prepaid credit packs that expire annually. Legacy Incident Management: Free (5 users) and Professional at $21/user/month annual ($25 monthly); AIOps and Advance still sold as add-ons.",
+      "industry": "Software",
+      "posting_evidence": [
+        "Director of Pricing & Monetization, San Francisco hybrid (2 days a week in office), base $180,000–$303,600",
+        "Reports to the VP of Product Strategy & Growth inside Product Development; inherits a Pricing Analyst, a Pricing Manager (SKU migrations) and a Technical PM / Monetization Ops role",
+        "Mandate: packaging architecture, feature tiering and entitlements, SKU design and experiments, discount governance, the monetization platform roadmap, and migrating legacy customers to the new plans",
+        "Prefers experience of a transition to usage-based pricing and of scaling toward $1B+ ARR"
+      ],
+      "news": [
+        { "date": "2026-08-27", "summary": "PagerDuty reported Q2 FY2027 revenue of $124.4M (up 0.8%), ARR of $501M and dollar-based net retention of 98%, guided FY2027 revenue to $491.5–496.5M, and cited a recent restructuring and AI-agent product upgrades.", "source": "PagerDuty", "url": "https://www.pagerduty.com/newsroom/pagerduty-announces-second-quarter-fiscal-2027-financial-results/" }
+      ],
+      "interpretation": "With revenue flat and net retention below 100%, PagerDuty is using packaging to restart expansion: moving seat-based customers onto a platform fee with bundled AI actions and credits. The posting confirms the migration of legacy customers is the main job and that the team must move 'from execution support to strategic'. Inference: the hire will be judged on migration uplift and on stopping seat contraction, under a new CEO and after a roughly 15% workforce reduction, so pricing decisions will be closely watched by leadership.",
+      "open_questions": ["What share of the base is already on the Reliability Platform, and is migration forced at renewal or optional?", "How are AI actions and credits priced relative to seats, and how much overage revenue is expected?", "Does the new leadership team want price realization or adoption-led expansion first?"],
+      "caveat": "The earnings release does not discuss pricing; the link between packaging and net retention is inference.",
+      "confidence": "High", "linked_job_refs": ["new:5"]
+    },
+    {
+      "id": null, "company": "Stripe", "business_unit": "Pricing Strategy (Product Marketing)",
+      "pricing_theme": "Pricing and packaging a growing multi-product portfolio (payments, Billing, Tax, usage billing) as a coherent set",
+      "current_model": "Per its Canadian pricing page (read 2026-10-14): cards at 2.9% + CA$0.30 domestic, +0.8% international, +2% currency conversion; Billing pay-as-you-go 0.7% of billing volume or from CA$770/mo on contract; Tax Basic 0.5% per transaction; Connect from 0.25%; Metronome usage billing from US$0.04 per 1,000 events plus 0.8% of billing volume; IC+ and volume or multi-product discounts on custom pricing.",
+      "industry": "Software",
+      "posting_evidence": [
+        "Portfolio Pricing Strategist, US-Remote, first published 2026-05-04 and still listed (updated 2026-10-07); 5–7 years of experience",
+        "Pricing Strategy team sits in Product Marketing (department '6447 Product Pricing') and works with Product, Finance and Sales",
+        "Mandate: frameworks for how products are priced and packaged together, willingness-to-pay research, impact models for revenue, margin and user behaviour, internal pricing playbooks",
+        "Other pricing openings run in parallel: Pricing Strategist (SSF/NYC), Product Marketing Manager, Portfolio Pricing, Deal Pricing roles, Pricing Activation Specialist"
+      ],
+      "news": [
+        { "date": "2026-10-01", "summary": "Stripe cut standard Australian domestic card fees from 1.70% to 1.65% (+A$0.30 online, +A$0.10 in person) from October 1, 2026, and will cut international card fees from 3.50% to 2.80% from April 1, 2027, passing on lower interchange caps set by the Reserve Bank of Australia (the support page gives no publication date).", "source": "Stripe Support", "url": "https://support.stripe.com/questions/updates-to-card-pricing-in-australia-from-october-2026" }
+      ],
+      "interpretation": "Inference: Stripe is staffing portfolio-level pricing because its product set (payments, Billing, Tax, Connect and now Metronome usage billing) is sold increasingly as a bundle, and standalone list prices invite margin leakage through discounts. The number of parallel pricing and deal-pricing openings suggests a maturing pricing organization with separate tracks for list pricing, portfolio packaging and deal pricing. The Australian cut shows payments pricing still follows regulation, so the room for value-based pricing lies mainly in software products and bundles.",
+      "open_questions": ["Is portfolio pricing meant to drive multi-product discounts or to increase attach rates at list price?", "How is Metronome being packaged alongside Stripe Billing?", "What decision rights does Product Marketing's pricing team have relative to Deal Pricing and Finance?"],
+      "caveat": "Pricing figures come from the Canadian page, not US pricing; only one pricing news item was read and it is regulation-driven.",
+      "confidence": "Medium", "linked_job_refs": ["new:6"]
+    }
+  ],
+  "people": [
+    {
+      "name": "John DiLullo", "title": "Chief Executive Officer", "company": "PagerDuty", "contact_type": "relevant_contact",
+      "relationship": "CEO of the company; executive above the Product Strategy & Growth organization the role reports into", "relevance": "Newly appointed CEO whose priorities after the restructuring will shape packaging and monetization decisions for this role.",
+      "opportunity_ref": "new:5", "linkedin_profile": null,
+      "verification": "Named as newly appointed CEO in PagerDuty's Q2 FY2027 results coverage", "evidence_url": "https://www.pagerduty.com/newsroom/pagerduty-announces-second-quarter-fiscal-2027-financial-results/",
+      "found_via": "PagerDuty Q2 FY2027 results (search summary of release dated 2026-08-27), read 2026-10-14", "notes": "Not the hiring manager; the role reports to the VP of Product Strategy & Growth, who is not named in the posting."
+    }
+  ],
+  "notes": "Canada: Scotiabank (3 roles) and Wawanesa found by scanning employer careers sites directly; many Canadian leads were already removed (Clutch, KEV, Instacart, Aylo, Alimentiv, Molson Coors, TD AMG, Scotiabank ICB). Colombia: no new eligible roles; elempleo pricing, RGM and revenue pages showed only analyst, RevOps or already-tracked Natura listings (Holcim revenue specialist is 1-year-experience, Diageo Bogotá RGM Manager found only on The Muse with a dead link). Colombia CPG watchlist was checked by web search only, not each careers site. Task 2: no employer postings found for C.A.T., Alegra, Mercado Libre, Softys, Coke Canada, Belron JR71565 or HighLevel. Skipped: Scotiabank Manager, Pricing & Portfolio Management (analyst-like), Stripe Pricing Strategist (3–5 yrs), Stripe Deal Pricing ops lead (ops, not pricing)."
+}

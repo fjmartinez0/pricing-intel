@@ -62,5 +62,21 @@
     "found_via": "Valora Analitik (Mar 26, 2026)",
     "first_seen": "2026-10-10",
     "notes": "Profile not looked up; LinkedIn is not opened automatically."
+  },
+  {
+    "id": "PERSON-0005",
+    "name": "John DiLullo",
+    "title": "Chief Executive Officer",
+    "company": "PagerDuty",
+    "contact_type": "relevant_contact",
+    "relationship": "CEO of the company; executive above the Product Strategy & Growth organization the role reports into",
+    "relevance": "Newly appointed CEO whose priorities after the restructuring will shape packaging and monetization decisions for this role.",
+    "opportunity_id": "JOB-0054",
+    "linkedin_profile": null,
+    "verification": "Named as newly appointed CEO in PagerDuty's Q2 FY2027 results coverage",
+    "evidence_url": "https://www.pagerduty.com/newsroom/pagerduty-announces-second-quarter-fiscal-2027-financial-results/",
+    "found_via": "PagerDuty Q2 FY2027 results (search summary of release dated 2026-08-27), read 2026-10-14",
+    "first_seen": "2026-10-14",
+    "notes": "Not the hiring manager; the role reports to the VP of Product Strategy & Growth, who is not named in the posting."
   }
 ]
