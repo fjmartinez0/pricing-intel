@@ -41,6 +41,7 @@ def new_roles(before, after):
     old_ids = {j["id"] for j in before}
     return [j for j in after if j["id"] not in old_ids
             and j.get("country") in c.CORE_COUNTRIES
+            and j.get("level_band", "manager_plus") != "analyst"
             and j.get("lifecycle_status") not in ("inactive", "closed")]
 
 

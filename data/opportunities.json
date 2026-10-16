@@ -28,7 +28,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Remote",
-    "location_note": "Remote anywhere in Canada; occasional travel to Toronto"
+    "location_note": "Remote anywhere in Canada; occasional travel to Toronto",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0002",
@@ -59,7 +61,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Hybrid",
-    "location_note": "3 days a week in office; must be based in Canada"
+    "location_note": "3 days a week in office; must be based in Canada",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0003",
@@ -94,7 +98,9 @@
       "id": "8122634"
     },
     "work_mode": "Hybrid",
-    "location_note": "Toronto office or remote within the Toronto region"
+    "location_note": "Toronto office or remote within the Toronto region",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0004",
@@ -125,7 +131,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "In person",
-    "location_note": "Office-based"
+    "location_note": "Office-based",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0005",
@@ -156,7 +164,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "In person",
-    "location_note": "Office-based"
+    "location_note": "Office-based",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0006",
@@ -187,7 +197,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Unknown",
-    "location_note": null
+    "location_note": null,
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0007",
@@ -220,7 +232,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Unknown",
-    "location_note": null
+    "location_note": null,
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0008",
@@ -251,7 +265,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Hybrid",
-    "location_note": "Also North York, Kitchener, Ottawa, Calgary, Edmonton, Vancouver, Winnipeg, Moncton, Dartmouth; 2 days or 15 hours a week in office"
+    "location_note": "Also North York, Kitchener, Ottawa, Calgary, Edmonton, Vancouver, Winnipeg, Moncton, Dartmouth; 2 days or 15 hours a week in office",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0009",
@@ -284,7 +300,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "In person",
-    "location_note": "In-office per Built In listing; official posting does not say"
+    "location_note": "In-office per Built In listing; official posting does not say",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0010",
@@ -318,7 +336,9 @@
     "check": null,
     "work_mode": "Remote",
     "location_note": "Primarily remote per an earlier listing; not reconfirmed",
-    "close_reason": "closed"
+    "close_reason": "closed",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0011",
@@ -352,7 +372,9 @@
     "check": null,
     "work_mode": "Remote",
     "location_note": "Remote from Montreal with monthly travel, per an earlier listing",
-    "close_reason": "unconfirmed"
+    "close_reason": "unconfirmed",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0012",
@@ -384,7 +406,9 @@
     "check": null,
     "work_mode": "Remote",
     "location_note": "Remote in Canada, per secondary listings",
-    "close_reason": "removed"
+    "close_reason": "removed",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0013",
@@ -415,7 +439,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Hybrid",
-    "location_note": "Official posting gives no city; earlier tracker recorded Montreal"
+    "location_note": "Official posting gives no city; earlier tracker recorded Montreal",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0014",
@@ -448,7 +474,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Unknown",
-    "location_note": null
+    "location_note": null,
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0015",
@@ -481,7 +509,9 @@
     "inactive_date": "2026-10-10",
     "check": null,
     "work_mode": "Hybrid",
-    "location_note": "Hybrid per an earlier listing"
+    "location_note": "Hybrid per an earlier listing",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0016",
@@ -514,7 +544,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Remote",
-    "location_note": "Must reside in or hold a work permit for Colombia, Mexico or Peru"
+    "location_note": "Must reside in or hold a work permit for Colombia, Mexico or Peru",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0017",
@@ -545,7 +577,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Unknown",
-    "location_note": "Occasional global travel"
+    "location_note": "Occasional global travel",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0018",
@@ -578,7 +612,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Hybrid",
-    "location_note": "Hybrid per Adecco listing; official posting does not say"
+    "location_note": "Hybrid per Adecco listing; official posting does not say",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0019",
@@ -609,7 +645,9 @@
     "inactive_date": "2026-10-12",
     "check": null,
     "work_mode": "Hybrid",
-    "location_note": null
+    "location_note": null,
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0020",
@@ -641,7 +679,9 @@
     "check": null,
     "work_mode": "Unknown",
     "location_note": null,
-    "close_reason": "removed"
+    "close_reason": "removed",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0021",
@@ -672,7 +712,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Unknown",
-    "location_note": null
+    "location_note": null,
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0022",
@@ -703,7 +745,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Unknown",
-    "location_note": null
+    "location_note": null,
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0023",
@@ -735,7 +779,9 @@
     "check": null,
     "work_mode": "Unknown",
     "location_note": null,
-    "close_reason": "unconfirmed"
+    "close_reason": "unconfirmed",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-H001",
@@ -766,7 +812,9 @@
     "inactive_date": "2026-10-06",
     "check": null,
     "work_mode": "Unknown",
-    "location_note": null
+    "location_note": null,
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-H002",
@@ -797,7 +845,9 @@
     "inactive_date": "2026-10-06",
     "check": null,
     "work_mode": "Unknown",
-    "location_note": null
+    "location_note": null,
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0024",
@@ -828,7 +878,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Unknown",
-    "location_note": null
+    "location_note": null,
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0025",
@@ -859,7 +911,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Remote",
-    "location_note": "Remote in many US states; Seattle hybrid option"
+    "location_note": "Remote in many US states; Seattle hybrid option",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0026",
@@ -894,7 +948,9 @@
       "id": "4021000009"
     },
     "work_mode": "Hybrid",
-    "location_note": null
+    "location_note": null,
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0027",
@@ -929,7 +985,9 @@
       "id": "7904943"
     },
     "work_mode": "Hybrid",
-    "location_note": "Also Atlanta, Chicago, Phoenix, Las Vegas"
+    "location_note": "Also Atlanta, Chicago, Phoenix, Las Vegas",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0028",
@@ -964,7 +1022,9 @@
       "id": "7904943"
     },
     "work_mode": "Remote",
-    "location_note": "Same posting also lists seven US cities"
+    "location_note": "Same posting also lists seven US cities",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0029",
@@ -995,7 +1055,9 @@
     "inactive_date": "2026-10-12",
     "check": null,
     "work_mode": "Hybrid",
-    "location_note": null
+    "location_note": null,
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0030",
@@ -1026,7 +1088,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "In person",
-    "location_note": null
+    "location_note": null,
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0031",
@@ -1057,7 +1121,9 @@
     "inactive_date": "2026-10-12",
     "check": null,
     "work_mode": "Hybrid",
-    "location_note": null
+    "location_note": null,
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0032",
@@ -1088,7 +1154,9 @@
     "inactive_date": "2026-10-12",
     "check": null,
     "work_mode": "Remote",
-    "location_note": null
+    "location_note": null,
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0033",
@@ -1123,7 +1191,9 @@
       "id": "7078821"
     },
     "work_mode": "Remote",
-    "location_note": "Remote; must be based in Colombia; occasional travel"
+    "location_note": "Remote; must be based in Colombia; occasional travel",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0034",
@@ -1154,7 +1224,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Hybrid",
-    "location_note": null
+    "location_note": null,
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0035",
@@ -1185,7 +1257,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Hybrid",
-    "location_note": "Initial posting close date Oct 16, 2026"
+    "location_note": "Initial posting close date Oct 16, 2026",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0036",
@@ -1216,7 +1290,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Remote",
-    "location_note": "Remote - US; not eligible to be hired in CA, CT, NJ, NY, PA, WA; occasional travel"
+    "location_note": "Remote - US; not eligible to be hired in CA, CT, NJ, NY, PA, WA; occasional travel",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0037",
@@ -1247,7 +1323,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Remote",
-    "location_note": "Remote - US; not eligible to be hired in CA, CT, NJ, NY, PA, WA (posting is internally inconsistent on eligible states); occasional travel"
+    "location_note": "Remote - US; not eligible to be hired in CA, CT, NJ, NY, PA, WA (posting is internally inconsistent on eligible states); occasional travel",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0038",
@@ -1278,7 +1356,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Remote",
-    "location_note": "Posting flagged remote; work persona 'Flexible or Remote'"
+    "location_note": "Posting flagged remote; work persona 'Flexible or Remote'",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0039",
@@ -1309,7 +1389,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Unknown",
-    "location_note": "Posting flagged remote; work persona 'Flexible'"
+    "location_note": "Posting flagged remote; work persona 'Flexible'",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0040",
@@ -1340,7 +1422,9 @@
     "inactive_date": "2026-10-13",
     "check": null,
     "work_mode": "Remote",
-    "location_note": "Posting flagged remote; work persona 'Flexible or Remote'"
+    "location_note": "Posting flagged remote; work persona 'Flexible or Remote'",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0041",
@@ -1371,7 +1455,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Remote",
-    "location_note": "Remote - United States"
+    "location_note": "Remote - United States",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0042",
@@ -1402,7 +1488,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Unknown",
-    "location_note": "Also Herndon VA, New York NY, Washington DC, Chicago IL; up to 10% travel"
+    "location_note": "Also Herndon VA, New York NY, Washington DC, Chicago IL; up to 10% travel",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0043",
@@ -1433,7 +1521,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Hybrid",
-    "location_note": "Posting also lists Montreal, Ottawa, Saint John, Bedford and Halifax; must be based in Canada; adequate French required for Quebec positions; application deadline 2026-10-20"
+    "location_note": "Posting also lists Montreal, Ottawa, Saint John, Bedford and Halifax; must be based in Canada; adequate French required for Quebec positions; application deadline 2026-10-20",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0044",
@@ -1464,7 +1554,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "In person",
-    "location_note": "Posting also lists Toronto; up to 10% travel"
+    "location_note": "Posting also lists Toronto; up to 10% travel",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0045",
@@ -1495,7 +1587,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Hybrid",
-    "location_note": null
+    "location_note": null,
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0046",
@@ -1526,7 +1620,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Remote",
-    "location_note": "Location listed only as 'US'"
+    "location_note": "Location listed only as 'US'",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0047",
@@ -1557,7 +1653,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Remote",
-    "location_note": null
+    "location_note": null,
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0048",
@@ -1588,7 +1686,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Remote",
-    "location_note": "Some aggregator copies list the location as worldwide; Built In says hiring in the United States"
+    "location_note": "Some aggregator copies list the location as worldwide; Built In says hiring in the United States",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0049",
@@ -1619,7 +1719,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Unknown",
-    "location_note": null
+    "location_note": null,
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0050",
@@ -1650,7 +1752,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Unknown",
-    "location_note": null
+    "location_note": null,
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0051",
@@ -1681,7 +1785,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Unknown",
-    "location_note": null
+    "location_note": null,
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0052",
@@ -1712,7 +1818,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Hybrid",
-    "location_note": "Also listed as hybrid in North York (Toronto), Ottawa, Thunder Bay, Kitchener, Calgary, Edmonton, Lethbridge, Lloydminster, Winnipeg, Wawanesa MB, Vancouver, Moncton and Dartmouth; working language English"
+    "location_note": "Also listed as hybrid in North York (Toronto), Ottawa, Thunder Bay, Kitchener, Calgary, Edmonton, Lethbridge, Lloydminster, Winnipeg, Wawanesa MB, Vancouver, Moncton and Dartmouth; working language English",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0053",
@@ -1743,7 +1851,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Unknown",
-    "location_note": "Also Atlanta, GA"
+    "location_note": "Also Atlanta, GA",
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0054",
@@ -1774,7 +1884,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Hybrid",
-    "location_note": null
+    "location_note": null,
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0055",
@@ -1805,7 +1917,9 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Unknown",
-    "location_note": null
+    "location_note": null,
+    "level_band": "manager_plus",
+    "level": null
   },
   {
     "id": "JOB-0056",
@@ -1836,6 +1950,8 @@
     "inactive_date": null,
     "check": null,
     "work_mode": "Hybrid",
-    "location_note": "The same role is also posted for San Francisco (Greenhouse job 8192072); hybrid at either office"
+    "location_note": "The same role is also posted for San Francisco (Greenhouse job 8192072); hybrid at either office",
+    "level_band": "manager_plus",
+    "level": null
   }
 ]

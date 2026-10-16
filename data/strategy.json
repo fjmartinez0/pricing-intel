@@ -565,7 +565,8 @@
       "Which hotel group is hiring?",
       "Is a revenue-management system in place or planned?"
     ],
-    "analysis_status": "analyzed"
+    "analysis_status": "excluded",
+    "excluded_reason": "Employer not named"
   },
   {
     "id": "STR-0019",

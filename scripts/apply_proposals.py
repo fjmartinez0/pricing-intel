@@ -17,7 +17,7 @@ URL_RE = re.compile(r"https?://\S+")
 JOB_FIELDS = ["company", "title", "business_unit", "category", "country", "city", "work_model", "work_mode", "location_note",
               "salary_advertised", "employer_posting_date", "official_url", "secondary_url",
               "requisition_id", "summary", "pricing_focus", "scope_fit", "scope_note",
-              "strategy_confidence"]
+              "strategy_confidence", "level_band", "level"]
 
 
 def clean(v):
@@ -58,6 +58,14 @@ def validate_job(p):
         errs.append("bad country %r" % p.get("country"))
     if p.get("scope_fit", "in_scope") not in c.SCOPE_FIT:
         errs.append("bad scope_fit")
+    band = p.get("level_band") or "manager_plus"
+    if band not in c.LEVEL_BANDS:
+        errs.append("bad level_band %r" % band)
+    if band == "analyst":
+        if p.get("country") not in c.ANALYST_COUNTRIES:
+            errs.append("analyst-level roles are tracked for Canada and Colombia only")
+        if p.get("level") not in c.ANALYST_LEVELS:
+            errs.append("analyst-level role needs level in %s" % ", ".join(c.ANALYST_LEVELS))
     if not (is_url(p.get("official_url")) or is_url(p.get("secondary_url"))):
         errs.append("no job-level URL")
     for f in ["official_url", "secondary_url"]:
@@ -114,6 +122,9 @@ def main():
                    verification_note="Found by discovery %s; awaiting check" % run_date,
                    repost_count=0, last_active=None, inactive_date=None)
         job["scope_fit"] = job.get("scope_fit") or "in_scope"
+        job["level_band"] = job.get("level_band") or "manager_plus"
+        if job["level_band"] == "manager_plus":
+            job["level"] = job.get("level") or None
         job["salary_advertised"] = job.get("salary_advertised") or "Not stated"
         job["work_model"] = job.get("work_model") or "Not stated"
         if job.get("work_mode") not in c.WORK_MODES:
@@ -162,6 +173,9 @@ def main():
         detailed = bool(s.get("interpretation")) and len(s["posting_evidence"]) >= 2
         linked = [ref_map.get(r, r) for r in (s.get("linked_job_refs") or [])]
         linked = [r for r in linked if r in by_id or r in ref_map.values()]
+        if c.is_confidential(s.get("company")):
+            log.append("REJECTED strategy for %s (employer not named)" % s.get("company"))
+            continue
         countries = {by_id[r]["country"] for r in linked if r in by_id}
         if countries == {"United States"} and c.norm(s.get("industry")) not in ("software", "saas"):
             log.append("REJECTED strategy for %s (US analyses are for software companies only)" % s.get("company"))
@@ -174,6 +188,9 @@ def main():
                            and c.norm(x["business_unit"]) == c.norm(s.get("business_unit"))), None)
         if s.get("confidence") not in c.CONFIDENCE:
             s["confidence"] = None
+        if target and target.get("analysis_status") == "excluded":
+            log.append("SKIPPED strategy %s (excluded: %s)" % (target["id"], target.get("excluded_reason")))
+            continue
         if target:
             if not detailed and target.get("analysis_status") == "analyzed":
                 target["linked_job_ids"] = sorted(set(target["linked_job_ids"]) | set(linked))

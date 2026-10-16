@@ -25,11 +25,16 @@ or RGM as the explicit core of the role: Pricing, Monetization, Revenue Manageme
 Management, RGM, Tarification, Monétisation, Gestion des revenus, Precios, Pricing, Monetización,
 Gestión de ingresos, Revenue Growth Management. Include CPG and hospitality RGM.
 
-Seniority: strategic Associate, Manager, Senior Manager, Associate Director, Director, Head of.
-Exclude Analyst roles, and exclude analyst-like Associates/Specialists. Judge the actual
-responsibilities, not just the title. If a role is plausible but the level is uncertain
-(Specialist, Especialista, Coordinador, Senior Advisor, Lead), include it with
-`"scope_fit": "borderline"` and explain in `scope_note`.
+Seniority, two bands. Judge the actual responsibilities, not just the title.
+- `"level_band": "manager_plus"` (main tabs, phone alerts): strategic Associate, Manager, Senior
+  Manager, Associate Director, Director, Head of. All three countries.
+- `"level_band": "analyst"` (All Roles tab, no alerts): Analyst, Senior Analyst, Specialist,
+  Coordinator (Analista, Especialista, Coordinador, Analyste, Conseiller). Canada and Colombia only;
+  never for the United States. Set `level` to exactly one of "Analyst", "Senior Analyst",
+  "Specialist", "Coordinator". Exclude interns, trainees, assistants and auxiliary roles
+  (practicante, aprendiz, auxiliar, asistente, stagiaire).
+Search for analyst-level pricing roles as part of the same Canada and Colombia searches; they
+follow the same rules on official links, verification, salary and dates.
 
 Exclude merely adjacent roles (commercial strategy, growth, product, RevOps, FP&A, deal desk)
 unless pricing/monetization/RGM is explicitly the core.
@@ -119,6 +124,8 @@ read in full, and for analyzed companies with material new news. Fields:
 - `industry`: e.g. "Software", "CPG", "Telecom". For companies whose only roles are in the United
   States, write an analysis only if the company is a software or SaaS company (industry "Software");
   the merge step rejects other US-only analyses.
+- Never write an analysis for an unnamed employer ("Confidential", "Empresa confidencial"); the
+  merge step rejects it. Their roles still belong in `new_opportunities`.
 - URLs only inside `news[].url`, nowhere else in strategy fields.
 - `linked_job_refs`: existing IDs (e.g. "JOB-0009") and/or "new:N", where N is the index of the
   role in your `new_opportunities` array.
@@ -151,7 +158,8 @@ Always write the file, even if you found nothing (use empty arrays). Write valid
       "work_mode": "Remote|Hybrid|In person|Unknown", "work_model": "", "salary_advertised": "",
       "employer_posting_date": null, "official_url": null, "secondary_url": null, "requisition_id": null,
       "summary": "one sentence on what the role owns", "pricing_focus": "short theme",
-      "scope_fit": "in_scope|borderline", "scope_note": null, "strategy_confidence": "High|Medium|Low"
+      "level_band": "manager_plus|analyst", "level": null,
+      "scope_fit": "in_scope", "scope_note": null, "strategy_confidence": "High|Medium|Low"
     }
   ],
   "url_updates": [ { "id": "JOB-0000", "official_url": "", "requisition_id": null, "note": "" } ],

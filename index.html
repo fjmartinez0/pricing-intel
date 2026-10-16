@@ -119,6 +119,15 @@ td.c-status .chip{margin:0 2px 4px 0}
 td.c-checked,td.c-last_active,td.c-inactive_date{white-space:nowrap}
 td.c-links{white-space:nowrap;font-weight:600}
 td.c-links a{display:inline-block;padding:1px 0}
+table.jobs.companies{min-width:860px}
+table.jobs.allroles{min-width:980px}
+td.num{text-align:right;font-variant-numeric:tabular-nums;width:100px}
+.caret{display:inline-block;width:12px;color:var(--ink-3)}
+tr.nested td{background:var(--paper);padding:6px 12px 14px 34px}
+table.inner{width:100%;border-collapse:collapse;font-size:13px}
+table.inner th{text-align:left;font-weight:600;color:var(--ink-3);padding:6px 10px;border-bottom:1px solid var(--rule)}
+table.inner td{padding:7px 10px;border-top:1px solid var(--rule);background:transparent;vertical-align:top}
+table.inner tr:first-child td{border-top:0}
 .hint{font-size:13px;color:var(--ink-3);margin:8px 2px 0;max-width:90ch}
 .hint.thin{margin-top:20px}
 td .sub{display:block;font-size:13px;color:var(--ink-3)}
@@ -178,6 +187,8 @@ footer{color:var(--ink-3);font-size:13px;padding:32px 0 48px;max-width:75ch}
     <button role="tab" data-view="co" aria-selected="false">Colombia<small id="n-co"></small></button>
     <button role="tab" data-view="us" aria-selected="false">United States<small id="n-us"></small></button>
     <button role="tab" data-view="gr" aria-selected="false" hidden>Global remote<small id="n-gr"></small></button>
+    <button role="tab" data-view="allroles" aria-selected="false">All Roles<small id="n-allroles"></small></button>
+    <button role="tab" data-view="companies" aria-selected="false">Companies<small id="n-companies"></small></button>
     <button role="tab" data-view="strategy" aria-selected="false">Strategy<small id="n-strategy"></small></button>
     <button role="tab" data-view="people" aria-selected="false">People<small id="n-people"></small></button>
     <button role="tab" data-view="closed" aria-selected="false">Closed<small id="n-closed"></small></button>
@@ -189,6 +200,16 @@ footer{color:var(--ink-3);font-size:13px;padding:32px 0 48px;max-width:75ch}
       <button aria-pressed="false" data-v="Canada">Canada</button>
       <button aria-pressed="false" data-v="Colombia">Colombia</button>
       <button aria-pressed="false" data-v="United States">United States</button>
+    </div>
+    <div class="seg" role="group" aria-label="Country" id="f-cc" hidden>
+      <button aria-pressed="true" data-v="">Canada and Colombia</button>
+      <button aria-pressed="false" data-v="Canada">Canada</button>
+      <button aria-pressed="false" data-v="Colombia">Colombia</button>
+    </div>
+    <div class="seg" role="group" aria-label="Level" id="f-band" hidden>
+      <button aria-pressed="true" data-v="">All levels</button>
+      <button aria-pressed="false" data-v="manager_plus">Manager and above</button>
+      <button aria-pressed="false" data-v="analyst">Analyst to Specialist</button>
     </div>
     <div class="seg" role="group" aria-label="Contact type" id="f-ptype" hidden>
       <button aria-pressed="true" data-v="">All</button>
@@ -240,10 +261,17 @@ function statusChip(j){
 }
 
 const COUNTRY_VIEW = {ca:"Canada", co:"Colombia", us:"United States", gr:"Global remote"};
-const verified = c => S.jobs.filter(j => j.lifecycle_status === "active" && j.country === c);
+const band = j => j.level_band || "manager_plus";
+const verified = c => S.jobs.filter(j => j.lifecycle_status === "active" && j.country === c && band(j) === "manager_plus");
+const CC = ["Canada","Colombia"];
+const inCC = j => CC.includes(j.country) && (!S.cc || j.country === S.cc);
+const isConf = name => /confiden|undisclosed|anonym/i.test(name || "");
+const postedOrSeen = j => (j.employer_posting_date || j.first_seen || "").slice(0, 10);
+const levelLabel = j => band(j) === "analyst" ? (j.level || "Analyst") : "Manager and above";
+const everVerified = j => j.lifecycle_status !== "unable_to_verify" || !!j.last_verified_active;
 function renderTags(){
   const n = Object.fromEntries(Object.entries(COUNTRY_VIEW).map(([v, c]) => [v, verified(c).length]));
-  const fresh = S.jobs.filter(j => j.lifecycle_status === "active" && isNew(j)).length;
+  const fresh = S.jobs.filter(j => j.lifecycle_status === "active" && isNew(j) && band(j) === "manager_plus").length;
   $("#tags").innerHTML = `
     <button class="tag" data-go="ca"><b>${n.ca}</b><span>Canada</span></button>
     <button class="tag" data-go="co"><b>${n.co}</b><span>Colombia</span></button>
@@ -252,7 +280,7 @@ function renderTags(){
   $("#tags").querySelectorAll("button").forEach(b => b.onclick = () => {
     S.q = ""; $("#f-q").value = ""; S.newOnly = !!b.dataset.new;
     if (b.dataset.go) return setView(b.dataset.go);
-    const first = Object.keys(COUNTRY_VIEW).find(v => S.jobs.some(j => j.lifecycle_status === "active" && isNew(j) && j.country === COUNTRY_VIEW[v]));
+    const first = Object.keys(COUNTRY_VIEW).find(v => S.jobs.some(j => j.lifecycle_status === "active" && isNew(j) && band(j) === "manager_plus" && j.country === COUNTRY_VIEW[v]));
     setView(first || S.view);
   });
   $("#lede").textContent = `Verified pricing, monetization and RGM roles in Canada, Colombia and the United States, and what the hiring says about each company's pricing strategy. Last updated ${fmtStamp(S.meta)}.`;
@@ -260,6 +288,8 @@ function renderTags(){
   $('nav button[data-view="gr"]').hidden = !n.gr;
   $("#n-closed").textContent = S.jobs.filter(j => !isOpen(j)).length;
   $("#n-strategy").textContent = analyzed().length;
+  $("#n-allroles").textContent = S.jobs.filter(j => j.lifecycle_status === "active" && CC.includes(j.country)).length;
+  $("#n-companies").textContent = companyGroups(false).length;
   $("#n-people").textContent = S.people.length;
 }
 
@@ -366,7 +396,60 @@ function toggleRow(tr, force){
   document.getElementById("d-" + tr.id).hidden = !open;
 }
 
-const analyzed = () => S.strategy.filter(s => s.analysis_status !== "insufficient_detail");
+const analyzed = () => S.strategy.filter(s => s.analysis_status === "analyzed" && !isConf(s.company));
+
+function renderAllRoles(){
+  const rows = S.jobs.filter(j => j.lifecycle_status === "active").filter(inCC)
+    .filter(j => !S.band || band(j) === S.band)
+    .filter(j => matchesQ(j, ["company","title","city","summary","pricing_focus","level"]))
+    .sort((a,b) => postedOrSeen(b).localeCompare(postedOrSeen(a)) || a.company.localeCompare(b.company));
+  if (!rows.length) return `<p class="empty">No verified roles match. Analyst-level roles appear here as the nightly run finds and verifies them.</p>`;
+  const body = rows.map(j => `<tr class="jr" id="${esc(j.id)}" tabindex="0" aria-expanded="false" aria-controls="d-${esc(j.id)}">
+      <td class="c-company"><strong>${esc(j.company)}</strong></td><td>${esc(j.title)}</td>
+      <td><span title="${esc(j.location_note || "")}">${esc(j.country)} / ${esc(j.city || "Not stated")}</span></td>
+      <td class="c-work_mode"><span class="wm ${j.work_mode === "Unknown" ? "unk" : ""}">${esc(j.work_mode || "Unknown")}</span></td>
+      <td class="c-salary_advertised"><span class="clamp" title="${esc(j.salary_advertised)}">${esc(j.salary_advertised)}</span></td>
+      <td class="c-status">${isNew(j) ? '<span class="chip new">New</span> ' : ""}<span class="chip line">${esc(levelLabel(j))}</span></td>
+      <td class="c-posted">${postedCell(j)}</td><td class="c-links">${linkCell(j)}</td></tr>${detailRow(j, 8)}`).join("");
+  return `<p class="hint" style="margin:0 2px 12px">Every verified pricing role in Canada and Colombia, at any level, newest first. Analyst-level roles never send phone alerts.</p>
+    <div class="tablewrap"><table class="jobs allroles"><thead><tr>
+    <th scope="col"><span>Company</span></th><th scope="col"><span>Role</span></th><th scope="col"><span>Country / City</span></th>
+    <th scope="col"><span>Work model</span></th><th scope="col"><span>Salary</span></th><th scope="col"><span>Level</span></th>
+    <th scope="col"><span>Date posted</span></th><th scope="col"><span>Links</span></th></tr></thead><tbody>${body}</tbody></table></div>
+    <p class="hint">Click a row for details.</p>`;
+}
+
+function companyGroups(filtered){
+  const by = {};
+  S.jobs.filter(j => CC.includes(j.country) && everVerified(j) && !isConf(j.company))
+    .filter(j => !filtered || ((!S.cc || j.country === S.cc) && matchesQ(j, ["company","title","city"])))
+    .forEach(j => { const k = j.company + "|" + j.country; (by[k] = by[k] || {company: j.company, country: j.country, roles: []}).roles.push(j); });
+  return Object.values(by).map(g => {
+    g.roles.sort((a,b) => postedOrSeen(b).localeCompare(postedOrSeen(a)));
+    g.latest = g.roles[0]; g.open = g.roles.filter(r => r.lifecycle_status === "active").length; return g;
+  }).sort((a,b) => postedOrSeen(b.latest).localeCompare(postedOrSeen(a.latest)) || a.company.localeCompare(b.company));
+}
+function renderCompanies(){
+  const groups = companyGroups(true);
+  if (!groups.length) return `<p class="empty">No companies match.</p>`;
+  const body = groups.map((g, i) => `<tr class="jr corow" data-k="co${i}" tabindex="0" aria-expanded="false" aria-controls="co${i}">
+      <td class="c-company"><span class="caret" aria-hidden="true">▸</span> <strong>${esc(g.company)}</strong></td>
+      <td>${esc(g.country)}</td><td class="num">${g.roles.length}</td><td class="num">${g.open}</td>
+      <td>${esc(g.latest.title)}</td>
+      <td class="c-posted">${esc(fmt(postedOrSeen(g.latest)))}${g.latest.employer_posting_date ? "" : '<span class="sub">first seen</span>'}</td></tr>
+    <tr class="dr nested" id="co${i}" hidden><td colspan="6"><table class="inner">
+      <thead><tr><th>Role</th><th>Level</th><th>City</th><th>Date</th><th>Status</th><th>Link</th></tr></thead><tbody>
+      ${g.roles.map(r => { const u = safeUrl(r.official_url) || safeUrl(r.secondary_url);
+        return `<tr><td>${esc(r.title)}</td><td><span class="chip line">${esc(levelLabel(r))}</span></td><td>${esc(r.city || "")}</td>
+        <td class="c-posted">${esc(fmt(postedOrSeen(r)))}</td><td>${statusChip(r)}</td>
+        <td class="c-links">${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">Posting</a>` : ""}</td></tr>`; }).join("")}
+      </tbody></table></td></tr>`).join("");
+  return `<p class="hint" style="margin:0 2px 12px">Companies in Canada and Colombia that have posted pricing roles at any level, most recent first. Based on postings the tracker has seen, not confirmed hires. Unnamed (confidential) employers are left out. Click a company to see its roles.</p>
+    <div class="tablewrap"><table class="jobs companies"><thead><tr>
+    <th scope="col"><span>Company</span></th><th scope="col"><span>Country</span></th><th scope="col"><span>Roles posted</span></th>
+    <th scope="col"><span>Open now</span></th><th scope="col"><span>Most recent role</span></th><th scope="col"><span>Date</span></th>
+    </tr></thead><tbody>${body}</tbody></table></div>`;
+}
 const list = items => `<ul>${(Array.isArray(items) ? items : [items]).filter(Boolean).map(i => `<li>${esc(i)}</li>`).join("")}</ul>`;
 function renderStrategy(){
   const byId = Object.fromEntries(S.jobs.map(j => [j.id, j]));
@@ -435,8 +518,10 @@ function render(){
   $("#tabs").querySelectorAll("button").forEach(b => b.setAttribute("aria-selected", b.dataset.view === S.view));
   $("#f-country").hidden = S.view !== "strategy";
   $("#f-ptype").hidden = S.view !== "people";
+  $("#f-cc").hidden = !["allroles","companies"].includes(S.view);
+  $("#f-band").hidden = S.view !== "allroles";
   const fn = COUNTRY_VIEW[S.view] ? () => renderCountry(S.view)
-    : {closed:renderClosed, strategy:renderStrategy, people:renderPeople}[S.view];
+    : {closed:renderClosed, strategy:renderStrategy, people:renderPeople, allroles:renderAllRoles, companies:renderCompanies}[S.view];
   $("#view").innerHTML = fn();
   $("#view").querySelectorAll(".jobref").forEach(b => b.onclick = () => openJob(b.dataset.job));
 }
@@ -449,11 +534,13 @@ $("#view").addEventListener("click", e => {
     render(); return;
   }
   if (e.target.closest("a")) return;
+  const co = e.target.closest("tr.corow");
+  if (co){ toggleCompany(co); return; }
   const tr = e.target.closest("tr.jr"); if (tr) toggleRow(tr);
 });
 $("#view").addEventListener("keydown", e => {
   const tr = e.target.closest && e.target.closest("tr.jr");
-  if (tr && (e.key === "Enter" || e.key === " ")){ e.preventDefault(); toggleRow(tr); }
+  if (tr && (e.key === "Enter" || e.key === " ")){ e.preventDefault(); tr.classList.contains("corow") ? toggleCompany(tr) : toggleRow(tr); }
 });
 
 function setView(v){ S.view = v; try{history.replaceState(null,"","#"+v)}catch(e){} render(); }
@@ -463,8 +550,10 @@ function openJob(id){
   S.country = ""; S.status = ""; S.q = ""; S.newOnly = false;
   $("#f-q").value = "";
   $("#f-country").querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === ""));
-  const view = Object.keys(COUNTRY_VIEW).find(v => COUNTRY_VIEW[v] === j.country);
+  const view = band(j) === "analyst" ? "allroles" : Object.keys(COUNTRY_VIEW).find(v => COUNTRY_VIEW[v] === j.country);
   if (j.lifecycle_status === "unable_to_verify") return;
+  S.band = ""; S.cc = "";
+  ["#f-band","#f-cc"].forEach(f => $(f).querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === "")));
   setView(j.lifecycle_status === "active" && view ? view : "closed");
   const el = document.getElementById(id);
   if (el){ toggleRow(el, true); el.scrollIntoView({block:"center", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"});
@@ -479,6 +568,14 @@ $("#f-country").addEventListener("click", e => {
   render();
 });
 $("#f-q").oninput = e => { S.q = e.target.value.trim(); render(); };
+function toggleCompany(co){
+  const n = document.getElementById(co.dataset.k), open = n.hidden;
+  n.hidden = !open; co.setAttribute("aria-expanded", open); co.querySelector(".caret").textContent = open ? "▾" : "▸";
+}
+[["#f-cc","cc"],["#f-band","band"]].forEach(([sel, key]) => $(sel).addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b) return;
+  S[key] = b.dataset.v; $(sel).querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b)); render();
+}));
 $("#f-ptype").addEventListener("click", e => {
   const b = e.target.closest("button"); if (!b) return;
   S.ptype = b.dataset.v;
@@ -494,7 +591,7 @@ const NAMES = ["opportunities","strategy","people","meta"];
     Object.assign(S, {jobs, strategy, people, meta});
     const h = location.hash.slice(1);
     if (/^JOB-/.test(h)) { renderTags(); openJob(h); return; }
-    if (["ca","co","us","gr","closed","strategy","people"].includes(h)) S.view = h;
+    if (["ca","co","us","gr","allroles","companies","closed","strategy","people"].includes(h)) S.view = h;
     renderTags(); render();
   })
   .catch(err => { $("#view").innerHTML = `<p class="empty">The data files could not be loaded (${esc(err.message)}). If you opened this page from your disk, serve the folder instead, for example with: python3 -m http.server</p>`; });

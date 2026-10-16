@@ -50,6 +50,11 @@ def main():
             E("%s: bad lifecycle %r" % (jid, j["lifecycle_status"]))
         if j.get("scope_fit") not in c.SCOPE_FIT:
             E("%s: bad scope_fit" % jid)
+        band = j.get("level_band", "manager_plus")
+        if band not in c.LEVEL_BANDS:
+            E("%s: bad level_band %r" % (jid, band))
+        if band == "analyst" and j.get("country") not in c.ANALYST_COUNTRIES:
+            E("%s: analyst-level role outside Canada/Colombia" % jid)
         if j.get("work_mode") not in c.WORK_MODES:
             E("%s: bad work_mode %r" % (jid, j.get("work_mode")))
         if j.get("country") not in c.COUNTRIES:
@@ -75,6 +80,8 @@ def main():
             for item in (v if isinstance(v, list) else [v]):
                 if URL_RE.search(str(item or "")):
                     E("%s: URL in %s (links belong only in news sources)" % (s["id"], f))
+        if c.is_confidential(s.get("company")) and s.get("analysis_status") != "excluded":
+            E("%s: strategy for an unnamed employer must be excluded" % s["id"])
         if s.get("analysis_status") not in c.ANALYSIS_STATUS:
             E("%s: bad analysis_status %r" % (s["id"], s.get("analysis_status")))
         for n in s.get("news") or []:

@@ -87,7 +87,7 @@ def next_id(existing_ids, prefix, width=4):
     return "%s%0*d" % (prefix, width, (max(nums) + 1) if nums else 1)
 
 WORK_MODES = ["Remote", "Hybrid", "In person", "Unknown"]
-ANALYSIS_STATUS = ["analyzed", "insufficient_detail"]
+ANALYSIS_STATUS = ["analyzed", "insufficient_detail", "excluded"]
 
 
 def infer_work_mode(text):
@@ -106,3 +106,13 @@ def infer_work_mode(text):
 
 CONTACT_TYPES = ["confirmed_poster", "relevant_contact", "added_by_you"]
 MAX_RELEVANT_PER_COMPANY = 3
+
+LEVEL_BANDS = ["manager_plus", "analyst"]
+ANALYST_LEVELS = ["Analyst", "Senior Analyst", "Specialist", "Coordinator"]
+ANALYST_COUNTRIES = ["Canada", "Colombia"]
+
+
+def is_confidential(company):
+    """True when the employer is not named (e.g. 'Confidential employer', 'Empresa confidencial')."""
+    t = norm(company)
+    return not t or any(w in t for w in ["confidential", "confidencial", "confidentiel", "undisclosed", "anonymous", "anonima"])
