@@ -197,20 +197,37 @@
     "company": "Cogeco",
     "business_unit": "Not identified",
     "baseline_date": "2026-10-10",
-    "last_updated": "2026-10-10",
-    "pricing_theme": "Annual price increases; regional and competitive-response pricing; new pricing model",
-    "posting_evidence": "The French posting is titled 'Gestionnaire de Tarification (12 mois)', a 12-month term, in Montreal, on the Cogeco Connexion careers site. The role leads pricing across mass, targeted (provincial and regional), à la carte, discounted and competitive-response pricing, and sets promotions and discounts using customer, financial, demand and competitor data. It also develops and runs the annual price-increase strategy with market directors and the promotions, value-management, base-management and consumer marketing teams, and improves time-to-market through rate-code alignment. It manages the promotion budget and designs a new pricing model. Year-one deliverables include a competitive review of household pricing. Work model and salary are not stated.",
-    "interpretation": "Cogeco Connexion is formalizing a two-sided pricing agenda: protecting ARPU through annual price increases and base management, while answering competitors with targeted regional offers and discounts. The mandate to design a new pricing model and fix rate-code alignment suggests the current rate structure is too complex to launch offers quickly. That matters in a broadband market where competitors respond fast.",
-    "caveat": "The role is a 12-month term (reason not stated, possibly a leave replacement), so it may reflect an ongoing agenda rather than new investment. The posting does not describe the new pricing model.",
+    "last_updated": "2026-10-15",
+    "pricing_theme": "Defending Canadian broadband revenue in a competitive pricing market through annual rate increases, promotions and a new pricing model, now alongside a wireless bundle",
+    "posting_evidence": [
+      "French posting title is 'Gestionnaire de Tarification (12 mois)', a 12-month contract in Montréal; work arrangement and reporting line not stated",
+      "Leads price setting against market conditions, including discounts and promotions, balancing competitiveness and profitability",
+      "Builds the annual rate-increase strategy, guides rollout of the promotion system, launches new offers and closes negative price gaps with competitors",
+      "Tracked against average revenue per account, primary subscription units, provider switching and time to market",
+      "Year-one deliverables: competitive price analysis, faster time to market, managing the promotional budget and designing a new pricing model; requires broadband, cable and telecom knowledge"
+    ],
+    "interpretation": "Revenue is flat while customers shift to internet-only plans and competitors push prices down, so Cogeco is likely trying to protect average revenue per account through disciplined annual increases, tighter promotion spend and a redesigned price structure (inference). The new wireless service makes bundle pricing a lever against churn. The 12-month term and a deliverable to 'design a new pricing model' suggest a defined transformation project, possibly backfill or project cover, rather than a permanent seat.",
+    "caveat": "Business unit and reporting line are not stated, Cogeco's current residential price list was not reviewed, and the news is a single quarterly release.",
     "confidence": "Medium",
     "linked_job_ids": [
       "JOB-0007"
     ],
-    "analysis_status": "insufficient_detail",
-    "insufficient_reason": "Official posting has no description in English; the French text has not been reviewed.",
+    "analysis_status": "analyzed",
     "current_model": null,
-    "news": [],
-    "open_questions": []
+    "news": [
+      {
+        "date": "2026-07-15",
+        "summary": "Cogeco's Q3 FY2026 Canadian telecom revenue rose 0.5% to C$376.7M as internet additions were offset by video and phone losses and 'a competitive pricing environment'; wireless sales are ahead of plan, with a churn benefit from fixed-mobile convergence.",
+        "source": "Cogeco Communications (press release)",
+        "url": "https://www.placera.se/pressmeddelanden/cogeco-communications-cogeco-communications-announces-its-q3-2026-financial-results-20260715"
+      }
+    ],
+    "open_questions": [
+      "Is the 12-month contract backfill or project cover, and is there a path to a permanent role?",
+      "Does the new pricing model include internet-plus-wireless bundle pricing, and who owns wireless pricing?",
+      "How much discretion does the role have over the promotional budget versus the market directors?"
+    ],
+    "industry": "Telecom"
   },
   {
     "id": "STR-0007",
@@ -1266,6 +1283,80 @@
     "confidence": "High",
     "linked_job_ids": [
       "JOB-0054"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0042",
+    "company": "OpenAI",
+    "business_unit": "Product Pricing (API & Platform)",
+    "baseline_date": "2026-10-15",
+    "last_updated": "2026-10-15",
+    "pricing_theme": "Building a dedicated pricing function to keep per-token API prices competitive as model prices fall quickly, while adding premium tiers such as a Fast mode",
+    "current_model": "API is billed per million input and output tokens with a separate price for each model. After the July 30, 2026 cut, GPT-5.6 Luna is USD 0.20 input / 1.20 output, GPT-5.6 Terra is USD 2.00 / 12.00, GPT-5.6 Sol standard pricing is unchanged, and Sol Fast mode is billed at twice the standard API price (per BleepingComputer; OpenAI's own pricing page could not be read).",
+    "posting_evidence": [
+      "Pricing Strategist, API, San Francisco; reports to the Head of Product Pricing for API & Platform, so product pricing is split into Chat & Codex and API & Platform leads",
+      "Owns end-to-end API pricing: model launch pricing, price architecture, packaging, commitments and discounts, and monetization guardrails",
+      "Designs new commercial constructs for API customers and sets up lightweight pricing governance (decision frameworks, approvals, performance tracking)",
+      "Requires 6+ years of experience (3+ in pricing) and deep familiarity with consumption pricing for API, infrastructure or developer-platform products",
+      "Asks for the ability to turn technical cost and usage data into pricing recommendations, which points to cost-to-serve-based pricing"
+    ],
+    "news": [
+      {
+        "date": "2026-07-31",
+        "summary": "OpenAI cut GPT-5.6 Luna API prices by 80% (input USD 1.00 to 0.20, output 6.00 to 1.20 per million tokens) and Terra by 20% (2.50 to 2.00 input, 15.00 to 12.00 output), kept Sol unchanged, and added a Sol Fast mode at twice the standard API price.",
+        "source": "BleepingComputer",
+        "url": "https://bleepingcomputer.com/news/artificial-intelligence/openai-says-its-new-gpt-56-models-are-becoming-more-cost-efficient"
+      }
+    ],
+    "interpretation": "OpenAI looks to be industrializing API pricing. Big price cuts on lower tiers alongside a premium speed tier suggest a good-better-best structure that wins volume at the bottom and charges for latency and capability at the top (inference). The emphasis on commitments, discounts and guardrails suggests the bigger problem is now enterprise deal structure and margin protection as list prices fall, not setting list prices alone. For the role, that means frequent launch-pricing decisions under competitive pressure and close work with finance on cost-to-serve.",
+    "open_questions": [
+      "How are commitment or discount constructs (prepaid credits, committed spend) being redesigned, and who has final approval?",
+      "How does API pricing coordinate with ChatGPT and Codex pricing so the tiers do not cannibalize each other?",
+      "What margin or cost-to-serve guardrails does the role have to respect when recommending price cuts?"
+    ],
+    "caveat": "Posting details come from a full job-board copy because OpenAI's own pages could not be read; the live status, pay and current price list were not confirmed on OpenAI's site.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0055"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0043",
+    "company": "Braze",
+    "business_unit": "Market Strategy",
+    "baseline_date": "2026-10-15",
+    "last_updated": "2026-10-15",
+    "pricing_theme": "Moving customers onto new edition, MAU and Action Credit packaging and monetizing AI features through shared credits",
+    "current_model": "Four Platform Editions (Go, Select, Pro, Enterprise). Contracts combine the edition, Monthly Active Users and Profiles, an allotment of Action Credits (one shared pool across email, SMS, WhatsApp and some AI features), and CX Services, with add-on SKUs for the Data Platform and BrazeAI. No published prices and no free plan.",
+    "posting_evidence": [
+      "Senior Staff Monetization and Pricing Strategist, hybrid in New York or San Francisco; USD 158,000–248,000 base (OTE 184,000–288,000)",
+      "Reports to the VP, Market Strategy, so pricing sits in a strategy group rather than product or finance",
+      "Mandate covers pricing strategy, packaging design, revenue models and forecasts, KPIs, and institutionalizing frameworks and processes across the monetization function",
+      "Requires 7+ years with owned pricing or packaging changes taken to market for enterprise customers (2,000+ employees); bonus for AI, usage-based or consumption monetization",
+      "Screening questions ask how many companies you have built pricing for and whether your last role was in-house or consulting"
+    ],
+    "news": [
+      {
+        "date": "2026-09-09",
+        "summary": "On Braze's Q2 call, the CFO cited ongoing pricing and packaging transitions (including professional-services packaging) that may cause short-term swings in margins and revenue mix; the CEO said AI monetization is still early, with paid BrazeAI adoption at about one-third of large customers.",
+        "source": "StockStory",
+        "url": "https://stockstory.org/us/stocks/nasdaq/brze/news/earnings-call/brze-q2-deep-dive-market-reacts-to-ai-adoption-vendor-consolidation-and-competitive-shifts"
+      }
+    ],
+    "interpretation": "Braze is partway through a packaging migration from MAU-based editions to a hybrid of editions plus a shared Action Credit pool, and it wants credits to carry AI monetization. Management calls the transition a source of near-term margin and mix noise, so the role likely focuses on moving the installed base over and proving AI credit consumption converts into expansion revenue (inference). Asking for someone to 'institutionalize frameworks' suggests the monetization function is still being formalized.",
+    "open_questions": [
+      "What share of the installed base has moved to the new editions and Action Credits, and what is the renewal-migration playbook?",
+      "How are BrazeAI and agent features priced: credits only, add-on SKUs, or both?",
+      "How does pricing work with the existing product and finance teams, given that the role sits under Market Strategy?"
+    ],
+    "caveat": "The news comes from one secondary earnings summary rather than the transcript, and the fiscal-quarter labeling is ambiguous; no migration metrics were available.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0056"
     ],
     "industry": "Software",
     "analysis_status": "analyzed"
