@@ -1361,5 +1361,72 @@
     ],
     "industry": "Software",
     "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0044",
+    "company": "WM",
+    "business_unit": "Canada pricing (waste services)",
+    "baseline_date": "2026-10-16",
+    "last_updated": "2026-10-16",
+    "pricing_theme": "Price-led revenue growth: routine monthly price increases and route-level profitability discipline",
+    "current_model": null,
+    "posting_evidence": [
+      "Senior Pricing Analyst (bilingual title), hybrid four days a week from Anjou (Montréal), Kitchener, Brampton, Ottawa or Calgary; $95,000–$120,000 base plus bonus; reposted about a month ago.",
+      "Mandate: recommend and implement monthly price increases in coordination with Sales and Billing, and assess and adjust pricing structures and outputs.",
+      "Builds and maintains pricing tools and infrastructure, and produces advanced customer and route profitability reports.",
+      "Internal pricing contact for Sales (not customers); guides less experienced pricing analysts and occasionally acts as team lead, with no formal supervisory duties.",
+      "Requires 5 years of relevant experience; waste-industry experience listed as both required and preferred; French/English bilingualism an asset."
+    ],
+    "news": [
+      {
+        "date": "2026-07-27",
+        "summary": "WM reported Q2 2026 revenue up 4.0%, driven by core price of 5.7% and collection-and-disposal yield of 3.6%, while collection-and-disposal volume fell 1.8% (0.4% excluding prior-year wildfire cleanup), partly from intentional exits from lower-margin residential business.",
+        "source": "WM (Business Wire)",
+        "url": "https://www.businesswire.com/news/home/20260727656938/en/"
+      }
+    ],
+    "interpretation": "WM's growth is mostly pricing: core price of 5.7% against falling volume shows it is deliberately trading volume for margin, including exiting low-margin residential accounts. A Canadian analyst who sets monthly price increases and runs route-level profitability is the operating engine for that strategy (inference). The repost and multi-city location list suggest a hard-to-fill, network-wide Canadian role rather than a Quebec-specific one. For the candidate it is execution-heavy analytics with some team-lead exposure, not strategy ownership.",
+    "open_questions": [
+      "How are monthly price increases targeted (CPI-indexed contracts, open-market accounts, fuel and environmental surcharges) and who approves them in Canada?",
+      "Does the role cover Quebec accounts specifically, and is French used day to day?",
+      "Is there a path from Senior Analyst to a pricing manager role, given the 'occasional team lead' wording?"
+    ],
+    "caveat": "Built from a full Built In copy, not WM's own careers page. The Q2 figures are company-wide (mostly US) and were read from a search excerpt quoting the release because the release page blocked direct access.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0057"
+    ],
+    "industry": "Waste management services",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0045",
+    "company": "Holcim Colombia",
+    "business_unit": "Cemento",
+    "baseline_date": "2026-10-16",
+    "last_updated": "2026-10-16",
+    "pricing_theme": "Building a formal cement price architecture and pocket-margin discipline in Colombia",
+    "current_model": null,
+    "posting_evidence": [
+      "Especialista de ingresos comerciales cemento, Bogotá (Teleport), permanent contract, professional level, salary confidential; published 2026-09-03 on elempleo.",
+      "Manages national pricing for the different business units against market conditions.",
+      "Defines and maintains price architecture by segment, product, region and channel; analyses competitive positioning and value-capture opportunities.",
+      "Monitors price, volume, mix and contribution; builds price waterfall and pocket-margin analyses and actionable insights for the sales force.",
+      "Only 1 year of experience required (pricing preferred); SAP SD, Power BI or Data Studio desirable; intermediate English desirable."
+    ],
+    "news": [],
+    "interpretation": "The mandate (price architecture by segment, region and channel, plus waterfall and pocket-margin analysis) is a standard price-realization toolkit. It suggests Holcim wants tighter control of discount leakage across its Colombian cement channels (inference). Context read today but older than three months: Holcim agreed in March 2026 to buy Cemex's Colombian building-materials operations for US$485 million, with closing expected at year-end. A larger plant and channel footprint would make a consistent national price architecture more urgent (inference; the posting does not mention it). The low experience requirement means this is an analytical support seat inside a larger commercial team, not the pricing decision-maker.",
+    "open_questions": [
+      "Who owns final pricing decisions (the commercial director or a regional pricing lead), and where does this role sit relative to them?",
+      "Will the role extend to integrating pricing for the acquired Cemex assets once the deal closes?",
+      "How does Holcim handle competition-law constraints on cement pricing in Colombia, given past cartel sanctions in the sector?"
+    ],
+    "caveat": "Based only on the elempleo posting; no Holcim careers page or recent (last three months) pricing news was found, and the link to the Cemex deal is inference.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0058"
+    ],
+    "industry": "Building materials",
+    "analysis_status": "analyzed"
   }
 ]

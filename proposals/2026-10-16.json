@@ -1,0 +1,101 @@
+{
+  "run_date": "2026-10-16",
+  "searches_run": 66,
+  "searches_by_country": { "Canada": 33, "Colombia": 18, "United States": 15 },
+  "watchlist_checked": [
+    "EY", "Deloitte", "PwC", "KPMG", "McKinsey Montreal", "Fasken", "FLO", "C.A.T. North America", "MongoDB Toronto",
+    "Rappi", "Mercado Libre", "Uber", "DiDi", "Grupo Éxito", "Falabella", "Alegra", "Holcim Colombia",
+    "Veeam", "Workday", "Autodesk", "Zendesk", "Box", "Dropbox"
+  ],
+  "new_opportunities": [
+    {
+      "company": "WM", "title": "Senior Pricing Analyst / Analyste principal de la tarification", "business_unit": "Canada pricing (waste services)", "category": "Pricing",
+      "country": "Canada", "city": "Montreal", "location_note": "Anjou (Montréal) office; posting also lists Kitchener, Brampton, Ottawa and Calgary offices",
+      "work_mode": "Hybrid", "work_model": "Hybrid, in office Monday through Thursday (Brampton copy says Tuesday through Thursday)", "salary_advertised": "$95,000.00 to $120,000.00 base (Canadian hybrid range); bonus eligible",
+      "employer_posting_date": null, "official_url": null, "secondary_url": "https://builtinmontreal.com/job/senior-pricing-analyst-analyste-principal-de-la-tarification/10428876", "requisition_id": null,
+      "summary": "Build and maintain pricing tools, recommend and implement monthly price increases with Sales and Billing, and produce customer and route profitability reports; occasionally acts as team lead for junior analysts.", "pricing_focus": "B2B service pricing; price increases; route profitability",
+      "level_band": "analyst", "level": "Senior Analyst",
+      "scope_fit": "in_scope", "scope_note": "Built In shows 'Reposted one month ago'; a Kitchener copy is dated 2026-06-16. WM's own careers page for it was not found (only the wm.dejobs.org mirror). Waste-industry experience is listed as required in one place and preferred in another.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Holcim Colombia", "title": "Especialista de ingresos comerciales cemento", "business_unit": "Cemento", "category": "Pricing",
+      "country": "Colombia", "city": "Bogotá", "location_note": "Workplace at Teleport, Bogotá",
+      "work_mode": "Unknown", "work_model": "Not stated", "salary_advertised": "Salario confidencial",
+      "employer_posting_date": "2026-09-03", "official_url": null, "secondary_url": "https://www.elempleo.com/co/ofertas-trabajo/especialista-de-ingresos-comerciales-cemento-1886761721", "requisition_id": "1886761721",
+      "summary": "Manage national cement pricing by business unit: price architecture by segment, product, region and channel, competitive positioning, price waterfall and pocket-margin analysis, and insights for the sales force.", "pricing_focus": "B2B cement pricing; price architecture; pocket margin",
+      "level_band": "analyst", "level": "Specialist",
+      "scope_fit": "in_scope", "scope_note": "Title says 'ingresos comerciales' but the responsibilities are pricing. Only 1 year of experience required, so a junior specialist grade. Holcim's own careers page for it was not found; requisition_id is the elempleo offer number.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Empresa confidencial", "title": "Revenue management hotelero", "business_unit": "Hospitality (hotel portfolio)", "category": "Revenue Management",
+      "country": "Colombia", "city": "Bogotá", "location_note": "Central Bogotá; Monday to Friday 8:00–17:00",
+      "work_mode": "In person", "work_model": "Presencial", "salary_advertised": "Header: Salario confidencial; description: $3.500.000",
+      "employer_posting_date": "2026-09-07", "official_url": "https://www.elempleo.com/co/ofertas-trabajo/revenue-management-hotelero-1886763159", "secondary_url": null, "requisition_id": "1886763159",
+      "summary": "Implement and monitor hotel pricing and distribution strategies: adjust rates, promotions and booking restrictions by demand and forecast, and report on occupancy, revenue and profitability.", "pricing_focus": "Hotel rate management; distribution",
+      "level_band": "analyst", "level": "Analyst",
+      "scope_fit": "in_scope", "scope_note": "Unnamed employer; elempleo is the only source, so it is used as the posting URL (same approach as JOB-0019). Junior: 1 year of experience. A similar confidential elempleo listing (1886681619, July 2026) may be an earlier version.", "strategy_confidence": "Low"
+    },
+    {
+      "company": "Empresa confidencial", "title": "Coordinador de costos y pricing", "business_unit": "Manufacturing", "category": "Pricing",
+      "country": "Colombia", "city": "Bogotá", "location_note": "Puente Aranda, Bogotá",
+      "work_mode": "In person", "work_model": "Presencial; Monday–Thursday 8:30–18:00, Friday 9:00–18:00", "salary_advertised": "$4 a $4,5 millones (listing); description says 'a convenir según perfil y experiencia'",
+      "employer_posting_date": "2026-08-31", "official_url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-costos-y-pricing-1886759564", "secondary_url": null, "requisition_id": "1886759564",
+      "summary": "Design and manage pricing, discount and promotion strategies alongside budgeting, costing and profitability models by product, brand and channel for a manufacturer.", "pricing_focus": "Cost-based and promotional pricing; profitability",
+      "level_band": "analyst", "level": "Coordinator",
+      "scope_fit": "borderline", "scope_note": "About half costing and budget control, half pricing; 3–5 years required. Unnamed employer; elempleo is the only source.", "strategy_confidence": "Low"
+    }
+  ],
+  "url_updates": [],
+  "strategy_updates": [
+    {
+      "id": null, "company": "WM", "business_unit": "Canada pricing (waste services)",
+      "pricing_theme": "Price-led revenue growth: routine monthly price increases and route-level profitability discipline",
+      "current_model": null,
+      "industry": "Waste management services",
+      "posting_evidence": [
+        "Senior Pricing Analyst (bilingual title), hybrid four days a week from Anjou (Montréal), Kitchener, Brampton, Ottawa or Calgary; $95,000–$120,000 base plus bonus; reposted about a month ago.",
+        "Mandate: recommend and implement monthly price increases in coordination with Sales and Billing, and assess and adjust pricing structures and outputs.",
+        "Builds and maintains pricing tools and infrastructure, and produces advanced customer and route profitability reports.",
+        "Internal pricing contact for Sales (not customers); guides less experienced pricing analysts and occasionally acts as team lead, with no formal supervisory duties.",
+        "Requires 5 years of relevant experience; waste-industry experience listed as both required and preferred; French/English bilingualism an asset."
+      ],
+      "news": [
+        { "date": "2026-07-27", "summary": "WM reported Q2 2026 revenue up 4.0%, driven by core price of 5.7% and collection-and-disposal yield of 3.6%, while collection-and-disposal volume fell 1.8% (0.4% excluding prior-year wildfire cleanup), partly from intentional exits from lower-margin residential business.", "source": "WM (Business Wire)", "url": "https://www.businesswire.com/news/home/20260727656938/en/" }
+      ],
+      "interpretation": "WM's growth is mostly pricing: core price of 5.7% against falling volume shows it is deliberately trading volume for margin, including exiting low-margin residential accounts. A Canadian analyst who sets monthly price increases and runs route-level profitability is the operating engine for that strategy (inference). The repost and multi-city location list suggest a hard-to-fill, network-wide Canadian role rather than a Quebec-specific one. For the candidate it is execution-heavy analytics with some team-lead exposure, not strategy ownership.",
+      "open_questions": [
+        "How are monthly price increases targeted (CPI-indexed contracts, open-market accounts, fuel and environmental surcharges) and who approves them in Canada?",
+        "Does the role cover Quebec accounts specifically, and is French used day to day?",
+        "Is there a path from Senior Analyst to a pricing manager role, given the 'occasional team lead' wording?"
+      ],
+      "caveat": "Built from a full Built In copy, not WM's own careers page. The Q2 figures are company-wide (mostly US) and were read from a search excerpt quoting the release because the release page blocked direct access.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:0"]
+    },
+    {
+      "id": null, "company": "Holcim Colombia", "business_unit": "Cemento",
+      "pricing_theme": "Building a formal cement price architecture and pocket-margin discipline in Colombia",
+      "current_model": null,
+      "industry": "Building materials",
+      "posting_evidence": [
+        "Especialista de ingresos comerciales cemento, Bogotá (Teleport), permanent contract, professional level, salary confidential; published 2026-09-03 on elempleo.",
+        "Manages national pricing for the different business units against market conditions.",
+        "Defines and maintains price architecture by segment, product, region and channel; analyses competitive positioning and value-capture opportunities.",
+        "Monitors price, volume, mix and contribution; builds price waterfall and pocket-margin analyses and actionable insights for the sales force.",
+        "Only 1 year of experience required (pricing preferred); SAP SD, Power BI or Data Studio desirable; intermediate English desirable."
+      ],
+      "news": [],
+      "interpretation": "The mandate (price architecture by segment, region and channel, plus waterfall and pocket-margin analysis) is a standard price-realization toolkit. It suggests Holcim wants tighter control of discount leakage across its Colombian cement channels (inference). Context read today but older than three months: Holcim agreed in March 2026 to buy Cemex's Colombian building-materials operations for US$485 million, with closing expected at year-end. A larger plant and channel footprint would make a consistent national price architecture more urgent (inference; the posting does not mention it). The low experience requirement means this is an analytical support seat inside a larger commercial team, not the pricing decision-maker.",
+      "open_questions": [
+        "Who owns final pricing decisions (the commercial director or a regional pricing lead), and where does this role sit relative to them?",
+        "Will the role extend to integrating pricing for the acquired Cemex assets once the deal closes?",
+        "How does Holcim handle competition-law constraints on cement pricing in Colombia, given past cartel sanctions in the sector?"
+      ],
+      "caveat": "Based only on the elempleo posting; no Holcim careers page or recent (last three months) pricing news was found, and the link to the Cemex deal is inference.",
+      "confidence": "Low",
+      "linked_job_refs": ["new:1"]
+    }
+  ],
+  "people": [],
+  "notes": "Searched Canada (Montreal, Quebec City, Toronto, Ottawa, Calgary/Vancouver, Canada remote; EN/FR), Colombia (elempleo pricing/revenue-management/revenue-growth pages, Bogotá, Medellín, Cali, LATAM remote) and US SaaS/CPG/industrial. Many promising leads were closed or removed when checked: Clutch Director and Sr Manager Pricing, Crescent Hotels Area Revenue Manager Canada, Lightspeed pricing, Molson Coors RM Team Lead, Walmart Canada pricing strategy (2), Novartis Canada Pricing Manager, Rogers Manager Base Pricing, HubSpot Pricing Strategy Manager (Ontario remote), BlueCat Principal Pricing (Canada remote, removed 2026-10-13), Manulife AI pricing program director, Amgen Pricing Lead Bogotá, Banco de Occidente Analista Senior Pricing Táctico (Cali), Workday Pricing Director, Zendesk Sr Manager Pricing & Packaging, Hyland pricing roles, Simple Mills/Liquid Death/fairlife/Coca-Cola RGM. No new US role verified. Task 2: no official postings found for C.A.T., Belron JR71565, Coke Canada RGM, HighLevel, Alegra, Softys or Mercado Libre. Lead to watch: PwC Canada 'Pricing Strategy and Commerciality Senior Manager' (Toronto, aggregator only, posted 2026-05-29), not included because no employer page was found."
+}
