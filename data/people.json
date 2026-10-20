@@ -78,5 +78,37 @@
     "found_via": "PagerDuty Q2 FY2027 results (search summary of release dated 2026-08-27), read 2026-10-14",
     "first_seen": "2026-10-14",
     "notes": "Not the hiring manager; the role reports to the VP of Product Strategy & Growth, who is not named in the posting."
+  },
+  {
+    "id": "PERSON-0006",
+    "name": "Steve Cavan",
+    "title": "Chief Financial Officer",
+    "company": "LifeLabs",
+    "contact_type": "relevant_contact",
+    "relationship": "Executive over Finance, where the pricing role sits",
+    "relevance": "The posting places the role in FP&A and says it advises senior leaders including the CFO.",
+    "opportunity_id": "JOB-0061",
+    "linkedin_profile": null,
+    "verification": "Named as CFO on LifeLabs' leadership page",
+    "evidence_url": "https://www.lifelabs.com/about-us/leadership/",
+    "found_via": "LifeLabs leadership page, 2026-10-19",
+    "first_seen": "2026-10-19",
+    "notes": null
+  },
+  {
+    "id": "PERSON-0007",
+    "name": "Erica Zarkovich",
+    "title": "Chief Market & Partnerships Officer",
+    "company": "LifeLabs",
+    "contact_type": "relevant_contact",
+    "relationship": "Leads private-sector and public healthcare partnerships",
+    "relevance": "The role prices Government and B2B contracts and RFPs with the commercial teams she leads.",
+    "opportunity_id": "JOB-0061",
+    "linkedin_profile": null,
+    "verification": "Named on LifeLabs' leadership page",
+    "evidence_url": "https://www.lifelabs.com/about-us/leadership/",
+    "found_via": "LifeLabs leadership page, 2026-10-19",
+    "first_seen": "2026-10-19",
+    "notes": null
   }
 ]
