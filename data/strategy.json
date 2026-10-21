@@ -1542,5 +1542,42 @@
     ],
     "industry": "Software",
     "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0049",
+    "company": "Bombardier",
+    "business_unit": "Aerospace Canada / Aftermarket",
+    "baseline_date": "2026-10-20",
+    "last_updated": "2026-10-20",
+    "pricing_theme": "Systematizing aftermarket price capture as services become the main revenue growth engine",
+    "current_model": null,
+    "posting_evidence": [
+      "Pricing Management Specialist - Temporary, Dorval QC (req 15168), posted 2026-08-28; temporary, work arrangement and salary not stated.",
+      "Mandate: execute the annual aftermarket pricing strategy across more than 200,000 parts and 9,000 products, covering parts, labour rates, technical publications, Mobile Response Team services, digital solutions and cost-per-hour programs.",
+      "Leads market-based pricing analyses and competitor benchmarking (OEMs, suppliers, dealers) and evolves pricing models to improve value capture.",
+      "Works with Sales on customer-specific pricing and discount strategies and supports Procurement and Material Logistics with cost analyses.",
+      "Tools named: Excel, Access, Power BI, Databricks; 5+ years in pricing or financial analysis; bilingual English/French required."
+    ],
+    "news": [
+      {
+        "date": "2026-07-30",
+        "summary": "Bombardier's Q2 2026 Services revenue reached a record $674 million, up 14% year over year, and drove total revenue up 6% to $2.15 billion; the company is expanding its Singapore service centre to nearly double capacity from the second half of 2028 and reaffirmed its raised 2026 guidance.",
+        "source": "Bombardier (press release via BNN Bloomberg)",
+        "url": "https://www.bnnbloomberg.ca/press-releases/2026/07/30/bombardier-reports-significant-second-quarter-free-cash-flow-growth-and-strong-profitability-as-backlog-lengthens/"
+      }
+    ],
+    "interpretation": "With services now the fastest-growing revenue line, Bombardier is likely trying to capture more margin from a very large parts and services catalogue through its annual price update, market-based pricing and tighter control of customer-specific discounts (inference). The breadth of scope (parts, labour rates, publications, digital and cost-per-hour programs) suggests pricing is run as a central catalogue-management function rather than deal by deal. Making this role temporary points to extra capacity for the annual price cycle or backfill, not a new strategic seat (inference). The role is analytical execution within an existing strategy, not pricing-strategy ownership.",
+    "open_questions": [
+      "How long is the temporary contract, and is it cover for a leave or a bridge to a permanent role?",
+      "How much discretion does Pricing have over customer-specific discounts versus Sales?",
+      "How are cost-per-hour program rates set relative to parts list-price increases?"
+    ],
+    "caveat": "Based on one temporary posting and one quarterly release; Bombardier publishes no aftermarket price list and the release says nothing about pricing directly.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0065"
+    ],
+    "industry": "Aerospace",
+    "analysis_status": "analyzed"
   }
 ]
