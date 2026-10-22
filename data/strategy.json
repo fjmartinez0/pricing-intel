@@ -1579,5 +1579,321 @@
     ],
     "industry": "Aerospace",
     "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0050",
+    "company": "Pratt & Whitney Canada (RTX)",
+    "business_unit": "Aftermarket / Pricing & Lifecycle Strategy",
+    "baseline_date": "2026-10-21",
+    "last_updated": "2026-10-21",
+    "pricing_theme": "Lifecycle pricing of the turboprop and turbofan aftermarket: spare parts, labour rates and end-of-life engine governance.",
+    "current_model": null,
+    "posting_evidence": [
+      "Senior Manager, Longueuil, in-office five days; posted 2026-10-08 (Built In copy of a bilingual posting).",
+      "Builds lifecycle pricing strategies for new, mid-life and end-of-life engines and leads in-service strategy for engine programs.",
+      "Assesses the impact of proposed spare-parts and labour-rate increases and helps define a discount and pricing-concession strategy.",
+      "Feeds a commercial strategy dashboard used by P&WC's Executive Committee; leads 'Project Vitamin E' (end-of-life engine governance).",
+      "Reporting line inconsistent: Associate Director (English) vs Manager (French), Pricing & Lifecycle Strategy."
+    ],
+    "news": [
+      {
+        "date": "2026-09-09",
+        "summary": "IATA welcomed P&WC contract changes, made after a European Commission competition probe, that lift restrictions on network maintenance shops so independent suppliers can access used PT6 and PW100-series parts and services.",
+        "source": "IATA",
+        "url": "https://www.iata.org/en/pressroom/2026-releases/09-09-pratt-whitney-canada-step-improved-engine-aftermarket/"
+      }
+    ],
+    "interpretation": "P&WC appears to be professionalizing aftermarket pricing across the full engine lifecycle, where spare parts and shop labour carry most of the margin. Inference: the September 2026 loosening of used-parts restrictions under EU competition pressure raises competition from used and independent material, which makes disciplined list-price increases, concession rules and end-of-life governance more important now. The role is an execution-heavy senior manager seat with direct line of sight to the Executive Committee, not the head of pricing.",
+    "open_questions": [
+      "How will the used-parts contract changes affect price increase plans and concession policy for PT6 and PW100 parts?",
+      "What decision rights does this role have over annual list-price increases versus the Associate Director?",
+      "What is 'Project Vitamin E' expected to deliver, and on what timeline?"
+    ],
+    "caveat": "Read from a Built In copy; the employer posting could not be opened, and no P&WC price-list data was found.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0069"
+    ],
+    "industry": "Aerospace",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0051",
+    "company": "Sophos",
+    "business_unit": "Pricing Operations (SecOps)",
+    "baseline_date": "2026-10-21",
+    "last_updated": "2026-10-21",
+    "pricing_theme": "Centralizing and governing pricing after acquisitions while pushing repeated list-price increases through the channel.",
+    "current_model": "Quote-based pricing sold through partners and MSPs; hardware appliances plus term subscriptions (per reseller notices).",
+    "posting_evidence": [
+      "Senior Director, remote Canada, base CAD 184,000–306,000 plus bonus; parallel UK posting on Lever.",
+      "Mandate: build a centralized Pricing Operations function covering strategy, analytics and deal support for SecOps.",
+      "Replace episodic reviews with a segment-aware pricing cadence; set up a pricing council and governance with advance communication to sales and finance.",
+      "Direct AI-assisted monitoring of competitor pricing, discounting and discount depth; metrics include decision-to-communication time and discount discipline.",
+      "Strong dotted line to the Network Security group to keep pricing aligned across both businesses."
+    ],
+    "news": [
+      {
+        "date": "2026-09-02",
+        "summary": "Citing a 1 September Sophos partner email, a reseller reported a further 10% increase on XGS hardware and hardware-bound subscriptions plus AP6 access points, a 7.5% rise for Sophos Email, and AP6 support up from 5% to 10% of hardware price; effective 1 November 2026 for term licences and 1 January 2027 for MSP, after a 10% XGS increase on 1 July 2026.",
+        "source": "Avanet (Sophos reseller)",
+        "url": "https://www.avanet.com/en/blog/sophos-price-increase-november-2026/"
+      }
+    ],
+    "interpretation": "Sophos looks to be moving pricing from ad hoc, product-by-product decisions to a governed central function, likely to manage price realization across a portfolio that has grown through acquisitions. Inference: two 10% hardware increases within four months suggest margin pressure and a need for better discount control and communication to partners, which this role is explicitly asked to build. Expect a hands-on build mandate: new team, cadence and AI tooling, with heavy channel and sales change management.",
+    "open_questions": [
+      "Who does the role report to, and does it own price-setting decisions or only the process and analytics?",
+      "How is pricing split between SecOps and Network Security today, and who arbitrates conflicts?",
+      "How have partners and MSPs responded to the 2026 increases (discount pressure, churn)?"
+    ],
+    "caveat": "Price-increase details come from a reseller blog, not a Sophos release; Sophos does not publish list prices.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0070"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0052",
+    "company": "GitLab",
+    "business_unit": "Pricing & Monetization",
+    "baseline_date": "2026-10-21",
+    "last_updated": "2026-10-21",
+    "pricing_theme": "Shifting from per-seat tiers to a hybrid seat-plus-consumption model built around GitLab Credits and the new Flex commitment.",
+    "current_model": "Per-user subscription tiers (Free, Premium, Ultimate) plus usage-based GitLab Credits for Duo Agent Platform; GitLab Flex combines seats, credits and new capabilities in one annual commitment; Secrets Manager sold as a usage-based add-on for Premium and Ultimate on GitLab.com.",
+    "posting_evidence": [
+      "Two concurrent senior IC openings, both Remote Canada or US: Lead Pricing Strategist and Staff Commercial Pricing Strategist (US base USD 139,200–235,200; no Canada range).",
+      "Lead role: pricing and packaging across Premium, Ultimate, GitLab Duo and AI/usage-based products, SKU mapping for launches and post-launch monitoring.",
+      "Staff role: enterprise agreements, bundling, channel and cloud-marketplace pricing, discount frameworks and competitive deal programs.",
+      "Both expect influence over VP/SVP stakeholders without authority and documentation of pricing decisions in the public handbook; staff role asks for hands-on work with production AI agents."
+    ],
+    "news": [
+      {
+        "date": "2026-09-01",
+        "summary": "GitLab reported Q2 FY2027 revenue of $286.3M (+21% YoY), introduced GitLab Flex (one annual commitment covering seats, GitLab Credits and new capabilities with adjustable monthly reservations) and launched Secrets Manager as a usage-based add-on.",
+        "source": "GitLab (press release via 01net)",
+        "url": "https://www.01net.it/gitlab-reports-second-quarter-fiscal-year-2027-financial-results/"
+      }
+    ],
+    "interpretation": "GitLab is trying to monetize AI agents through consumption without disrupting its seat-based core, and Flex is the bridge that lets enterprise buyers commit once and shift spend between seats and credits. Inference: hiring both a product-pricing lead and an enterprise/channel pricing specialist at the same time suggests the packaging is set and the work now is making it sell through enterprise deals, marketplaces and partners. Candidates should expect usage-metering, credit pricing and discount governance to be core.",
+    "open_questions": [
+      "How are credit consumption and Flex reservations priced and discounted in enterprise deals?",
+      "Who owns the overall pricing roadmap above these two IC roles?",
+      "What metrics define success for Duo Agent Platform monetization (credit attach, overage, net ARR)?"
+    ],
+    "caveat": "Current model drawn from GitLab's earnings release and posting text; the public pricing page was not read today.",
+    "confidence": "High",
+    "linked_job_ids": [
+      "JOB-0071",
+      "JOB-0072"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0053",
+    "company": "PointClickCare",
+    "business_unit": "Monetization Strategy & Pricing",
+    "baseline_date": "2026-10-21",
+    "last_updated": "2026-10-21",
+    "pricing_theme": "Packaging and pricing new AI-enabled modules for a long-term-care EHR installed base.",
+    "current_model": null,
+    "posting_evidence": [
+      "Sr. Monetization Strategy & Pricing Manager (CA), Mississauga hybrid, 104K–130K (Built In; currency not stated).",
+      "Reports to the Director, Monetization Strategy & Pricing; owns some pricing projects and supports go-to-market for new products and features.",
+      "Builds pricing and financial models using AI tools; tracks ASP, ARPU, discount and attach-rate KPIs.",
+      "Asks for familiarity with B2B SaaS and AI pricing models and value-based pricing; supports complex deals and sales enablement."
+    ],
+    "news": [],
+    "interpretation": "The posting points to a small central monetization team (a director plus senior managers) packaging a growing set of add-on modules for an existing provider base. Inference: the explicit references to AI pricing models and attach-rate KPIs suggest the company is working out how to charge for AI features layered on its core EHR rather than resetting core subscription prices. The role is mid-senior and execution-focused.",
+    "open_questions": [
+      "How are AI modules priced today: bundled, per-facility add-on or usage-based?",
+      "How large is the monetization team and what decisions does the director own?"
+    ],
+    "caveat": "No pricing-related news in the last three months and no public pricing page; analysis rests on one Built In copy of the posting.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0073"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0054",
+    "company": "TD Bank",
+    "business_unit": "TD Insurance – Pricing Analytics",
+    "baseline_date": "2026-10-21",
+    "last_updated": "2026-10-21",
+    "pricing_theme": "Moving P&C insurance pricing onto production machine-learning models.",
+    "current_model": null,
+    "posting_evidence": [
+      "Manager Pricing Analytics, Montreal (also listed Toronto), in-office, CAD 140,000–165,000.",
+      "Leads a team of actuaries and data scientists and sets the vision for end-to-end ML projects from problem definition to deployment.",
+      "Works with Model Governance on validation protocols that meet regulatory standards; guides scalable modelling frameworks and inference pipelines.",
+      "Requires 7+ yrs P&C actuarial experience and Python."
+    ],
+    "news": [],
+    "interpretation": "TD Insurance appears to be industrializing ML in rate-making, pairing actuarial credibility with data-science delivery. Inference: the emphasis on governance and deployment pipelines suggests models are moving from experiments into regulated rate filings. This is a technical leadership role that serves pricing decision-makers rather than one that sets commercial pricing strategy.",
+    "open_questions": [
+      "Which lines (auto, home) and provinces are the models being deployed in first?",
+      "How are ML models reconciled with regulator rate-filing requirements in Quebec and Ontario?"
+    ],
+    "caveat": "Read from a Built In copy; TD's own posting and recent TD Insurance pricing news were not found.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0074"
+    ],
+    "industry": "Insurance",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0055",
+    "company": "TD Bank",
+    "business_unit": "Pension Risk Transfer",
+    "baseline_date": "2026-10-21",
+    "last_updated": "2026-10-21",
+    "pricing_theme": "Building deal-pricing capability for pension risk transfer and group annuities.",
+    "current_model": null,
+    "posting_evidence": [
+      "Senior Manager, Pricing, Pension Risk Transfer; Toronto, in-office; CA$160,000–200,000.",
+      "Leads pricing of new PRT and group annuity deals and owns pricing models and assumptions, with governance and validation.",
+      "Supports longevity reinsurance negotiations and works with Distribution on quote strategy and responses to brokers, consultants and plan sponsors.",
+      "Requires FCIA/FSA, 7+ yrs life and annuity experience, and tools such as GGY AXIS and ClubVita; mentions using AI for analysis."
+    ],
+    "news": [],
+    "interpretation": "TD appears to be competing in Canadian PRT, where winning deals depends on precise longevity assumptions and reinsurance costs. Inference: the focus on post-deal reviews and model ownership suggests the business is scaling deal volume and tightening pricing discipline. This is a specialist actuarial pricing role, not commercial strategy.",
+    "open_questions": [
+      "What is TD's annual PRT deal volume and target market share?",
+      "How much longevity risk is reinsured, and who owns reinsurer relationships?"
+    ],
+    "caveat": "Read from a Built In copy; no TD news on PRT was read today.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0075"
+    ],
+    "industry": "Insurance",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0056",
+    "company": "AstraZeneca",
+    "business_unit": "AstraZeneca Canada – Strategic Pricing",
+    "baseline_date": "2026-10-21",
+    "last_updated": "2026-10-21",
+    "pricing_theme": "Managing list and net pricing and payer contracting under Canada's new PMPRB regime.",
+    "current_model": null,
+    "posting_evidence": [
+      "Director Strategic Pricing, Mississauga, office three days a week; Built In shows 'Reposted 9 days ago'.",
+      "Leads the Strategic Pricing team; sets gross and net pricing strategies for AstraZeneca brands and obtains approvals.",
+      "Designs payer deal structures for public and private payers; plans rebates and chargebacks; owns gross-to-net impacts with Commercial Financial Planning.",
+      "Oversees PMPRB compliance and reporting, enforces global pricing policies and gives early pricing input on pipeline assets."
+    ],
+    "news": [],
+    "interpretation": "The role combines pricing for launches, payer negotiation and regulatory compliance, typical of Canadian market access. Inference: with the new PMPRB guidelines in force since January 2026, the company likely needs a leader who can rework launch-price and net-price strategy for the new screening tests and align it with global reference-pricing policy. The repost suggests the seat has been hard to fill.",
+    "open_questions": [
+      "How have the 2026 PMPRB guidelines changed AstraZeneca Canada's launch-price decisions?",
+      "How much pricing authority sits locally versus with global pricing?",
+      "Why was the role reposted?"
+    ],
+    "caveat": "No recent company-specific pricing news read; the PMPRB point is background from earlier in 2026, outside the three-month news window.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0076"
+    ],
+    "industry": "Pharmaceuticals",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0057",
+    "company": "White Cap",
+    "business_unit": "White Cap Canada",
+    "baseline_date": "2026-10-21",
+    "last_updated": "2026-10-21",
+    "pricing_theme": "Tightening field-pricing discipline and margins in construction-supply distribution.",
+    "current_model": null,
+    "posting_evidence": [
+      "Manager, Pricing, Woodbridge ON, in-office; minimum pay $85,300 (Built In).",
+      "Leads pricing governance, analytics and change management to improve pricing discipline; monitors compliance and exception trends with field leaders.",
+      "Drives adoption of pricing programs and tools; requires Tableau, Pricefx and Infor SX.e.",
+      "Manages a team of individual contributors; 7+ yrs experience."
+    ],
+    "news": [],
+    "interpretation": "This reads as a classic distributor margin-leakage mandate: reduce field overrides and exceptions and embed a pricing tool (Pricefx). Inference: the request for change-management skills suggests adoption by branch sales is the main challenge. Compensation is low for the 7+ years required, which may signal a narrower operational scope.",
+    "open_questions": [
+      "Is Pricefx already live in Canada, or is this role part of the rollout?",
+      "What authority does the role have over field-level price overrides?"
+    ],
+    "caveat": "Single Built In source; no company pricing news or employer posting found.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0077"
+    ],
+    "industry": "Distribution",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0058",
+    "company": "Mibanco",
+    "business_unit": "Mibanco Colombia – Pricing",
+    "baseline_date": "2026-10-21",
+    "last_updated": "2026-10-21",
+    "pricing_theme": "Controlling interest-rate and fee exceptions in microfinance lending.",
+    "current_model": null,
+    "posting_evidence": [
+      "Especialista de Datos y Pricing, Bogotá, posted 2026-10-14 on Magneto; salary not stated.",
+      "Supports the sales network and business areas in applying the pricing strategy.",
+      "Manages requests and exceptions for interest rates and fees; analyzes pricing and financial-income trends.",
+      "Requires 2+ yrs, advanced Excel and intermediate Power BI, SQL and R, plus knowledge of credit products and Colombian regulation."
+    ],
+    "news": [],
+    "interpretation": "The role points to a pricing function that centrally approves branch-level rate and fee exceptions. Inference: the mix of exception handling and income-trend analysis suggests the bank is trying to protect margin while staying competitive in microcredit. It is an analyst-level specialist role with limited strategic ownership.",
+    "open_questions": [
+      "How much rate discretion do branches have, and what share of loans need exceptions?",
+      "Who owns the overall pricing strategy in Colombia?"
+    ],
+    "caveat": "Short posting on a job board; no recent Mibanco Colombia pricing news found.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0078"
+    ],
+    "industry": "Banking",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0059",
+    "company": "Asana",
+    "business_unit": "Monetization Strategy (Product Management)",
+    "baseline_date": "2026-10-21",
+    "last_updated": "2026-10-21",
+    "pricing_theme": "Adding consumption- and outcome-based AI monetization on top of seat-based plans.",
+    "current_model": "Seat-based tiers (Personal, Starter, Advanced, Enterprise, Enterprise+); per the Q2 FY2027 release, AI Teammates, AI Studio and Asana Dash are coming to every paid tier with Agentic Work Management in Q3.",
+    "posting_evidence": [
+      "Pricing Strategy Director, San Francisco (or New York, Chicago, Vancouver); base USD 207,000–279,000; req JR106403.",
+      "Reports to the Head of Pricing and Packaging within Monetization Strategy in Product Management.",
+      "Leads packaging, pricing models, price levels and discount strategy for one or two business lines, with 1-quarter and 1–3-year impact goals.",
+      "Presents to executives including the CEO; expects pricing research (conjoint, Van Westendorp) and awareness of AI pricing trends."
+    ],
+    "news": [
+      {
+        "date": "2026-09-04",
+        "summary": "Asana reported Q2 FY2027 revenue of $216.4M (+10% YoY) and 97% net retention; the CFO said the company sees an opportunity to build consumption- and outcome-based revenue alongside seats, and Agentic Work Management will bring AI Studio, AI Teammates and Asana Dash to every paid tier in Q3.",
+        "source": "Asana (press release via 01net)",
+        "url": "https://www.01net.it/asana-announces-second-quarter-fiscal-2027-results/"
+      }
+    ],
+    "interpretation": "Asana is redesigning its monetization so that AI agents drive revenue through usage or outcomes while seats remain the base, which management calls both an opportunity and a risk factor. Inference: pushing AI into every paid tier likely means packaging and credit allowances will be reworked, and this director will own that for specific business lines. With net retention under 100%, pricing is also likely expected to support expansion.",
+    "open_questions": [
+      "Which business lines would this director own, and how will consumption billing be introduced?",
+      "How will AI Studio credit allowances change once AI is in every paid tier?",
+      "Is the Vancouver location option real for this hire?"
+    ],
+    "caveat": "Current-model details beyond the release come from the posting; Asana's pricing page was not read today.",
+    "confidence": "High",
+    "linked_job_ids": [
+      "JOB-0082"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
   }
 ]

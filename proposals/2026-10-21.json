@@ -1,0 +1,526 @@
+{
+  "run_date": "2026-10-21",
+  "searches_run": 92,
+  "searches_by_country": { "Canada": 34, "Colombia": 19, "United States": 20 },
+  "watchlist_checked": [
+    "Desjardins", "National Bank", "RBC", "TD", "BMO", "Intact", "Sun Life", "Manulife",
+    "Grupo Nutresa", "Alpina", "Colombina", "Bavaria (AB InBev)", "Coca-Cola FEMSA", "Postobón", "Diageo", "Quala",
+    "Stripe", "Intuit", "Gusto", "DocuSign", "Zoom", "PagerDuty"
+  ],
+  "new_opportunities": [
+    {
+      "company": "Pratt & Whitney Canada (RTX)",
+      "title": "Gestionnaire principal, stratégies de tarification et transactions / Senior Manager, Pricing & Lifecycle Strategy",
+      "business_unit": "Aftermarket / Pricing & Lifecycle Strategy", "category": "Pricing",
+      "country": "Canada", "city": "Longueuil", "location_note": "1000 Blvd Marie-Victorin, Longueuil (Montreal area)",
+      "work_mode": "In person", "work_model": "In-office only, Monday to Friday, flexible hours", "salary_advertised": "Not stated",
+      "employer_posting_date": "2026-10-08", "official_url": null,
+      "secondary_url": "https://builtin.com/job/gestionnaire-principal-strat-gies-de-tarification-et-transactions-senior-manager-pricing-lifecycle-strategy/11575634",
+      "requisition_id": null,
+      "summary": "Lead a segment of the Pricing & Lifecycle Strategy team: lifecycle pricing for new, mid-life and end-of-life engines, spare-parts and labour-rate increase impact, discount/concession strategy and an executive commercial dashboard.",
+      "pricing_focus": "Aerospace aftermarket; lifecycle pricing",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope",
+      "scope_note": "Reports to the Associate Director (English text) or Manager (French text), Pricing & Lifecycle Strategy; 10+ yrs with a bachelor's. Employer posting not found on careers.rtx.com (site blocked automated access).",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Sophos", "title": "Senior Director, Pricing Operations",
+      "business_unit": "Product & Engineering – Supply Chain (SecOps pricing)", "category": "Pricing",
+      "country": "Canada", "city": "Anywhere", "location_note": "Remote, Canada; a separate UK posting exists for the same role",
+      "work_mode": "Remote", "work_model": "Remote (Sophos describes itself as remote-first)",
+      "salary_advertised": "In Canada, the base salary for this role ranges from $184,000 to $306,000 (plus bonus eligibility)",
+      "employer_posting_date": null,
+      "official_url": "https://jobs.lever.co/sophos/228b7a60-b52a-4e02-9176-a8d4b9c4971a",
+      "secondary_url": "https://builtin.com/job/senior-director-pricing-operations/11464759",
+      "requisition_id": "228b7a60-b52a-4e02-9176-a8d4b9c4971a",
+      "summary": "Build a centralized Pricing Operations function for SecOps (strategy, analytics, deal support), a segment-aware pricing cadence, a pricing council and AI-assisted competitor and discount monitoring.",
+      "pricing_focus": "Cybersecurity SaaS; pricing governance; discount discipline",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "Build role: new team and operating rhythm; dotted line to the Network Security group.",
+      "strategy_confidence": "High"
+    },
+    {
+      "company": "GitLab", "title": "Lead Pricing Strategist",
+      "business_unit": "Pricing & Monetization", "category": "Pricing",
+      "country": "Canada", "city": "Anywhere", "location_note": "Remote, Canada; Remote, United States",
+      "work_mode": "Remote", "work_model": "Remote (all-remote company)",
+      "salary_advertised": "United States Salary Range $139,200 - $235,200 USD (US residents only; no Canada range stated)",
+      "employer_posting_date": null,
+      "official_url": "https://job-boards.greenhouse.io/gitlab/jobs/8756163002",
+      "secondary_url": "https://builtin.com/job/lead-pricing-strategist/10902354",
+      "requisition_id": "8756163002",
+      "summary": "Define and execute pricing and packaging across Premium, Ultimate, GitLab Duo and AI/usage-based products; build commercial models, run pricing reviews, map SKUs for launches and track post-launch results.",
+      "pricing_focus": "DevSecOps SaaS; AI and usage-based pricing",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "Senior individual contributor; no people management stated.",
+      "strategy_confidence": "High"
+    },
+    {
+      "company": "GitLab", "title": "Staff Commercial Pricing Strategist",
+      "business_unit": "Pricing & Monetization", "category": "Pricing",
+      "country": "Canada", "city": "Anywhere", "location_note": "Remote, Canada; Remote, United States",
+      "work_mode": "Remote", "work_model": "Remote (all-remote company)",
+      "salary_advertised": "$139,200 to $235,200 USD (US residents only; no Canada range stated)",
+      "employer_posting_date": null,
+      "official_url": "https://job-boards.greenhouse.io/gitlab/jobs/8763503002",
+      "secondary_url": "https://builtin.com/job/staff-commercial-pricing-strategist/10973644",
+      "requisition_id": "8763503002",
+      "summary": "Own enterprise pricing, packaging and monetization: enterprise agreements, bundling, channel and cloud-marketplace pricing, discount frameworks and competitive deal programs.",
+      "pricing_focus": "Enterprise and channel pricing; discount frameworks",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "Top of GitLab's individual-contributor track; no people management. Official page not opened (listed on GitLab's Greenhouse board API with Remote, Canada).",
+      "strategy_confidence": "High"
+    },
+    {
+      "company": "PointClickCare", "title": "Sr. Monetization Strategy & Pricing Manager (CA)",
+      "business_unit": "Monetization Strategy & Pricing", "category": "Monetization",
+      "country": "Canada", "city": "Mississauga", "location_note": "Must live within commuting distance of the office",
+      "work_mode": "Hybrid", "work_model": "Hybrid; regular in-office events with the team",
+      "salary_advertised": "104K-130K annually (Built In listing; currency not stated)",
+      "employer_posting_date": null, "official_url": null,
+      "secondary_url": "https://builtin.com/job/sr-monetization-strategy-pricing-manager-ca/11699495",
+      "requisition_id": null,
+      "summary": "Develop and execute pricing and packaging for products and launches, build pricing models, track ASP/ARPU/discount KPIs and operationalize pricing with Product, Sales, RevOps and Finance.",
+      "pricing_focus": "Healthcare SaaS; AI pricing; packaging",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "Reports to the Director, Monetization Strategy & Pricing; 3+ yrs required, so closer to senior IC than people manager.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "TD Bank", "title": "Manager Pricing Analytics",
+      "business_unit": "TD Insurance – Pricing", "category": "Pricing",
+      "country": "Canada", "city": "Montreal", "location_note": "Built In shows '2 locations' (Montreal and Toronto listings)",
+      "work_mode": "In person", "work_model": "In-office, 35 hours/week",
+      "salary_advertised": "140,000 to 165,000 CAD annually (Built In copy)",
+      "employer_posting_date": null, "official_url": null,
+      "secondary_url": "https://builtin.com/job/manager-pricing-analytics/11547103",
+      "requisition_id": null,
+      "summary": "Lead a team of actuaries and data scientists building end-to-end ML pricing models for TD Insurance, with model governance and scalable inference pipelines.",
+      "pricing_focus": "P&C insurance pricing; machine learning",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "Technical/ML-heavy pricing leadership; 7+ yrs P&C actuarial experience and Python required.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "TD Bank", "title": "Senior Manager, Pricing, Pension Risk Transfer",
+      "business_unit": "Pension Risk Transfer / group annuities", "category": "Pricing",
+      "country": "Canada", "city": "Toronto", "location_note": null,
+      "work_mode": "In person", "work_model": "In-office, 37.5 hours/week",
+      "salary_advertised": "CA$160,000 to CA$200,000 annually (Built In copy)",
+      "employer_posting_date": null, "official_url": null,
+      "secondary_url": "https://builtin.com/job/senior-manager-pricing-pension-risk-transfer/11761167",
+      "requisition_id": null,
+      "summary": "Lead pricing of new pension risk transfer and group annuity deals, own pricing models and assumptions, support longevity reinsurance and deal structuring with Distribution.",
+      "pricing_focus": "Actuarial deal pricing; longevity risk",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "Requires FCIA/FSA and 7+ yrs life and annuity experience; actuarial specialist role.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "AstraZeneca", "title": "Director Strategic Pricing",
+      "business_unit": "AstraZeneca Canada – Market Access / Strategic Pricing", "category": "Pricing",
+      "country": "Canada", "city": "Mississauga", "location_note": null,
+      "work_mode": "Hybrid", "work_model": "Office three days a week",
+      "salary_advertised": "Not stated",
+      "employer_posting_date": null, "official_url": null,
+      "secondary_url": "https://builtin.com/job/director-strategic-pricing/11289851",
+      "requisition_id": null,
+      "summary": "Lead the Strategic Pricing team: gross and net pricing strategy for AstraZeneca brands, payer deal structures and contracting, rebates and chargebacks, gross-to-net, and PMPRB compliance and reporting.",
+      "pricing_focus": "Pharma list/net pricing; payer contracting; PMPRB",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "Requires 7–10+ yrs pharma market access/pricing and Canadian payer knowledge. Built In shows 'Reposted 9 days ago'; an older Alexion copy (R-233789, 2025) now returns 404.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "White Cap", "title": "Manager, Pricing",
+      "business_unit": "White Cap Canada", "category": "Pricing",
+      "country": "Canada", "city": "Woodbridge", "location_note": "Ontario (L4L 0B9)",
+      "work_mode": "In person", "work_model": "In-office",
+      "salary_advertised": "Minimum Pay $85,300.00 (Built In listing; currency not stated)",
+      "employer_posting_date": null, "official_url": null,
+      "secondary_url": "https://builtin.com/job/manager-pricing/11482443",
+      "requisition_id": null,
+      "summary": "Develop and execute margin-improving pricing strategies with field sales and operations; lead pricing governance, compliance and exception monitoring, and adoption of pricing tools (Pricefx).",
+      "pricing_focus": "Construction-supply distribution; margin governance",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "Manages a team of individual contributors; 7+ yrs.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Mibanco", "title": "Especialista de Datos y Pricing",
+      "business_unit": "Mibanco Colombia – Pricing", "category": "Pricing",
+      "country": "Colombia", "city": "Bogotá", "location_note": null,
+      "work_mode": "Unknown", "work_model": "Not stated",
+      "salary_advertised": "Not stated",
+      "employer_posting_date": "2026-10-14", "official_url": null,
+      "secondary_url": "https://www.magneto365.com/co/empleos/especialista-de-datos-y-pricing-1099540",
+      "requisition_id": "1099540",
+      "summary": "Support the sales network in applying pricing strategy, manage interest-rate and fee exception requests and analyze pricing and income trends for profitability and competitiveness.",
+      "pricing_focus": "Microfinance lending rates and fees",
+      "level_band": "analyst", "level": "Specialist",
+      "scope_fit": "in_scope", "scope_note": "2+ yrs required; Excel, Power BI, SQL, R.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Empresa confidencial", "title": "Analista precios - agente de carga",
+      "business_unit": "Freight forwarding", "category": "Pricing",
+      "country": "Colombia", "city": "Bogotá", "location_note": "Alternate Saturdays",
+      "work_mode": "In person", "work_model": "Presencial, tiempo completo",
+      "salary_advertised": "$2,5 a $3 millones COP (period not stated)",
+      "employer_posting_date": "2026-10-14",
+      "official_url": "https://www.elempleo.com/co/ofertas-trabajo/analista-precios-agente-de-carga-1886780374",
+      "secondary_url": null,
+      "requisition_id": "1886780374",
+      "summary": "Request, negotiate and update freight rates with carriers and agents; prepare sea, air and land quotes; maintain rate matrices and build profitable commercial offers.",
+      "pricing_focus": "Freight rate quoting",
+      "level_band": "analyst", "level": "Analyst",
+      "scope_fit": "in_scope", "scope_note": "Likely the same confidential freight forwarder as JOB-0068 and two sibling elempleo offers posted the same day (1886780392, 1886780384), which mix pricing with finance/operations and were not added.",
+      "strategy_confidence": "Low"
+    },
+    {
+      "company": "UAP Inc.", "title": "Pricing Analyst",
+      "business_unit": "Not identified", "category": "Pricing",
+      "country": "Canada", "city": "Montreal", "location_note": null,
+      "work_mode": "Hybrid", "work_model": "Hybrid",
+      "salary_advertised": "Not stated",
+      "employer_posting_date": null, "official_url": null,
+      "secondary_url": "https://builtin.com/job/pricing-analyst/11793324",
+      "requisition_id": null,
+      "summary": "Analyze special and promotional prices and gross margins across stores and distribution centres, report pricing irregularities and recommend adjustments from competitor research.",
+      "pricing_focus": "Auto-parts distribution pricing",
+      "level_band": "analyst", "level": "Analyst",
+      "scope_fit": "in_scope", "scope_note": "1–3 yrs required.",
+      "strategy_confidence": "Low"
+    },
+    {
+      "company": "Autodesk", "title": "Pricing Analyst",
+      "business_unit": "Pricing", "category": "Pricing",
+      "country": "Canada", "city": "Montreal", "location_note": "Built In lists 4 locations including Montreal; cities not all named",
+      "work_mode": "In person", "work_model": "In-office (Built In tag)",
+      "salary_advertised": "US range $78,000 to $140,360; no Canada range stated",
+      "employer_posting_date": null, "official_url": null,
+      "secondary_url": "https://builtin.com/job/pricing-analyst/11409161",
+      "requisition_id": "26WD101177",
+      "summary": "Build pricing and financial models for subscription, API and AI offerings and evaluate pricing impacts with Finance, Sales and Pricing Operations.",
+      "pricing_focus": "Subscription, API and AI pricing",
+      "level_band": "analyst", "level": "Analyst",
+      "scope_fit": "in_scope", "scope_note": "4+ yrs required. Workday posting (req 26WD101177) not located.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Asana", "title": "Pricing Strategy Director",
+      "business_unit": "Monetization Strategy (Product Management)", "category": "Pricing",
+      "country": "United States", "city": "San Francisco",
+      "location_note": "Posting says the role can also be based in New York, Chicago or Vancouver (Canada)",
+      "work_mode": "Unknown", "work_model": "Not stated",
+      "salary_advertised": "For this role, the estimated base salary range is between $207,000 - $279,000.",
+      "employer_posting_date": null,
+      "official_url": "https://www.asana.com/jobs/apply/8214906?gh_jid=8214906",
+      "secondary_url": null,
+      "requisition_id": "JR106403",
+      "summary": "Lead packaging, pricing models, price levels and discount strategy for one or two business lines, set pricing KPIs and present to executives including the CEO.",
+      "pricing_focus": "Work-management SaaS; AI and packaging",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "Reports to the Head of Pricing and Packaging. Vancouver option makes it reachable from Canada.",
+      "strategy_confidence": "High"
+    },
+    {
+      "company": "Block", "title": "Strategic Pricing & Monetization Lead",
+      "business_unit": "Strategic Finance", "category": "Monetization",
+      "country": "United States", "city": "Anywhere", "location_note": "Official page lists Remote and Bay Area, CA, US; Built In copies list 8 locations with Canadian offices on the page, not confirmed for this role",
+      "work_mode": "Remote", "work_model": "Remote (official location label)",
+      "salary_advertised": "$207,900—$311,900 USD (Zones A–D)",
+      "employer_posting_date": "2026-09-24",
+      "official_url": "https://block.xyz/careers/jobs/5434305008",
+      "secondary_url": "https://builtin.com/job/strategic-pricing-monetization-lead/11365796",
+      "requisition_id": "R0007016",
+      "summary": "Lead a team of strategic pricing partners on complex sales-led deals; build pricing, approval, exception and risk frameworks and scale Deal Desk with automation and AI.",
+      "pricing_focus": "Deal pricing governance; sales-led monetization",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "borderline", "scope_note": "Pricing is core but the role leans to deal desk / deal structuring; 12+ yrs.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Cisco", "title": "Director, Pricing Strategy and Monetization (Remote)",
+      "business_unit": "Pricing & Strategy – Cybersecurity portfolio", "category": "Monetization",
+      "country": "United States", "city": "San Jose",
+      "location_note": "Hybrid in Seattle or San Jose; 100% remote US candidates considered. A closed copy listed Trenton, Ontario among locations.",
+      "work_mode": "Hybrid", "work_model": "Hybrid in Seattle, WA or San Jose, CA; 100% remote USA candidates considered",
+      "salary_advertised": "$243,300 to $312,000 starting range for U.S./Canada new hires (NYC metro $243,300 to $364,400)",
+      "employer_posting_date": null, "official_url": null,
+      "secondary_url": "https://www.builtinchicago.org/job/director-pricing-strategy-and-monetization-remote/11028125",
+      "requisition_id": null,
+      "summary": "Own pricing and monetization for Cisco's cybersecurity hardware and software: annual pricing reviews, elasticity and competitive analysis, packaging and pricing tools.",
+      "pricing_focus": "Security portfolio pricing; subscription and consumption models",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "Reports to the Sr. Director of Pricing and Strategy; Built In shows expected close 11/29/2026. Workday posting not found.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "ADP", "title": "Senior Manager, Pricing Strategy",
+      "business_unit": "GES pricing", "category": "Pricing",
+      "country": "United States", "city": "Roseland", "location_note": "Also Alpharetta, GA and New York, NY; description says Roseland, NJ or New York City",
+      "work_mode": "Hybrid", "work_model": "#LI-HYBRID",
+      "salary_advertised": "USD $99,600.00 - USD $185,800.00 / Year",
+      "employer_posting_date": "2026-08-26",
+      "official_url": "https://jobs.adp.com/en/jobs/279395/senior-manager-pricing-strategy/",
+      "secondary_url": null,
+      "requisition_id": "279395",
+      "summary": "Support pricing strategy, business cases and pricing and packaging for GES; analyze discounts, win and attach rates; run willingness-to-pay and competitive research.",
+      "pricing_focus": "HCM SaaS pricing analytics",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "borderline", "scope_note": "Senior Manager title but data-heavy duties (building and reconciling pricing datasets); works closely with the Senior Director, Pricing Strategy.",
+      "strategy_confidence": "Medium"
+    }
+  ],
+  "url_updates": [],
+  "strategy_updates": [
+    {
+      "id": null, "company": "Pratt & Whitney Canada (RTX)", "business_unit": "Aftermarket / Pricing & Lifecycle Strategy",
+      "pricing_theme": "Lifecycle pricing of the turboprop and turbofan aftermarket: spare parts, labour rates and end-of-life engine governance.",
+      "current_model": null,
+      "industry": "Aerospace",
+      "posting_evidence": [
+        "Senior Manager, Longueuil, in-office five days; posted 2026-10-08 (Built In copy of a bilingual posting).",
+        "Builds lifecycle pricing strategies for new, mid-life and end-of-life engines and leads in-service strategy for engine programs.",
+        "Assesses the impact of proposed spare-parts and labour-rate increases and helps define a discount and pricing-concession strategy.",
+        "Feeds a commercial strategy dashboard used by P&WC's Executive Committee; leads 'Project Vitamin E' (end-of-life engine governance).",
+        "Reporting line inconsistent: Associate Director (English) vs Manager (French), Pricing & Lifecycle Strategy."
+      ],
+      "news": [
+        { "date": "2026-09-09", "summary": "IATA welcomed P&WC contract changes, made after a European Commission competition probe, that lift restrictions on network maintenance shops so independent suppliers can access used PT6 and PW100-series parts and services.", "source": "IATA", "url": "https://www.iata.org/en/pressroom/2026-releases/09-09-pratt-whitney-canada-step-improved-engine-aftermarket/" }
+      ],
+      "interpretation": "P&WC appears to be professionalizing aftermarket pricing across the full engine lifecycle, where spare parts and shop labour carry most of the margin. Inference: the September 2026 loosening of used-parts restrictions under EU competition pressure raises competition from used and independent material, which makes disciplined list-price increases, concession rules and end-of-life governance more important now. The role is an execution-heavy senior manager seat with direct line of sight to the Executive Committee, not the head of pricing.",
+      "open_questions": [
+        "How will the used-parts contract changes affect price increase plans and concession policy for PT6 and PW100 parts?",
+        "What decision rights does this role have over annual list-price increases versus the Associate Director?",
+        "What is 'Project Vitamin E' expected to deliver, and on what timeline?"
+      ],
+      "caveat": "Read from a Built In copy; the employer posting could not be opened, and no P&WC price-list data was found.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:0"]
+    },
+    {
+      "id": null, "company": "Sophos", "business_unit": "Pricing Operations (SecOps)",
+      "pricing_theme": "Centralizing and governing pricing after acquisitions while pushing repeated list-price increases through the channel.",
+      "current_model": "Quote-based pricing sold through partners and MSPs; hardware appliances plus term subscriptions (per reseller notices).",
+      "industry": "Software",
+      "posting_evidence": [
+        "Senior Director, remote Canada, base CAD 184,000–306,000 plus bonus; parallel UK posting on Lever.",
+        "Mandate: build a centralized Pricing Operations function covering strategy, analytics and deal support for SecOps.",
+        "Replace episodic reviews with a segment-aware pricing cadence; set up a pricing council and governance with advance communication to sales and finance.",
+        "Direct AI-assisted monitoring of competitor pricing, discounting and discount depth; metrics include decision-to-communication time and discount discipline.",
+        "Strong dotted line to the Network Security group to keep pricing aligned across both businesses."
+      ],
+      "news": [
+        { "date": "2026-09-02", "summary": "Citing a 1 September Sophos partner email, a reseller reported a further 10% increase on XGS hardware and hardware-bound subscriptions plus AP6 access points, a 7.5% rise for Sophos Email, and AP6 support up from 5% to 10% of hardware price; effective 1 November 2026 for term licences and 1 January 2027 for MSP, after a 10% XGS increase on 1 July 2026.", "source": "Avanet (Sophos reseller)", "url": "https://www.avanet.com/en/blog/sophos-price-increase-november-2026/" }
+      ],
+      "interpretation": "Sophos looks to be moving pricing from ad hoc, product-by-product decisions to a governed central function, likely to manage price realization across a portfolio that has grown through acquisitions. Inference: two 10% hardware increases within four months suggest margin pressure and a need for better discount control and communication to partners, which this role is explicitly asked to build. Expect a hands-on build mandate: new team, cadence and AI tooling, with heavy channel and sales change management.",
+      "open_questions": [
+        "Who does the role report to, and does it own price-setting decisions or only the process and analytics?",
+        "How is pricing split between SecOps and Network Security today, and who arbitrates conflicts?",
+        "How have partners and MSPs responded to the 2026 increases (discount pressure, churn)?"
+      ],
+      "caveat": "Price-increase details come from a reseller blog, not a Sophos release; Sophos does not publish list prices.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:1"]
+    },
+    {
+      "id": null, "company": "GitLab", "business_unit": "Pricing & Monetization",
+      "pricing_theme": "Shifting from per-seat tiers to a hybrid seat-plus-consumption model built around GitLab Credits and the new Flex commitment.",
+      "current_model": "Per-user subscription tiers (Free, Premium, Ultimate) plus usage-based GitLab Credits for Duo Agent Platform; GitLab Flex combines seats, credits and new capabilities in one annual commitment; Secrets Manager sold as a usage-based add-on for Premium and Ultimate on GitLab.com.",
+      "industry": "Software",
+      "posting_evidence": [
+        "Two concurrent senior IC openings, both Remote Canada or US: Lead Pricing Strategist and Staff Commercial Pricing Strategist (US base USD 139,200–235,200; no Canada range).",
+        "Lead role: pricing and packaging across Premium, Ultimate, GitLab Duo and AI/usage-based products, SKU mapping for launches and post-launch monitoring.",
+        "Staff role: enterprise agreements, bundling, channel and cloud-marketplace pricing, discount frameworks and competitive deal programs.",
+        "Both expect influence over VP/SVP stakeholders without authority and documentation of pricing decisions in the public handbook; staff role asks for hands-on work with production AI agents."
+      ],
+      "news": [
+        { "date": "2026-09-01", "summary": "GitLab reported Q2 FY2027 revenue of $286.3M (+21% YoY), introduced GitLab Flex (one annual commitment covering seats, GitLab Credits and new capabilities with adjustable monthly reservations) and launched Secrets Manager as a usage-based add-on.", "source": "GitLab (press release via 01net)", "url": "https://www.01net.it/gitlab-reports-second-quarter-fiscal-year-2027-financial-results/" }
+      ],
+      "interpretation": "GitLab is trying to monetize AI agents through consumption without disrupting its seat-based core, and Flex is the bridge that lets enterprise buyers commit once and shift spend between seats and credits. Inference: hiring both a product-pricing lead and an enterprise/channel pricing specialist at the same time suggests the packaging is set and the work now is making it sell through enterprise deals, marketplaces and partners. Candidates should expect usage-metering, credit pricing and discount governance to be core.",
+      "open_questions": [
+        "How are credit consumption and Flex reservations priced and discounted in enterprise deals?",
+        "Who owns the overall pricing roadmap above these two IC roles?",
+        "What metrics define success for Duo Agent Platform monetization (credit attach, overage, net ARR)?"
+      ],
+      "caveat": "Current model drawn from GitLab's earnings release and posting text; the public pricing page was not read today.",
+      "confidence": "High",
+      "linked_job_refs": ["new:2", "new:3"]
+    },
+    {
+      "id": null, "company": "PointClickCare", "business_unit": "Monetization Strategy & Pricing",
+      "pricing_theme": "Packaging and pricing new AI-enabled modules for a long-term-care EHR installed base.",
+      "current_model": null,
+      "industry": "Software",
+      "posting_evidence": [
+        "Sr. Monetization Strategy & Pricing Manager (CA), Mississauga hybrid, 104K–130K (Built In; currency not stated).",
+        "Reports to the Director, Monetization Strategy & Pricing; owns some pricing projects and supports go-to-market for new products and features.",
+        "Builds pricing and financial models using AI tools; tracks ASP, ARPU, discount and attach-rate KPIs.",
+        "Asks for familiarity with B2B SaaS and AI pricing models and value-based pricing; supports complex deals and sales enablement."
+      ],
+      "news": [],
+      "interpretation": "The posting points to a small central monetization team (a director plus senior managers) packaging a growing set of add-on modules for an existing provider base. Inference: the explicit references to AI pricing models and attach-rate KPIs suggest the company is working out how to charge for AI features layered on its core EHR rather than resetting core subscription prices. The role is mid-senior and execution-focused.",
+      "open_questions": [
+        "How are AI modules priced today: bundled, per-facility add-on or usage-based?",
+        "How large is the monetization team and what decisions does the director own?"
+      ],
+      "caveat": "No pricing-related news in the last three months and no public pricing page; analysis rests on one Built In copy of the posting.",
+      "confidence": "Low",
+      "linked_job_refs": ["new:4"]
+    },
+    {
+      "id": null, "company": "TD Bank", "business_unit": "TD Insurance – Pricing Analytics",
+      "pricing_theme": "Moving P&C insurance pricing onto production machine-learning models.",
+      "current_model": null,
+      "industry": "Insurance",
+      "posting_evidence": [
+        "Manager Pricing Analytics, Montreal (also listed Toronto), in-office, CAD 140,000–165,000.",
+        "Leads a team of actuaries and data scientists and sets the vision for end-to-end ML projects from problem definition to deployment.",
+        "Works with Model Governance on validation protocols that meet regulatory standards; guides scalable modelling frameworks and inference pipelines.",
+        "Requires 7+ yrs P&C actuarial experience and Python."
+      ],
+      "news": [],
+      "interpretation": "TD Insurance appears to be industrializing ML in rate-making, pairing actuarial credibility with data-science delivery. Inference: the emphasis on governance and deployment pipelines suggests models are moving from experiments into regulated rate filings. This is a technical leadership role that serves pricing decision-makers rather than one that sets commercial pricing strategy.",
+      "open_questions": [
+        "Which lines (auto, home) and provinces are the models being deployed in first?",
+        "How are ML models reconciled with regulator rate-filing requirements in Quebec and Ontario?"
+      ],
+      "caveat": "Read from a Built In copy; TD's own posting and recent TD Insurance pricing news were not found.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:5"]
+    },
+    {
+      "id": null, "company": "TD Bank", "business_unit": "Pension Risk Transfer",
+      "pricing_theme": "Building deal-pricing capability for pension risk transfer and group annuities.",
+      "current_model": null,
+      "industry": "Insurance",
+      "posting_evidence": [
+        "Senior Manager, Pricing, Pension Risk Transfer; Toronto, in-office; CA$160,000–200,000.",
+        "Leads pricing of new PRT and group annuity deals and owns pricing models and assumptions, with governance and validation.",
+        "Supports longevity reinsurance negotiations and works with Distribution on quote strategy and responses to brokers, consultants and plan sponsors.",
+        "Requires FCIA/FSA, 7+ yrs life and annuity experience, and tools such as GGY AXIS and ClubVita; mentions using AI for analysis."
+      ],
+      "news": [],
+      "interpretation": "TD appears to be competing in Canadian PRT, where winning deals depends on precise longevity assumptions and reinsurance costs. Inference: the focus on post-deal reviews and model ownership suggests the business is scaling deal volume and tightening pricing discipline. This is a specialist actuarial pricing role, not commercial strategy.",
+      "open_questions": [
+        "What is TD's annual PRT deal volume and target market share?",
+        "How much longevity risk is reinsured, and who owns reinsurer relationships?"
+      ],
+      "caveat": "Read from a Built In copy; no TD news on PRT was read today.",
+      "confidence": "Low",
+      "linked_job_refs": ["new:6"]
+    },
+    {
+      "id": null, "company": "AstraZeneca", "business_unit": "AstraZeneca Canada – Strategic Pricing",
+      "pricing_theme": "Managing list and net pricing and payer contracting under Canada's new PMPRB regime.",
+      "current_model": null,
+      "industry": "Pharmaceuticals",
+      "posting_evidence": [
+        "Director Strategic Pricing, Mississauga, office three days a week; Built In shows 'Reposted 9 days ago'.",
+        "Leads the Strategic Pricing team; sets gross and net pricing strategies for AstraZeneca brands and obtains approvals.",
+        "Designs payer deal structures for public and private payers; plans rebates and chargebacks; owns gross-to-net impacts with Commercial Financial Planning.",
+        "Oversees PMPRB compliance and reporting, enforces global pricing policies and gives early pricing input on pipeline assets."
+      ],
+      "news": [],
+      "interpretation": "The role combines pricing for launches, payer negotiation and regulatory compliance, typical of Canadian market access. Inference: with the new PMPRB guidelines in force since January 2026, the company likely needs a leader who can rework launch-price and net-price strategy for the new screening tests and align it with global reference-pricing policy. The repost suggests the seat has been hard to fill.",
+      "open_questions": [
+        "How have the 2026 PMPRB guidelines changed AstraZeneca Canada's launch-price decisions?",
+        "How much pricing authority sits locally versus with global pricing?",
+        "Why was the role reposted?"
+      ],
+      "caveat": "No recent company-specific pricing news read; the PMPRB point is background from earlier in 2026, outside the three-month news window.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:7"]
+    },
+    {
+      "id": null, "company": "White Cap", "business_unit": "White Cap Canada",
+      "pricing_theme": "Tightening field-pricing discipline and margins in construction-supply distribution.",
+      "current_model": null,
+      "industry": "Distribution",
+      "posting_evidence": [
+        "Manager, Pricing, Woodbridge ON, in-office; minimum pay $85,300 (Built In).",
+        "Leads pricing governance, analytics and change management to improve pricing discipline; monitors compliance and exception trends with field leaders.",
+        "Drives adoption of pricing programs and tools; requires Tableau, Pricefx and Infor SX.e.",
+        "Manages a team of individual contributors; 7+ yrs experience."
+      ],
+      "news": [],
+      "interpretation": "This reads as a classic distributor margin-leakage mandate: reduce field overrides and exceptions and embed a pricing tool (Pricefx). Inference: the request for change-management skills suggests adoption by branch sales is the main challenge. Compensation is low for the 7+ years required, which may signal a narrower operational scope.",
+      "open_questions": [
+        "Is Pricefx already live in Canada, or is this role part of the rollout?",
+        "What authority does the role have over field-level price overrides?"
+      ],
+      "caveat": "Single Built In source; no company pricing news or employer posting found.",
+      "confidence": "Low",
+      "linked_job_refs": ["new:8"]
+    },
+    {
+      "id": null, "company": "Mibanco", "business_unit": "Mibanco Colombia – Pricing",
+      "pricing_theme": "Controlling interest-rate and fee exceptions in microfinance lending.",
+      "current_model": null,
+      "industry": "Banking",
+      "posting_evidence": [
+        "Especialista de Datos y Pricing, Bogotá, posted 2026-10-14 on Magneto; salary not stated.",
+        "Supports the sales network and business areas in applying the pricing strategy.",
+        "Manages requests and exceptions for interest rates and fees; analyzes pricing and financial-income trends.",
+        "Requires 2+ yrs, advanced Excel and intermediate Power BI, SQL and R, plus knowledge of credit products and Colombian regulation."
+      ],
+      "news": [],
+      "interpretation": "The role points to a pricing function that centrally approves branch-level rate and fee exceptions. Inference: the mix of exception handling and income-trend analysis suggests the bank is trying to protect margin while staying competitive in microcredit. It is an analyst-level specialist role with limited strategic ownership.",
+      "open_questions": [
+        "How much rate discretion do branches have, and what share of loans need exceptions?",
+        "Who owns the overall pricing strategy in Colombia?"
+      ],
+      "caveat": "Short posting on a job board; no recent Mibanco Colombia pricing news found.",
+      "confidence": "Low",
+      "linked_job_refs": ["new:9"]
+    },
+    {
+      "id": null, "company": "Asana", "business_unit": "Monetization Strategy (Product Management)",
+      "pricing_theme": "Adding consumption- and outcome-based AI monetization on top of seat-based plans.",
+      "current_model": "Seat-based tiers (Personal, Starter, Advanced, Enterprise, Enterprise+); per the Q2 FY2027 release, AI Teammates, AI Studio and Asana Dash are coming to every paid tier with Agentic Work Management in Q3.",
+      "industry": "Software",
+      "posting_evidence": [
+        "Pricing Strategy Director, San Francisco (or New York, Chicago, Vancouver); base USD 207,000–279,000; req JR106403.",
+        "Reports to the Head of Pricing and Packaging within Monetization Strategy in Product Management.",
+        "Leads packaging, pricing models, price levels and discount strategy for one or two business lines, with 1-quarter and 1–3-year impact goals.",
+        "Presents to executives including the CEO; expects pricing research (conjoint, Van Westendorp) and awareness of AI pricing trends."
+      ],
+      "news": [
+        { "date": "2026-09-04", "summary": "Asana reported Q2 FY2027 revenue of $216.4M (+10% YoY) and 97% net retention; the CFO said the company sees an opportunity to build consumption- and outcome-based revenue alongside seats, and Agentic Work Management will bring AI Studio, AI Teammates and Asana Dash to every paid tier in Q3.", "source": "Asana (press release via 01net)", "url": "https://www.01net.it/asana-announces-second-quarter-fiscal-2027-results/" }
+      ],
+      "interpretation": "Asana is redesigning its monetization so that AI agents drive revenue through usage or outcomes while seats remain the base, which management calls both an opportunity and a risk factor. Inference: pushing AI into every paid tier likely means packaging and credit allowances will be reworked, and this director will own that for specific business lines. With net retention under 100%, pricing is also likely expected to support expansion.",
+      "open_questions": [
+        "Which business lines would this director own, and how will consumption billing be introduced?",
+        "How will AI Studio credit allowances change once AI is in every paid tier?",
+        "Is the Vancouver location option real for this hire?"
+      ],
+      "caveat": "Current-model details beyond the release come from the posting; Asana's pricing page was not read today.",
+      "confidence": "High",
+      "linked_job_refs": ["new:13"]
+    }
+  ],
+  "people": [
+    {
+      "name": "Aziz Megji", "title": "Chief Financial Officer", "company": "Asana",
+      "contact_type": "relevant_contact", "relationship": "Executive publicly framing Asana's move to consumption- and outcome-based revenue",
+      "relevance": "He stated Asana's intent to build consumption- and outcome-based revenue alongside seats, the strategic agenda the Pricing Strategy Director would execute.",
+      "opportunity_ref": "new:13", "linkedin_profile": null,
+      "verification": "Named and quoted in Asana's Q2 FY2027 results release",
+      "evidence_url": "https://www.01net.it/asana-announces-second-quarter-fiscal-2027-results/",
+      "found_via": "Asana Q2 FY2027 press release (republished by 01net), read 2026-10-21", "notes": null
+    },
+    {
+      "name": "Bill Staples", "title": "Chief Executive Officer", "company": "GitLab",
+      "contact_type": "relevant_contact", "relationship": "CEO quoted on the results that introduced GitLab Flex",
+      "relevance": "He leads the company rolling out the Flex seat-plus-credits model that both open pricing roles will support.",
+      "opportunity_ref": "new:2", "linkedin_profile": null,
+      "verification": "Named and quoted in GitLab's Q2 FY2027 results release",
+      "evidence_url": "https://www.01net.it/gitlab-reports-second-quarter-fiscal-year-2027-financial-results/",
+      "found_via": "GitLab Q2 FY2027 press release (republished by 01net), read 2026-10-21", "notes": null
+    }
+  ],
+  "notes": "Built In Montreal/Toronto search pages were the most productive source (many official ATS pages for banks, RTX, AstraZeneca and Rexel could not be opened or found, so those roles carry secondary URLs only). Skipped: Rexel Pricing Manager (locations not named), Manulife Intermediate Pricing Analyst (only Toronto named), Aviva and Co-operators actuarial pricing roles (not verified), and closed roles at Clutch, Molson Coors, Cargill, Amgen, Novo Nordisk, HubSpot, Zoom and Intuit. Watchlist gaps: Scotiabank and Wawanesa were not specifically searched; Stripe's Greenhouse board was only partly read. No url_updates: no employer postings found for JOB-0016/0021/0022/0035/0045/0048/0057/0058/0061/0062 (HighLevel's role is still live on Built In; Belron JR71565 is on Jobillico but its Workday URL was not found). Search counts are approximate."
+}

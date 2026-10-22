@@ -110,5 +110,37 @@
     "found_via": "LifeLabs leadership page, 2026-10-19",
     "first_seen": "2026-10-19",
     "notes": null
+  },
+  {
+    "id": "PERSON-0008",
+    "name": "Aziz Megji",
+    "title": "Chief Financial Officer",
+    "company": "Asana",
+    "contact_type": "relevant_contact",
+    "relationship": "Executive publicly framing Asana's move to consumption- and outcome-based revenue",
+    "relevance": "He stated Asana's intent to build consumption- and outcome-based revenue alongside seats, the strategic agenda the Pricing Strategy Director would execute.",
+    "opportunity_id": "JOB-0082",
+    "linkedin_profile": null,
+    "verification": "Named and quoted in Asana's Q2 FY2027 results release",
+    "evidence_url": "https://www.01net.it/asana-announces-second-quarter-fiscal-2027-results/",
+    "found_via": "Asana Q2 FY2027 press release (republished by 01net), read 2026-10-21",
+    "first_seen": "2026-10-21",
+    "notes": null
+  },
+  {
+    "id": "PERSON-0009",
+    "name": "Bill Staples",
+    "title": "Chief Executive Officer",
+    "company": "GitLab",
+    "contact_type": "relevant_contact",
+    "relationship": "CEO quoted on the results that introduced GitLab Flex",
+    "relevance": "He leads the company rolling out the Flex seat-plus-credits model that both open pricing roles will support.",
+    "opportunity_id": "JOB-0071",
+    "linkedin_profile": null,
+    "verification": "Named and quoted in GitLab's Q2 FY2027 results release",
+    "evidence_url": "https://www.01net.it/gitlab-reports-second-quarter-fiscal-year-2027-financial-results/",
+    "found_via": "GitLab Q2 FY2027 press release (republished by 01net), read 2026-10-21",
+    "first_seen": "2026-10-21",
+    "notes": null
   }
 ]

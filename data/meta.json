@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "baseline_date": "2026-10-10",
-  "last_run": "2026-10-20",
+  "last_run": "2026-10-21",
   "lifecycle_values": [
     "active",
     "unable_to_verify",
@@ -13,5 +13,5 @@
     "borderline"
   ],
   "notes": "last_verified_active is set only on a genuinely positive job-level check. Blank means not verified.",
-  "last_run_at": "2026-10-20T20:12:26-04:00"
+  "last_run_at": "2026-10-21T20:15:36-04:00"
 }
