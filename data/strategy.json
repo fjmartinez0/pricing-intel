@@ -1895,5 +1895,42 @@
     ],
     "industry": "Software",
     "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0060",
+    "company": "ADP",
+    "business_unit": "GES pricing",
+    "baseline_date": "2026-10-22",
+    "last_updated": "2026-10-22",
+    "pricing_theme": "Building a data foundation for enterprise (GES) pricing and packaging as price contribution matters more to growth while US employment growth stalls.",
+    "current_model": null,
+    "posting_evidence": [
+      "Senior Manager, Pricing Strategy, Global Enterprise Solutions; Roseland NJ or New York City (also Alpharetta GA), hybrid; posted 2026-08-26; USD 99,600-185,800; sits in Marketing.",
+      "Works closely with the Senior Director, Pricing Strategy; supports development, execution and governance of GES pricing initiatives and pricing and packaging for existing and new solutions.",
+      "Heavy data mandate: build and reconcile pricing datasets across systems whose structures, definitions and hierarchies do not align, and fix root causes of pricing, contract and sales data inconsistencies.",
+      "Analyzes discounts, win and attach rates, sales productivity and promotion effectiveness; supports willingness-to-pay studies, pricing experiments and competitor price tracking.",
+      "Asks for 5-8 years in pricing, strategy, finance, analytics or consulting; SQL, Power BI, Tableau, Alteryx or Python preferred; HCM, SaaS or subscription background a plus."
+    ],
+    "news": [
+      {
+        "date": "2026-07-29",
+        "summary": "ADP reported fiscal 2026 revenue up 7% to $21.9 billion with Employer Services retention flat at 92.1%, and guided fiscal 2027 to 5-6% revenue growth, Employer Services retention down 10-30 basis points and US pays per control up only 0-1%; the release itself does not quantify price.",
+        "source": "ADP (Form 8-K exhibit 99.1, SEC)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000008670/000000867026000025/q4fy26exhibit99.htm"
+      }
+    ],
+    "interpretation": "With pays per control guided to 0-1% and retention expected to slip, ADP's fiscal 2027 growth has to come mostly from new bookings, price and client funds income, so enterprise price realization becomes a more important lever (inference from the outlook). The posting suggests the enterprise pricing function cannot yet see discounting, attach and win rates cleanly across systems, so the first job is to build reliable pricing data and repeatable analysis before larger packaging moves. The mentions of willingness-to-pay studies and packaging for new solutions point to future enterprise packaging work, possibly around the Lyric HCM platform, but the posting does not name products. For a candidate, this is a senior analytical role supporting a Senior Director rather than one that owns pricing decisions.",
+    "open_questions": [
+      "Which GES products and segments does the pricing team cover, and is Lyric HCM packaging in scope?",
+      "Who owns final pricing and discount decisions in GES: the Senior Director of Pricing Strategy, Sales leadership or Product?",
+      "Watch the fiscal Q1 2027 earnings call for any quantified price contribution and commentary on retention versus price increases."
+    ],
+    "caveat": "ADP publishes no enterprise list prices, and the July 2026 release does not quantify price; the only price-contribution figure seen today came from a search snippet of a third-party article that could not be opened, so it is not used.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0085"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
   }
 ]
