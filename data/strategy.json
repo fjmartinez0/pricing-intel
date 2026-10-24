@@ -1932,5 +1932,200 @@
     ],
     "industry": "Software",
     "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0061",
+    "company": "Runway",
+    "business_unit": "Product (self-serve business)",
+    "baseline_date": "2026-10-23",
+    "last_updated": "2026-10-23",
+    "pricing_theme": "Turning an ad hoc credit model into a formal pricing function spanning self-serve credits, enterprise contracts and model-level pricing.",
+    "current_model": "Per its pricing page: Free (125 one-time credits), Standard $15/mo or $12/mo annual (625 credits), Pro $35/mo or $28/mo annual (2,250 credits), Max $95/mo or $76/mo annual (9,500 credits, one month of rollover), Enterprise on request; Standard/Pro credits do not roll over; top-ups from 1,000 credits never expire; Gen-4.5 costs 12 credits per second; enterprise promotion of two months free usage for contracts signed by 10/31.",
+    "posting_evidence": [
+      "Pricing Lead, remote US (NYC/SF preferred), USD 290K–360K; in Product, tied to the self-serve business.",
+      "Owns self-serve plan structure, credits, top-ups, billing cadence and regional pricing with ongoing experiments.",
+      "Designs the self-serve-to-enterprise path (contract structures, sales guardrails) and sets launch and lifecycle pricing for Runway models plus margins on third-party models.",
+      "Build mandate: publish pricing principles and value metrics, run a pricing council with Product, Finance, Research and GTM, and hire a small team.",
+      "Asks for 10+ years with 5+ owning pricing decisions, cost-to-serve and margin modelling from compute and inference inputs."
+    ],
+    "news": [],
+    "interpretation": "Runway appears to be moving pricing from product-by-product decisions to a governed function, as inference costs and a mix of first- and third-party models make margin per credit harder to manage. Inference: hosting third-party models alongside its own means credit prices have to reflect very different cost-to-serve, which explains the emphasis on compute-based margin models. The enterprise promotion on the pricing page and the self-serve-to-enterprise mandate suggest the company is pushing upmarket. The hire would be the first dedicated pricing owner, with wide scope and little existing infrastructure.",
+    "open_questions": [
+      "Will credits stay the single value metric across Runway and third-party models, or move to model-specific pricing?",
+      "How much enterprise revenue exists today, and who owns enterprise discounting before this hire?",
+      "What budget and headcount come with the 'small pricing team'?"
+    ],
+    "caveat": "No dated pricing news was read today; the analysis rests on the posting copies and the live pricing page, and the Ashby page itself did not render its body.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0096"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0062",
+    "company": "Squarespace",
+    "business_unit": "Commercial Strategy (Domains & Applications)",
+    "baseline_date": "2026-10-23",
+    "last_updated": "2026-10-23",
+    "pricing_theme": "Managing AI feature margins through credit-based allowances layered onto raised subscription prices.",
+    "current_model": "Per its pricing page (CA$ view): Basic CA$30/mo or CA$21/mo, Core CA$45/32, Plus CA$59/46, Advanced CA$139/109; store transaction fee 2% on Basic, 0% above; Built-in AI Tools on every plan with AI Credits of 10 one-time (Basic), 20/mo (Core), 40/mo (Plus), 120/mo (Advanced) that reset monthly; no AI add-ons listed.",
+    "posting_evidence": [
+      "Senior Lead, AI Pricing & Margin Strategy, New York, hybrid 2–3 days; USD 125,800–170,200; Greenhouse first published 2026-09-22.",
+      "Sits in the centralized Commercial Strategy team (Domains & Applications) and reports to the Commercial Lead; IC4 level.",
+      "Models AI margins across API costs, token consumption and inference spend, and converts AI usage into credit equivalents by model provider.",
+      "Designs credit- and usage-based tiers, limits and overages, defines SKUs and entitlements with Billing, and structures AI launch promotions.",
+      "Tracks model-provider pricing (OpenAI, Anthropic, Google) and competitor AI packaging."
+    ],
+    "news": [
+      {
+        "date": "2026-07-13",
+        "summary": "A pricing tracker recorded Squarespace raising US monthly prices for Basic ($16 to $19), Core ($23 to $29) and Plus ($39 to $49) while Advanced stayed at $99, and renaming the 'Squarespace AI' plan label to 'Built-in AI Tools'.",
+        "source": "PricingSaaS (third-party tracker)",
+        "url": "https://pricingsaas.com/companies/squarespace/diffs/2026W29"
+      }
+    ],
+    "interpretation": "Squarespace raised base prices this summer and now meters AI through plan-level credits, so the open problem is keeping AI costs inside those allowances as usage grows. The posting's focus on token-to-credit conversion, model routing and overage rules suggests credit allowances and overages are still being designed or tuned (inference). Watching third-party model prices fits a business whose AI cost base depends on outside providers. This is an analytical, margin-protection role rather than ownership of headline price levels.",
+    "open_questions": [
+      "Will Squarespace sell AI credit top-ups or overages, which the pricing page does not list today?",
+      "Who sets headline plan prices: the Commercial Lead, Finance or Product?",
+      "How did the July price increase affect churn on Basic and Core?"
+    ],
+    "caveat": "The price-increase item comes from a third-party tracker, not a Squarespace announcement; the pricing page was read in Canadian dollars.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0097"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0063",
+    "company": "OpenAI",
+    "business_unit": "Product Pricing (Chat & Codex)",
+    "baseline_date": "2026-10-23",
+    "last_updated": "2026-10-23",
+    "pricing_theme": "Shifting ChatGPT and Codex from flat subscriptions toward token-based credits and usage limits shared across agentic features.",
+    "current_model": "Per OpenAI's Codex pricing docs: Free $0, Go $8/mo, Plus $20/mo, Pro from $100/mo ($100/$200/$500 tiers), Business $20/user/mo annual ($25 monthly), Enterprise/Edu by contract; included usage limits per five-hour window vary by model; extra usage bought as credits on a token-based rate card (credits per 1M input/cached/output tokens by model); Codex and ChatGPT Work share one allowance and credit pool; GPT-5.6 Sol promotional pricing runs through at least 2026-11-21.",
+    "posting_evidence": [
+      "Pricing Strategist, San Francisco, hybrid; Built In lists 234K–260K; posted about 3 days before 2026-10-23.",
+      "Reports to the Head of Product Pricing for Chat & Codex, a separate pricing team from the API role already tracked.",
+      "Mandate: plan usage limits, credits and overages, and new monetization models, backed by usage analysis, financial models and pricing experiments.",
+      "Sets up lightweight pricing governance (decision frameworks, approvals, performance tracking) with Product, GTM and Finance.",
+      "Asks for 6+ years in strategy and 3+ years hands-on pricing, including launching self-serve subscription or usage-based offers."
+    ],
+    "news": [],
+    "interpretation": "OpenAI has already moved Codex to a token-based credit rate card and merged agentic features into one shared allowance, so the subscription plans now work as bundles of compute rather than flat access. This role likely sets where included limits end and paid credits begin across tiers, which is the main lever for margin as heavier agentic usage grows (inference). Separate pricing heads for API and for Chat & Codex suggest consumer/business plans and the developer platform are priced on different logics that still need to stay consistent.",
+    "open_questions": [
+      "How are included limits set per tier relative to compute cost, and how often will they change?",
+      "Will Business and Enterprise seats move fully to credit-based billing?",
+      "How does this team coordinate with API pricing on shared models and rates?"
+    ],
+    "caveat": "OpenAI's own job page and help-center rate card could not be read; the posting details come from Built In, and no dated pricing announcement from the last three months was read today.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0098"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0064",
+    "company": "Moneris",
+    "business_unit": "Pricing (products and partnerships)",
+    "baseline_date": "2026-10-23",
+    "last_updated": "2026-10-23",
+    "pricing_theme": "Reworking product and partner pricing as the processor moves from bank ownership to private equity.",
+    "current_model": null,
+    "posting_evidence": [
+      "Pricing - Products & Partnerships Analyst, Toronto (Etobicoke), hybrid; $70,000–88,000 base; posted about 19 days before 2026-10-23 per Built In.",
+      "Develops pricing for products, services and partnerships and evaluates partner and integrated-solution agreements for profitability.",
+      "Models the impact of onboarding new partners and drafts business cases for new and bundled offerings.",
+      "Keeps pricing models and cost assumptions current; asks for 3+ years of analysis and SQL."
+    ],
+    "news": [
+      {
+        "date": "2026-08-10",
+        "summary": "Francisco Partners agreed to buy Moneris from BMO and RBC for about C$2.0 billion in cash, with closing expected by the end of the banks' fiscal Q1 2027, long-term exclusive bank referral agreements, and former Global Payments CEO Jeff Sloan as chairman; the release announces no pricing changes.",
+        "source": "Moneris",
+        "url": "https://www.moneris.com/en/media-room/news/moneris-announces-acquisition-by-francisco-partners"
+      }
+    ],
+    "interpretation": "With a private-equity owner and a payments-industry chairman arriving, Moneris is likely to focus more on unit economics per merchant and partner, so partner revenue-share terms and bundles are natural levers (inference). The posting's focus on partner profitability and bundled offerings fits that. For an analyst, it means building the models behind partner deals during an ownership change.",
+    "open_questions": [
+      "Will merchant pricing or partner terms change after the deal closes?",
+      "Which partnerships and bundles are in scope, for example integrated software partners or bank-referred merchants?"
+    ],
+    "caveat": "Moneris's own job posting and published merchant pricing were not read; links between the acquisition and pricing are inference.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0094"
+    ],
+    "industry": "Payments",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0065",
+    "company": "Rexel Canada",
+    "business_unit": "Rexel Canada (Nedco banner mentioned)",
+    "baseline_date": "2026-10-23",
+    "last_updated": "2026-10-23",
+    "pricing_theme": "Protecting distribution margin through price execution and contract compliance in a favorable selling-price environment.",
+    "current_model": null,
+    "posting_evidence": [
+      "Pricing Manager, Canada (3 unnamed locations on Built In), in-office or remote; CAD 90,000 anticipated base; posted about 19 days before 2026-10-23.",
+      "Leads a team of pricing analysts; executes strategies developed by the Director of Pricing.",
+      "Owns price setting and adjustments, margin analysis, pricing data accuracy, contract compliance and pricing-system maintenance.",
+      "Supports Sales on special pricing requests and audit readiness; 5+ years with 2+ supervisory."
+    ],
+    "news": [
+      {
+        "date": "2026-07-27",
+        "summary": "Rexel's H1 2026 results reported selling prices up 3.3% in H1, cable prices adding about 2.0% to same-day sales, Canada same-day sales up 7.5% in Q2 on data-centre demand, flat North American gross margin, and raised FY2026 guidance to about 5% same-day sales growth.",
+        "source": "Rexel (results release via ariva.de)",
+        "url": "https://www.ariva.de/news/rexel-q2-sales-h1-2026-results-12081781"
+      }
+    ],
+    "interpretation": "Rexel is getting price increases through in all regions, but North American margin is flat because of mix and cost inflation, so execution (passing on increases, controlling special pricing, contract compliance) matters more than new strategy. This role looks like the operational layer under a Director of Pricing. Strong Canadian backlog suggests a busy quoting and special-pricing workload (inference).",
+    "open_questions": [
+      "Which banners and regions does the team cover, and where is it based?",
+      "How are special-pricing and rebate exceptions approved today, and what pricing system is used?"
+    ],
+    "caveat": "Rexel's own posting was not found and the job's city is unknown; the news is group-level, not Canada-specific pricing commentary.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0089"
+    ],
+    "industry": "Distribution",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0066",
+    "company": "Masterfeeds",
+    "business_unit": "Animal nutrition / feed pricing",
+    "baseline_date": "2026-10-23",
+    "last_updated": "2026-10-23",
+    "pricing_theme": "Cost-plus feed pricing with rebates and contract pricing run through a central pricing team.",
+    "current_model": null,
+    "posting_evidence": [
+      "Pricing Manager, Regina or remote Canada; posted 2026-10-16 on JobAdder; salary not stated, salary-plus-commission structure and vehicle allowance.",
+      "Maintains pricing databases covering product costs, discounts, rebates and freight; processes price updates, exceptions and approvals under existing guidelines.",
+      "Supports Sales on feed contract negotiations and coordinates with Purchasing, Nutrition and Finance for consistent pricing across regions and channels.",
+      "Escalates to a Director of Pricing; mentors the pricing team; 2+ years required, D365 an asset."
+    ],
+    "news": [],
+    "interpretation": "Feed pricing depends on volatile ingredient and freight costs, so the role is about keeping price files, rebates and contract terms current and consistent rather than setting strategy (inference from the duties). Commission in the pay mix and contract-negotiation support suggest the role sits close to Sales. It fits someone wanting hands-on B2B pricing execution, not a strategic mandate.",
+    "open_questions": [
+      "How often are feed prices reset against ingredient costs, and is there formula-based pricing?",
+      "How is commission measured for a pricing role?"
+    ],
+    "caveat": "No company news or published pricing was found; analysis rests on the posting alone.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0088"
+    ],
+    "industry": "Agribusiness",
+    "analysis_status": "analyzed"
   }
 ]

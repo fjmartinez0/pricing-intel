@@ -1,0 +1,286 @@
+{
+  "run_date": "2026-10-23",
+  "searches_run": 72,
+  "searches_by_country": { "Canada": 33, "Colombia": 21, "United States": 18 },
+  "watchlist_checked": ["EY", "Deloitte", "PwC", "KPMG", "McKinsey Montreal", "Fasken", "FLO", "C.A.T. North America", "MongoDB Toronto", "Rappi", "Mercado Libre", "Uber", "DiDi", "Grupo Éxito", "Falabella", "Alegra", "Holcim Colombia", "Veeam", "Workday", "Autodesk", "Zendesk", "Box", "Dropbox"],
+  "new_opportunities": [
+    {
+      "company": "Masterfeeds", "title": "Pricing Manager, FT - Regina/ Remote (Canada)", "business_unit": "Animal nutrition / feed pricing", "category": "Pricing",
+      "country": "Canada", "city": "Regina", "location_note": "Title offers Regina or remote anywhere in Canada; occasional travel within the region; overtime, weekends or holidays in peak periods",
+      "work_mode": "Remote", "work_model": "Regina/ Remote (Canada)", "salary_advertised": "Not stated (posting mentions a salary and commission structure)",
+      "employer_posting_date": "2026-10-16", "official_url": "https://clientapps.jobadder.com/49164/masterfeeds/444917/pricing-manager-ft-regina-remote-canada", "secondary_url": "https://remotive.com/remote/jobs/all-others/pricing-manager-6290832", "requisition_id": "444917",
+      "summary": "Maintain feed pricing databases (costs, discounts, rebates, freight), analyze market and competitor pricing, support Sales on contract pricing, process price updates and exceptions, and mentor the pricing team; escalates to the Director of Pricing.",
+      "pricing_focus": "Agricultural feed B2B pricing; rebates; contract pricing",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "borderline", "scope_note": "Manager title, but only 2+ years required and the duties are mostly pricing execution under existing guidelines, escalating to the Director of Pricing; closer to senior analyst than strategic manager.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Rexel Canada", "title": "Pricing Manager", "business_unit": "Rexel Canada (Nedco banner mentioned)", "category": "Pricing",
+      "country": "Canada", "city": "Not stated", "location_note": "Built In lists 3 locations without naming them; surfaced in Built In Toronto search. English required, French an asset.",
+      "work_mode": "Unknown", "work_model": "In-Office or Remote (Built In tag)", "salary_advertised": "CAD 90000 anticipated base salary (variable pay excluded)",
+      "employer_posting_date": null, "official_url": null, "secondary_url": "https://builtin.com/job/pricing-manager/11513266", "requisition_id": null,
+      "summary": "Lead a team of pricing analysts handling price setting, adjustments, margin analysis, contract compliance and pricing-system maintenance, and support Sales on special pricing requests, carrying out strategies set by the Director of Pricing.",
+      "pricing_focus": "Electrical distribution pricing; margin; contract compliance",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "People manager (5+ years, 2+ supervisory), but executes strategies set by the Director of Pricing. Rexel's own careers site (careers.rexel.com) showed only an older Mississauga Pricing Analyst (jid-3985); employer posting for this role not found. A duplicate Built In listing under 'Rexel USA' (11513893) appears to be the same role.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Aviva Canada", "title": "Actuarial Team Lead, Personal Pricing", "business_unit": "Personal lines pricing (actuarial)", "category": "Pricing",
+      "country": "Canada", "city": "Markham", "location_note": null,
+      "work_mode": "Hybrid", "work_model": "Hybrid (Built In tag)", "salary_advertised": "$105,000 to $134,000",
+      "employer_posting_date": null, "official_url": null, "secondary_url": "https://builtin.com/job/actuarial-team-lead-personal-pricing/11639426", "requisition_id": null,
+      "summary": "Lead development and monitoring of personal-lines pricing and rate-making models, develop rate indications and regulatory filings, recommend pricing actions from portfolio and competitive analysis, and coach junior analysts.",
+      "pricing_focus": "P&C personal lines rate-making",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "borderline", "scope_note": "Team lead in actuarial rate-making; Built In tags it mid-level and it asks for 4+ years P&C and progress toward ACAS/FCAS. Actuarial specialist path, below manager. Built In says posted about 11 days ago; Aviva's own posting not located.", "strategy_confidence": "Low"
+    },
+    {
+      "company": "Leviton", "title": "Pricing Analyst", "business_unit": "Leviton Canada – Pricing", "category": "Pricing",
+      "country": "Canada", "city": "Not stated", "location_note": "Canada careers page; mentions Quebec's Law 25 but names no city. Apply by emailing a CV to the Canadian recruiting address listed on the page.",
+      "work_mode": "Unknown", "work_model": "Not stated", "salary_advertised": "Not stated",
+      "employer_posting_date": null, "official_url": "https://leviton.com/company/careers-canada/pricing-analyst", "secondary_url": null, "requisition_id": null,
+      "summary": "Maintain Oracle price lists and price floors, act as first-level quote approver and Pricing's contact for new product introductions and territory managers, track quote win/loss and automate manual pricing processes; reports to the Pricing Manager.",
+      "pricing_focus": "Electrical products list-price and quote pricing",
+      "level_band": "analyst", "level": "Analyst",
+      "scope_fit": "in_scope", "scope_note": "1+ year required; bilingual French/English. The page shows no posting date, so how current it is cannot be confirmed.", "strategy_confidence": "Low"
+    },
+    {
+      "company": "Manulife", "title": "Intermediate Pricing Analyst", "business_unit": "Global Wealth and Asset Management (GWAM) Finance", "category": "Pricing",
+      "country": "Canada", "city": "Montreal", "location_note": "Built In lists 3 locations; Built In Montreal shows Montréal and the salary note references Toronto",
+      "work_mode": "Unknown", "work_model": "In-Office (header) / Hybrid (working arrangement section) per Built In", "salary_advertised": "$62,850.00 CAD - $104,750.00 CAD",
+      "employer_posting_date": null, "official_url": null, "secondary_url": "https://builtin.com/job/intermediate-pricing-analyst/11797682", "requisition_id": null,
+      "summary": "Support pricing management for group retirement business: pre-sale pricing, repricing and retention with Sales, plus forecasting, competitive and profitability analysis and pricing tool development.",
+      "pricing_focus": "Group retirement (DC/DB) plan pricing",
+      "level_band": "analyst", "level": "Analyst",
+      "scope_fit": "in_scope", "scope_note": "3+ years in financial services with pricing experience. Built In says posted about 3 days ago; Manulife's Workday posting not located.", "strategy_confidence": "Low"
+    },
+    {
+      "company": "Cardinal Health", "title": "Consultant, Pricing Operations & Controls / Conseiller, Activités et contrôles de tarification", "business_unit": "Cardinal Health Canada – Pricing", "category": "Pricing",
+      "country": "Canada", "city": "Dorval", "location_note": "Built In lists 2 locations; description says the role reports to the Vaughan head office",
+      "work_mode": "Hybrid", "work_model": "Hybrid, two days per week in the office", "salary_advertised": "$81,300 - $108,300",
+      "employer_posting_date": null, "official_url": null, "secondary_url": "https://builtin.com/job/consultant-pricing-operations-controls-conseiller-activit-s-et-contr-les-de-tarification/10964435", "requisition_id": null,
+      "summary": "Monitor pricing performance, profitability and controls, analyze gross-profit trends and pricing exceptions, build dashboards and lead price-realization initiatives and process fixes.",
+      "pricing_focus": "Healthcare distribution pricing controls; price realization",
+      "level_band": "analyst", "level": "Senior Analyst",
+      "scope_fit": "in_scope", "scope_note": "Consultant/Conseiller grade with 4-8 years preferred; individual contributor. Built In shows posted about one month ago; Cardinal Health's own posting not located.", "strategy_confidence": "Low"
+    },
+    {
+      "company": "Moneris", "title": "Pricing - Products & Partnerships Analyst", "business_unit": "Pricing (products and partnerships)", "category": "Pricing",
+      "country": "Canada", "city": "Toronto", "location_note": "Etobicoke office",
+      "work_mode": "Hybrid", "work_model": "Hybrid (in-office with remote flexibility)", "salary_advertised": "The expected base salary range for this role is $70,000 - $88,000.",
+      "employer_posting_date": null, "official_url": null, "secondary_url": "https://builtin.com/job/pricing-products-partnerships-analyst/11512776", "requisition_id": null,
+      "summary": "Help develop pricing for Moneris products, services and partner/integrated-solution agreements, assess partner profitability, maintain pricing models and cost assumptions and draft business cases for new and bundled offerings.",
+      "pricing_focus": "Payments merchant pricing; partner economics; bundles",
+      "level_band": "analyst", "level": "Analyst",
+      "scope_fit": "in_scope", "scope_note": "3+ years analytical/pricing experience, SQL. Built In shows posted about 19 days ago; Moneris's own posting not located.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "TD Bank", "title": "Actuarial Analyst III - Regional Auto Pricing", "business_unit": "TD Insurance – Regional Auto Pricing", "category": "Pricing",
+      "country": "Canada", "city": "Montreal", "location_note": "Built In lists 3 locations; Québec City candidates welcome (remote until that office opens, then hybrid)",
+      "work_mode": "In person", "work_model": "In-Office (Built In tag); hybrid once the Québec City office opens", "salary_advertised": "100 000$/$100,000 - 130 000 $/$130,000 CAD",
+      "employer_posting_date": null, "official_url": null, "secondary_url": "https://builtin.com/job/actuarial-analyst-iii-regional-auto-pricing/11137990", "requisition_id": null,
+      "summary": "Enhance regional auto pricing algorithms, generate and implement profitable growth strategies, prepare regulatory rate filings and mentor junior analysts.",
+      "pricing_focus": "Auto insurance rate-making",
+      "level_band": "analyst", "level": "Senior Analyst",
+      "scope_fit": "in_scope", "scope_note": "Actuarial track (SOA/CAS exams); posting says 5+ years in one section and 3+ in another. Built In shows 'Reposted one month ago'; TD's Workday posting not located.", "strategy_confidence": "Low"
+    },
+    {
+      "company": "Runway", "title": "Pricing Lead", "business_unit": "Product (self-serve business)", "category": "Pricing",
+      "country": "United States", "city": "Anywhere", "location_note": "Remote, USA only; preference for New York or San Francisco",
+      "work_mode": "Remote", "work_model": "Remote, New York, NY, San Francisco, CA", "salary_advertised": "$290K – $360K (U.S. candidates)",
+      "employer_posting_date": null, "official_url": "https://jobs.ashbyhq.com/runway-ml/aec67956-59a4-4633-9faa-0f0a41c48e4c", "secondary_url": "https://builtin.com/job/pricing-lead/11681123", "requisition_id": "aec67956-59a4-4633-9faa-0f0a41c48e4c",
+      "summary": "Own self-serve and enterprise pricing, packaging and credit models, design the self-serve-to-enterprise path, set launch pricing for Runway and third-party models, build a company-wide pricing framework and council, and hire a small pricing team.",
+      "pricing_focus": "Generative AI credits; usage and hybrid seat-plus-usage pricing",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "10+ years, 5+ owning pricing decisions; first pricing lead who will build a team. Ashby page resolves to 'Pricing Lead @ Runway' but body did not render; details read from Built In and Remotive copies. Aggregators date it about 2026-10-14.", "strategy_confidence": "High"
+    },
+    {
+      "company": "Squarespace", "title": "Senior Lead, AI Pricing & Margin Strategy", "business_unit": "Commercial Strategy (Domains & Applications)", "category": "Pricing",
+      "country": "United States", "city": "New York", "location_note": null,
+      "work_mode": "Hybrid", "work_model": "Hybrid: New York City office 2–3 days per week", "salary_advertised": "Cash compensation range: $125,800 to $170,200 USD (stock purchase option for eligible employees)",
+      "employer_posting_date": "2026-09-22", "official_url": "https://job-boards.greenhouse.io/squarespace/jobs/8205265", "secondary_url": "https://builtin.com/job/senior-lead-ai-pricing-margin-strategy/11314137", "requisition_id": "8205265",
+      "summary": "Model AI unit economics (token, API and inference costs to credit equivalents), design credit- and usage-based pricing, tiers, limits and overages, define SKUs and entitlements with Billing, and price AI launch promotions; reports to the Commercial Lead.",
+      "pricing_focus": "AI credits; usage-based pricing; AI margin",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "borderline", "scope_note": "Senior individual contributor (IC4, 5+ years) with an analytics-heavy remit; no team. Date is Greenhouse first_published (updated 2026-10-15). Greenhouse absolute_url points to squarespace.com/about/careers?gh_jid=8205265.", "strategy_confidence": "High"
+    },
+    {
+      "company": "OpenAI", "title": "Pricing Strategist", "business_unit": "Product Pricing (Chat & Codex)", "category": "Pricing",
+      "country": "United States", "city": "San Francisco", "location_note": null,
+      "work_mode": "Hybrid", "work_model": "Hybrid (Built In tag)", "salary_advertised": "234K-260K Annually (Built In listing)",
+      "employer_posting_date": null, "official_url": null, "secondary_url": "https://builtin.com/job/pricing-strategist/11796675", "requisition_id": null,
+      "summary": "Set pricing and packaging for ChatGPT and Codex plans: usage limits, credits and overages and new monetization models, with usage analysis, financial models, pricing experiments and lightweight pricing governance; reports to the Head of Product Pricing for Chat & Codex.",
+      "pricing_focus": "Consumer/business subscription tiers; usage limits and credits",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "Different role from tracked JOB-0055 (Pricing Strategist, API): this one reports to the Head of Product Pricing for Chat & Codex. 6+ years strategy incl. 3+ hands-on pricing. Built In says posted about 3 days ago; OpenAI's own page not located (openai.com blocks automated reading).", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Broadridge", "title": "Strategic Pricing Manager (Hybrid - NYC or Brentwood, LI)", "business_unit": "Strategic Pricing – MFRS & Issuer", "category": "Pricing",
+      "country": "United States", "city": "New York", "location_note": "Or Brentwood, Long Island; application deadline 2027-01-01 per Built In",
+      "work_mode": "Hybrid", "work_model": "Hybrid - NYC or Brentwood, LI", "salary_advertised": "The salary range for this position is between $110,000 - $120,000. Bonus Eligible",
+      "employer_posting_date": null, "official_url": null, "secondary_url": "https://builtin.com/job/strategic-pricing-manager-hybrid-nyc-or-brentwood-li/11850169", "requisition_id": null,
+      "summary": "Build and run deal pricing strategies for key B2B accounts, lead pricing negotiations, deliver the pricing part of the annual operating plan, run pricing reviews and oversee exceptions, discounts and promotions.",
+      "pricing_focus": "B2B key-account deal pricing; pricing governance",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "5+ years of pricing management. Body refers to 'Manager of Strategic Pricing MFRS & Issuer'. Built In says posted yesterday; Broadridge's Workday posting not located.", "strategy_confidence": "Medium"
+    }
+  ],
+  "url_updates": [],
+  "strategy_updates": [
+    {
+      "id": null, "company": "Runway", "business_unit": "Product (self-serve business)",
+      "pricing_theme": "Turning an ad hoc credit model into a formal pricing function spanning self-serve credits, enterprise contracts and model-level pricing.",
+      "current_model": "Per its pricing page: Free (125 one-time credits), Standard $15/mo or $12/mo annual (625 credits), Pro $35/mo or $28/mo annual (2,250 credits), Max $95/mo or $76/mo annual (9,500 credits, one month of rollover), Enterprise on request; Standard/Pro credits do not roll over; top-ups from 1,000 credits never expire; Gen-4.5 costs 12 credits per second; enterprise promotion of two months free usage for contracts signed by 10/31.",
+      "industry": "Software",
+      "posting_evidence": [
+        "Pricing Lead, remote US (NYC/SF preferred), USD 290K–360K; in Product, tied to the self-serve business.",
+        "Owns self-serve plan structure, credits, top-ups, billing cadence and regional pricing with ongoing experiments.",
+        "Designs the self-serve-to-enterprise path (contract structures, sales guardrails) and sets launch and lifecycle pricing for Runway models plus margins on third-party models.",
+        "Build mandate: publish pricing principles and value metrics, run a pricing council with Product, Finance, Research and GTM, and hire a small team.",
+        "Asks for 10+ years with 5+ owning pricing decisions, cost-to-serve and margin modelling from compute and inference inputs."
+      ],
+      "news": [],
+      "interpretation": "Runway appears to be moving pricing from product-by-product decisions to a governed function, as inference costs and a mix of first- and third-party models make margin per credit harder to manage. Inference: hosting third-party models alongside its own means credit prices have to reflect very different cost-to-serve, which explains the emphasis on compute-based margin models. The enterprise promotion on the pricing page and the self-serve-to-enterprise mandate suggest the company is pushing upmarket. The hire would be the first dedicated pricing owner, with wide scope and little existing infrastructure.",
+      "open_questions": [
+        "Will credits stay the single value metric across Runway and third-party models, or move to model-specific pricing?",
+        "How much enterprise revenue exists today, and who owns enterprise discounting before this hire?",
+        "What budget and headcount come with the 'small pricing team'?"
+      ],
+      "caveat": "No dated pricing news was read today; the analysis rests on the posting copies and the live pricing page, and the Ashby page itself did not render its body.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:8"]
+    },
+    {
+      "id": null, "company": "Squarespace", "business_unit": "Commercial Strategy (Domains & Applications)",
+      "pricing_theme": "Managing AI feature margins through credit-based allowances layered onto raised subscription prices.",
+      "current_model": "Per its pricing page (CA$ view): Basic CA$30/mo or CA$21/mo, Core CA$45/32, Plus CA$59/46, Advanced CA$139/109; store transaction fee 2% on Basic, 0% above; Built-in AI Tools on every plan with AI Credits of 10 one-time (Basic), 20/mo (Core), 40/mo (Plus), 120/mo (Advanced) that reset monthly; no AI add-ons listed.",
+      "industry": "Software",
+      "posting_evidence": [
+        "Senior Lead, AI Pricing & Margin Strategy, New York, hybrid 2–3 days; USD 125,800–170,200; Greenhouse first published 2026-09-22.",
+        "Sits in the centralized Commercial Strategy team (Domains & Applications) and reports to the Commercial Lead; IC4 level.",
+        "Models AI margins across API costs, token consumption and inference spend, and converts AI usage into credit equivalents by model provider.",
+        "Designs credit- and usage-based tiers, limits and overages, defines SKUs and entitlements with Billing, and structures AI launch promotions.",
+        "Tracks model-provider pricing (OpenAI, Anthropic, Google) and competitor AI packaging."
+      ],
+      "news": [
+        {
+          "date": "2026-07-13",
+          "summary": "A pricing tracker recorded Squarespace raising US monthly prices for Basic ($16 to $19), Core ($23 to $29) and Plus ($39 to $49) while Advanced stayed at $99, and renaming the 'Squarespace AI' plan label to 'Built-in AI Tools'.",
+          "source": "PricingSaaS (third-party tracker)",
+          "url": "https://pricingsaas.com/companies/squarespace/diffs/2026W29"
+        }
+      ],
+      "interpretation": "Squarespace raised base prices this summer and now meters AI through plan-level credits, so the open problem is keeping AI costs inside those allowances as usage grows. The posting's focus on token-to-credit conversion, model routing and overage rules suggests credit allowances and overages are still being designed or tuned (inference). Watching third-party model prices fits a business whose AI cost base depends on outside providers. This is an analytical, margin-protection role rather than ownership of headline price levels.",
+      "open_questions": [
+        "Will Squarespace sell AI credit top-ups or overages, which the pricing page does not list today?",
+        "Who sets headline plan prices: the Commercial Lead, Finance or Product?",
+        "How did the July price increase affect churn on Basic and Core?"
+      ],
+      "caveat": "The price-increase item comes from a third-party tracker, not a Squarespace announcement; the pricing page was read in Canadian dollars.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:9"]
+    },
+    {
+      "id": null, "company": "OpenAI", "business_unit": "Product Pricing (Chat & Codex)",
+      "pricing_theme": "Shifting ChatGPT and Codex from flat subscriptions toward token-based credits and usage limits shared across agentic features.",
+      "current_model": "Per OpenAI's Codex pricing docs: Free $0, Go $8/mo, Plus $20/mo, Pro from $100/mo ($100/$200/$500 tiers), Business $20/user/mo annual ($25 monthly), Enterprise/Edu by contract; included usage limits per five-hour window vary by model; extra usage bought as credits on a token-based rate card (credits per 1M input/cached/output tokens by model); Codex and ChatGPT Work share one allowance and credit pool; GPT-5.6 Sol promotional pricing runs through at least 2026-11-21.",
+      "industry": "Software",
+      "posting_evidence": [
+        "Pricing Strategist, San Francisco, hybrid; Built In lists 234K–260K; posted about 3 days before 2026-10-23.",
+        "Reports to the Head of Product Pricing for Chat & Codex, a separate pricing team from the API role already tracked.",
+        "Mandate: plan usage limits, credits and overages, and new monetization models, backed by usage analysis, financial models and pricing experiments.",
+        "Sets up lightweight pricing governance (decision frameworks, approvals, performance tracking) with Product, GTM and Finance.",
+        "Asks for 6+ years in strategy and 3+ years hands-on pricing, including launching self-serve subscription or usage-based offers."
+      ],
+      "news": [],
+      "interpretation": "OpenAI has already moved Codex to a token-based credit rate card and merged agentic features into one shared allowance, so the subscription plans now work as bundles of compute rather than flat access. This role likely sets where included limits end and paid credits begin across tiers, which is the main lever for margin as heavier agentic usage grows (inference). Separate pricing heads for API and for Chat & Codex suggest consumer/business plans and the developer platform are priced on different logics that still need to stay consistent.",
+      "open_questions": [
+        "How are included limits set per tier relative to compute cost, and how often will they change?",
+        "Will Business and Enterprise seats move fully to credit-based billing?",
+        "How does this team coordinate with API pricing on shared models and rates?"
+      ],
+      "caveat": "OpenAI's own job page and help-center rate card could not be read; the posting details come from Built In, and no dated pricing announcement from the last three months was read today.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:10"]
+    },
+    {
+      "id": null, "company": "Moneris", "business_unit": "Pricing (products and partnerships)",
+      "pricing_theme": "Reworking product and partner pricing as the processor moves from bank ownership to private equity.",
+      "current_model": null,
+      "industry": "Payments",
+      "posting_evidence": [
+        "Pricing - Products & Partnerships Analyst, Toronto (Etobicoke), hybrid; $70,000–88,000 base; posted about 19 days before 2026-10-23 per Built In.",
+        "Develops pricing for products, services and partnerships and evaluates partner and integrated-solution agreements for profitability.",
+        "Models the impact of onboarding new partners and drafts business cases for new and bundled offerings.",
+        "Keeps pricing models and cost assumptions current; asks for 3+ years of analysis and SQL."
+      ],
+      "news": [
+        {
+          "date": "2026-08-10",
+          "summary": "Francisco Partners agreed to buy Moneris from BMO and RBC for about C$2.0 billion in cash, with closing expected by the end of the banks' fiscal Q1 2027, long-term exclusive bank referral agreements, and former Global Payments CEO Jeff Sloan as chairman; the release announces no pricing changes.",
+          "source": "Moneris",
+          "url": "https://www.moneris.com/en/media-room/news/moneris-announces-acquisition-by-francisco-partners"
+        }
+      ],
+      "interpretation": "With a private-equity owner and a payments-industry chairman arriving, Moneris is likely to focus more on unit economics per merchant and partner, so partner revenue-share terms and bundles are natural levers (inference). The posting's focus on partner profitability and bundled offerings fits that. For an analyst, it means building the models behind partner deals during an ownership change.",
+      "open_questions": [
+        "Will merchant pricing or partner terms change after the deal closes?",
+        "Which partnerships and bundles are in scope, for example integrated software partners or bank-referred merchants?"
+      ],
+      "caveat": "Moneris's own job posting and published merchant pricing were not read; links between the acquisition and pricing are inference.",
+      "confidence": "Low",
+      "linked_job_refs": ["new:6"]
+    },
+    {
+      "id": null, "company": "Rexel Canada", "business_unit": "Rexel Canada (Nedco banner mentioned)",
+      "pricing_theme": "Protecting distribution margin through price execution and contract compliance in a favorable selling-price environment.",
+      "current_model": null,
+      "industry": "Distribution",
+      "posting_evidence": [
+        "Pricing Manager, Canada (3 unnamed locations on Built In), in-office or remote; CAD 90,000 anticipated base; posted about 19 days before 2026-10-23.",
+        "Leads a team of pricing analysts; executes strategies developed by the Director of Pricing.",
+        "Owns price setting and adjustments, margin analysis, pricing data accuracy, contract compliance and pricing-system maintenance.",
+        "Supports Sales on special pricing requests and audit readiness; 5+ years with 2+ supervisory."
+      ],
+      "news": [
+        {
+          "date": "2026-07-27",
+          "summary": "Rexel's H1 2026 results reported selling prices up 3.3% in H1, cable prices adding about 2.0% to same-day sales, Canada same-day sales up 7.5% in Q2 on data-centre demand, flat North American gross margin, and raised FY2026 guidance to about 5% same-day sales growth.",
+          "source": "Rexel (results release via ariva.de)",
+          "url": "https://www.ariva.de/news/rexel-q2-sales-h1-2026-results-12081781"
+        }
+      ],
+      "interpretation": "Rexel is getting price increases through in all regions, but North American margin is flat because of mix and cost inflation, so execution (passing on increases, controlling special pricing, contract compliance) matters more than new strategy. This role looks like the operational layer under a Director of Pricing. Strong Canadian backlog suggests a busy quoting and special-pricing workload (inference).",
+      "open_questions": [
+        "Which banners and regions does the team cover, and where is it based?",
+        "How are special-pricing and rebate exceptions approved today, and what pricing system is used?"
+      ],
+      "caveat": "Rexel's own posting was not found and the job's city is unknown; the news is group-level, not Canada-specific pricing commentary.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:1"]
+    },
+    {
+      "id": null, "company": "Masterfeeds", "business_unit": "Animal nutrition / feed pricing",
+      "pricing_theme": "Cost-plus feed pricing with rebates and contract pricing run through a central pricing team.",
+      "current_model": null,
+      "industry": "Agribusiness",
+      "posting_evidence": [
+        "Pricing Manager, Regina or remote Canada; posted 2026-10-16 on JobAdder; salary not stated, salary-plus-commission structure and vehicle allowance.",
+        "Maintains pricing databases covering product costs, discounts, rebates and freight; processes price updates, exceptions and approvals under existing guidelines.",
+        "Supports Sales on feed contract negotiations and coordinates with Purchasing, Nutrition and Finance for consistent pricing across regions and channels.",
+        "Escalates to a Director of Pricing; mentors the pricing team; 2+ years required, D365 an asset."
+      ],
+      "news": [],
+      "interpretation": "Feed pricing depends on volatile ingredient and freight costs, so the role is about keeping price files, rebates and contract terms current and consistent rather than setting strategy (inference from the duties). Commission in the pay mix and contract-negotiation support suggest the role sits close to Sales. It fits someone wanting hands-on B2B pricing execution, not a strategic mandate.",
+      "open_questions": [
+        "How often are feed prices reset against ingredient costs, and is there formula-based pricing?",
+        "How is commission measured for a pricing role?"
+      ],
+      "caveat": "No company news or published pricing was found; analysis rests on the posting alone.",
+      "confidence": "Low",
+      "linked_job_refs": ["new:0"]
+    }
+  ],
+  "people": [],
+  "notes": "Searched Canada (EN/FR), Colombia (ES/EN incl. elempleo pricing, revenue-management and revenue-growth pages) and US (SaaS first, then CPG RGM and industrial pricing), plus Friday watchlist group 5. Built In listings were the most productive source; many search-engine leads were stale (Instacart, Trader Interactive, Workday, Zendesk, Amgen Bogotá, Novo Nordisk Bogotá, Boston Scientific Bogotá all closed). No new Colombia roles qualified: new elempleo items 'Pricing inside sales' (ABC Repecev) and 'Customer specific quote' (Adecco for DHL) are sales/quoting roles and were skipped. Task 2 found no official links (TD, AstraZeneca, White Cap, UAP, PointClickCare, HighLevel searched). Cash App 'Strategic Pricing & Monetization Lead' on Built In (Canada listed) appears to be the same Block role as JOB-0083, not added. Strategy records were not written for the analyst-level Manulife, Cardinal Health, Aviva, Leviton and TD roles (no news researched), nor for Broadridge (US, not software)."
+}
