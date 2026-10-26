@@ -1,0 +1,145 @@
+{
+  "run_date": "2026-10-26",
+  "searches_run": 79,
+  "searches_by_country": { "Canada": 35, "Colombia": 19, "United States": 25 },
+  "watchlist_checked": [
+    "Shopify", "Lightspeed", "Coveo", "Nuvei", "Wealthsimple", "Clio", "Unity", "Electronic Arts Montreal", "Ubisoft", "Autodesk",
+    "Bancolombia", "Davivienda", "Nubank Colombia", "Addi", "Bold", "Mastercard", "Visa", "Twilio",
+    "Salesforce", "Microsoft", "Adobe", "Atlassian", "ServiceNow"
+  ],
+  "new_opportunities": [
+    {
+      "company": "Procore",
+      "title": "Pricing Strategy Manager",
+      "business_unit": "Corporate Strategy",
+      "category": "Pricing",
+      "country": "United States",
+      "city": "Austin",
+      "location_note": "Workday location is US - Texas - Austin; description says the role can be based remotely in the US",
+      "work_mode": "Remote",
+      "work_model": "Can be based remotely in the US",
+      "salary_advertised": "129,600.00 - 178,200.00 USD Annual (may be eligible for equity and/or bonus)",
+      "employer_posting_date": "2026-10-19",
+      "official_url": "https://procore.wd12.myworkdayjobs.com/Procore_External_Careers/job/US---Texas---Austin/Pricing-Strategy-Manager_R0018917-1",
+      "secondary_url": "https://remotive.com/remote/jobs/product/pricing-strategy-manager-6306601",
+      "requisition_id": "R0018917",
+      "summary": "Lead pricing and packaging proposals for new products and features, build business cases and willingness-to-pay research, and design usage-, credit- or outcome-based monetization for AI offerings.",
+      "pricing_focus": "Construction SaaS; AI monetization; packaging",
+      "level_band": "manager_plus",
+      "level": null,
+      "scope_fit": "in_scope",
+      "scope_note": "Reports to the Senior Manager of Pricing & Monetization Strategy; 5+ yrs incl. 2+ yrs in a top-tier strategy firm's pricing practice. Workday 'startDate' 2026-10-19 used as posting date.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "ServiceNow",
+      "title": "Monetization Strategy Manager",
+      "business_unit": "Pricing Strategy / Monetization",
+      "category": "Monetization",
+      "country": "United States",
+      "city": "San Diego",
+      "location_note": "Posting region AMS - North America and Canada; SmartRecruiters tags it flexible or remote",
+      "work_mode": "Unknown",
+      "work_model": "Flexible or Remote (SmartRecruiters tag; description does not say)",
+      "salary_advertised": "$114,200 - $199,900 base, plus equity (when applicable), variable/incentive compensation and benefits",
+      "employer_posting_date": "2026-09-21",
+      "official_url": "https://jobs.smartrecruiters.com/ServiceNow/744000150761409",
+      "secondary_url": null,
+      "requisition_id": "JB0075481",
+      "summary": "Bridge the Product Pricing and Deal Desk teams to define commercial principles and guardrails, and align monetization strategy with the pricing and packaging roadmap for C-suite growth initiatives.",
+      "pricing_focus": "Enterprise SaaS; commercial guardrails; deal pricing",
+      "level_band": "manager_plus",
+      "level": null,
+      "scope_fit": "in_scope",
+      "scope_note": "Different requisition from the closed JOB-0038 (JB0075274); noted in STR-0030 on 2026-10-19 but never added as an opportunity. Posting date is the SmartRecruiters API releasedDate. 5+ yrs in enterprise tech pricing, consulting or product strategy.",
+      "strategy_confidence": "Medium"
+    }
+  ],
+  "url_updates": [
+    {
+      "id": "JOB-0045",
+      "official_url": "https://belron.wd3.myworkdayjobs.com/Belron_Canada_Careers/job/Montreal-QC/Commercial-Agreements---Pricing-Manager_JR71565",
+      "requisition_id": "JR71565",
+      "note": "Belron Canada Workday posting: same title (Commercial Agreements & Pricing Manager), Montreal, QC, req JR71565; Workday shows 'Posted 30+ Days Ago' and apply enabled (2026-10-26)."
+    }
+  ],
+  "strategy_updates": [
+    {
+      "id": null,
+      "company": "Procore",
+      "business_unit": "Corporate Strategy",
+      "pricing_theme": "Turning newly launched AI agents into a paid revenue stream on top of ACV-based platform pricing",
+      "current_model": "Upfront annual fee per product based on Annual Construction Volume (aggregate dollar value of construction work), with unlimited users, data and support; Field Productivity is priced per FTE. Multi-year volume pools, opt-in pricing for mid-term volume increases and locked renewal rates. No published prices (Procore pricing page).",
+      "industry": "Software",
+      "posting_evidence": [
+        "Pricing Strategy Manager (R0018917), Workday location Austin but can be based remotely in the US; start date 2026-10-19; USD 129,600-178,200 base plus possible equity/bonus.",
+        "Sits on the Corporate Strategy team and reports to the Senior Manager of Pricing & Monetization Strategy.",
+        "Leads pricing and packaging proposals for new products and features with Product and Finance; builds business cases including segment performance and migration/monetization sizing.",
+        "Designs monetization models for emerging offerings including AI: usage-based, hybrid, credit-based or outcome-based.",
+        "Runs willingness-to-pay, conjoint/Van Westendorp, win/loss and elasticity research; diagnoses weak new-logo sales as a packaging, execution or market-fit problem."
+      ],
+      "news": [
+        {
+          "date": "2026-07-29",
+          "summary": "Q2 2026 revenue was $375.2M (about +16%) with 95% gross revenue retention; Q3 guidance of $382-384M implies about 13% growth, and Procore introduced an expanded Procore AI experience with a suite of agents powered by embedded Datagrid intelligence.",
+          "source": "Procore (press release via Seeking Alpha)",
+          "url": "https://seekingalpha.com/pr/20600176"
+        },
+        {
+          "date": "2026-07-30",
+          "summary": "On the Q2 call, Procore said Procore AI reached general availability with 20 pre-built construction agents sold in starter packs restricted to a set number of projects and capabilities; the CEO said the digital-coworker strategy is expected to monetize in the future, and no consumption pricing was disclosed.",
+          "source": "VectorShift earnings call summary",
+          "url": "https://vectorshift.ai/research/companies/procore/earnings/2026-q2"
+        }
+      ],
+      "interpretation": "Procore has launched AI agents but has not yet put a clear price on them: the starter packs are limited by project count and capability, and management says monetization will come later. The posting's focus on usage-, credit- and outcome-based models and on migration sizing suggests the role will help design how agents are charged alongside, or on top of, the ACV fee (inference). With growth guided down to about 13% and retention already at 95%, new AI revenue looks like a main lever for re-accelerating growth (inference). The diagnostic remit on weak new-logo sales points to packaging work in the core product too, not only AI.",
+      "open_questions": [
+        "Will AI agents be priced as an ACV uplift, a credit pool or per outcome, and how will existing customers migrate?",
+        "What does the starter-pack limit (projects, capabilities) convert into when paid tiers launch?",
+        "How much decision rights does Corporate Strategy hold versus Product and Finance on pricing?"
+      ],
+      "caveat": "AI pricing intentions come from an earnings-call summary, not the transcript; Procore publishes no prices and the reporting line names no individual.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:0"]
+    },
+    {
+      "id": "STR-0030",
+      "company": "ServiceNow",
+      "business_unit": "Pricing Strategy / Monetization",
+      "pricing_theme": "Moving new business from seats to AI-native, usage-metered bundles while keeping deal discounting inside commercial guardrails",
+      "current_model": "No public list prices. Since April 9, 2026, products are sold in Foundation, Advanced and Prime tiers that bundle AI layers previously sold separately (AI Control Tower, Workflow Data Fabric, a Context Engine). Licensing is per seat plus other meters such as assets and storage, with a pool of AI usage included per product and extra usage billed (per trade press).",
+      "industry": "Software",
+      "posting_evidence": [
+        "Monetization Strategy Manager (JB0075481, SmartRecruiters 744000150761409), San Diego, tagged flexible or remote; released 2026-09-21; $114,200-$199,900 base plus equity and incentive.",
+        "Bridges the Product Pricing and Deal Desk teams to set commercial principles and guardrails, and aligns monetization strategy with the pricing and packaging roadmap.",
+        "Supports C-suite-sponsored top-line growth initiatives; 5+ years in enterprise tech pricing, consulting or product strategy; experience applying AI to the work.",
+        "As of 2026-10-26, a SmartRecruiters search for 'pricing' shows this manager role and a Pricing Operations Senior Analyst (Costa Rica); the Monetization Strategy Director (JOB-0039) and the other manager requisition (JOB-0038) no longer appear."
+      ],
+      "news": [
+        {
+          "date": "2026-10-13",
+          "summary": "SaaS trade roundup reports that about half of ServiceNow's new ARR is moving from per-seat licences to AI-native, usage-priced bundles that carry a reported 20-30% price lift, tied to a $30B 2030 revenue goal with AI at 30% of it.",
+          "source": "SaasRise",
+          "url": "https://www.saasrise.com/news/servicenow-shifts-to-aibased-pricing-as-seat-demand-slumps-57532fe9-5815-4ecb-aed1-ee014e267e81"
+        },
+        {
+          "date": "2026-10-24",
+          "summary": "Earnings preview: CEO McDermott says 50% of net new business is already non-seat-based, AI-native SKUs carry 20-30% premiums, AI ACV has passed $1B toward a $1.5B year-end target, and management says customers pay 'for resolutions', not tokens; Q3 results are due Oct 28.",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/10/24/servicenows-moment-of-truth-can-agentic-ai-growth-justify-a-premium-80x-earnings-multiple-on-oct-28/"
+        }
+      ],
+      "interpretation": "With half of net new business already non-seat-based and AI SKUs priced at a premium, ServiceNow's pricing risk has shifted from setting list prices to controlling how deals are structured and discounted, which matches the manager's remit between Product Pricing and Deal Desk (inference). The Director requisition has dropped off the board, so this manager seat appears to be the main open strategy role on the team (inference). 'Paying for resolutions' suggests a move toward outcome-like meters, which makes guardrails on included usage pools and overage concessions central to the role. Q3 results on Oct 28 should show whether the premium holds in renewals.",
+      "open_questions": [
+        "How are included AI usage pools sized per tier, and who approves overage or pool concessions in deals?",
+        "Does the 20-30% AI premium hold at renewal, or is it discounted away in large enterprise deals?",
+        "Was the Monetization Strategy Director role filled, and would this manager report to that person?"
+      ],
+      "caveat": "Non-seat share and premium figures come from secondary coverage quoting management, not from the Q3 filing; ServiceNow publishes no prices.",
+      "confidence": "Medium",
+      "linked_job_refs": ["JOB-0038", "JOB-0039", "JOB-0040", "new:1"]
+    }
+  ],
+  "people": [],
+  "notes": "Searched Canada (Montreal, Quebec City, Toronto, Ottawa, Canada remote; EN/FR), Colombia (Bogotá, Medellín, Cali, LATAM remote; elempleo pricing/revenue-management/revenue-growth pages) and US SaaS/CPG/industrial. Many leads were closed on the employer's site (Lightspeed Gestionnaire des prix, KEV and Clutch Director of Pricing, AutoTrader.ca Pricing & Commercial Strategy, PagerDuty Canada, Molson Coors RM Team Lead, Walmart Canada, Novo Nordisk Bogotá, Salesforce Director Pricing Strategy, Microsoft Education Monetization); none were added. ORBCOMM Director of Pricing (Ottawa) was seen only on CareerBeacon/Indeed, marked 30+ days old, with no employer page, so it was left out. Coveo, Nuvei, Wealthsimple, Addi, Bold, Davivienda and Bancolombia were checked by web search only (no ATS feed reached), and the Ubisoft SmartRecruiters page did not load. Colombia produced no new eligible roles; the elempleo 'Pricing inside sales' offer (1886776122) was left out as a quoting/sales role."
+}

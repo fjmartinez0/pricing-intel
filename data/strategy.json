@@ -890,16 +890,28 @@
     "company": "ServiceNow",
     "business_unit": "Pricing Strategy / Monetization",
     "baseline_date": "2026-10-12",
-    "last_updated": "2026-10-19",
-    "pricing_theme": "Monetizing AI across a newly re-tiered portfolio: pricing-committee governance, deal guardrails and operationalizing new commercial models",
+    "last_updated": "2026-10-26",
+    "pricing_theme": "Moving new business from seats to AI-native, usage-metered bundles while keeping deal discounting inside commercial guardrails",
     "current_model": "No public list prices. Since April 9, 2026, products are sold in Foundation, Advanced and Prime tiers that bundle AI layers previously sold separately (AI Control Tower, Workflow Data Fabric, a Context Engine). Licensing is per seat plus other meters such as assets and storage, with a pool of AI usage included per product and extra usage billed (per trade press).",
     "posting_evidence": [
-      "As of Oct 19, 2026, ServiceNow's SmartRecruiters search for 'pricing' shows a Monetization Strategy Manager (744000150761409, San Diego, 'Flexible or Remote', $114,200-$199,900 base), a Monetization Strategy Director (744000146501509) and a Pricing Operations Senior Analyst in Costa Rica.",
-      "The other Monetization Strategy Manager (JB0075274, JOB-0038) and the Senior Director, Pricing Operations Transformation (JOB-0040) are closed.",
-      "Manager: supports C-suite-sponsored top-line initiatives; bridges Product Pricing and Deal Desk to set commercial principles and guardrails; 5+ years in enterprise tech pricing, consulting or strategy; asks for experience applying AI to the work.",
-      "Director: monetization lead for CRM and Industry Workflows; Pricing Committee preparation, BU 3-year plans, conjoint and other pricing research."
+      "Monetization Strategy Manager (JB0075481, SmartRecruiters 744000150761409), San Diego, tagged flexible or remote; released 2026-09-21; $114,200-$199,900 base plus equity and incentive.",
+      "Bridges the Product Pricing and Deal Desk teams to set commercial principles and guardrails, and aligns monetization strategy with the pricing and packaging roadmap.",
+      "Supports C-suite-sponsored top-line growth initiatives; 5+ years in enterprise tech pricing, consulting or product strategy; experience applying AI to the work.",
+      "As of 2026-10-26, a SmartRecruiters search for 'pricing' shows this manager role and a Pricing Operations Senior Analyst (Costa Rica); the Monetization Strategy Director (JOB-0039) and the other manager requisition (JOB-0038) no longer appear."
     ],
     "news": [
+      {
+        "date": "2026-10-24",
+        "summary": "Earnings preview: CEO McDermott says 50% of net new business is already non-seat-based, AI-native SKUs carry 20-30% premiums, AI ACV has passed $1B toward a $1.5B year-end target, and management says customers pay 'for resolutions', not tokens; Q3 results are due Oct 28.",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/10/24/servicenows-moment-of-truth-can-agentic-ai-growth-justify-a-premium-80x-earnings-multiple-on-oct-28/"
+      },
+      {
+        "date": "2026-10-13",
+        "summary": "SaaS trade roundup reports that about half of ServiceNow's new ARR is moving from per-seat licences to AI-native, usage-priced bundles that carry a reported 20-30% price lift, tied to a $30B 2030 revenue goal with AI at 30% of it.",
+        "source": "SaasRise",
+        "url": "https://www.saasrise.com/news/servicenow-shifts-to-aibased-pricing-as-seat-demand-slumps-57532fe9-5815-4ecb-aed1-ee014e267e81"
+      },
       {
         "date": "2026-07-22",
         "summary": "Q2 2026: subscription revenue $3,877M (+24.5%), cRPO $13.20B (+21%); ServiceNow AI crossed $1B in annual contract value with a long-term goal of 30% of ACV from AI; full-year subscription guidance raised to $15,760–15,780M.",
@@ -913,13 +925,13 @@
         "url": "https://www.sec.gov/Archives/edgar/data/0001373715/000137371526000072/erq2fy26.htm"
       }
     ],
-    "interpretation": "With one manager role and the operations senior director closed, ServiceNow has kept one manager seat between product pricing and deal desk and the CRM director role open, so governance of AI-tier deals is still the hiring priority (inference). A pricing operations analyst in Costa Rica suggests execution work is moving to a lower-cost hub while strategy stays in the US (inference). The open questions remain how AI value is captured through tier upgrades versus usage above included pools, and how strictly discounting is controlled.",
+    "interpretation": "With half of net new business already non-seat-based and AI SKUs priced at a premium, ServiceNow's pricing risk has shifted from setting list prices to controlling how deals are structured and discounted, which matches the manager's remit between Product Pricing and Deal Desk (inference). The Director requisition has dropped off the board, so this manager seat appears to be the main open strategy role on the team (inference). 'Paying for resolutions' suggests a move toward outcome-like meters, which makes guardrails on included usage pools and overage concessions central to the role. Q3 results on Oct 28 should show whether the premium holds in renewals.",
     "open_questions": [
-      "How are included AI usage pools sized per tier, and how is overage priced?",
-      "Which business units does the remaining manager role cover?",
-      "Will Q3 results (due late October) report AI-tier upgrade or usage metrics?"
+      "How are included AI usage pools sized per tier, and who approves overage or pool concessions in deals?",
+      "Does the 20-30% AI premium hold at renewal, or is it discounted away in large enterprise deals?",
+      "Was the Monetization Strategy Director role filled, and would this manager report to that person?"
     ],
-    "caveat": "Tier details come from trade press; ServiceNow publishes no prices and the postings name few products.",
+    "caveat": "Non-seat share and premium figures come from secondary coverage quoting management, not from the Q3 filing; ServiceNow publishes no prices.",
     "confidence": "Medium",
     "linked_job_ids": [
       "JOB-0038",
@@ -2126,6 +2138,49 @@
       "JOB-0088"
     ],
     "industry": "Agribusiness",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0067",
+    "company": "Procore",
+    "business_unit": "Corporate Strategy",
+    "baseline_date": "2026-10-26",
+    "last_updated": "2026-10-26",
+    "pricing_theme": "Turning newly launched AI agents into a paid revenue stream on top of ACV-based platform pricing",
+    "current_model": "Upfront annual fee per product based on Annual Construction Volume (aggregate dollar value of construction work), with unlimited users, data and support; Field Productivity is priced per FTE. Multi-year volume pools, opt-in pricing for mid-term volume increases and locked renewal rates. No published prices (Procore pricing page).",
+    "posting_evidence": [
+      "Pricing Strategy Manager (R0018917), Workday location Austin but can be based remotely in the US; start date 2026-10-19; USD 129,600-178,200 base plus possible equity/bonus.",
+      "Sits on the Corporate Strategy team and reports to the Senior Manager of Pricing & Monetization Strategy.",
+      "Leads pricing and packaging proposals for new products and features with Product and Finance; builds business cases including segment performance and migration/monetization sizing.",
+      "Designs monetization models for emerging offerings including AI: usage-based, hybrid, credit-based or outcome-based.",
+      "Runs willingness-to-pay, conjoint/Van Westendorp, win/loss and elasticity research; diagnoses weak new-logo sales as a packaging, execution or market-fit problem."
+    ],
+    "news": [
+      {
+        "date": "2026-07-29",
+        "summary": "Q2 2026 revenue was $375.2M (about +16%) with 95% gross revenue retention; Q3 guidance of $382-384M implies about 13% growth, and Procore introduced an expanded Procore AI experience with a suite of agents powered by embedded Datagrid intelligence.",
+        "source": "Procore (press release via Seeking Alpha)",
+        "url": "https://seekingalpha.com/pr/20600176"
+      },
+      {
+        "date": "2026-07-30",
+        "summary": "On the Q2 call, Procore said Procore AI reached general availability with 20 pre-built construction agents sold in starter packs restricted to a set number of projects and capabilities; the CEO said the digital-coworker strategy is expected to monetize in the future, and no consumption pricing was disclosed.",
+        "source": "VectorShift earnings call summary",
+        "url": "https://vectorshift.ai/research/companies/procore/earnings/2026-q2"
+      }
+    ],
+    "interpretation": "Procore has launched AI agents but has not yet put a clear price on them: the starter packs are limited by project count and capability, and management says monetization will come later. The posting's focus on usage-, credit- and outcome-based models and on migration sizing suggests the role will help design how agents are charged alongside, or on top of, the ACV fee (inference). With growth guided down to about 13% and retention already at 95%, new AI revenue looks like a main lever for re-accelerating growth (inference). The diagnostic remit on weak new-logo sales points to packaging work in the core product too, not only AI.",
+    "open_questions": [
+      "Will AI agents be priced as an ACV uplift, a credit pool or per outcome, and how will existing customers migrate?",
+      "What does the starter-pack limit (projects, capabilities) convert into when paid tiers launch?",
+      "How much decision rights does Corporate Strategy hold versus Product and Finance on pricing?"
+    ],
+    "caveat": "AI pricing intentions come from an earnings-call summary, not the transcript; Procore publishes no prices and the reporting line names no individual.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0100"
+    ],
+    "industry": "Software",
     "analysis_status": "analyzed"
   }
 ]
