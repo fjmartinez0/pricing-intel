@@ -112,6 +112,52 @@ ANALYST_LEVELS = ["Analyst", "Senior Analyst", "Specialist", "Coordinator"]
 ANALYST_COUNTRIES = ["Canada", "Colombia"]
 
 
+# Which level bands each country tab shows. Written to meta.json by the 2026-10-26 migration so
+# the dashboard reads the rule from the data instead of hard-coding it.
+COUNTRY_TAB_BANDS = {"Canada": ["manager_plus"], "Colombia": ["manager_plus", "analyst"],
+                     "United States": ["manager_plus"], "Global remote": ["manager_plus"]}
+# Which bands send phone alerts (only Canada and Colombia ever alert). Add "analyst" to the
+# Colombia list to start getting alerts for Colombian analyst-level roles.
+ALERT_BANDS = {"Canada": ["manager_plus"], "Colombia": ["manager_plus"]}
+
+# Out of scope everywhere: freight forwarding / cargo quoting, costing, solution design.
+# Matched against norm(title), so accents are already stripped.
+OUT_OF_SCOPE_TITLE = re.compile(
+    r"\bagente de carga\b|\bcarga internacional\b|\bfreight forward|\bforwarder\b|\bnvocc\b"
+    r"|\bcostos?\b|\bcosting\b|\bcost (analyst|accountant|controller|engineer|specialist)\b"
+    r"|\bdiseno de soluciones\b|\bsolutions? design\b")
+
+# Analyst-level roles must name pricing explicitly in the title ("pricing strict").
+PRICING_TITLE = re.compile(
+    r"\bpricing\b|\bprecios?\b|\btarif|\bmonetiz|\bmonetis|\brevenue management\b|\brevenue growth\b"
+    r"|\brgm\b|\bgestion de ingresos\b|\bgestion des revenus\b|\byield management\b")
+
+_MANAGER_WORDS = re.compile(
+    r"\b(manager|gerente|jefe|jefa|director|directora|directeur|directrice|head|lead|lider|vp|"
+    r"vice president|gestionnaire|chef|responsable|principal|staff)\b")
+_ANALYST_LEVEL_WORDS = [
+    (r"\b(senior|sr) (pricing |revenue |rgm )?(analyst|analista|analyste)\b|\b(analista|analyste) (senior|sr)\b", "Senior Analyst"),
+    (r"\b(analyst|analista|analyste|profesional)\b", "Analyst"),
+    (r"\b(specialist|especialista|specialiste|conseiller|conseillere)\b", "Specialist"),
+    (r"\b(coordinator|coordinador|coordinadora|coordonnateur|coordonnatrice)\b", "Coordinator"),
+]
+
+
+def analyst_level(title):
+    """Analyst-level title (Analyst, Specialist, Coordinator...) -> its level; None for Manager+."""
+    t = norm(title)
+    if not t or _MANAGER_WORDS.search(t):
+        return None
+    for pattern, level in _ANALYST_LEVEL_WORDS:
+        if re.search(pattern, t):
+            return level
+    return None
+
+
+def out_of_scope(title):
+    return bool(OUT_OF_SCOPE_TITLE.search(norm(title)))
+
+
 def is_confidential(company):
     """True when the employer is not named (e.g. 'Confidential employer', 'Empresa confidencial')."""
     t = norm(company)

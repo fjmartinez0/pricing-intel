@@ -1,5 +1,5 @@
 #!/bin/bash
-# One-time setup on the Mac mini: installs the weekday 20:00 launchd job.
+# One-time setup on the Mac mini: installs the weekday 2:30 a.m. launchd job.
 # Usage: bash scripts/install_mac.sh            install or reinstall the schedule
 #        bash scripts/install_mac.sh --run-now  also start one run immediately (for testing)
 set -euo pipefail
@@ -17,7 +17,7 @@ chmod +x "$REPO/scripts/run_daily.sh"
 sed "s#__REPO__#$REPO#g" "$REPO/launchd/$LABEL.plist" > "$DEST"
 launchctl bootout "gui/$(id -u)/$LABEL" 2>/dev/null || true
 launchctl bootstrap "gui/$(id -u)" "$DEST"
-echo "Scheduled: Monday to Friday at 20:00 (this Mac's local time)."
+echo "Scheduled: Monday to Friday at 2:30 a.m. (this Mac's local time)."
 
 if [ "${1:-}" = "--run-now" ]; then
   launchctl kickstart "gui/$(id -u)/$LABEL"

@@ -58,6 +58,8 @@ def validate_job(p):
         errs.append("bad country %r" % p.get("country"))
     if p.get("scope_fit", "in_scope") not in c.SCOPE_FIT:
         errs.append("bad scope_fit")
+    if c.out_of_scope(p.get("title")):
+        errs.append("out of scope (freight forwarding, costing or solution design)")
     band = p.get("level_band") or "manager_plus"
     if band not in c.LEVEL_BANDS:
         errs.append("bad level_band %r" % band)
@@ -66,6 +68,8 @@ def validate_job(p):
             errs.append("analyst-level roles are tracked for Canada and Colombia only")
         if p.get("level") not in c.ANALYST_LEVELS:
             errs.append("analyst-level role needs level in %s" % ", ".join(c.ANALYST_LEVELS))
+        if not c.PRICING_TITLE.search(c.norm(p.get("title"))):
+            errs.append("analyst-level role must name pricing/RGM/revenue management in the title")
     if not (is_url(p.get("official_url")) or is_url(p.get("secondary_url"))):
         errs.append("no job-level URL")
     for f in ["official_url", "secondary_url"]:
@@ -93,11 +97,18 @@ def main():
     # 1. New opportunities
     for n, p in enumerate(prop.get("new_opportunities", [])):
         p = {k: clean(v) for k, v in p.items()}
+        lvl = c.analyst_level(p.get("title"))
+        if lvl and (p.get("level_band") or "manager_plus") == "manager_plus":
+            p["level_band"], p["level"] = "analyst", lvl
+            log.append("BAND new:%d %s / %s set to analyst (%s) from the title" % (n, p.get("company"), p.get("title"), lvl))
         errs = validate_job(p)
         if errs:
             log.append("REJECTED new:%d %s / %s: %s" % (n, p.get("company"), p.get("title"), "; ".join(errs)))
             continue
         match = find_match(jobs, p)
+        if match and match.get("close_reason") == "out_of_scope":
+            log.append("SKIPPED new:%d matches %s, retired as out of scope" % (n, match["id"]))
+            continue
         if match:
             ref_map["new:%d" % n] = match["id"]
             if match["lifecycle_status"] in ("inactive", "closed"):

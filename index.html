@@ -256,13 +256,16 @@ const isNew = j => (j.first_seen || "") > (S.meta.baseline_date || "") && daysSi
 function statusChip(j){
   const m = {active:["ok","Verified open"], unable_to_verify:["warn","Unverified"], inactive:["off","Removed"], closed:["off","Closed"]};
   let [cls, txt] = m[j.lifecycle_status] || ["off", j.lifecycle_status];
-  if (j.close_reason === "unconfirmed" && j.lifecycle_status === "inactive") txt = "Not confirmed";
+  if ((j.close_reason === "unconfirmed" || j.close_reason === "blocked") && j.lifecycle_status === "inactive") txt = "Not confirmed";
+  if (j.close_reason === "out_of_scope") txt = "Out of scope";
   return `<span class="chip ${cls}">${txt}</span>`;
 }
 
 const COUNTRY_VIEW = {ca:"Canada", co:"Colombia", us:"United States", gr:"Global remote"};
 const band = j => j.level_band || "manager_plus";
-const verified = c => S.jobs.filter(j => j.lifecycle_status === "active" && j.country === c && band(j) === "manager_plus");
+// Which bands each country tab shows comes from the data (meta.country_tab_bands, set by the pipeline).
+const tabBands = c => ((S.meta.country_tab_bands || {})[c]) || ["manager_plus"];
+const verified = c => S.jobs.filter(j => j.lifecycle_status === "active" && j.country === c && tabBands(c).includes(band(j)));
 const CC = ["Canada","Colombia"];
 const inCC = j => CC.includes(j.country) && (!S.cc || j.country === S.cc);
 const isConf = name => /confiden|undisclosed|anonym/i.test(name || "");
@@ -364,12 +367,12 @@ function table(rows, view){
          `<span title="${esc(j.location_note || "")}">${esc(j.city || "Not stated")}</span>`,
          `<span class="wm ${j.work_mode === "Unknown" ? "unk" : ""}">${esc(j.work_mode || "Unknown")}</span>`,
          `<span class="clamp" title="${esc(j.salary_advertised)}">${esc(j.salary_advertised)}</span>`,
-         `${isNew(j) ? '<span class="chip new">New</span> ' : ""}${statusChip(j)}`,
+         `${isNew(j) ? '<span class="chip new">New</span> ' : ""}${statusChip(j)}${band(j) === "analyst" ? ` <span class="chip line">${esc(levelLabel(j))}</span>` : ""}`,
          postedCell(j), linkCell(j)];
     return `<tr class="jr" id="${esc(j.id)}" tabindex="0" aria-expanded="false" aria-controls="d-${esc(j.id)}">${cells.map((c,i) => `<td class="c-${cols[i].k}">${c}</td>`).join("")}</tr>${detailRow(j, cols.length)}`;
   }).join("");
   return `<div class="tablewrap"><table class="jobs ${view}"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>
-    <p class="hint">Click a column name to sort. Click a row for details. Every weekday at 20:00 each link is rechecked, so a role moves to Closed soon after its posting comes down.</p>`;
+    <p class="hint">Click a column name to sort. Click a row for details. Every weekday at 2:30 a.m. (Montreal time) each link is rechecked, so a role moves to Closed soon after its posting comes down.</p>`;
 }
 
 function renderCountry(view){
@@ -550,7 +553,8 @@ function openJob(id){
   S.country = ""; S.status = ""; S.q = ""; S.newOnly = false;
   $("#f-q").value = "";
   $("#f-country").querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === ""));
-  const view = band(j) === "analyst" ? "allroles" : Object.keys(COUNTRY_VIEW).find(v => COUNTRY_VIEW[v] === j.country);
+  const home = Object.keys(COUNTRY_VIEW).find(v => COUNTRY_VIEW[v] === j.country);
+  const view = home && tabBands(j.country).includes(band(j)) ? home : "allroles";
   if (j.lifecycle_status === "unable_to_verify") return;
   S.band = ""; S.cc = "";
   ["#f-band","#f-cc"].forEach(f => $(f).querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === "")));

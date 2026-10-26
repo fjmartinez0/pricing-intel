@@ -37,6 +37,8 @@ def main():
     checks = c.load_checks()
     meta = c.load("meta.json")
     baseline = meta["baseline_date"]
+    if meta.get("country_tab_bands") != c.COUNTRY_TAB_BANDS:
+        E("meta.country_tab_bands is out of date; run scripts/migrate_2026_10_26.py")
     positive = {(e["job_id"], e["date"]) for e in checks if e.get("result") == "positive"}
 
     ids = [j["id"] for j in jobs]
@@ -55,6 +57,15 @@ def main():
             E("%s: bad level_band %r" % (jid, band))
         if band == "analyst" and j.get("country") not in c.ANALYST_COUNTRIES:
             E("%s: analyst-level role outside Canada/Colombia" % jid)
+        if band == "analyst" and j.get("level") not in c.ANALYST_LEVELS:
+            E("%s: analyst-level role needs a level" % jid)
+        if band == "manager_plus" and j.get("country") in c.ANALYST_COUNTRIES and c.analyst_level(j.get("title")):
+            E("%s: title %r is analyst level but band is manager_plus" % (jid, j.get("title")))
+        is_open = j["lifecycle_status"] in ("active", "unable_to_verify")
+        if is_open and c.out_of_scope(j.get("title")):
+            E("%s: open role is out of scope (freight forwarding, costing or solution design)" % jid)
+        if is_open and j.get("close_reason") == "out_of_scope":
+            E("%s: retired as out of scope but open again" % jid)
         if j.get("work_mode") not in c.WORK_MODES:
             E("%s: bad work_mode %r" % (jid, j.get("work_mode")))
         if j.get("country") not in c.COUNTRIES:

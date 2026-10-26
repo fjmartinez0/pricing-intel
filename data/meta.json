@@ -13,5 +13,20 @@
     "borderline"
   ],
   "notes": "last_verified_active is set only on a genuinely positive job-level check. Blank means not verified.",
-  "last_run_at": "2026-10-26T02:46:02-04:00"
+  "last_run_at": "2026-10-26T02:46:02-04:00",
+  "country_tab_bands": {
+    "Canada": [
+      "manager_plus"
+    ],
+    "Colombia": [
+      "manager_plus",
+      "analyst"
+    ],
+    "United States": [
+      "manager_plus"
+    ],
+    "Global remote": [
+      "manager_plus"
+    ]
+  }
 }

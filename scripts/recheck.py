@@ -91,7 +91,77 @@ def check_smartrecruiters(url):
     return result("unable_to_verify", "smartrecruiters_api", st, "SmartRecruiters API error")
 
 
-def check_workday(url):
+def post_json(url, payload):
+    req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), method="POST",
+                                 headers={"User-Agent": UA, "Accept": "application/json",
+                                          "Content-Type": "application/json",
+                                          "Accept-Language": "en-CA,en;q=0.9,fr;q=0.8,es;q=0.7"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return r.status, json.loads(r.read(2_000_000).decode("utf-8", "replace"))
+    except urllib.error.HTTPError as e:
+        return e.code, {}
+    except Exception:
+        return None, {}
+
+
+def workday_req_id(url, job):
+    """Requisition ID from the job record, else from the URL slug (…/Title_R-286933, …_JR66562-1)."""
+    if job and job.get("requisition_id"):
+        return job["requisition_id"]
+    slug = urlparse(url).path.rstrip("/").split("/")[-1]
+    if "_" not in slug:
+        return None
+    return re.sub(r"-\d{1,2}$", "", slug.rsplit("_", 1)[1]) or None
+
+
+def workday_search(netloc, tenant, site, text):
+    """Workday's public job-list search. Returns (http_status, postings, total)."""
+    st, data = post_json("https://%s/wday/cxs/%s/%s/jobs" % (netloc, tenant, site),
+                         {"appliedFacets": {}, "limit": 20, "offset": 0, "searchText": text})
+    if st != 200 or not isinstance(data, dict):
+        return st, [], 0
+    return st, data.get("jobPostings") or [], data.get("total") or 0
+
+
+def workday_fallback(netloc, tenant, site, url, job, direct_status):
+    """Used when Workday refuses the direct job request (e.g. HTTP 403): look the job up in the
+    employer's own Workday job search instead. Found -> positive. Not found -> inactive (the
+    two-run rule still applies). Search unusable -> None (stays unverified)."""
+    rid = workday_req_id(url, job)
+    slug = urlparse(url).path.rstrip("/").split("/")[-1].lower()
+    if not rid:
+        return None
+    rid_l = rid.lower()
+
+    def found(postings):
+        for p in postings:
+            hay = ("%s %s" % (p.get("externalPath") or "", " ".join(p.get("bulletFields") or []))).lower()
+            if rid_l in hay or (slug and slug in hay):
+                return True
+        return False
+
+    st1, posts1, _ = workday_search(netloc, tenant, site, rid)
+    if st1 != 200:
+        return None
+    if found(posts1):
+        return result("positive", "workday_search", st1,
+                      "Listed in the employer's Workday job search (direct page refused, HTTP %s)" % direct_status)
+    title_words = slug.rsplit("_", 1)[0].replace("-", " ")
+    st2, posts2, _ = workday_search(netloc, tenant, site, " ".join(title_words.split()[:6]))
+    if st2 == 200 and found(posts2):
+        return result("positive", "workday_search", st2,
+                      "Listed in the employer's Workday job search (direct page refused, HTTP %s)" % direct_status)
+    # Only trust "not found" if the search itself works: an empty search must list some jobs.
+    st3, _, total = workday_search(netloc, tenant, site, "")
+    if st2 == 200 and st3 == 200 and total > 0:
+        return result("inactive", "workday_search", st1,
+                      "Not in the employer's Workday job search (%d jobs listed; direct page refused, HTTP %s)"
+                      % (total, direct_status))
+    return None
+
+
+def check_workday(url, job=None):
     u = urlparse(url)
     parts = u.path.strip("/").split("/")
     if parts and re.fullmatch(r"[a-z]{2}(-[A-Z]{2})?", parts[0]):
@@ -115,7 +185,11 @@ def check_workday(url):
         return result("positive", "workday_api", st, "Live on Workday", info.get("startDate") or "")
     if st in (404, 410):
         return result("inactive", "workday_api", st, "Workday posting not found")
-    return result("unable_to_verify", "workday_api", st, "Workday API error")
+    fb = workday_fallback(u.netloc, tenant, site, url, job, st)
+    if fb:
+        return fb
+    return result("unable_to_verify", "workday_api", st,
+                  "Workday refused the check (HTTP %s) and its job search was unavailable" % st)
 
 
 def check_generic(url, requisition_id):
@@ -155,7 +229,7 @@ def check_job(job):
     host = urlparse(url).netloc
     r = None
     if "myworkdayjobs.com" in host:
-        r = check_workday(url)
+        r = check_workday(url, job)
     elif "smartrecruiters.com" in host:
         r = check_smartrecruiters(url)
         if r and r["result"] == "unable_to_verify":
@@ -223,22 +297,29 @@ def ref_date(job):
 
 
 def retire_if_unconfirmed(job, run_date):
-    """14-day rule: a lead with no employer posting that stays unverified for 14 days moves to
-    Closed as 'Not confirmed'. Roles with an official link that merely error are never retired."""
-    if job["lifecycle_status"] != "unable_to_verify" or job.get("official_url") or job.get("check"):
+    """14-day rule: a role that stays unverified for 14 days (counted from its last positive check,
+    else from first seen) moves to Closed as 'Not confirmed'. Two cases:
+    - 'unconfirmed': no employer posting; the only source (LinkedIn, a job board) can't be checked.
+    - 'blocked': it has an official link, but the employer's site keeps refusing the check."""
+    if job["lifecycle_status"] != "unable_to_verify":
         return None
     ref = ref_date(job)
     today_d = date.fromisoformat(run_date)
     if not ref or (today_d - ref).days < UNCONFIRMED_DAYS:
         return None
+    has_official = bool(job.get("official_url") or job.get("check"))
     job["lifecycle_status"] = "inactive"
-    job["close_reason"] = "unconfirmed"
+    job["close_reason"] = "blocked" if has_official else "unconfirmed"
     job["last_active"] = job.get("last_verified_active") or job.get("last_active")
     job["inactive_date"] = run_date
-    job["verification_note"] = ("Not confirmed in %d days: no employer posting found and the only source "
-                                "(LinkedIn or a job board) cannot be checked automatically (%s)") % (UNCONFIRMED_DAYS, run_date)
-    return {"date": run_date, "job_id": job["id"], "url": job.get("secondary_url"), "result": "inactive",
-            "method": "unconfirmed_rule", "http_status": None, "note": job["verification_note"]}
+    if has_official:
+        job["verification_note"] = ("Not confirmed in %d days: the employer's site refused every check, so the "
+                                    "posting could not be confirmed open (%s)") % (UNCONFIRMED_DAYS, run_date)
+    else:
+        job["verification_note"] = ("Not confirmed in %d days: no employer posting found and the only source "
+                                    "(LinkedIn or a job board) cannot be checked automatically (%s)") % (UNCONFIRMED_DAYS, run_date)
+    return {"date": run_date, "job_id": job["id"], "url": job.get("official_url") or job.get("secondary_url"),
+            "result": "inactive", "method": "unconfirmed_rule", "http_status": None, "note": job["verification_note"]}
 
 
 def main():
@@ -251,7 +332,9 @@ def main():
     run_date = c.today()
     jobs = c.load("opportunities.json")
     checks = c.load_checks()
-    targets = [j for j in jobs if j["lifecycle_status"] != "closed"]
+    # Closed roles and roles retired as out of scope are never rechecked (a live page must not
+    # bring an out-of-scope role back).
+    targets = [j for j in jobs if j["lifecycle_status"] != "closed" and j.get("close_reason") != "out_of_scope"]
     if args.ids:
         targets = [j for j in jobs if j["id"] in args.ids]
     if args.new_only:

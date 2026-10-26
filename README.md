@@ -1,7 +1,7 @@
 # Pricing roles tracker
 
 Tracks pricing, monetization and RGM roles in Canada and Colombia, and what each company's hiring
-suggests about its pricing strategy. Runs Monday to Friday at 20:00 on the Mac mini, publishes a
+suggests about its pricing strategy. Runs Monday to Friday at 2:30 a.m. on the Mac mini, publishes a
 dashboard on GitHub Pages, and sends an ntfy alert only when a new Canada or Colombia role appears.
 
 ## How a run works

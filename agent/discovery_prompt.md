@@ -28,7 +28,7 @@ Gestión de ingresos, Revenue Growth Management. Include CPG and hospitality RGM
 Seniority, two bands. Judge the actual responsibilities, not just the title.
 - `"level_band": "manager_plus"` (main tabs, phone alerts): strategic Associate, Manager, Senior
   Manager, Associate Director, Director, Head of. All three countries.
-- `"level_band": "analyst"` (All Roles tab, no alerts): Analyst, Senior Analyst, Specialist,
+- `"level_band": "analyst"` (All Roles tab, and the Colombia tab; no alerts): Analyst, Senior Analyst, Specialist,
   Coordinator (Analista, Especialista, Coordinador, Analyste, Conseiller). Canada and Colombia only;
   never for the United States. Set `level` to exactly one of "Analyst", "Senior Analyst",
   "Specialist", "Coordinator". Exclude interns, trainees, assistants and auxiliary roles
@@ -38,6 +38,13 @@ follow the same rules on official links, verification, salary and dates.
 
 Exclude merely adjacent roles (commercial strategy, growth, product, RevOps, FP&A, deal desk)
 unless pricing/monetization/RGM is explicitly the core.
+
+Always out of scope, at every level and in every country (the merge script rejects them):
+freight forwarding and cargo-agent rate quoting ("agente de carga", "freight forwarder",
+"carga internacional"), costing roles ("costos", "costing", "cost analyst") and solution-design
+roles ("diseño de soluciones"), even when the title also says pricing.
+Analyst-level roles must be pricing strict: the title itself must say Pricing, Precios,
+Tarification, Monetization, Revenue Management, RGM or Revenue Growth; otherwise skip them.
 
 Global remote roles: include only if the posting explicitly allows applicants based in Canada or
 Colombia; set `country` to "Global remote". Never assume a US-remote role is eligible.

@@ -1,5 +1,5 @@
 #!/bin/bash
-# Daily pipeline, started by launchd Monday to Friday at 20:00 (Mac local time).
+# Daily pipeline, started by launchd Monday to Friday at 2:30 a.m. (Mac local time).
 # Steps: pull, recheck known links, Claude discovery, merge, verify new links,
 # validate, commit and push (GitHub publishes the dashboard), alert.
 set -euo pipefail
