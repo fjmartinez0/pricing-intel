@@ -1,0 +1,72 @@
+{
+  "run_date": "2026-10-27",
+  "searches_run": 81,
+  "searches_by_country": { "Canada": 35, "Colombia": 25, "United States": 21 },
+  "watchlist_checked": [
+    "Bell", "Rogers", "Telus", "Videotron / Quebecor", "Air Canada", "Air Transat", "Via Rail", "Bombardier", "CAE",
+    "Claro Colombia", "Movistar Colombia", "Tigo", "Avianca", "LATAM Airlines Colombia", "GHL Hoteles", "Grupo Aval", "Siigo",
+    "Datadog", "Snowflake", "MongoDB", "HubSpot", "Okta", "Cloudflare"
+  ],
+  "new_opportunities": [
+    {
+      "company": "Intact Financial Corporation",
+      "title": "Senior Analyst Actuarial - Pricing CL & SL",
+      "business_unit": "Commercial & Specialty Lines (actuarial pricing)",
+      "category": "Pricing",
+      "country": "Canada",
+      "city": "Montreal",
+      "location_note": "Built In lists the role as 'In-Office or Remote' across 2 locations; Talent.com copy lists Montréal only",
+      "work_mode": "Hybrid",
+      "work_model": "Hybrid work model (per posting copy; Built In tag 'In-Office or Remote')",
+      "salary_advertised": "87,200 - 106,600 base (based on a 35-hour workweek), plus 10% annual bonus target (currency not stated)",
+      "employer_posting_date": null,
+      "official_url": null,
+      "secondary_url": "https://builtinmontreal.com/job/senior-analyst-actuarial-pricing-cl-sl/9326938",
+      "requisition_id": null,
+      "summary": "Actuarial pricing support for large-account Commercial & Specialty Lines across 22+ lines of business: rate indications, rate committees, ratemaking sophistication and corporate planning; guides and coaches team pricing analysis.",
+      "pricing_focus": "P&C commercial insurance ratemaking; large-account pricing",
+      "level_band": "analyst",
+      "level": "Senior Analyst",
+      "scope_fit": "in_scope",
+      "scope_note": "Posting may be stale: Built In says 'Reposted 2 Months Ago' and Talent.com says '30+ days ago'; an Espresso-jobs copy now returns 410. Employer posting on careers.intactfc.com not located. Requires ACAS-track actuarial background.",
+      "strategy_confidence": "Low"
+    }
+  ],
+  "url_updates": [],
+  "strategy_updates": [
+    {
+      "id": null,
+      "company": "Intact Financial Corporation",
+      "business_unit": "Commercial & Specialty Lines (actuarial pricing)",
+      "pricing_theme": "Raising ratemaking sophistication for large commercial accounts while large-account competition slows growth",
+      "current_model": null,
+      "industry": "Insurance",
+      "posting_evidence": [
+        "Senior Analyst, Actuarial Pricing for Commercial & Specialty Lines, Montréal, hybrid; base 87,200–106,600 plus 10% bonus target; no posting date stated (reposted roughly 2 months ago per Built In).",
+        "Mandate: support strategic initiatives to improve ratemaking sophistication and help explain nationwide performance, including earnings-call preparation.",
+        "Scope: actuarial support for large-account pricing across 22+ lines of business, covering indications, rate committees and corporate planning.",
+        "Tools and profile: Python, VBA, R or SAS; 3+ years of P&C actuarial experience, ACAS preferred; guides and coaches team members.",
+        "Must be eligible to work in Canada; Intact states it does not sponsor work permits."
+      ],
+      "news": [
+        {
+          "date": "2026-07-29",
+          "summary": "Intact's Q2 2026 Canadian commercial lines posted an 85.7% combined ratio on 1% operating DPW growth, with competition in large commercial accounts tempering growth initiatives; the 12-month outlook for commercial and specialty lines stayed at low to mid-single-digit premium growth.",
+          "source": "Insurance Business",
+          "url": "https://www.insurancebusinessmag.com/ca/news/breaking-news/intact-weathers-a-costly-catastrophe-quarter-without-losing-its-grip-on-returns-584133.aspx"
+        }
+      ],
+      "interpretation": "Inference: with commercial lines very profitable (85.7% combined ratio) but growing only 1% amid large-account competition, Intact likely wants more granular large-account rating so it can compete selectively without giving up margin. The posting's link to rate committees and earnings-call preparation suggests this pricing team feeds executive views of performance, not just technical rate filings. For the candidate this is a technical actuarial pricing role, not a commercial pricing-strategy role; it fits only with an actuarial background.",
+      "open_questions": [
+        "How much of the large-account work is underwriter-led, account-by-account pricing versus rate-plan indications?",
+        "Is the requisition still open, or has it been filled and reposted? The employer page could not be found.",
+        "What modelling stack (GLM or ML) and governance does the CL&SL pricing team use for its 22+ lines of business?"
+      ],
+      "caveat": "Based on a job-board copy of the posting (Talent.com/Built In), not the employer's own page, plus one earnings-coverage article; no current-rate figures were found.",
+      "confidence": "Low",
+      "linked_job_refs": ["new:0"]
+    }
+  ],
+  "people": [],
+  "notes": "A thin day: most leads were closed or filled (Clutch Director/Sr Mgr Pricing, AutoTrader Manager Pricing & Commercial Strategy, Telus Manager Pricing SMB and Sr Pricing & Acquisition Mgr, Rogers Pricing Manager and Sr Analyst Pricing, Transat RM/Pricing analysts, Amgen Pricing Lead Bogotá, Magneto 'Gerente RGM' Bogotá, HubSpot Pricing Strategy Manager, Cloudflare Sr/Principal Pricing Mgr, Datadog Director Pricing & Monetization, DigiCert VP Monetization, Okta Sr Mgr Pricing Strategy). Elempleo pricing pages showed only freight/cargo-agent and costing roles (out of scope). OpenAI 'Pricing Strategist' Ashby page (likely JOB-0098) now returns 404. Watchlist depth: Grupo Aval, Siigo and GHL were checked by search only; the MongoDB, Datadog, Cloudflare and Okta Greenhouse API listings were truncated, so those checks relied on site searches. Leads not pursued: ORBCOMM Director of Pricing in Kanata (CAD 140k–175k, aggregator only, CareerBeacon 403, possibly stale); Morneau 'Directeur à la tarification' (carrier rate pricing, CAD 60–80k, undated)."
+}

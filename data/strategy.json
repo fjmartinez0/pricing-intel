@@ -2182,5 +2182,42 @@
     ],
     "industry": "Software",
     "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0068",
+    "company": "Intact Financial Corporation",
+    "business_unit": "Commercial & Specialty Lines (actuarial pricing)",
+    "baseline_date": "2026-10-27",
+    "last_updated": "2026-10-27",
+    "pricing_theme": "Raising ratemaking sophistication for large commercial accounts while large-account competition slows growth",
+    "current_model": null,
+    "posting_evidence": [
+      "Senior Analyst, Actuarial Pricing for Commercial & Specialty Lines, Montréal, hybrid; base 87,200–106,600 plus 10% bonus target; no posting date stated (reposted roughly 2 months ago per Built In).",
+      "Mandate: support strategic initiatives to improve ratemaking sophistication and help explain nationwide performance, including earnings-call preparation.",
+      "Scope: actuarial support for large-account pricing across 22+ lines of business, covering indications, rate committees and corporate planning.",
+      "Tools and profile: Python, VBA, R or SAS; 3+ years of P&C actuarial experience, ACAS preferred; guides and coaches team members.",
+      "Must be eligible to work in Canada; Intact states it does not sponsor work permits."
+    ],
+    "news": [
+      {
+        "date": "2026-07-29",
+        "summary": "Intact's Q2 2026 Canadian commercial lines posted an 85.7% combined ratio on 1% operating DPW growth, with competition in large commercial accounts tempering growth initiatives; the 12-month outlook for commercial and specialty lines stayed at low to mid-single-digit premium growth.",
+        "source": "Insurance Business",
+        "url": "https://www.insurancebusinessmag.com/ca/news/breaking-news/intact-weathers-a-costly-catastrophe-quarter-without-losing-its-grip-on-returns-584133.aspx"
+      }
+    ],
+    "interpretation": "Inference: with commercial lines very profitable (85.7% combined ratio) but growing only 1% amid large-account competition, Intact likely wants more granular large-account rating so it can compete selectively without giving up margin. The posting's link to rate committees and earnings-call preparation suggests this pricing team feeds executive views of performance, not just technical rate filings. For the candidate this is a technical actuarial pricing role, not a commercial pricing-strategy role; it fits only with an actuarial background.",
+    "open_questions": [
+      "How much of the large-account work is underwriter-led, account-by-account pricing versus rate-plan indications?",
+      "Is the requisition still open, or has it been filled and reposted? The employer page could not be found.",
+      "What modelling stack (GLM or ML) and governance does the CL&SL pricing team use for its 22+ lines of business?"
+    ],
+    "caveat": "Based on a job-board copy of the posting (Talent.com/Built In), not the employer's own page, plus one earnings-coverage article; no current-rate figures were found.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0101"
+    ],
+    "industry": "Insurance",
+    "analysis_status": "analyzed"
   }
 ]
