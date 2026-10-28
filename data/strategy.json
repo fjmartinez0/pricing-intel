@@ -2219,5 +2219,114 @@
     ],
     "industry": "Insurance",
     "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0069",
+    "company": "Stripe",
+    "business_unit": "Product Pricing (Pricing Strategy team, Product Marketing)",
+    "baseline_date": "2026-10-28",
+    "last_updated": "2026-10-28",
+    "pricing_theme": "Moving from a single headline card rate to portfolio packaging across payments, billing, usage-based billing and add-ons.",
+    "current_model": "Per-transaction pricing on its pricing page. The Canadian page, read today, lists 2.9% + CA$0.30 per successful domestic card transaction, +0.8% for international cards, +2% when currency conversion is needed and +0.5% for manually entered cards. Custom pricing (IC+, volume and multi-product discounts, country-specific rates) is available for large-volume businesses through sales. Billing costs 0.7% of Billing volume pay-as-you-go, or monthly plans from CA$770/month on a 1-year contract. Metronome usage-based billing has a Startup tier at US$0.04 per 1K ingest events plus 0.8% of billing volume. The US page was not read today.",
+    "posting_evidence": [
+      "Two open US roles on the Pricing Strategy team, which sits in Product Marketing and is 'responsible for how Stripe prices its products': Portfolio Pricing Strategist (US-remote, $147,200–$220,800, 5–7 yrs, first published 2026-05-04) and Pricing Strategist (South San Francisco/NYC, $122,400–$183,600, 3–5 yrs, first published 2026-09-18).",
+      "The portfolio role's mandate is frameworks for pricing and packaging Stripe products together, tied to long-term commercial goals, informed by willingness-to-pay analysis and competitive benchmarking.",
+      "Both roles build financial models of pricing changes' impact on revenue, margin and user behaviour, and align Finance, Legal, Product and Go-to-Market on proposals.",
+      "Preferred skills name payments and AI/software pricing knowledge plus SQL or AI tooling; the Greenhouse department is '6447 Product Pricing'.",
+      "Other pricing-titled roles on the same board are outside the US or below scope: Deal Pricing (Mexico City), Deal Pricing Strategist APAC (Singapore), and a Product Marketing Manager, Portfolio Pricing who owns the pricing narrative and bundle go-to-market."
+    ],
+    "news": [
+      {
+        "date": "2026-10-01",
+        "summary": "Stripe cut Australian domestic card fees on standard pricing from 1.70% to 1.65% (+A$0.30 online, +A$0.10 Terminal) effective 1 Oct 2026, and will cut international card fees from 3.50% to 2.80% from 1 Apr 2027, passing on the Reserve Bank of Australia's lower interchange caps.",
+        "source": "Stripe Support",
+        "url": "https://support.stripe.com/questions/updates-to-card-pricing-in-australia-from-october-2026"
+      },
+      {
+        "date": "2026-10-01",
+        "summary": "A pricing-page tracker recorded Stripe re-adding the Terminal Reader T600 at $329 and revising its Treasury perks. It counted this as Stripe's ninth pricing-page change in 90 days, against a historical average gap of 51 days.",
+        "source": "PricingSaaS",
+        "url": "https://pricingsaas.com/news/article/stripe-adds-329-reader-t600-to-terminal-lineup-revamps-treasury-perks"
+      }
+    ],
+    "interpretation": "Inference: Stripe is hiring for cross-product packaging, not single-product price points. The portfolio role explicitly covers pricing products together, and the pricing page now spans payments, Billing, Metronome usage metering, Tax and Data Pipeline, each with its own metric. The frequent pricing-page changes and the pass-through of regulated interchange cuts in Australia suggest a team that moves often and works under regulatory and competitive pressure on the core payments rate. That makes bundles and attach-rate pricing more important levers. For a candidate, the roles are influence-heavy individual-contributor positions inside Product Marketing rather than people-management roles.",
+    "open_questions": [
+      "Who owns final pricing decisions: the Product Pricing team, product GMs or Finance? How does the team work with the separate Deal Pricing function on IC+ and custom contracts?",
+      "Is the portfolio work aimed at bundling Billing/Metronome/Tax with payments for small self-serve users, enterprise custom deals, or both?",
+      "How are AI-company customers on usage-based models (via Metronome) priced against Stripe's own payments take-rate?"
+    ],
+    "caveat": "Current-model facts come from Stripe's Canadian pricing page, not the US page. One news item comes from a third-party pricing-page tracker, and I read no earnings or strategy commentary from Stripe, which is private.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0102",
+      "JOB-0103"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0070",
+    "company": "Intuit",
+    "business_unit": "Consumer Group (TurboTax)",
+    "baseline_date": "2026-10-28",
+    "last_updated": "2026-10-28",
+    "pricing_theme": "Growing TurboTax revenue per return through lineup, SKU and assisted-tier mix while unit volumes decline.",
+    "current_model": "Tiered consumer tax software on the TurboTax site, read 2026-10-28. Free Edition is $0 federal + $0 state for simple Form 1040 returns. Do-It-Yourself paid products range $0–$139 with state additional. Expert Assist ranges $59–$209 with state additional. Expert Full Service starts at $129 for one federal return, with the final price depending on forms used and state additional. Paid products are charged at filing.",
+    "posting_evidence": [
+      "Principal, Business Model Innovation & Pricing Strategy (requisition 22637), San Diego or Mountain View. Salary $191,000–$258,500 in San Diego and $205,000–$277,500 in Mountain View. 8+ years in strategy, operations, product strategy or consulting.",
+      "Mandate: define and evolve TurboTax's annual product lineup and business model strategy, and own end-to-end pricing strategy, including in-season execution and a test-and-learn roadmap.",
+      "Leads SKU and entitlements strategy as the authoritative source on product structure.",
+      "Individual contributor who must influence senior leaders across Product, Analytics, Finance and Marketing without direct authority; the role sits in the Marketing job category."
+    ],
+    "news": [
+      {
+        "date": "2026-08-25",
+        "summary": "Intuit's fiscal 2026 results reported TurboTax revenue of $5.3B (+7%), TurboTax Live revenue +37% (53% of TurboTax revenue), and total US TurboTax units of 39.0M vs 39.9M (-2%), with fiscal 2027 TurboTax revenue guided to +2% to +3%.",
+        "source": "Intuit (Form 8-K earnings release)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000896878/000089687826000029/fy26q4earningspressrelease.htm"
+      }
+    ],
+    "interpretation": "Inference: TurboTax revenue grew 7% while units fell 2%, so growth came from revenue per return, mainly the shift into assisted TurboTax Live tiers, not from more filers. The fiscal 2027 guide of only 2–3% suggests that mix lever is slowing. That is a reason to invest now in business-model innovation, lineup redesign, SKU/entitlement structure and in-season price testing. The role is effectively the architect of how TurboTax packages free, DIY and expert tiers. The free tier and its eligibility rules are likely to be sensitive design points.",
+    "open_questions": [
+      "How much price and entitlement change does leadership expect for tax year 2026, and what are the guardrails on the free tier and on customer trust?",
+      "How does this role divide ownership with TurboTax Live product teams and with Credit Karma cross-sell in the combined Consumer segment?",
+      "What in-season experimentation infrastructure exists (price tests, paywall placement), and how quickly can results be acted on within a single filing season?"
+    ],
+    "caveat": "The release does not disclose revenue per return or explicit TurboTax price changes, so the mix-versus-price split is inferred. TurboTax site prices are ranges, not per-SKU list prices.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0104"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0071",
+    "company": "OpenAI",
+    "business_unit": "Finance – GTM pricing",
+    "baseline_date": "2026-10-28",
+    "last_updated": "2026-10-28",
+    "pricing_theme": "Putting governance and segment programs around enterprise discounting, credits and promotions.",
+    "current_model": null,
+    "posting_evidence": [
+      "Pricing Strategist, GTM, San Francisco, posted 2026-09-23 on a job-board copy; it sits within Finance and partners with GTM, Sales and Product.",
+      "Runs regular pricing-performance reviews and analyzes discounting and concessions to recommend pricing changes.",
+      "Builds commercial strategies and pricing programs for education, startups and government, and sets objectives and success measures for credit programs and promotions, including ROI evaluation.",
+      "Turns segment goals and product pricing strategy into scalable frameworks and aligns proposals on strategic enterprise deals with sound deal economics.",
+      "Pricing analytics experience is 'helpful but not required'; consulting, strategy & operations or pricing backgrounds are cited."
+    ],
+    "news": [],
+    "interpretation": "Inference: OpenAI now has separate pricing roles for API, Chat & Codex products and enterprise GTM. That suggests pricing has split into product-level price setting and a Finance-owned layer that polices realized price: discounts, concessions, credits and segment programs. The emphasis on credit-program ROI and concession analysis points to enterprise deals and promotional credits eroding realized price as sales scale. For a candidate, the role is closer to price realization and deal governance than to list-price design.",
+    "open_questions": [
+      "What discount authority and approval thresholds exist today, and does this role own them or only analyze them?",
+      "How do segment programs (education, startups, government) interact with the product pricing teams' list prices and usage-based rate cards?"
+    ],
+    "caveat": "The posting was read from a third-party job-board copy because openai.com blocks automated access. OpenAI's help-center pricing pages could not be read today, so there is no current-model or news evidence.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0105"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
   }
 ]
