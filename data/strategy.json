@@ -1708,25 +1708,27 @@
     "company": "PointClickCare",
     "business_unit": "Monetization Strategy & Pricing",
     "baseline_date": "2026-10-21",
-    "last_updated": "2026-10-21",
+    "last_updated": "2026-10-29",
     "pricing_theme": "Packaging and pricing new AI-enabled modules for a long-term-care EHR installed base.",
     "current_model": null,
     "posting_evidence": [
-      "Sr. Monetization Strategy & Pricing Manager (CA), Mississauga hybrid, 104K–130K (Built In; currency not stated).",
-      "Reports to the Director, Monetization Strategy & Pricing; owns some pricing projects and supports go-to-market for new products and features.",
-      "Builds pricing and financial models using AI tools; tracks ASP, ARPU, discount and attach-rate KPIs.",
-      "Asks for familiarity with B2B SaaS and AI pricing models and value-based pricing; supports complex deals and sales enablement."
+      "Official Lever postings: Sr. Monetization Strategy & Pricing Manager (CA), Mississauga hybrid, '$104,000 - $130,000 a year'; and a (US) twin, Remote USA, '$112,000 - $140,000 a year'.",
+      "Both report to the Director, Monetization Strategy & Pricing; 3+ years in pricing strategy, business analysis, product operations or consulting.",
+      "Mandate: develop and run pricing and packaging strategies, own select pricing projects, support monetization and go-to-market for new products.",
+      "Builds financial and scenario models, tracks pricing KPIs, and supports Sales Enablement and Customer Success on complex deals.",
+      "Remote US hires attend in-office events in Mississauga and/or Salt Lake City."
     ],
     "news": [],
-    "interpretation": "The posting points to a small central monetization team (a director plus senior managers) packaging a growing set of add-on modules for an existing provider base. Inference: the explicit references to AI pricing models and attach-rate KPIs suggest the company is working out how to charge for AI features layered on its core EHR rather than resetting core subscription prices. The role is mid-senior and execution-focused.",
+    "interpretation": "Hiring the same senior manager role in Canada and the US at once suggests (inference) that the central monetization team under a director is being scaled, not just backfilled. The mandate centers on packaging new products and supporting deals rather than resetting core subscription prices, which fits a company adding AI modules to an existing provider base. The role is mid-senior and execution-focused, with real exposure to deal-level pricing.",
     "open_questions": [
       "How are AI modules priced today: bundled, per-facility add-on or usage-based?",
-      "How large is the monetization team and what decisions does the director own?"
+      "Are the CA and US roles one team split by geography or by product line?"
     ],
-    "caveat": "No pricing-related news in the last three months and no public pricing page; analysis rests on one Built In copy of the posting.",
+    "caveat": "No public price list and no pricing-related news read today; analysis rests on the two official postings.",
     "confidence": "Low",
     "linked_job_ids": [
-      "JOB-0073"
+      "JOB-0073",
+      "JOB-0107"
     ],
     "industry": "Software",
     "analysis_status": "analyzed"
@@ -2327,6 +2329,43 @@
       "JOB-0105"
     ],
     "industry": "Software",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0072",
+    "company": "Molson Coors Canada",
+    "business_unit": "Revenue Management (Quebec & Atlantic)",
+    "baseline_date": "2026-10-29",
+    "last_updated": "2026-10-29",
+    "pricing_theme": "Protecting net price and trade-spend return in a shrinking Canadian beer market.",
+    "current_model": null,
+    "posting_evidence": [
+      "Revenue Management Lead - QC/ATL, Montreal, hybrid 4 days in office, posted 2026-10-28 (req 40418), CAD 101,000-132,600 + 15% STI.",
+      "Reports to the National Director, Revenue Management; leads a team of two; works with regional GMs, Finance, Categories and Consumer Insights.",
+      "Defines pricing and promotion strategy by category and customer type (assortment, net price, trade investment) and owns the pricing guide and competitor tracking.",
+      "Builds net-investment scenario models and elasticity-based price analyses; sets pricing goals inside the annual budget.",
+      "Asks for 5-8 years in trade marketing, finance, BI or strategy, Power BI/Tableau and programming; fluent French and English."
+    ],
+    "news": [
+      {
+        "date": "2026-08-06",
+        "summary": "Q2 2026 results: Americas net sales fell 4.1% on lower volume, partly offset by +2.3% price and sales mix 'primarily due to increased net pricing'; net sales per hectolitre +2.5%; full-year guidance of flat net sales (+/-1%) and underlying pre-tax income down 15-18% reaffirmed.",
+        "source": "Molson Coors (Form 8-K earnings release)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000024545/000002454526000070/tapex99120260630-earningsr.htm"
+      }
+    ],
+    "interpretation": "Molson Coors is relying on net pricing and mix to hold Americas revenue as volumes fall, and guides to sharply lower profit for 2026. The Quebec/Atlantic lead role puts trade investment, promo depth and the customer-level pricing guide in one regional owner, which suggests (inference) a push to get more return per dollar of trade spend rather than relying only on list-price increases. Reposting this regional lead shortly after earlier Montreal and Toronto revenue-management roles were filled points to a team being rebuilt rather than started from scratch. In practice the role is hands-on: modelling, budget targets and customer pricing in a bilingual, retail-heavy market.",
+    "open_questions": [
+      "How much pricing authority sits regionally versus with the National Director and the Toronto team?",
+      "Is the 2027 plan built on list-price increases or on trade and promo optimization?",
+      "How do Quebec's grocery and dépanneur channel economics affect promo and price-pack choices?"
+    ],
+    "caveat": "No Canada-specific pricing data in the Q2 release (Americas segment only); Q3 2026 results not yet read.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0106"
+    ],
+    "industry": "CPG",
     "analysis_status": "analyzed"
   }
 ]

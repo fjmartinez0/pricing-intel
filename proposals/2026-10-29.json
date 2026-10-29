@@ -1,0 +1,126 @@
+{
+  "run_date": "2026-10-29",
+  "searches_run": 62,
+  "searches_by_country": { "Canada": 31, "Colombia": 17, "United States": 14 },
+  "watchlist_checked": [
+    "Loblaw", "Metro", "Sobeys / Empire", "Couche-Tard", "Dollarama", "Canadian Tire", "Saputo", "Molson Coors Canada", "BRP", "Belron Canada",
+    "Procter & Gamble", "Unilever", "Nestlé", "Kimberly-Clark", "Colgate-Palmolive", "Natura &Co", "Belcorp", "Softys",
+    "OpenAI", "Anthropic", "Databricks", "Figma", "Notion", "Cisco"
+  ],
+  "new_opportunities": [
+    {
+      "company": "Molson Coors Canada",
+      "title": "Revenue Management Lead - QC/ATL",
+      "business_unit": "Revenue Management (Quebec & Atlantic)",
+      "category": "Revenue Management",
+      "country": "Canada",
+      "city": "Montreal",
+      "location_note": "Covers Quebec and Atlantic Canada; fluent French and English required",
+      "work_mode": "Hybrid",
+      "work_model": "Hybrid, 4 days per week in office",
+      "salary_advertised": "CAD $101,000.00 - $132,600.00 (posting salary range) + 15% target short term incentive",
+      "employer_posting_date": "2026-10-28",
+      "official_url": "https://jobs.molsoncoors.com/MolsonCoors_Canada/job/Montr%C3%A9al-Revenue-Management-Lead-QCATL-QC/1452277433/",
+      "secondary_url": null,
+      "requisition_id": "40418",
+      "summary": "Leads a team of two setting pricing and promotion strategy by category and customer for Quebec/Atlantic, owns the pricing guide, elasticity and net-investment scenario models, and sets pricing targets in the annual budget.",
+      "pricing_focus": "Beer net price, trade investment and promo strategy",
+      "level_band": "manager_plus",
+      "level": null,
+      "scope_fit": "in_scope",
+      "scope_note": "People lead (team of two) reporting to the National Director, Revenue Management; asks for 5-8 years of commercial experience.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "PointClickCare",
+      "title": "Sr. Monetization Strategy & Pricing Manager (US)",
+      "business_unit": "Monetization Strategy & Pricing",
+      "category": "Monetization",
+      "country": "United States",
+      "city": "Anywhere",
+      "location_note": "Remote, USA; remote hires attend in-office events in Mississauga and/or Salt Lake City. US twin of tracked JOB-0073 (Mississauga).",
+      "work_mode": "Remote",
+      "work_model": "Remote, USA (with required in-office events)",
+      "salary_advertised": "$112,000 - $140,000 a year",
+      "employer_posting_date": null,
+      "official_url": "https://jobs.lever.co/pointclickcare/a7bbfda0-f218-4a09-847c-e7eb1c468cc5",
+      "secondary_url": null,
+      "requisition_id": "a7bbfda0-f218-4a09-847c-e7eb1c468cc5",
+      "summary": "Develops and runs pricing and packaging strategies, supports new-product monetization and go-to-market, builds financial and scenario models, tracks pricing KPIs and supports complex deals.",
+      "pricing_focus": "Healthcare SaaS packaging; AI module monetization",
+      "level_band": "manager_plus",
+      "level": null,
+      "scope_fit": "in_scope",
+      "scope_note": "Reports to the Director, Monetization Strategy & Pricing; 3+ years required, so a senior IC rather than a people manager.",
+      "strategy_confidence": "Low"
+    }
+  ],
+  "url_updates": [
+    {
+      "id": "JOB-0073",
+      "official_url": "https://jobs.lever.co/pointclickcare/0d055e51-ecd5-4daf-8295-d89b2dd5a0e3",
+      "requisition_id": "0d055e51-ecd5-4daf-8295-d89b2dd5a0e3",
+      "note": "Same title 'Sr. Monetization Strategy & Pricing Manager (CA)', Mississauga, Ontario (Hybrid) on PointClickCare's Lever board with an apply button; posting gives '$104,000 - $130,000 a year' (Canada base range)."
+    }
+  ],
+  "strategy_updates": [
+    {
+      "id": null,
+      "company": "Molson Coors Canada",
+      "business_unit": "Revenue Management (Quebec & Atlantic)",
+      "pricing_theme": "Protecting net price and trade-spend return in a shrinking Canadian beer market.",
+      "current_model": null,
+      "industry": "CPG",
+      "posting_evidence": [
+        "Revenue Management Lead - QC/ATL, Montreal, hybrid 4 days in office, posted 2026-10-28 (req 40418), CAD 101,000-132,600 + 15% STI.",
+        "Reports to the National Director, Revenue Management; leads a team of two; works with regional GMs, Finance, Categories and Consumer Insights.",
+        "Defines pricing and promotion strategy by category and customer type (assortment, net price, trade investment) and owns the pricing guide and competitor tracking.",
+        "Builds net-investment scenario models and elasticity-based price analyses; sets pricing goals inside the annual budget.",
+        "Asks for 5-8 years in trade marketing, finance, BI or strategy, Power BI/Tableau and programming; fluent French and English."
+      ],
+      "news": [
+        {
+          "date": "2026-08-06",
+          "summary": "Q2 2026 results: Americas net sales fell 4.1% on lower volume, partly offset by +2.3% price and sales mix 'primarily due to increased net pricing'; net sales per hectolitre +2.5%; full-year guidance of flat net sales (+/-1%) and underlying pre-tax income down 15-18% reaffirmed.",
+          "source": "Molson Coors (Form 8-K earnings release)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000024545/000002454526000070/tapex99120260630-earningsr.htm"
+        }
+      ],
+      "interpretation": "Molson Coors is relying on net pricing and mix to hold Americas revenue as volumes fall, and guides to sharply lower profit for 2026. The Quebec/Atlantic lead role puts trade investment, promo depth and the customer-level pricing guide in one regional owner, which suggests (inference) a push to get more return per dollar of trade spend rather than relying only on list-price increases. Reposting this regional lead shortly after earlier Montreal and Toronto revenue-management roles were filled points to a team being rebuilt rather than started from scratch. In practice the role is hands-on: modelling, budget targets and customer pricing in a bilingual, retail-heavy market.",
+      "open_questions": [
+        "How much pricing authority sits regionally versus with the National Director and the Toronto team?",
+        "Is the 2027 plan built on list-price increases or on trade and promo optimization?",
+        "How do Quebec's grocery and dépanneur channel economics affect promo and price-pack choices?"
+      ],
+      "caveat": "No Canada-specific pricing data in the Q2 release (Americas segment only); Q3 2026 results not yet read.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:0"]
+    },
+    {
+      "id": "STR-0053",
+      "company": "PointClickCare",
+      "business_unit": "Monetization Strategy & Pricing",
+      "pricing_theme": "Packaging and pricing new AI-enabled modules for a long-term-care EHR installed base.",
+      "current_model": null,
+      "industry": "Software",
+      "posting_evidence": [
+        "Official Lever postings: Sr. Monetization Strategy & Pricing Manager (CA), Mississauga hybrid, '$104,000 - $130,000 a year'; and a (US) twin, Remote USA, '$112,000 - $140,000 a year'.",
+        "Both report to the Director, Monetization Strategy & Pricing; 3+ years in pricing strategy, business analysis, product operations or consulting.",
+        "Mandate: develop and run pricing and packaging strategies, own select pricing projects, support monetization and go-to-market for new products.",
+        "Builds financial and scenario models, tracks pricing KPIs, and supports Sales Enablement and Customer Success on complex deals.",
+        "Remote US hires attend in-office events in Mississauga and/or Salt Lake City."
+      ],
+      "news": [],
+      "interpretation": "Hiring the same senior manager role in Canada and the US at once suggests (inference) that the central monetization team under a director is being scaled, not just backfilled. The mandate centers on packaging new products and supporting deals rather than resetting core subscription prices, which fits a company adding AI modules to an existing provider base. The role is mid-senior and execution-focused, with real exposure to deal-level pricing.",
+      "open_questions": [
+        "How are AI modules priced today: bundled, per-facility add-on or usage-based?",
+        "Are the CA and US roles one team split by geography or by product line?"
+      ],
+      "caveat": "No public price list and no pricing-related news read today; analysis rests on the two official postings.",
+      "confidence": "Low",
+      "linked_job_refs": ["JOB-0073", "new:1"]
+    }
+  ],
+  "people": [],
+  "notes": "Two new roles (Molson Coors Montreal RM Lead posted 2026-10-28; PointClickCare US twin) and an official Lever URL for JOB-0073. Many leads were dead (404/410/filled): Lightspeed Pricing Manager, Hershey and Maple Leaf RGM, Oetker, Centric, TeamViewer, Jobber, Amgen Bogotá, Fluidra LATAM, Accor Bogotá, Anthropic PF&S Monetization (closed). Colombian elempleo results today were almost all freight, costing or solution-design (excluded). Unisys 'Pricing manager - bilingual' Bogotá seen only on an aggregator with an expired certificate, so not proposed. Several ATS API checks (Anthropic, Databricks, Notion, OpenAI, ActiveCampaign, ClickUp) were cut off by page size, so watchlist coverage for those employers is partial."
+}
