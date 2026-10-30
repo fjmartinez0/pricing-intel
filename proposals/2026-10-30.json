@@ -1,0 +1,293 @@
+{
+  "run_date": "2026-10-30",
+  "searches_run": 63,
+  "searches_by_country": { "Canada": 25, "Colombia": 20, "United States": 15 },
+  "watchlist_checked": [
+    "Deloitte", "PwC", "KPMG", "Fasken", "Blue J", "FLO", "C.A.T. North America", "MongoDB Toronto",
+    "Mercado Libre", "Uber", "Grupo Éxito", "Falabella",
+    "Veeam", "Workday", "Autodesk", "Zendesk", "Dropbox"
+  ],
+  "new_opportunities": [
+    {
+      "company": "Fasken",
+      "title": "Pricing Manager / Gestionnaire, Tarification",
+      "business_unit": "Legal services",
+      "category": "Pricing",
+      "country": "Canada",
+      "city": "Vancouver",
+      "location_note": "The listing shows Vancouver, but the role can be based in any Fasken Canadian office city. The earlier tracked listing (JOB-0010) was recorded as Montreal.",
+      "work_mode": "Remote",
+      "work_model": "Primarily remote with occasional hybrid requirements",
+      "salary_advertised": "Typical range of C$115,000 to C$125,000 per year, depending on location, experience, and internal and market equity",
+      "employer_posting_date": "2026-10-23",
+      "official_url": null,
+      "secondary_url": "https://www.canadajobs.works/job/fasken-pricing-manager-gestionnaire-tarification-remote-vancouver-british-columbia",
+      "requisition_id": null,
+      "summary": "Helps shape firm pricing strategy, models matter costs, sets fixed prices and discount rates by practice area, and supports partners on fee arrangements and RFP pricing.",
+      "pricing_focus": "Fixed-fee and value-based legal pricing",
+      "level_band": "manager_plus",
+      "level": null,
+      "scope_fit": "in_scope",
+      "scope_note": "Apparent repost of closed JOB-0010: the listing date is 2026-10-23 and its LinkedIn job ID (4464581236) differs from the old one (4464591097). Only a job-board copy was read; the posting says it works with the Director of Pricing.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "The Home Depot",
+      "title": "Lead, Pricing - Hardlines",
+      "business_unit": "Home Depot Canada – Pricing (Hardlines)",
+      "category": "Pricing",
+      "country": "Canada",
+      "city": "Toronto",
+      "location_note": "Canada Store Support Center, 1 Concorde Gate; GTA travel to stores and the Innovation Center",
+      "work_mode": "Hybrid",
+      "work_model": "Hybrid (office or remote as required), with GTA travel",
+      "salary_advertised": "$75,000 to $95,000 base salary, plus possible semi-annual bonuses and other benefits",
+      "employer_posting_date": null,
+      "official_url": "https://careers.homedepot.ca/job-view/lead-pricing-hardlines-job-posting-3-120529",
+      "secondary_url": null,
+      "requisition_id": "Req169308",
+      "summary": "Leads a team of pricing analysts and sets pricing strategy for assigned departments, including promotions, clearance, regional pricing, competitive analysis and elasticity modeling.",
+      "pricing_focus": "Retail shelf, promo and clearance pricing",
+      "level_band": "manager_plus",
+      "level": null,
+      "scope_fit": "in_scope",
+      "scope_note": "People lead reporting to the Sr Manager, Pricing. The pay band sits below typical manager level, so treat it as an entry point to this band.",
+      "strategy_confidence": "Low"
+    },
+    {
+      "company": "Doximity",
+      "title": "Senior Manager, Pricing & Yield",
+      "business_unit": "Pricing & Yield",
+      "category": "Pricing",
+      "country": "United States",
+      "city": "San Francisco",
+      "location_note": "San Francisco, CA or Remote (U.S.)",
+      "work_mode": "Remote",
+      "work_model": "San Francisco, CA or Remote (U.S.)",
+      "salary_advertised": "$128,000 to $205,867 total anticipated compensation; equity, bonus, or incentive pay may also apply",
+      "employer_posting_date": null,
+      "official_url": "https://job-boards.greenhouse.io/doximity/jobs/8149237",
+      "secondary_url": null,
+      "requisition_id": "8149237",
+      "summary": "Drives pricing and inventory allocation decisions and owns the pricing logic and strategy for a new biddable auction monetization model.",
+      "pricing_focus": "Ad yield and auction pricing",
+      "level_band": "manager_plus",
+      "level": null,
+      "scope_fit": "in_scope",
+      "scope_note": "Asks for 7 to 10 years in advertising pricing and yield management, including biddable and auction environments. The reporting line is not stated.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "RS Group",
+      "title": "Pricing Manager (DFW and Chicago Markets)",
+      "business_unit": "Pricing",
+      "category": "Pricing",
+      "country": "United States",
+      "city": "Fort Worth",
+      "location_note": "Also listed for Glen Ellyn, IL",
+      "work_mode": "Hybrid",
+      "work_model": "Hybrid",
+      "salary_advertised": "Not stated",
+      "employer_posting_date": null,
+      "official_url": "https://careers.rsgroup.com/job/Fort-Worth-Pricing-Manager-TX-76118/1430521333/",
+      "secondary_url": null,
+      "requisition_id": null,
+      "summary": "Leads three pricing analysts and a pricing technology senior analyst, oversees competitor benchmarking and cost-plus pricing, and owns governance and margin tracking across a large SKU catalog.",
+      "pricing_focus": "Industrial distribution pricing execution and governance",
+      "level_band": "manager_plus",
+      "level": null,
+      "scope_fit": "in_scope",
+      "scope_note": "Execution and governance focus rather than pure strategy, with a roadmap toward more advanced pricing maturity.",
+      "strategy_confidence": "Low"
+    },
+    {
+      "company": "Empresa confidencial",
+      "title": "Gerente de Pricing",
+      "business_unit": "Tourism and hospitality",
+      "category": "Pricing",
+      "country": "Colombia",
+      "city": "Bogotá",
+      "location_note": "Occasional travel to company locations",
+      "work_mode": "Hybrid",
+      "work_model": "Hybrid",
+      "salary_advertised": "Not stated",
+      "employer_posting_date": "2026-08-12",
+      "official_url": null,
+      "secondary_url": "https://www.michaelpage.com.co/job-detail/gerente-de-pricing/ref/jn-082026-7081530",
+      "requisition_id": "JN-082026-7081530",
+      "summary": "Designs and runs pricing strategy for hotels and tourism products based on occupancy, seasonality and competition, and leads one person.",
+      "pricing_focus": "Hotel and tourism pricing",
+      "level_band": "manager_plus",
+      "level": null,
+      "scope_fit": "in_scope",
+      "scope_note": "Recruiter posting by Michael Page for an unnamed Colombian tourism and hospitality client; not the employer's own page. Small team (leads one person).",
+      "strategy_confidence": "Low"
+    },
+    {
+      "company": "Empresa confidencial",
+      "title": "Analista de mercados y estrategia de precios",
+      "business_unit": "Marketing (construction sector)",
+      "category": "Pricing",
+      "country": "Colombia",
+      "city": "Mosquera",
+      "location_note": "Cundinamarca",
+      "work_mode": "Unknown",
+      "work_model": "Not stated",
+      "salary_advertised": "Not stated",
+      "employer_posting_date": "2026-10-06",
+      "official_url": null,
+      "secondary_url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-mercados-y-estrategia-de-precios-1886776645",
+      "requisition_id": null,
+      "summary": "Turns market, pricing, competitor and sales data into recommendations and indicators for the marketing team.",
+      "pricing_focus": "Market intelligence and pricing strategy",
+      "level_band": "analyst",
+      "level": "Analyst",
+      "scope_fit": "in_scope",
+      "scope_note": "Borderline: the title names pricing strategy, but the duties mix market intelligence and pricing. The experience requirement is inconsistent (1 year in the header, 2 to 4 in the text).",
+      "strategy_confidence": "Low"
+    },
+    {
+      "company": "Superpolo",
+      "title": "Analista de precios",
+      "business_unit": "Vehicle body manufacturing",
+      "category": "Pricing",
+      "country": "Colombia",
+      "city": "Cota",
+      "location_note": "Listed under Bogotá on elempleo; the description gives the workplace as Cota, Cundinamarca",
+      "work_mode": "Unknown",
+      "work_model": "Not stated",
+      "salary_advertised": "COP $3 to $3.5 million per month",
+      "employer_posting_date": "2026-09-08",
+      "official_url": null,
+      "secondary_url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-precios-1886763972",
+      "requisition_id": null,
+      "summary": "Maintains body models and configurations in the pricing tools and SAP, keeps material and labor cost data reliable, and sets sale prices.",
+      "pricing_focus": "Manufactured product price setting",
+      "level_band": "analyst",
+      "level": "Analyst",
+      "scope_fit": "in_scope",
+      "scope_note": "Borderline: the role sets sale prices, but cost structures are central to it. Fixed-term contract through a temporary agency.",
+      "strategy_confidence": "Low"
+    }
+  ],
+  "url_updates": [],
+  "strategy_updates": [
+    {
+      "id": "STR-0009",
+      "company": "Fasken",
+      "business_unit": "Legal services",
+      "pricing_theme": "Moving legal work toward packaged fixed fees and groundwork for value-based pricing.",
+      "current_model": null,
+      "industry": "Legal services",
+      "posting_evidence": [
+        "Pricing Manager / Gestionnaire, Tarification, listed 2026-10-23, C$115,000 to C$125,000; primarily remote and can be based in any Fasken Canadian office city.",
+        "Works with the Director of Pricing to define service packages and set fixed prices for each package level.",
+        "Builds statistical models of matter costs by matter type, and sets regional fixed prices from historical hours data, updated annually.",
+        "Sets discount rates from competitive price analysis and runs periodic pricing and profitability audits.",
+        "Models the effect of fee arrangements on contribution, with sensitivity analysis on hours, leverage, realization, fixed amounts and risk; supports partners and RFP responses."
+      ],
+      "news": [],
+      "interpretation": "The posting describes a firm building a repeatable fixed-fee catalogue rather than pricing each matter from scratch. Inference: Fasken wants to answer client demand for price certainty while protecting realization and contribution, which is why cost prediction and sensitivity modelling sit beside package design. The relisting about two weeks after the previous listing closed suggests (inference) that the seat is still unfilled. The role is analytical and hands-on with partners, and it is described as helping to shape strategy alongside a Director of Pricing rather than owning it.",
+      "open_questions": [
+        "Which practice areas already have fixed-price packages, and what share of revenue do they represent?",
+        "How much authority does the pricing team have over partners on discounts and fee exceptions?",
+        "Why was the role relisted so soon after the previous listing closed?"
+      ],
+      "caveat": "Based on a job-board copy of the posting, because the employer's own page was not located. No Fasken-specific pricing news was found in the last 3 months.",
+      "confidence": "Medium",
+      "linked_job_refs": ["JOB-0010", "new:0"]
+    },
+    {
+      "id": null,
+      "company": "The Home Depot",
+      "business_unit": "Home Depot Canada – Pricing (Hardlines)",
+      "pricing_theme": "Department-level retail pricing and promotion management in Canadian hardlines.",
+      "current_model": null,
+      "industry": "Retail",
+      "posting_evidence": [
+        "Lead, Pricing - Hardlines, Toronto (Canada Store Support Center), hybrid with GTA travel; $75,000 to $95,000 base plus possible semi-annual bonuses; Req169308; no posting date shown.",
+        "Reports to the Sr Manager, Pricing and leads and develops a team of pricing analysts.",
+        "Sets and carries out pricing strategy for assigned departments, including promotions, clearance and regional pricing.",
+        "Runs competitive analysis and elasticity modeling, and measures the effect of pricing on sales, margin and unit movement.",
+        "Works with merchants, finance and analytics, and makes sure pricing actions meet corporate policy and legal requirements."
+      ],
+      "news": [
+        {
+          "date": "2026-08-18",
+          "summary": "Q2 fiscal 2026 sales were $47.9 billion, up 5.7%, with comparable sales up 1.7% (US up 1.3%); guidance was reaffirmed at about 33.1% gross margin and includes IEEPA tariff refunds expected to partly offset unplanned fuel, energy and product input costs.",
+          "source": "Retail Insider",
+          "url": "https://retail-insider.com/?p=204387"
+        },
+        {
+          "date": "2026-08-18",
+          "summary": "The quarterly release attributes comparable sales growth mainly to a 2.8% rise in average ticket, partly offset by fewer transactions, and reports IEEPA tariff refunds of approximately $730 million as of August 2, 2026.",
+          "source": "The Home Depot (release copy on Webull)",
+          "url": "https://www.webull.com/news/15463400291451904"
+        }
+      ],
+      "interpretation": "Home Depot's recent growth is coming from ticket rather than transactions, while input costs are rising beyond plan, so price and promotion decisions carry more margin weight. Inference: a category-level pricing lead in Canada gives the company a local owner for elasticity and promo decisions in that environment. The posting points to a mature, structured pricing function rather than a build-from-scratch mandate, since it sits under a Sr Manager with an analyst team. For a candidate, this is a hands-on first-level leadership role in retail price execution.",
+      "open_questions": [
+        "How much pricing authority sits in Toronto versus the US pricing organization?",
+        "Which hardlines departments are in scope, and how exposed are they to tariff-driven cost changes?"
+      ],
+      "caveat": "The news is company-wide and contains no Canadian pricing data. The Webull copy's opening summary conflicted with its detailed sections, so only the detailed figures were used.",
+      "confidence": "Low",
+      "linked_job_refs": ["new:1"]
+    },
+    {
+      "id": null,
+      "company": "Doximity",
+      "business_unit": "Pricing & Yield",
+      "pricing_theme": "Building auction-based pricing for ad inventory as AI Search monetization begins.",
+      "current_model": "No public price list was found. Early AI Search programs were sold to pharma customers with conservative inventory caps and three- to four-month commitments, with no price points disclosed (Q1 FY27 call).",
+      "industry": "Software",
+      "posting_evidence": [
+        "Senior Manager, Pricing & Yield, San Francisco or Remote (U.S.); $128,000 to $205,867 total anticipated compensation; no posting date or reporting line stated.",
+        "Owns the pricing logic and strategy for a new biddable auction monetization model from the start.",
+        "Drives pricing and inventory allocation decisions as part of the team's operating rhythm.",
+        "Works with sales, product and deal desk on market dynamics, and builds frameworks and systems to capture pricing inefficiencies.",
+        "Asks for 7 to 10 years in advertising pricing and yield management, with deep biddable and auction experience."
+      ],
+      "news": [
+        {
+          "date": "2026-08-06",
+          "summary": "On the Q1 FY27 call, Doximity reported $157 million revenue, up 7%, raised FY27 guidance to $671-681 million, recognized no AI revenue in Q1, and said it expects most AI Search revenue contracted so far to be recognized in Q3.",
+          "source": "Doximity earnings call transcript (Webull)",
+          "url": "https://www.webull.com/news/15740061693715456"
+        },
+        {
+          "date": "2026-08-09",
+          "summary": "CEO Jeff Tangney said AI search earns more than 10 times per search in revenue than it costs, while analysts described management's approach to AI search revenue as conservative.",
+          "source": "Dealroom",
+          "url": "https://dealroom.co/news/143966-doximity-stock-surges-on-ai-margins-156-6m-quarter-beat/"
+        }
+      ],
+      "interpretation": "Doximity is starting to sell a new AI Search inventory while core revenue growth has slowed to mid-single digits. Inference: a biddable auction would let the market set prices for that inventory, replacing the short, capped commitments used in the early programs. The timing fits, since larger and longer contracts are expected to follow those programs. The role looks like a founding owner of pricing logic, with strong influence if the auction actually launches.",
+      "open_questions": [
+        "Which inventory goes to auction first, and how will it coexist with upfront pharma contracts?",
+        "How will auction pricing affect the premium positioning management has described?",
+        "Where does this role report, and who owns the final yield decisions?"
+      ],
+      "caveat": "The link between the auction in the posting and AI Search is an inference; the call material read did not mention an auction. The transcript is auto-generated. Revenue relies heavily on pharma marketing, so the 'Software' label is approximate.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:2"]
+    }
+  ],
+  "people": [
+    {
+      "name": "Manuela Fajardo",
+      "title": "Contact named on the posting (Michael Page)",
+      "company": "Michael Page",
+      "contact_type": "confirmed_poster",
+      "relationship": "Recruiter contact for the role, on behalf of a confidential client",
+      "relevance": null,
+      "opportunity_ref": "new:4",
+      "linkedin_profile": null,
+      "verification": "Named as the contact on the Michael Page job page read on 2026-10-30",
+      "evidence_url": "https://www.michaelpage.com.co/job-detail/gerente-de-pricing/ref/jn-082026-7081530",
+      "found_via": "Michael Page Colombia job page, 2026-10-30",
+      "notes": "Works for the recruiter, not the hiring company."
+    }
+  ],
+  "notes": "Seven new roles: Fasken repost, Home Depot Canada, Doximity, RS Group, a confidential Bogotá Gerente de Pricing, and two borderline Colombia analyst roles (Mosquera, Cota); four have no official URL. No url_updates: searches for the Task 2 leads tried found no clear employer page, and not every lead was retried. Watchlist coverage is partial: EY, McKinsey Montreal, Rappi, DiDi, Alegra, Holcim Colombia and Box gave no usable result and are not listed as checked; most listed employers were checked by search only, since Workday-hosted boards and Computrabajo returned empty pages, the Rappi and Box Greenhouse boards returned 404, and only 50 of Veeam's 206 openings were read. Left out: closed or removed (KEV, Clutch, BlueCat, Workday Pricing Director, Redox, Mastercard Pricing Assurance, Transat, Novo Nordisk, Amgen, Claro Pay, Rexel Pricing Analyst, Uber's Muse-listed roles); status unconfirmed (Air Canada Pricing Analyst temp, Zendesk Sr Manager Pricing & Packaging, PwC Pricing Strategy Sr Manager, Giant Tiger contract, Avianca, Medtronic Pricing Administration III, Iterable, Keyfactor, Outreach, Granicus); unnamed employer on an individual's post (Analista de Pricing y Automatización). MentorHub 'Analista de pricing de transporte' was excluded as cargo rate quoting. Worth a manual look: Air Canada, Zendesk and PwC. Cisco JOB-0084: an aggregator says applications were expected to close 2026-10-25."
+}

@@ -314,20 +314,31 @@
     "company": "Fasken",
     "business_unit": "Legal services",
     "baseline_date": "2026-10-10",
-    "last_updated": "2026-10-10",
-    "pricing_theme": "Alternative fee arrangements",
-    "posting_evidence": "Pricing proposals, service economics and value-based legal fee structures (LinkedIn listing).",
-    "interpretation": "Consistent with large law firms responding to client pressure for fixed or capped fees while protecting realization rates.",
-    "caveat": "Inference from job postings only; not a confirmed corporate initiative. Official posting not located.",
+    "last_updated": "2026-10-30",
+    "pricing_theme": "Moving legal work toward packaged fixed fees and groundwork for value-based pricing.",
+    "posting_evidence": [
+      "Pricing Manager / Gestionnaire, Tarification, listed 2026-10-23, C$115,000 to C$125,000; primarily remote and can be based in any Fasken Canadian office city.",
+      "Works with the Director of Pricing to define service packages and set fixed prices for each package level.",
+      "Builds statistical models of matter costs by matter type, and sets regional fixed prices from historical hours data, updated annually.",
+      "Sets discount rates from competitive price analysis and runs periodic pricing and profitability audits.",
+      "Models the effect of fee arrangements on contribution, with sensitivity analysis on hours, leverage, realization, fixed amounts and risk; supports partners and RFP responses."
+    ],
+    "interpretation": "The posting describes a firm building a repeatable fixed-fee catalogue rather than pricing each matter from scratch. Inference: Fasken wants to answer client demand for price certainty while protecting realization and contribution, which is why cost prediction and sensitivity modelling sit beside package design. The relisting about two weeks after the previous listing closed suggests (inference) that the seat is still unfilled. The role is analytical and hands-on with partners, and it is described as helping to shape strategy alongside a Director of Pricing rather than owning it.",
+    "caveat": "Based on a job-board copy of the posting, because the employer's own page was not located. No Fasken-specific pricing news was found in the last 3 months.",
     "confidence": "Medium",
     "linked_job_ids": [
-      "JOB-0010"
+      "JOB-0010",
+      "JOB-0108"
     ],
-    "analysis_status": "insufficient_detail",
-    "insufficient_reason": "Only a LinkedIn listing; full responsibilities not read.",
+    "analysis_status": "analyzed",
     "current_model": null,
     "news": [],
-    "open_questions": []
+    "open_questions": [
+      "Which practice areas already have fixed-price packages, and what share of revenue do they represent?",
+      "How much authority does the pricing team have over partners on discounts and fee exceptions?",
+      "Why was the role relisted so soon after the previous listing closed?"
+    ],
+    "industry": "Legal services"
   },
   {
     "id": "STR-0010",
@@ -2366,6 +2377,91 @@
       "JOB-0106"
     ],
     "industry": "CPG",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0073",
+    "company": "The Home Depot",
+    "business_unit": "Home Depot Canada – Pricing (Hardlines)",
+    "baseline_date": "2026-10-30",
+    "last_updated": "2026-10-30",
+    "pricing_theme": "Department-level retail pricing and promotion management in Canadian hardlines.",
+    "current_model": null,
+    "posting_evidence": [
+      "Lead, Pricing - Hardlines, Toronto (Canada Store Support Center), hybrid with GTA travel; $75,000 to $95,000 base plus possible semi-annual bonuses; Req169308; no posting date shown.",
+      "Reports to the Sr Manager, Pricing and leads and develops a team of pricing analysts.",
+      "Sets and carries out pricing strategy for assigned departments, including promotions, clearance and regional pricing.",
+      "Runs competitive analysis and elasticity modeling, and measures the effect of pricing on sales, margin and unit movement.",
+      "Works with merchants, finance and analytics, and makes sure pricing actions meet corporate policy and legal requirements."
+    ],
+    "news": [
+      {
+        "date": "2026-08-18",
+        "summary": "Q2 fiscal 2026 sales were $47.9 billion, up 5.7%, with comparable sales up 1.7% (US up 1.3%); guidance was reaffirmed at about 33.1% gross margin and includes IEEPA tariff refunds expected to partly offset unplanned fuel, energy and product input costs.",
+        "source": "Retail Insider",
+        "url": "https://retail-insider.com/?p=204387"
+      },
+      {
+        "date": "2026-08-18",
+        "summary": "The quarterly release attributes comparable sales growth mainly to a 2.8% rise in average ticket, partly offset by fewer transactions, and reports IEEPA tariff refunds of approximately $730 million as of August 2, 2026.",
+        "source": "The Home Depot (release copy on Webull)",
+        "url": "https://www.webull.com/news/15463400291451904"
+      }
+    ],
+    "interpretation": "Home Depot's recent growth is coming from ticket rather than transactions, while input costs are rising beyond plan, so price and promotion decisions carry more margin weight. Inference: a category-level pricing lead in Canada gives the company a local owner for elasticity and promo decisions in that environment. The posting points to a mature, structured pricing function rather than a build-from-scratch mandate, since it sits under a Sr Manager with an analyst team. For a candidate, this is a hands-on first-level leadership role in retail price execution.",
+    "open_questions": [
+      "How much pricing authority sits in Toronto versus the US pricing organization?",
+      "Which hardlines departments are in scope, and how exposed are they to tariff-driven cost changes?"
+    ],
+    "caveat": "The news is company-wide and contains no Canadian pricing data. The Webull copy's opening summary conflicted with its detailed sections, so only the detailed figures were used.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0109"
+    ],
+    "industry": "Retail",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0074",
+    "company": "Doximity",
+    "business_unit": "Pricing & Yield",
+    "baseline_date": "2026-10-30",
+    "last_updated": "2026-10-30",
+    "pricing_theme": "Building auction-based pricing for ad inventory as AI Search monetization begins.",
+    "current_model": "No public price list was found. Early AI Search programs were sold to pharma customers with conservative inventory caps and three- to four-month commitments, with no price points disclosed (Q1 FY27 call).",
+    "posting_evidence": [
+      "Senior Manager, Pricing & Yield, San Francisco or Remote (U.S.); $128,000 to $205,867 total anticipated compensation; no posting date or reporting line stated.",
+      "Owns the pricing logic and strategy for a new biddable auction monetization model from the start.",
+      "Drives pricing and inventory allocation decisions as part of the team's operating rhythm.",
+      "Works with sales, product and deal desk on market dynamics, and builds frameworks and systems to capture pricing inefficiencies.",
+      "Asks for 7 to 10 years in advertising pricing and yield management, with deep biddable and auction experience."
+    ],
+    "news": [
+      {
+        "date": "2026-08-06",
+        "summary": "On the Q1 FY27 call, Doximity reported $157 million revenue, up 7%, raised FY27 guidance to $671-681 million, recognized no AI revenue in Q1, and said it expects most AI Search revenue contracted so far to be recognized in Q3.",
+        "source": "Doximity earnings call transcript (Webull)",
+        "url": "https://www.webull.com/news/15740061693715456"
+      },
+      {
+        "date": "2026-08-09",
+        "summary": "CEO Jeff Tangney said AI search earns more than 10 times per search in revenue than it costs, while analysts described management's approach to AI search revenue as conservative.",
+        "source": "Dealroom",
+        "url": "https://dealroom.co/news/143966-doximity-stock-surges-on-ai-margins-156-6m-quarter-beat/"
+      }
+    ],
+    "interpretation": "Doximity is starting to sell a new AI Search inventory while core revenue growth has slowed to mid-single digits. Inference: a biddable auction would let the market set prices for that inventory, replacing the short, capped commitments used in the early programs. The timing fits, since larger and longer contracts are expected to follow those programs. The role looks like a founding owner of pricing logic, with strong influence if the auction actually launches.",
+    "open_questions": [
+      "Which inventory goes to auction first, and how will it coexist with upfront pharma contracts?",
+      "How will auction pricing affect the premium positioning management has described?",
+      "Where does this role report, and who owns the final yield decisions?"
+    ],
+    "caveat": "The link between the auction in the posting and AI Search is an inference; the call material read did not mention an auction. The transcript is auto-generated. Revenue relies heavily on pharma marketing, so the 'Software' label is approximate.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0110"
+    ],
+    "industry": "Software",
     "analysis_status": "analyzed"
   }
 ]

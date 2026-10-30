@@ -142,5 +142,21 @@
     "found_via": "GitLab Q2 FY2027 press release (republished by 01net), read 2026-10-21",
     "first_seen": "2026-10-21",
     "notes": null
+  },
+  {
+    "id": "PERSON-0010",
+    "name": "Manuela Fajardo",
+    "title": "Contact named on the posting (Michael Page)",
+    "company": "Michael Page",
+    "contact_type": "confirmed_poster",
+    "relationship": "Recruiter contact for the role, on behalf of a confidential client",
+    "relevance": null,
+    "opportunity_id": "JOB-0112",
+    "linkedin_profile": null,
+    "verification": "Named as the contact on the Michael Page job page read on 2026-10-30",
+    "evidence_url": "https://www.michaelpage.com.co/job-detail/gerente-de-pricing/ref/jn-082026-7081530",
+    "found_via": "Michael Page Colombia job page, 2026-10-30",
+    "first_seen": "2026-10-30",
+    "notes": "Works for the recruiter, not the hiring company."
   }
 ]
