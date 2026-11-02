@@ -1,0 +1,101 @@
+{
+  "run_date": "2026-11-02",
+  "searches_run": 60,
+  "searches_by_country": { "Canada": 32, "Colombia": 13, "United States": 15 },
+  "watchlist_checked": [
+    "Shopify", "Lightspeed", "Coveo", "Nuvei", "Wealthsimple", "Clio", "Unity", "Electronic Arts Montreal", "Ubisoft", "Autodesk",
+    "Bancolombia", "Davivienda", "Nubank Colombia", "Addi", "Bold", "Mastercard", "Visa", "Twilio",
+    "Salesforce", "Microsoft", "Adobe", "Atlassian", "ServiceNow"
+  ],
+  "new_opportunities": [
+    {
+      "company": "ServiceNow",
+      "title": "Monetization Strategy Manager",
+      "business_unit": "Commercial Operations (Marketing function)",
+      "category": "Monetization",
+      "country": "United States",
+      "city": "San Diego",
+      "location_note": "Posting marked remote; work persona 'Flexible or Remote'.",
+      "work_mode": "Remote",
+      "work_model": "Remote (work persona: Flexible or Remote)",
+      "salary_advertised": "$114,200 - $199,900 base pay, plus equity (when applicable), variable/incentive compensation and benefits",
+      "employer_posting_date": "2026-09-21",
+      "official_url": "https://jobs.smartrecruiters.com/ServiceNow/744000150761409-monetization-strategy-manager",
+      "secondary_url": null,
+      "requisition_id": "JB0075481",
+      "summary": "Bridges the Product Pricing and Deal Desk teams to define commercial principles and drive C-suite-sponsored monetization change, turning analysis into pricing-committee recommendations.",
+      "pricing_focus": "Enterprise SaaS commercial principles and deal guardrails for AI-native packaging",
+      "level_band": "manager_plus",
+      "level": null,
+      "scope_fit": "in_scope",
+      "scope_note": "Second requisition for the same title as closed JOB-0038 (JB0075274); JB0075481 is still live on SmartRecruiters (released 2026-09-21).",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Rexel USA",
+      "title": "Manager Pricing Intelligence & Process Automation",
+      "business_unit": "Pricing",
+      "category": "Pricing",
+      "country": "United States",
+      "city": "Dallas",
+      "location_note": "5429 Lyndon B Johnson Freeway, Dallas, TX 75240",
+      "work_mode": "Unknown",
+      "work_model": "Not stated",
+      "salary_advertised": "Not stated",
+      "employer_posting_date": "2026-10-27",
+      "official_url": "https://jobs.smartrecruiters.com/REXEL1/744000158084271-manager-pricing-intelligence-process-automation",
+      "secondary_url": null,
+      "requisition_id": "REF8284H",
+      "summary": "Leads discovery, requirements and rollout of automation and data-intelligence tools for the pricing team in electrical distribution, standardizing pricing KPIs and processes across Pricing, Sales, Supply Chain and IT.",
+      "pricing_focus": "Distribution pricing operations, intelligence and automation",
+      "level_band": "manager_plus",
+      "level": null,
+      "scope_fit": "in_scope",
+      "scope_note": "Borderline: pricing is explicit in the title and the role sits on the pricing team, but the mandate leans toward pricing operations/automation rather than price-setting strategy.",
+      "strategy_confidence": "Low"
+    }
+  ],
+  "url_updates": [],
+  "strategy_updates": [
+    {
+      "id": "STR-0030",
+      "company": "ServiceNow",
+      "business_unit": "Pricing Strategy / Monetization",
+      "pricing_theme": "Moving new business from seats to AI-native, usage-metered bundles while keeping deal discounting inside commercial guardrails",
+      "current_model": "No public list prices. Since April 2026, products are sold in Foundation, Advanced and Prime tiers that bundle AI capabilities previously sold as add-ons; licensing is per seat plus other meters, with an included AI usage pool and paid top-ups beyond it (per trade press).",
+      "industry": "Software",
+      "posting_evidence": [
+        "Monetization Strategy Manager (JB0075481, SmartRecruiters 744000150761409), San Diego, marked remote; released 2026-09-21 and still live on 2026-11-02; $114,200-$199,900 base plus equity and incentive.",
+        "Sits in cost center 'Commercial Operations' under the Marketing function; serves as the bridge between the Product Pricing Team and the Deal Desk Team in defining commercial principles.",
+        "Supports C-suite-sponsored initiatives to 'drive transformational change in how ServiceNow monetizes its business'; outputs are recommendations for pricing committee review.",
+        "Asks for 5+ years in enterprise tech pricing, consulting, business operations or product strategy, 2+ years consulting/banking preferred, and experience applying AI to work processes.",
+        "On 2026-11-02 a SmartRecruiters search for 'pricing'/'monetization' shows this role plus a Pricing Operations Senior Analyst (Costa Rica, JB0075598); no director-level monetization requisition is listed."
+      ],
+      "news": [
+        {
+          "date": "2026-10-28",
+          "summary": "Q3 2026: subscription revenue $3,988M (+21% YoY), cRPO $13.65B (+20.5%); AI annual contract value target for 2026 raised to $1.7B (up 70% from the start of the year); agentic AI consumption in production up more than 13x YoY; Q4 cRPO growth guided to 18.5% and FY subscription revenue to $15,780-15,790M.",
+          "source": "ServiceNow (Form 8-K, SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001373715/000137371526000092/erq3fy26.htm"
+        },
+        {
+          "date": "2026-10-28",
+          "summary": "Shares fell more than 15% after hours as the Q4 cRPO growth guide (18.5%) landed below Street expectations despite the Q3 beat.",
+          "source": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/servicenow-shares-sink-15-after-hours-as-q4-crpo-guide-lands-below-street"
+        }
+      ],
+      "interpretation": "Q3 confirms the AI monetization story is working on bookings (AI ACV target raised to $1.7B, agentic consumption up 13x), while the cRPO decel to 18.5% suggests the move from seats to metered, pool-based bundles can delay committed contract value (inference). That tension makes the manager's remit between Product Pricing and Deal Desk central: sizing included usage pools, setting overage and concession rules, and keeping AI premiums from being discounted away. With no director-level monetization requisition visible, this manager seat appears to be the main open strategy hire on the team (inference). Expect the role to be measured against renewal and commit behaviour more than list-price design.",
+      "open_questions": [
+        "Is the Q4 cRPO slowdown linked to customers shifting from up-front seat commitments to consumption pools, and how is that being addressed in deal structures?",
+        "Who approves AI usage-pool sizes and overage concessions, and what guardrails does Deal Desk enforce today?",
+        "Who does this role report to now that the Monetization Strategy Director requisition (JOB-0039) is closed?"
+      ],
+      "caveat": "Link between the cRPO deceleration and pricing model change is inference; the 8-K has no explicit pricing or packaging commentary, and ServiceNow publishes no prices.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:0", "JOB-0038", "JOB-0039", "JOB-0040"]
+    }
+  ],
+  "people": [],
+  "notes": "Searched Canada (Montreal, Quebec City, Toronto, Ottawa, Canada remote; EN/FR), Colombia (Bogotá, Medellín, Cali, LATAM remote; elempleo pricing/revenue-management/revenue-growth pages, Magneto, Computrabajo, Get on Board) and US (Greenhouse/Lever/Ashby, SaaS, CPG RGM, industrial), plus group-1 watchlist via ATS APIs/search. Flags: many search-indexed leads were closed (404/410/'no longer accepting'): Lightspeed, Jobber (both Commercial Pricing roles), Clio, McCarthy Tetrault, Thomson Reuters, Nutreco, Cargill Strategic RM Director (Cali), Novo Nordisk, Fluidra, Magneto RGM/Pricing roles, Desjardins, Salesloft, Gainsight, Iterable, Salesforce Sr Mgr Pricing Analytics. Ubisoft re-released Monetization Director (744000158772180, REF31706Y, 2026-10-30) and Associate Monetization Director (744000158562730, REF31772F, 2026-10-29) in Montreal under new IDs; not proposed because JOB-0004/JOB-0005 are still active, but the checker should compare IDs. Colombia elempleo results this week were all freight/costing (excluded). No Task 2 matches found (checked Autodesk, Fasken, Moneris, Rexel, P&WC, AstraZeneca)."
+}
