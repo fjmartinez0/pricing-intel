@@ -2476,5 +2476,137 @@
     ],
     "industry": "Software",
     "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0075",
+    "company": "Rogers",
+    "business_unit": "CBU Wireless Pricing",
+    "baseline_date": "2026-11-03",
+    "last_updated": "2026-11-03",
+    "pricing_theme": "Raising wireless base rate plan prices and remapping the installed base after the CRTC fee ban hit ARPU",
+    "current_model": "Monthly wireless plans across the Rogers and Fido brands. As reported by iPhone in Canada on 2026-10-09 (not Rogers' own page), Rogers' advertised BYOD plans with Auto-Pay are 5G+ Lite 60GB $70, 5G+ Essentials 100GB $75, 5G+ Popular unlimited $90 and 5G+ Ultimate $100 a month. Existing customers got a separate $4–5 monthly 'Wireless Plan Rate Adjustment' from July 2026.",
+    "posting_evidence": [
+      "Manager, TVM in the CBU Wireless Pricing team, reporting to the Sr Manager, Pricing; Toronto (333 Bloor St E), onsite; requisition 329094; dated Oct 20, 2026 on Rogers' search page.",
+      "Owns 'targeted base rate plan pricing': base price plan strategy and offer mapping across the Rogers and Fido brands and customer segments.",
+      "Runs biweekly mapping of about 9 million customers to a suite of 120+ price plan offers, balancing upsell, churn reduction and revenue protection.",
+      "Manages upsell levers (data, long distance, roaming), runs test-and-learn programs, and reports KPIs against forecast and business cases to senior management.",
+      "A sibling posting the same week (Sr Manager Value Management, req 344131, reporting to a Sr Director, Value Management and Yield) cites base rate increases as an example of its revenue programs."
+    ],
+    "news": [
+      {
+        "date": "2026-10-09",
+        "summary": "Rogers and Telus raised three of their four advertised BYOD plans by $5 a month (Rogers 5G+ Lite 60GB to $70, Essentials 100GB to $75, Popular to $90; Ultimate unchanged at $100), following Bell's increase on October 6.",
+        "source": "iPhone in Canada",
+        "url": "https://www.iphoneincanada.ca/2026/10/09/rogers-and-telus-raise-wireless-prices-by-5-following-bells-lead/"
+      },
+      {
+        "date": "2026-10-23",
+        "summary": "Q3 2026: postpaid phone net adds fell to 6,000 from 62,000, mobile ARPU fell 2.6% to $55.22 and wireless service revenue fell 1% to $2.03B, blamed on competition and fee revenue lost to the CRTC fee ban; the CFO said Rogers is finding alternatives to cover those costs and that ARPU on customers added in Q3 and October is up 8% year over year.",
+        "source": "iPhone in Canada",
+        "url": "https://www.iphoneincanada.ca/2026/10/23/rogers-q3-2026-earnings/"
+      }
+    ],
+    "interpretation": "With the CRTC fee ban pushing ARPU down and industry net adds falling 30–40%, Rogers is recovering revenue through price: higher advertised plan prices for new customers and rate adjustments on the existing base (inference from the news and the posting). The Manager, TVM role is the operating engine for that: mapping roughly 9M existing customers to 120+ offers decides who gets moved, upsold or protected, so it sits on the trade-off between ARPU and churn. The sibling 'Value Management and Yield' team suggests Rogers has built a dedicated in-base yield function alongside acquisition pricing (inference). Rising prepaid and postpaid churn in Q3 means the role will likely be judged on churn as much as on revenue.",
+    "open_questions": [
+      "What does TVM stand for, and how does this team divide work with the Value Management and Yield team?",
+      "How are mapping decisions tested and governed after the CRTC questioned the July 2026 rate adjustment?",
+      "Does the role cover Fido and Rogers postpaid only, or prepaid as well?"
+    ],
+    "caveat": "Plan prices and Q3 figures come from press coverage, not Rogers' own pricing page or release; other outlets reported different Q3 subscriber figures. The posting does not expand 'TVM' or give pay.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0116"
+    ],
+    "industry": "Telecom",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0076",
+    "company": "Johnson & Johnson",
+    "business_unit": "Market Access – LATAM Pricing Operations",
+    "baseline_date": "2026-11-03",
+    "last_updated": "2026-11-03",
+    "pricing_theme": "Centralizing and automating LATAM pricing operations and deal governance in a regional shared-services hub",
+    "current_model": null,
+    "posting_evidence": [
+      "Manager Pricing (People Leader, PL7), Market Access function, Pricing sub-function; Bogotá or São Paulo; hybrid; R-107385; posted Oct 29, 2026.",
+      "Runs day-to-day LATAM pricing operations: base prices, price codes, ERP maintenance, overrides and pricing disputes.",
+      "Owns the sales deal lifecycle from intake through ERP upload, contract maintenance and closure, plus discount governance and approval frameworks.",
+      "Owns execution and audit evidence for pricing-related SOX controls.",
+      "Leads an automation and data roadmap (SQL, Python, Power BI, workflow tools) to cut manual work and key-person dependency; described as the 'shared-services backbone' for LATAM pricing."
+    ],
+    "news": [],
+    "interpretation": "J&J appears to be consolidating LATAM pricing execution into a regional hub and tightening control over deal pricing, with SOX compliance and automation as explicit goals (inference from the posting). The emphasis on overrides, disputes and key-person dependency suggests today's process is manual and fragmented across countries. With international sales growing far more slowly than US sales in Q3 2026 (+1.5% vs +9.1% per J&J's October 13 release), margin protection through discount governance is a plausible driver, though the release does not mention pricing (inference). The role is operational leadership rather than price-setting strategy.",
+    "open_questions": [
+      "Which segment does the hub serve (Innovative Medicine, MedTech, or both), and which countries are in scope?",
+      "Who sets list prices and discount policy, and how much authority does this team have to approve deals?",
+      "How large is the team, and is the automation roadmap funded?"
+    ],
+    "caveat": "Based on one posting; no pricing-specific LATAM news was found today, and the segment and reporting line are not stated.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0117"
+    ],
+    "industry": "Healthcare (pharma / medical devices)",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0077",
+    "company": "Leviton",
+    "business_unit": "Leviton Canada – Pricing",
+    "baseline_date": "2026-11-03",
+    "last_updated": "2026-11-03",
+    "pricing_theme": "Maintaining distributor price lists and quote discipline for an electrical products maker in Canada",
+    "current_model": null,
+    "posting_evidence": [
+      "Pricing Analyst on Leviton's Canada careers page; reports to the Pricing Manager; the Pricing department answers to Finance locally and in the USA; no location, pay or date shown.",
+      "Manages Oracle price lists (CPL updates, 46N, mass loads), price floors, and S&D tiers; first-level approver for quotes.",
+      "Main link between Territory Managers and Pricing, and Pricing's contact for New Products Introduction; tracks won/lost quotes.",
+      "Expected to automate manual pricing processes; Excel, Power BI and ERP (SAP/Oracle) required; fluent French and English; 1+ year of experience."
+    ],
+    "news": [],
+    "interpretation": "The role is execution-focused: keeping list prices, floors and distributor tiers accurate and policing quote approvals, with Finance in Canada and the US overseeing pricing (inference from the posting). The won/lost tracking and automation duties suggest Leviton wants better quote data to inform price floors. The French requirement and Quebec Law 25 reference point to a Quebec base (Leviton Canada is in Pointe-Claire), but the posting does not state the location.",
+    "open_questions": [
+      "Is the role based at Pointe-Claire, and what is the work model?",
+      "How often are Canadian list prices revised, and does Canada follow US price actions?",
+      "What do the S&D tiers cover, and who sets the price floors?"
+    ],
+    "caveat": "Single posting with no date, location or pay; no Leviton pricing news found today.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0091"
+    ],
+    "industry": "Electrical products (manufacturing)",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0078",
+    "company": "Block",
+    "business_unit": "Strategic Finance – Strategic Pricing & Deal Desk",
+    "baseline_date": "2026-11-03",
+    "last_updated": "2026-11-03",
+    "pricing_theme": "Building pricing governance and an automated deal desk for upmarket and enterprise sales",
+    "current_model": null,
+    "posting_evidence": [
+      "Strategic Pricing & Monetization Lead in Strategic Finance (a corporate team); remote or Bay Area; Req R0007016; posted 09/24/26; $207,900–$311,900 USD.",
+      "Leads a team of strategic pricing partners on complex, high-stakes enterprise sales deals, balancing customer value, profitability, risk and growth.",
+      "Creates pricing frameworks, approval processes and discount guardrails, and expands Deal Desk capabilities through automation, AI and data.",
+      "Turns deal insights into broader pricing, packaging and monetization initiatives; builds reporting on deal economics and playbooks for Sales.",
+      "Requires 12+ years in strategic pricing, Deal Desk, RevOps, finance or consulting, and team leadership."
+    ],
+    "news": [],
+    "interpretation": "Block is formalizing how it prices negotiated deals for larger sellers, which points to an upmarket push where custom pricing replaces published rates (inference). Putting the role in Strategic Finance, with guardrails and approval processes in scope, suggests the main goal is protecting margin on custom deals while letting Sales win bigger accounts. The step from deal insights to packaging and monetization means the role could shape list pricing over time, but day to day it is a deal desk leadership job.",
+    "open_questions": [
+      "Which products and segments does the team cover (Square upmarket sellers, Cash App for Business, or other units)?",
+      "How much discount authority will the team hold versus Sales leadership?",
+      "Is there a separate product pricing team that owns list prices and packaging?"
+    ],
+    "caveat": "Based on the posting only; Square's own pricing page did not render its rates today, and no recent Block pricing news was confirmed.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0083"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
   }
 ]
