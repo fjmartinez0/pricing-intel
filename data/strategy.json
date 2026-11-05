@@ -2674,5 +2674,42 @@
     ],
     "industry": "Software",
     "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0081",
+    "company": "Dropbox",
+    "business_unit": "Product Marketing",
+    "baseline_date": "2026-11-05",
+    "last_updated": "2026-11-05",
+    "pricing_theme": "Rebuilding packaging and monetization for AI features (Dash) across self-serve and a growing sales-led business",
+    "current_model": "Per-user subscription tiers on dropbox.com/plans (viewed from Canada, so prices shown in CAD): Basic free (2 GB); Plus CA$12.99/month for 1 person (2 TB); Standard at CA$21 or CA$39.50 per user/month depending on billing cycle (team storage from 3 TB); Advanced at CA$33 or CA$39.50 per user/month, 3+ users (team storage from 15 TB); Enterprise by quote. The plans page lists no Dash or AI add-on price.",
+    "posting_evidence": [
+      "Director of Pricing and Packaging, Remote US, first published 2026-11-03 (req R11730); base pay $202,600 to $342,700 by US zone",
+      "Reports to the Head of Product Marketing; recruited by the executive recruiting team; internal level IC6 but leads a small team of pricing and packaging staff",
+      "Mandate: company-wide pricing and packaging across PLG and SLG, segments, portfolios and geographies, plus 'the next generation of packaging and monetization architecture' for AI-powered products, weighing value, adoption, cost to serve and margin",
+      "Set up pricing governance, operating rhythms, KPIs and experimentation; build WTP, usage and unit-economics models; advise senior executives on monetization decisions",
+      "Preferred: led a major pricing transformation at a multi-product SaaS company, AI monetization (inference costs, value metrics), conjoint/WTP/elasticity research; mentions 'expanding our sales-led business'"
+    ],
+    "news": [
+      {
+        "date": "2026-10-23",
+        "summary": "The Dash pricing page, which on 2026-10-15 showed Dash for Teams at $15 per user/month (billed yearly) and Dash for Business at $35 per user/month, now redirects to the core plans page, and no Dash price is published.",
+        "source": "UsagePricing (pricing tracker)",
+        "url": "https://www.usagepricing.com/blueprint/activity/dropbox-2026-10-23-dash-pricing-page-removed"
+      }
+    ],
+    "interpretation": "Dropbox appears to be rethinking how it charges for AI: it took Dash's standalone per-seat prices off its site in late October and posted this director role days later, asking for a new packaging architecture for AI-powered products. Inference: a standalone Dash SKU may be giving way to bundling Dash into the core tiers, or to a usage or credit model, because the posting stresses cost to serve, inference costs and margin. The role also reflects a push to grow the sales-led business alongside self-serve, so the job covers governance and enterprise packaging as well as self-serve price points. Expect a high-visibility mandate with heavy executive and cross-team alignment, and a small team to start.",
+    "open_questions": [
+      "Will Dash be bundled into Standard and Advanced, sold as an add-on, or metered by usage or credits, and who makes that decision?",
+      "Pricing sits under Product Marketing rather than Finance or Product: how much decision authority does the role have over list price and discounting for sales-led deals?",
+      "How big is the current team, and what experimentation and billing tooling already exists for PLG price tests?"
+    ],
+    "caveat": "The only news item comes from a third-party pricing tracker, not Dropbox. I could not read any earnings commentary today. The plans page was viewed from Canada, so it shows CAD prices and does not say which price goes with which billing cycle.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0120"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
   }
 ]

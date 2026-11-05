@@ -1,0 +1,61 @@
+{
+  "run_date": "2026-11-05",
+  "searches_run": 59,
+  "searches_by_country": { "Canada": 29, "Colombia": 17, "United States": 13 },
+  "watchlist_checked": [
+    "Loblaw", "Metro", "Sobeys / Empire", "Couche-Tard", "Dollarama", "Canadian Tire", "Saputo", "BRP",
+    "Procter & Gamble", "Unilever", "Nestlé", "Kimberly-Clark", "Colgate-Palmolive", "Natura &Co", "Belcorp", "Softys",
+    "Anthropic", "Databricks", "Figma", "Notion", "Cisco", "OpenAI"
+  ],
+  "new_opportunities": [
+    {
+      "company": "Dropbox", "title": "Director of Pricing and Packaging", "business_unit": "Product Marketing", "category": "Pricing",
+      "country": "United States", "city": "Anywhere", "location_note": "Remote - US: All locations",
+      "work_mode": "Remote", "work_model": "Remote - US: All locations",
+      "salary_advertised": "US Zone 1: $253,300 to $342,700 USD; US Zone 2: $228,000 to $308,400 USD; US Zone 3: $202,600 to $274,200 USD (base pay)",
+      "employer_posting_date": "2026-11-03", "official_url": "https://jobs.dropbox.com/listing/8275002?gh_jid=8275002",
+      "secondary_url": "https://www.builtinboston.com/job/director-pricing-and-packaging/12040944", "requisition_id": "R11730",
+      "summary": "Define company-wide pricing and packaging across PLG and sales-led motions, design the packaging and monetization architecture for AI-powered products, set pricing governance and experimentation, and lead a small team.",
+      "pricing_focus": "SaaS packaging; AI monetization; PLG + SLG",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope",
+      "scope_note": "Tagged IC6 internally, but the posting says the role leads and develops a small team. Reports to the Head of Product Marketing.",
+      "strategy_confidence": "Medium"
+    }
+  ],
+  "url_updates": [],
+  "strategy_updates": [
+    {
+      "id": null, "company": "Dropbox", "business_unit": "Product Marketing",
+      "pricing_theme": "Rebuilding packaging and monetization for AI features (Dash) across self-serve and a growing sales-led business",
+      "current_model": "Per-user subscription tiers on dropbox.com/plans (viewed from Canada, so prices shown in CAD): Basic free (2 GB); Plus CA$12.99/month for 1 person (2 TB); Standard at CA$21 or CA$39.50 per user/month depending on billing cycle (team storage from 3 TB); Advanced at CA$33 or CA$39.50 per user/month, 3+ users (team storage from 15 TB); Enterprise by quote. The plans page lists no Dash or AI add-on price.",
+      "industry": "Software",
+      "posting_evidence": [
+        "Director of Pricing and Packaging, Remote US, first published 2026-11-03 (req R11730); base pay $202,600 to $342,700 by US zone",
+        "Reports to the Head of Product Marketing; recruited by the executive recruiting team; internal level IC6 but leads a small team of pricing and packaging staff",
+        "Mandate: company-wide pricing and packaging across PLG and SLG, segments, portfolios and geographies, plus 'the next generation of packaging and monetization architecture' for AI-powered products, weighing value, adoption, cost to serve and margin",
+        "Set up pricing governance, operating rhythms, KPIs and experimentation; build WTP, usage and unit-economics models; advise senior executives on monetization decisions",
+        "Preferred: led a major pricing transformation at a multi-product SaaS company, AI monetization (inference costs, value metrics), conjoint/WTP/elasticity research; mentions 'expanding our sales-led business'"
+      ],
+      "news": [
+        {
+          "date": "2026-10-23",
+          "summary": "The Dash pricing page, which on 2026-10-15 showed Dash for Teams at $15 per user/month (billed yearly) and Dash for Business at $35 per user/month, now redirects to the core plans page, and no Dash price is published.",
+          "source": "UsagePricing (pricing tracker)",
+          "url": "https://www.usagepricing.com/blueprint/activity/dropbox-2026-10-23-dash-pricing-page-removed"
+        }
+      ],
+      "interpretation": "Dropbox appears to be rethinking how it charges for AI: it took Dash's standalone per-seat prices off its site in late October and posted this director role days later, asking for a new packaging architecture for AI-powered products. Inference: a standalone Dash SKU may be giving way to bundling Dash into the core tiers, or to a usage or credit model, because the posting stresses cost to serve, inference costs and margin. The role also reflects a push to grow the sales-led business alongside self-serve, so the job covers governance and enterprise packaging as well as self-serve price points. Expect a high-visibility mandate with heavy executive and cross-team alignment, and a small team to start.",
+      "open_questions": [
+        "Will Dash be bundled into Standard and Advanced, sold as an add-on, or metered by usage or credits, and who makes that decision?",
+        "Pricing sits under Product Marketing rather than Finance or Product: how much decision authority does the role have over list price and discounting for sales-led deals?",
+        "How big is the current team, and what experimentation and billing tooling already exists for PLG price tests?"
+      ],
+      "caveat": "The only news item comes from a third-party pricing tracker, not Dropbox. I could not read any earnings commentary today. The plans page was viewed from Canada, so it shows CAD prices and does not say which price goes with which billing cycle.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:0"]
+    }
+  ],
+  "people": [],
+  "notes": "Searched Canada (Montreal, Quebec City, Toronto, Ottawa, Vancouver/Calgary, Canada remote; EN/FR), Colombia (elempleo pricing, revenue-management and revenue-growth pages; Bogotá, Medellín, Cali/Barranquilla, LATAM remote; ES/EN) and US SaaS/CPG/industrial. Most aggregator leads were closed when opened (Air Transat Manager, Pricing; KEV Group; Lightspeed; Loblaw pricing roles; Canadian Tire Manager, Regional Pricing; BRP; Novo Nordisk Bogotá; Fluidra LATAM; Accor Bogotá; Anthropic Product Finance & Strategy, Monetization; LinkedIn; 1Password; Redpanda). Skipped: MentorHub 'Analista de pricing de transporte' (land-freight rate quoting and costing), 'Jefe de costos y pricing' (costing), and Purple 'Revenue Manager (Remote | LATAM Only)' (agency role, no date, seniority unclear). Watchlist coverage was partial: the OpenAI and Notion Ashby boards did not render, Anthropic and Databricks lists were truncated (checked by search instead), Cisco was checked by search only, and Molson Coors Canada and Belron Canada were not checked separately. Task 2: no exact employer postings found for Rexel Canada, Moneris, Aviva, Cardinal Health, Broadridge or Fasken."
+}
