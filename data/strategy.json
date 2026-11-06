@@ -2711,5 +2711,187 @@
     ],
     "industry": "Software",
     "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0082",
+    "company": "Transat",
+    "business_unit": "Revenue Management and Pricing",
+    "baseline_date": "2026-11-06",
+    "last_updated": "2026-11-06",
+    "pricing_theme": "Protecting airline yield as fuel costs spike and competitive capacity limits fare pass-through.",
+    "current_model": null,
+    "posting_evidence": [
+      "Revenue Management Analyst, Montreal (hybrid), posted 2026-11-05 in English and French under ref REF1204P; level 15, permanent, non-unionized.",
+      "Department is 'Gestion des revenus et tarification'; sits in the Inventory Management & Optimization team, with route-portfolio ownership.",
+      "Targets RASM, load factor and yield; calibrates RM system inputs and forecasts; PROS experience is an asset; uses Power BI and Copilot.",
+      "Works alongside a separate Pricing Analyst, which suggests that inventory/RM and fare pricing are split functions."
+    ],
+    "news": [
+      {
+        "date": "2026-09-10",
+        "summary": "Q3 FY2026 (quarter to July 31): airline yield fell 1% and load factor slipped to 84.7% as fuel prices rose 56%; Transat said competition limited its ability to pass fuel costs on to customers, and Q4-to-date yield was broadly flat with load factors 0.6 points higher.",
+        "source": "Transat A.T. Inc.",
+        "url": "https://www.transat.com/en-CA/corporate/media/news-releases/124622"
+      }
+    ],
+    "interpretation": "Transat is caught between record fuel costs and a market where it cannot raise fares, so revenue management, not list pricing, is where it can recover margin: route-level inventory control, forecasting and yield discipline. Inference: hiring an RM analyst now, while capacity grows 2% in Q4 and the Cuba revenue is gone, points to tighter portfolio management rather than a team expansion. The role is execution-focused and close to the RM system, a solid entry point but not a strategy seat.",
+    "open_questions": [
+      "How are inventory/RM and fare pricing decisions divided between this team and the Pricing Analyst role?",
+      "Is Transat changing or upgrading its RM system (PROS), and how much of the role is system calibration versus market strategy?",
+      "Which route portfolio (transatlantic, sun, Canada domestic) would the analyst own?"
+    ],
+    "caveat": "Based on one analyst posting and one earnings release; no visibility into Transat's fare structure or senior RM leadership.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0121"
+    ],
+    "industry": "Airline / leisure travel",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0083",
+    "company": "Staples Canada",
+    "business_unit": "Canadian B2B (Enterprise and Mid-Market)",
+    "baseline_date": "2026-11-06",
+    "last_updated": "2026-11-06",
+    "pricing_theme": "Formalizing B2B contract pricing, bids and rebates as Staples Canada consolidates its business brands under Staples Business.",
+    "current_model": "B2B purchasing through two programs announced in October 2026: Staples Business Preferred (everyday savings for smaller businesses) and Staples Business Professional (customized purchasing, personalized pricing, consolidated invoicing and dedicated account support). No published price lists.",
+    "posting_evidence": [
+      "Senior Director - B2B Pricing, Margin & Bid Management, Richmond Hill, hybrid with 4 days onsite; Built In marks it 'Reposted 3 Months Ago'.",
+      "Owns pricing, margin and bid strategy for enterprise and mid-market customers across Canada, including RFP/RFQ win themes and competitive pricing with legal and sales.",
+      "Covers online, catalogue and program pricing, contract renewals tied to vendor cost increases, and customer and vendor rebate accuracy.",
+      "Leads automation and tooling for pricing, bids and profit improvement and manages third-party pricing software vendors.",
+      "Sits on the Canadian B2B leadership team; requires 10+ years of senior B2B pricing/profitability management."
+    ],
+    "news": [
+      {
+        "date": "2026-10-22",
+        "summary": "Staples Canada launched Staples Business on October 19, uniting workplace products, technology, furniture, facilities supplies and print services under two programs, with personalized pricing reserved for the Business Professional tier.",
+        "source": "Distribution Strategy",
+        "url": "https://distributionstrategy.com/2026/10/staples-canada-unifies-workplace-products-and-services-under-business-brand/"
+      }
+    ],
+    "interpretation": "Staples Canada is repackaging its B2B business into a tiered offer, and the Professional tier depends on per-account pricing, so contract pricing, bid discipline and rebate governance become central to margin. Inference: the senior director role is meant to give that personalized-pricing promise consistent rules and tooling, and to pass vendor cost increases through at renewal. Because the posting is a repost, the seat has likely been hard to fill or was reopened around the rebrand.",
+    "open_questions": [
+      "Will the role own price-setting for the new Business Preferred and Professional tiers, or only enterprise contracts and bids?",
+      "Which pricing software is in place today, and is a replacement or expansion planned?",
+      "Who does the role report to, and how much decision rights does it have over sales-negotiated discounts?"
+    ],
+    "caveat": "The posting was read only on Built In (no employer page found) and may be stale; the news is one trade article.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0122"
+    ],
+    "industry": "Retail / B2B distribution",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0084",
+    "company": "Box",
+    "business_unit": "Product Marketing (Pricing & Packaging)",
+    "baseline_date": "2026-11-06",
+    "last_updated": "2026-11-06",
+    "pricing_theme": "Moving from seat-based plans toward platform and AI-consumption pricing built on AI units.",
+    "current_model": "Per-user plans from $5 per user per month (third-party tracker list prices: Business Starter $5, Personal Pro $10, Business $15, Business Plus $25, Enterprise $35); Enterprise Plus and Enterprise Advanced are quoted. AI units are included per plan (Enterprise 1,000, Enterprise Plus 2,000, Enterprise Advanced from 20,000 per month), and extra units are sold in blocks of 1,000, billed annually.",
+    "posting_evidence": [
+      "Director, Pricing & Packaging, Redwood City HQ, hybrid 3 days per week; first published 2026-10-27; $224,000–$230,000 USD; req R03443.",
+      "Individual contributor reporting to the VP, Product Marketing; department is Marketing.",
+      "Mandate: 'Lead the evolution of Box's pricing model from a primarily seat-based approach' to platform, usage and AI consumption-based models.",
+      "Develops pricing for AI usage and consumption units tied to 'AI usage, units, platform activity, costs, and business value'; hands-on regression and cost modeling.",
+      "Bonus qualification: experience moving from classic SaaS pricing to AI or consumption-based models."
+    ],
+    "news": [
+      {
+        "date": "2026-08-25",
+        "summary": "Box reported Q2 FY27 revenue of $321.1M (+9%), billings up 17% and net revenue retention up to 106%; commentary credited repackaging through Enterprise Advanced (sold at a 20–40% premium over Enterprise Plus), while non-GAAP gross margin fell 20 bps to 81.2% on AI workloads.",
+        "source": "SaaStr",
+        "url": "https://www.saastr.com/5-interesting-learnings-from-box-at-1-29-billion-in-revenue-17-billings-growth-106-nrr-and-20-basis-points-of-ai-margin-cost/"
+      },
+      {
+        "date": "2026-11-02",
+        "summary": "Box changed the Business Starter Box Sign allowance from 10 signature requests per month to 10 per user per month, with no list-price change, per a pricing-page tracker capture between October 26 and November 2.",
+        "source": "PricingSaaS",
+        "url": "https://pricingsaas.com/companies/box/diffs/2026W45"
+      }
+    ],
+    "interpretation": "Box has grown net retention mainly by moving customers up to premium seat tiers (Enterprise Advanced). As AI agent usage rises and starts to weigh on gross margin, it now needs a metric that scales with consumption rather than headcount. The AI unit allowances and add-on blocks are the start of that model; this role is meant to turn them into a coherent platform and consumption architecture. Inference: because the role is an IC director reporting into product marketing, Box wants a hands-on modeler to design the transition, not to build a large pricing team yet.",
+    "open_questions": [
+      "Will consumption pricing be an add-on to seats or replace seats for some tiers, and what is the timeline?",
+      "Who owns AI-unit cost-to-serve data, and how much say does the role have over unit definitions?",
+      "Is there a path to build a pricing team, given this is an IC director role?"
+    ],
+    "caveat": "Plan prices come from a third-party tracker because Box's pricing page did not show per-plan prices to an automated fetch; the earnings commentary is secondary analysis.",
+    "confidence": "High",
+    "linked_job_ids": [
+      "JOB-0123"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0085",
+    "company": "Zip",
+    "business_unit": "Pricing & Packaging (new function)",
+    "baseline_date": "2026-11-06",
+    "last_updated": "2026-11-06",
+    "pricing_theme": "Building a first formal pricing function as the procurement platform adds modules and AI agents.",
+    "current_model": null,
+    "posting_evidence": [
+      "Head of Pricing & Packaging, San Francisco, posted 2026-11-05; $178,500 - $262,500; work mode not stated.",
+      "Described as Zip's first Head of Pricing & Packaging, owning pricing and packaging 'as one function' and presenting to founders and executives.",
+      "Scope: new product and module pricing, packaging tiers and bundling, conjoint and Van Westendorp research, and chairing a pricing council with Product, Sales, Finance and Marketing.",
+      "Builds an NPI process, discount policy and approval workflows with the existing Deal Desk, pricing KPIs (win rate by price point, price realization) and a future CPQ evaluation.",
+      "Expected to build the case and hiring plan for a pricing team."
+    ],
+    "news": [],
+    "interpretation": "Zip appears to have outgrown deal-by-deal pricing: a growing module and AI-agent portfolio needs packaging that buyers understand and discount rules the Deal Desk can enforce. Inference: the stress on price realization and governance suggests discounting has been loose, and hiring a founder-facing head suggests leadership wants pricing to become a lever for expansion revenue. It is a build-from-scratch mandate with a team to come.",
+    "open_questions": [
+      "How are AI agents charged today: bundled into modules, or priced by usage or outcome?",
+      "What discounting authority does Sales hold now, and how much will the pricing council take over?",
+      "What budget and timeline are there for building the pricing team?"
+    ],
+    "caveat": "No public price list and no pricing news from the last three months were found; the analysis rests only on the posting.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0124"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0086",
+    "company": "PDI Technologies",
+    "business_unit": "Marketing (product marketing and pricing)",
+    "baseline_date": "2026-11-06",
+    "last_updated": "2026-11-06",
+    "pricing_theme": "Putting pricing and packaging around its AI layer (PDIQ) and a broad convenience-retail and fuel software portfolio.",
+    "current_model": null,
+    "posting_evidence": [
+      "Principal Product Marketing & Pricing Manager, Alpharetta, GA (also Dallas, TX), hybrid; created 2026-11-05 on Lever; Marketing department.",
+      "Owns pricing and packaging strategy (tiers, price points, discounting) in addition to positioning, messaging and go-to-market.",
+      "Evaluates subscription and usage-based models for software, data and AI offerings, using willingness-to-pay analysis and business cases.",
+      "Expected to set scalable pricing and packaging principles across products and segments; 8+ years required."
+    ],
+    "news": [
+      {
+        "date": "2026-08-26",
+        "summary": "At Connections Live 2026 (more than 1,100 attendees), PDI promoted PDIQ, its embedded AI framework, and MyPDI across ERP, POS, loyalty, payments and fuel wholesale products, offering customers 'exclusive access' to AI-infused experiences without disclosing commercial terms.",
+        "source": "PDI Technologies",
+        "url": "https://pditechnologies.com/?p=30382"
+      }
+    ],
+    "interpretation": "PDI is embedding AI across a portfolio assembled partly through acquisitions (e.g. P97) and has not yet said how it will charge for it. Inference: this role is meant to set common pricing principles and decide whether AI features are bundled, tiered or metered. Pairing pricing with product marketing suggests a small pricing function where one person both sets prices and sells them internally.",
+    "open_questions": [
+      "Will PDIQ be monetized as a premium tier, an add-on, or usage-based?",
+      "How much of the role's time is pricing versus positioning and launches?",
+      "Who has final pricing authority across the acquired product lines?"
+    ],
+    "caveat": "No published pricing found; the posting was read via the Lever API and a job-board copy, and the role is only partly pricing.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0125"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
   }
 ]
