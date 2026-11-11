@@ -1,0 +1,312 @@
+{
+  "run_date": "2026-11-11",
+  "searches_run": 55,
+  "searches_by_country": { "Canada": 22, "Colombia": 17, "United States": 16 },
+  "watchlist_checked": [
+    "Desjardins", "National Bank", "RBC", "TD", "BMO", "Scotiabank", "Intact", "Wawanesa", "Sun Life", "Manulife",
+    "Grupo Nutresa", "Alpina", "Postobón", "Bavaria (AB InBev)", "Colombina", "Coca-Cola FEMSA", "Diageo", "Quala",
+    "Stripe", "Intuit", "Gusto", "DocuSign", "Zoom", "PagerDuty"
+  ],
+  "new_opportunities": [
+    {
+      "company": "Stripe",
+      "title": "Product Marketing Manager, Portfolio Pricing",
+      "business_unit": "Product Marketing (portfolio pricing go-to-market)",
+      "category": "Pricing",
+      "country": "Canada",
+      "city": "Toronto",
+      "location_note": "Same posting also lists New York, Seattle, South San Francisco HQ and Remote in United States",
+      "work_mode": "Hybrid",
+      "work_model": "This role is available either in an office or a remote location (35+ miles or 56+ km from a Stripe office); office-assigned roles spend at least 50% of the time in the local office or with users each month",
+      "salary_advertised": "Not stated for Toronto (posting states: \"The annual US base salary range for this role is $145,000 - $217,600.\")",
+      "employer_posting_date": "2026-04-20",
+      "official_url": "https://stripe.com/jobs/listing/product-marketing-manager-portfolio-pricing/7832098",
+      "secondary_url": null,
+      "requisition_id": "7832098",
+      "summary": "Owns Stripe's portfolio-wide pricing narrative and positioning, the go-to-market plan for bundling and packaging across products, launches of new pricing constructs, and sales enablement to defend pricing in competitive deals.",
+      "pricing_focus": "Pricing positioning; bundling and packaging GTM",
+      "level_band": "manager_plus",
+      "level": null,
+      "scope_fit": "borderline",
+      "scope_note": "Pricing is in the title and the mandate, but this is a product marketing role (5–8 years of PMM required; pricing experience only preferred). It partners with the separate Product Pricing team rather than setting prices. First published 2026-04-20 per the Greenhouse API (updated 2026-10-29); the page still shows Apply.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Stripe",
+      "title": "Product Marketing Manager, Portfolio Pricing",
+      "business_unit": "Product Marketing (portfolio pricing go-to-market)",
+      "category": "Pricing",
+      "country": "United States",
+      "city": "Anywhere",
+      "location_note": "Remote in United States, or the New York, Seattle or South San Francisco HQ offices; same posting also lists Toronto",
+      "work_mode": "Remote",
+      "work_model": "This role is available either in an office or a remote location (35+ miles or 56+ km from a Stripe office); office-assigned roles spend at least 50% of the time in the local office or with users each month",
+      "salary_advertised": "The annual US base salary range for this role is $145,000 - $217,600.",
+      "employer_posting_date": "2026-04-20",
+      "official_url": "https://stripe.com/jobs/listing/product-marketing-manager-portfolio-pricing/7832098",
+      "secondary_url": null,
+      "requisition_id": "7832098",
+      "summary": "Owns Stripe's portfolio-wide pricing narrative and positioning, the go-to-market plan for bundling and packaging across products, launches of new pricing constructs, and sales enablement to defend pricing in competitive deals.",
+      "pricing_focus": "Pricing positioning; bundling and packaging GTM",
+      "level_band": "manager_plus",
+      "level": null,
+      "scope_fit": "borderline",
+      "scope_note": "Product marketing role with pricing at its core (messaging, packaging GTM, pricing launches); it does not own price setting. Same requisition as the Toronto record.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Scotiabank",
+      "title": "Manager, Revenue Management, Private Banking",
+      "business_unit": "Private Banking – Revenue Management",
+      "category": "Revenue Management",
+      "country": "Canada",
+      "city": "Toronto",
+      "location_note": null,
+      "work_mode": "Unknown",
+      "work_model": "Not stated",
+      "salary_advertised": "Not stated",
+      "employer_posting_date": "2026-10-21",
+      "official_url": "https://jobs.scotiabank.com/job/Toronto-Manager%2C-Revenue-Management%2C-Private-Banking-ON-M5H-4A9/607242117/",
+      "secondary_url": null,
+      "requisition_id": "277182",
+      "summary": "Supports client profitability, pricing and revenue management frameworks across private banking lending, deposits and fee-based products; builds pricing, profitability and forecasting models and turns them into pricing-strategy recommendations.",
+      "pricing_focus": "Private banking loan/deposit pricing; client profitability",
+      "level_band": "manager_plus",
+      "level": null,
+      "scope_fit": "borderline",
+      "scope_note": "Manager title, but it asks for only 3+ years and is analytics-heavy (SQL, Power BI, model maintenance); reports to the Senior Manager, Revenue Management. The posting date comes from Scotiabank's search results page; the job page itself shows no date.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Wawanesa Insurance",
+      "title": "Actuarial Expert - Alberta Auto Pricing",
+      "business_unit": "Actuarial Pricing – Alberta Auto",
+      "category": "Pricing",
+      "country": "Canada",
+      "city": "Toronto",
+      "location_note": "Hybrid at any of 14 Wawanesa offices, including Montreal, Ottawa, North York, Calgary, Edmonton, Vancouver, Winnipeg, Kitchener, Moncton and Dartmouth",
+      "work_mode": "Hybrid",
+      "work_model": "Hybrid: in office 2 days per week or 15 hours per week, remote the rest",
+      "salary_advertised": "The salary offered is estimated to be within the following range: $135,000 - $170,000.",
+      "employer_posting_date": "2026-11-07",
+      "official_url": "https://jobs.wawanesa.com/job/Toronto%2C-ON-%28Hybrid%29-Actuarial-Expert-Alberta-Auto-Pricing-ON/605968617/",
+      "secondary_url": null,
+      "requisition_id": "10296",
+      "summary": "Senior actuarial subject-matter expert for Alberta auto pricing: leads large, high-impact pricing projects through implementation, peer-reviews work, and mentors analysts and sometimes managers. Marked 'New Role'.",
+      "pricing_focus": "Regulated auto insurance rating (Alberta)",
+      "level_band": "manager_plus",
+      "level": null,
+      "scope_fit": "borderline",
+      "scope_note": "Senior individual contributor with no direct reports stated; FCAS required. Pay is above the tracked Wawanesa manager role, but the work is technical actuarial pricing rather than commercial pricing strategy.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Wawanesa Insurance",
+      "title": "Actuarial Expert - Pricing Modeling",
+      "business_unit": "Actuarial Pricing – Pricing Modelling",
+      "category": "Pricing",
+      "country": "Canada",
+      "city": "Montreal",
+      "location_note": "Hybrid at any of 13 Wawanesa offices, including Ottawa, North York, Calgary, Vancouver, Winnipeg, Kitchener, Moncton and Dartmouth",
+      "work_mode": "Hybrid",
+      "work_model": "Hybrid: in office 2 days per week or 15 hours per week, remote the rest; business language English",
+      "salary_advertised": "$135,000 - $170,00",
+      "employer_posting_date": "2026-10-20",
+      "official_url": "https://jobs.wawanesa.com/job/Montreal%2C-QC-%28Hybrid%29-Actuarial-Expert-Pricing-Modeling-QC/603869417/",
+      "secondary_url": null,
+      "requisition_id": "10155",
+      "summary": "Senior actuarial expert in pricing modelling: leads complex pricing-model projects through implementation, automates routine work, and mentors analysts and sometimes managers.",
+      "pricing_focus": "Insurance pricing models (GLM/ML)",
+      "level_band": "manager_plus",
+      "level": null,
+      "scope_fit": "borderline",
+      "scope_note": "Senior individual contributor with no direct reports stated; FCAS is an asset. Technical modelling role. Salary copied as written on the page (typo '$170,00').",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Wawanesa Insurance",
+      "title": "Senior Actuarial Analyst - Pricing Modelling",
+      "business_unit": "Actuarial Pricing – Pricing Modelling",
+      "category": "Pricing",
+      "country": "Canada",
+      "city": "Toronto",
+      "location_note": "North York (Toronto) listing; also hybrid from Montreal, Quebec City, Ottawa, Kitchener, Winnipeg, Calgary, Edmonton, Vancouver, Moncton, Dartmouth and others",
+      "work_mode": "Hybrid",
+      "work_model": "Hybrid: in office 2 days per week or 15 hours per week, remote the rest",
+      "salary_advertised": "The salary offered is estimated to be within the following range: $90,000 - $110,000.",
+      "employer_posting_date": "2026-10-18",
+      "official_url": "https://jobs.wawanesa.com/job/North-York-Toronto%2C-ON-%28Hybr-Senior-Actuarial-Analyst-Pricing-Modelling-ON/604602317/",
+      "secondary_url": null,
+      "requisition_id": "10215",
+      "summary": "Builds and codes insurance pricing models (machine learning and other pricing methods), leads some projects through implementation, and mentors actuarial analysts.",
+      "pricing_focus": "Insurance pricing models",
+      "level_band": "analyst",
+      "level": "Senior Analyst",
+      "scope_fit": "in_scope",
+      "scope_note": "2+ years of actuarial experience and ACAS progress are assets.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Sovos",
+      "title": "Director of Strategic Pricing (SaaS products)",
+      "business_unit": "Product Transformation",
+      "category": "Pricing",
+      "country": "United States",
+      "city": "Anywhere",
+      "location_note": "Listed as US-Remote; the posting says the role can be located in the US or EMEA. Travel up to 25%.",
+      "work_mode": "Remote",
+      "work_model": "US-Remote; travel up to 25% to Sovos locations and events",
+      "salary_advertised": "The initially defined starting annualized salary for this role may start between $130,000 - $150,000, with bonus opportunity.",
+      "employer_posting_date": null,
+      "official_url": "https://recruit.hirebridge.com/v3/Jobs/JobDetails.aspx?cid=6875&jid=602140&locvalue=1170",
+      "secondary_url": null,
+      "requisition_id": "602140",
+      "summary": "Sets the overall pricing and packaging strategy for Sovos's SaaS tax-compliance products, designs consumption-based models and pricing experiments, and owns global pricing governance (discounting, promotions, annual price increases); reports to the VP, Product Transformation.",
+      "pricing_focus": "SaaS packaging; consumption pricing; global price governance",
+      "level_band": "manager_plus",
+      "level": null,
+      "scope_fit": "in_scope",
+      "scope_note": "10+ years of experience including 5+ in SaaS pricing. No posting date is shown, so the posting may be older; the Apply link is active. The posting does not mention Canada or Colombia.",
+      "strategy_confidence": "Medium"
+    }
+  ],
+  "url_updates": [],
+  "strategy_updates": [
+    {
+      "id": null,
+      "company": "Stripe",
+      "business_unit": "Product Marketing (portfolio pricing go-to-market)",
+      "pricing_theme": "Moving from single-product rates to portfolio packaging and bundles, and building a pricing narrative that sales can defend",
+      "current_model": "Canada standard pricing: 2.9% + CA$0.30 per successful domestic card transaction, +0.8% for international cards, +2% when currency conversion is needed; custom packages with IC+ pricing, volume and multi-product discounts. Billing: pay monthly from CA$770/month (1-year contract) or 0.7% of Billing volume. Radar: from CA$14/month or CA$0.07 per screened transaction (stripe.com/en-ca/pricing).",
+      "industry": "Software",
+      "posting_evidence": [
+        "Product Marketing Manager, Portfolio Pricing (req 7832098); Toronto, New York, Seattle, South San Francisco or remote in the US; first published 2026-04-20, updated 2026-10-29; US base $145,000–$217,600.",
+        "Owns Stripe's portfolio-wide pricing narrative, messaging and positioning, and enables sales to position and defend pricing in competitive deals with value-selling playbooks.",
+        "Owns go-to-market strategy and growth for bundling and packaging across the portfolio, with Growth Product, Product Pricing, Design and web teams.",
+        "Launches new pricing constructs with segment-specific messaging; asks for 5–8 years of B2B product marketing, with pricing and packaging launches only preferred."
+      ],
+      "news": [
+        {
+          "date": "2026-11-11",
+          "summary": "Stripe's notice says new Radar pricing takes effect on 2027-01-22 across four tiers (Lite, Standard, Plus, Pro); Radar for Fraud Teams users moved to Radar Plus on 2026-07-29, and fee lines are being renamed to 'Radar Active Account Fee' and 'Radar Screened Transaction Fee'.",
+          "source": "Stripe Support",
+          "url": "https://support.stripe.com/questions/updates-to-radar-pricing-(january-2027)"
+        },
+        {
+          "date": "2026-10-01",
+          "summary": "Stripe cut Australian domestic standard card pricing from 1.70% + A$0.30 to 1.65% + A$0.30 online (Terminal 1.70% to 1.65% + A$0.10) effective 2026-10-01, and will cut international card pricing from 3.50% to 2.80% from 2027-04-01.",
+          "source": "Stripe Support",
+          "url": "https://support.stripe.com/questions/updates-to-card-pricing-in-australia-from-october-2026"
+        }
+      ],
+      "interpretation": "Stripe is repackaging add-on products into tiers (Radar's four-tier move) while cutting headline card rates where competition or regulation pushes, as in Australia. Inference: as payments margins come under pressure, the bundle becomes the main lever, so Stripe needs a clear story for why multi-product packages are worth it, and this role exists to tell that story to sales and self-serve users. The role complements the separately tracked Product Pricing strategists, who set the prices. For a candidate, this is a pricing-communication and packaging-adoption job, not a price-setting job.",
+      "open_questions": [
+        "How are decision rights on bundle design split between this PMM role and the Product Pricing team?",
+        "Which bundles or pricing constructs are planned for the next 12 months (e.g., the Radar tiers in January 2027)?",
+        "Is the Toronto location a full equivalent of the US hubs, and what is the Canadian pay range?"
+      ],
+      "caveat": "The posting has been open since April 2026, and the dated news consists of Stripe support notices; the link between them and this role is inferred.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:0", "new:1"]
+    },
+    {
+      "id": null,
+      "company": "Scotiabank",
+      "business_unit": "Private Banking – Revenue Management",
+      "pricing_theme": "Building client-level profitability and pricing discipline across private banking lending, deposits and fees",
+      "current_model": null,
+      "industry": "Banking",
+      "posting_evidence": [
+        "Manager, Revenue Management, Private Banking (req 277182), Toronto; listed on Scotiabank's careers search on 2026-10-21; no salary or work arrangement stated.",
+        "Mandate: client profitability, pricing and revenue management frameworks across lending, deposits and fee-based products.",
+        "Builds and validates pricing, profitability, forecasting and portfolio-optimization models, including revenue attribution, funding value, RORWA and cost-to-serve.",
+        "Reports to the Senior Manager, Revenue Management; 3+ years; strong SQL and advanced Power BI (DAX, Power Query); Python/R an asset.",
+        "Supports annual planning, business cases and revenue target setting, and turns analysis into pricing-strategy recommendations."
+      ],
+      "news": [],
+      "interpretation": "The posting points to a dedicated revenue management team inside private banking that prices relationships on risk-adjusted returns (RORWA, funding value, cost-to-serve) rather than product by product. Inference: Scotiabank wants to grow private-banking balances without giving away margin through relationship discounts, and needs client-level profitability data to govern exceptions. The role is the analytical engine of that team: model building and Power BI reporting more than owning pricing decisions. The tracked Scotiabank retail-deposit and Global Transaction Banking pricing roles suggest a bank-wide push to professionalize pricing.",
+      "open_questions": [
+        "Does the team set rates and fee exceptions directly, or advise relationship managers and product owners?",
+        "How big is the Revenue Management team and who leads it above the Senior Manager?",
+        "Is the role hybrid, and what is the pay band?"
+      ],
+      "caveat": "No dated pricing news for Scotiabank private banking was read today; the interpretation rests on the posting alone.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:2"]
+    },
+    {
+      "id": null,
+      "company": "Wawanesa Insurance",
+      "business_unit": "Actuarial Pricing (Pricing Modelling and Alberta Auto)",
+      "pricing_theme": "Adding senior actuarial pricing capacity in modelling and in Alberta auto ahead of rate-regulation changes",
+      "current_model": null,
+      "industry": "Insurance",
+      "posting_evidence": [
+        "Actuarial Expert - Alberta Auto Pricing (req 10296), posted 2026-11-07, marked 'New Role'; FCAS required; $135,000–$170,000; hybrid from 14 offices including Montreal.",
+        "Actuarial Expert - Pricing Modeling (req 10155), posted 2026-10-20; FCAS an asset; $135,000–$170,000 (written '$170,00'); Montreal and 12 other offices.",
+        "Senior Actuarial Analyst - Pricing Modelling (req 10215), posted 2026-10-18; $90,000–$110,000; ML and other pricing methods; mentors analysts.",
+        "Expert roles lead large, high-impact projects through implementation, train and mentor analysts and sometimes managers, and present to Director-level audiences; no direct reports stated.",
+        "Wawanesa's careers site also lists Actuarial Consultant roles in Pricing Modelling and Alberta Auto Pricing (posted 2026-10-17/18) plus the tracked Manager, Actuarial Commercial Auto Pricing."
+      ],
+      "news": [],
+      "interpretation": "Wawanesa is building out its pricing bench in two places at once: a pricing-modelling group (with ML methods named) and a dedicated Alberta auto pricing team, with Expert, Consultant and Senior Analyst openings in each. Inference: Alberta is moving to an adjusted rate cap (5% average per insurer, 10% per driver) and the Care-First model from 2027-01-01 (Global News, May 2026), so insurers need FCAS-level capacity to file and justify rates under the new rules. The 'New Role' label on the Alberta position points to added headcount, not a backfill. These are deep technical actuarial roles, not commercial pricing strategy.",
+      "open_questions": [
+        "Is the Alberta team being sized for the 2027 rate-cap and Care-First filings, and how do the Expert and Consultant roles divide the work?",
+        "Do the Expert roles have a path to people management, or are they permanent individual-contributor tracks?",
+        "Which modelling stack (GLM vs GBM/ML) is in production, and how does regulatory acceptance limit it?"
+      ],
+      "caveat": "The Alberta regulatory context comes from a May 2026 article (older than the 3-month news window), and the link between it and these roles is inferred.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:3", "new:4", "new:5"]
+    },
+    {
+      "id": null,
+      "company": "Sovos",
+      "business_unit": "Product Transformation",
+      "pricing_theme": "Rebuilding SaaS pricing and packaging around consumption models as the tax-compliance portfolio grows by acquisition and adds AI",
+      "current_model": null,
+      "industry": "Software",
+      "posting_evidence": [
+        "Director of Strategic Pricing (SaaS products), req 602140; US-Remote (can be US or EMEA); travel up to 25%; $130,000–$150,000 starting salary plus bonus; no posting date shown.",
+        "Reports directly to the VP, Product Transformation, which places pricing inside a product transformation agenda.",
+        "Mandate: overall pricing and packaging strategy, consumption-based pricing models and pricing experiments, and competitive research and financial models built with Finance.",
+        "Owns global pricing governance: discounting, promotions and annual price increases.",
+        "Requires 10+ years including 5+ in SaaS pricing strategy; consumption- or outcome-based pricing experience required."
+      ],
+      "news": [
+        {
+          "date": "2026-09-16",
+          "summary": "Sovos acquired Blue dot, a Tel Aviv-based AI VAT-recovery platform for T&E and AP data that serves hundreds of enterprise customers and is a SAP Concur Endorsed App, and plans to embed it in Sovos's compliance transaction flow.",
+          "source": "CPA Practice Advisor",
+          "url": "https://www.cpapracticeadvisor.com/2026/09/16/sovos-acquires-blue-dot-expanding-ai-native-diagnostics-workflow-and-intelligence-capabilities/190268/"
+        }
+      ],
+      "interpretation": "Sovos is putting a portfolio assembled largely through acquisitions (Blue dot is the latest) onto one platform and adding AI, so it needs a coherent packaging and price architecture across products. Inference: the stress on consumption- and outcome-based pricing, and on governance of discounts and annual uplifts, suggests the current pricing is fragmented by product and deal, and the goal is cleaner expansion revenue. Reporting to the VP, Product Transformation implies pricing is part of a broader platform rebuild, not a finance add-on. The pay range is modest for a Director title, which suggests a small team or player-coach scope.",
+      "open_questions": [
+        "How many acquired products carry separate price books today, and is a platform bundle planned?",
+        "Will consumption pricing be tied to transactions, filings or documents processed?",
+        "Is there a pricing team to inherit, or is this a function of one?"
+      ],
+      "caveat": "No public Sovos price list was found, and the posting is undated, so the role may have been open for some time.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:6"]
+    }
+  ],
+  "people": [
+    {
+      "name": "Kevin Akeroyd",
+      "title": "CEO",
+      "company": "Sovos",
+      "contact_type": "relevant_contact",
+      "relationship": "Chief executive of the company",
+      "relevance": "Leads the acquisition and AI-platform strategy that the pricing role must package and monetize; the posting's hiring manager (VP, Product Transformation) is not named.",
+      "opportunity_ref": "new:6",
+      "linkedin_profile": null,
+      "verification": "Named as Sovos CEO in an acquisition article read today",
+      "evidence_url": "https://www.cpapracticeadvisor.com/2026/09/16/sovos-acquires-blue-dot-expanding-ai-native-diagnostics-workflow-and-intelligence-capabilities/190268/",
+      "found_via": "CPA Practice Advisor, 2026-09-16 (read 2026-11-11)",
+      "notes": null
+    }
+  ],
+  "notes": "Group 3 watchlist checked (Canadian banks/insurers via career-site search where it rendered: Scotiabank and Wawanesa worked; RBC rendered no results, BMO's search failed, and TD/Intact were checked by web search). Thin day: no new Colombian roles. Colombian CPG watchlist had no openings; elempleo had only freight, costing or solution-design pricing roles (excluded, e.g. MentorHub 'Analista de pricing de transporte', land-freight quoting). Cargill's 'Strategic Revenue Management Director' (Cali, posted 2026-08-13) now redirects to the careers home page and looks closed. Left out: KEV Group Director of Pricing (Built In says removed 2026-08-12), Sani Marc Director of Pricing Strategy (jobs.ca 410), Giant Tiger Manager, Pricing & Promotions in Ottawa (only aggregator snippets; JobLeads 403; worth rechecking), Material Bank Sr. Director, Platform Monetization (growth/BD role, pricing not core), Fortinet Bid & Pricing Manager (bid management). Task 2: no employer postings found for JOB-0108 Fasken or JOB-0122 Staples Canada."
+}

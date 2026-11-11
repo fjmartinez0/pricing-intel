@@ -2893,5 +2893,146 @@
     ],
     "industry": "Software",
     "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0087",
+    "company": "Stripe",
+    "business_unit": "Product Marketing (portfolio pricing go-to-market)",
+    "baseline_date": "2026-11-11",
+    "last_updated": "2026-11-11",
+    "pricing_theme": "Moving from single-product rates to portfolio packaging and bundles, and building a pricing narrative that sales can defend",
+    "current_model": "Canada standard pricing: 2.9% + CA$0.30 per successful domestic card transaction, +0.8% for international cards, +2% when currency conversion is needed; custom packages with IC+ pricing, volume and multi-product discounts. Billing: pay monthly from CA$770/month (1-year contract) or 0.7% of Billing volume. Radar: from CA$14/month or CA$0.07 per screened transaction (stripe.com/en-ca/pricing).",
+    "posting_evidence": [
+      "Product Marketing Manager, Portfolio Pricing (req 7832098); Toronto, New York, Seattle, South San Francisco or remote in the US; first published 2026-04-20, updated 2026-10-29; US base $145,000–$217,600.",
+      "Owns Stripe's portfolio-wide pricing narrative, messaging and positioning, and enables sales to position and defend pricing in competitive deals with value-selling playbooks.",
+      "Owns go-to-market strategy and growth for bundling and packaging across the portfolio, with Growth Product, Product Pricing, Design and web teams.",
+      "Launches new pricing constructs with segment-specific messaging; asks for 5–8 years of B2B product marketing, with pricing and packaging launches only preferred."
+    ],
+    "news": [
+      {
+        "date": "2026-11-11",
+        "summary": "Stripe's notice says new Radar pricing takes effect on 2027-01-22 across four tiers (Lite, Standard, Plus, Pro); Radar for Fraud Teams users moved to Radar Plus on 2026-07-29, and fee lines are being renamed to 'Radar Active Account Fee' and 'Radar Screened Transaction Fee'.",
+        "source": "Stripe Support",
+        "url": "https://support.stripe.com/questions/updates-to-radar-pricing-(january-2027)"
+      },
+      {
+        "date": "2026-10-01",
+        "summary": "Stripe cut Australian domestic standard card pricing from 1.70% + A$0.30 to 1.65% + A$0.30 online (Terminal 1.70% to 1.65% + A$0.10) effective 2026-10-01, and will cut international card pricing from 3.50% to 2.80% from 2027-04-01.",
+        "source": "Stripe Support",
+        "url": "https://support.stripe.com/questions/updates-to-card-pricing-in-australia-from-october-2026"
+      }
+    ],
+    "interpretation": "Stripe is repackaging add-on products into tiers (Radar's four-tier move) while cutting headline card rates where competition or regulation pushes, as in Australia. Inference: as payments margins come under pressure, the bundle becomes the main lever, so Stripe needs a clear story for why multi-product packages are worth it, and this role exists to tell that story to sales and self-serve users. The role complements the separately tracked Product Pricing strategists, who set the prices. For a candidate, this is a pricing-communication and packaging-adoption job, not a price-setting job.",
+    "open_questions": [
+      "How are decision rights on bundle design split between this PMM role and the Product Pricing team?",
+      "Which bundles or pricing constructs are planned for the next 12 months (e.g., the Radar tiers in January 2027)?",
+      "Is the Toronto location a full equivalent of the US hubs, and what is the Canadian pay range?"
+    ],
+    "caveat": "The posting has been open since April 2026, and the dated news consists of Stripe support notices; the link between them and this role is inferred.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0126"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0088",
+    "company": "Scotiabank",
+    "business_unit": "Private Banking – Revenue Management",
+    "baseline_date": "2026-11-11",
+    "last_updated": "2026-11-11",
+    "pricing_theme": "Building client-level profitability and pricing discipline across private banking lending, deposits and fees",
+    "current_model": null,
+    "posting_evidence": [
+      "Manager, Revenue Management, Private Banking (req 277182), Toronto; listed on Scotiabank's careers search on 2026-10-21; no salary or work arrangement stated.",
+      "Mandate: client profitability, pricing and revenue management frameworks across lending, deposits and fee-based products.",
+      "Builds and validates pricing, profitability, forecasting and portfolio-optimization models, including revenue attribution, funding value, RORWA and cost-to-serve.",
+      "Reports to the Senior Manager, Revenue Management; 3+ years; strong SQL and advanced Power BI (DAX, Power Query); Python/R an asset.",
+      "Supports annual planning, business cases and revenue target setting, and turns analysis into pricing-strategy recommendations."
+    ],
+    "news": [],
+    "interpretation": "The posting points to a dedicated revenue management team inside private banking that prices relationships on risk-adjusted returns (RORWA, funding value, cost-to-serve) rather than product by product. Inference: Scotiabank wants to grow private-banking balances without giving away margin through relationship discounts, and needs client-level profitability data to govern exceptions. The role is the analytical engine of that team: model building and Power BI reporting more than owning pricing decisions. The tracked Scotiabank retail-deposit and Global Transaction Banking pricing roles suggest a bank-wide push to professionalize pricing.",
+    "open_questions": [
+      "Does the team set rates and fee exceptions directly, or advise relationship managers and product owners?",
+      "How big is the Revenue Management team and who leads it above the Senior Manager?",
+      "Is the role hybrid, and what is the pay band?"
+    ],
+    "caveat": "No dated pricing news for Scotiabank private banking was read today; the interpretation rests on the posting alone.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0127"
+    ],
+    "industry": "Banking",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0089",
+    "company": "Wawanesa Insurance",
+    "business_unit": "Actuarial Pricing (Pricing Modelling and Alberta Auto)",
+    "baseline_date": "2026-11-11",
+    "last_updated": "2026-11-11",
+    "pricing_theme": "Adding senior actuarial pricing capacity in modelling and in Alberta auto ahead of rate-regulation changes",
+    "current_model": null,
+    "posting_evidence": [
+      "Actuarial Expert - Alberta Auto Pricing (req 10296), posted 2026-11-07, marked 'New Role'; FCAS required; $135,000–$170,000; hybrid from 14 offices including Montreal.",
+      "Actuarial Expert - Pricing Modeling (req 10155), posted 2026-10-20; FCAS an asset; $135,000–$170,000 (written '$170,00'); Montreal and 12 other offices.",
+      "Senior Actuarial Analyst - Pricing Modelling (req 10215), posted 2026-10-18; $90,000–$110,000; ML and other pricing methods; mentors analysts.",
+      "Expert roles lead large, high-impact projects through implementation, train and mentor analysts and sometimes managers, and present to Director-level audiences; no direct reports stated.",
+      "Wawanesa's careers site also lists Actuarial Consultant roles in Pricing Modelling and Alberta Auto Pricing (posted 2026-10-17/18) plus the tracked Manager, Actuarial Commercial Auto Pricing."
+    ],
+    "news": [],
+    "interpretation": "Wawanesa is building out its pricing bench in two places at once: a pricing-modelling group (with ML methods named) and a dedicated Alberta auto pricing team, with Expert, Consultant and Senior Analyst openings in each. Inference: Alberta is moving to an adjusted rate cap (5% average per insurer, 10% per driver) and the Care-First model from 2027-01-01 (Global News, May 2026), so insurers need FCAS-level capacity to file and justify rates under the new rules. The 'New Role' label on the Alberta position points to added headcount, not a backfill. These are deep technical actuarial roles, not commercial pricing strategy.",
+    "open_questions": [
+      "Is the Alberta team being sized for the 2027 rate-cap and Care-First filings, and how do the Expert and Consultant roles divide the work?",
+      "Do the Expert roles have a path to people management, or are they permanent individual-contributor tracks?",
+      "Which modelling stack (GLM vs GBM/ML) is in production, and how does regulatory acceptance limit it?"
+    ],
+    "caveat": "The Alberta regulatory context comes from a May 2026 article (older than the 3-month news window), and the link between it and these roles is inferred.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0128",
+      "JOB-0129",
+      "JOB-0130"
+    ],
+    "industry": "Insurance",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0090",
+    "company": "Sovos",
+    "business_unit": "Product Transformation",
+    "baseline_date": "2026-11-11",
+    "last_updated": "2026-11-11",
+    "pricing_theme": "Rebuilding SaaS pricing and packaging around consumption models as the tax-compliance portfolio grows by acquisition and adds AI",
+    "current_model": null,
+    "posting_evidence": [
+      "Director of Strategic Pricing (SaaS products), req 602140; US-Remote (can be US or EMEA); travel up to 25%; $130,000–$150,000 starting salary plus bonus; no posting date shown.",
+      "Reports directly to the VP, Product Transformation, which places pricing inside a product transformation agenda.",
+      "Mandate: overall pricing and packaging strategy, consumption-based pricing models and pricing experiments, and competitive research and financial models built with Finance.",
+      "Owns global pricing governance: discounting, promotions and annual price increases.",
+      "Requires 10+ years including 5+ in SaaS pricing strategy; consumption- or outcome-based pricing experience required."
+    ],
+    "news": [
+      {
+        "date": "2026-09-16",
+        "summary": "Sovos acquired Blue dot, a Tel Aviv-based AI VAT-recovery platform for T&E and AP data that serves hundreds of enterprise customers and is a SAP Concur Endorsed App, and plans to embed it in Sovos's compliance transaction flow.",
+        "source": "CPA Practice Advisor",
+        "url": "https://www.cpapracticeadvisor.com/2026/09/16/sovos-acquires-blue-dot-expanding-ai-native-diagnostics-workflow-and-intelligence-capabilities/190268/"
+      }
+    ],
+    "interpretation": "Sovos is putting a portfolio assembled largely through acquisitions (Blue dot is the latest) onto one platform and adding AI, so it needs a coherent packaging and price architecture across products. Inference: the stress on consumption- and outcome-based pricing, and on governance of discounts and annual uplifts, suggests the current pricing is fragmented by product and deal, and the goal is cleaner expansion revenue. Reporting to the VP, Product Transformation implies pricing is part of a broader platform rebuild, not a finance add-on. The pay range is modest for a Director title, which suggests a small team or player-coach scope.",
+    "open_questions": [
+      "How many acquired products carry separate price books today, and is a platform bundle planned?",
+      "Will consumption pricing be tied to transactions, filings or documents processed?",
+      "Is there a pricing team to inherit, or is this a function of one?"
+    ],
+    "caveat": "No public Sovos price list was found, and the posting is undated, so the role may have been open for some time.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0131"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
   }
 ]

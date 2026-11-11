@@ -158,5 +158,21 @@
     "found_via": "Michael Page Colombia job page, 2026-10-30",
     "first_seen": "2026-10-30",
     "notes": "Works for the recruiter, not the hiring company."
+  },
+  {
+    "id": "PERSON-0011",
+    "name": "Kevin Akeroyd",
+    "title": "CEO",
+    "company": "Sovos",
+    "contact_type": "relevant_contact",
+    "relationship": "Chief executive of the company",
+    "relevance": "Leads the acquisition and AI-platform strategy that the pricing role must package and monetize; the posting's hiring manager (VP, Product Transformation) is not named.",
+    "opportunity_id": "JOB-0131",
+    "linkedin_profile": null,
+    "verification": "Named as Sovos CEO in an acquisition article read today",
+    "evidence_url": "https://www.cpapracticeadvisor.com/2026/09/16/sovos-acquires-blue-dot-expanding-ai-native-diagnostics-workflow-and-intelligence-capabilities/190268/",
+    "found_via": "CPA Practice Advisor, 2026-09-16 (read 2026-11-11)",
+    "first_seen": "2026-11-11",
+    "notes": null
   }
 ]
