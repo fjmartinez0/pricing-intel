@@ -736,38 +736,48 @@
     "company": "Cisco",
     "business_unit": "Product pricing",
     "industry": "Software",
-    "pricing_theme": "Portfolio pricing discipline: annual SKU reviews and new consumption metrics",
-    "current_model": "List prices by SKU for hardware, software subscriptions and services, sold mostly through partners at a discount. Splunk is priced by data ingested or by workload, with activity-based pricing in controlled availability.",
+    "pricing_theme": "Annual SKU-level price increases plus a dedicated pricing lead for the AI hardware and software portfolio.",
+    "current_model": "List prices by SKU for hardware, software subscriptions and services, sold mostly through partners at a discount; new list prices for most networking and security software and some hardware took effect in Cisco Commerce Workspace on 2026-11-07 (Splunk excluded).",
     "posting_evidence": [
-      "Senior Manager, Pricing Strategy and Monetization (Remote); many US states; USD 180,200–242,200 base; posted Aug 17, 2026.",
-      "Develops and executes pricing and monetization strategy across the hardware and software portfolio with product, finance and sales.",
-      "Leads annual pricing reviews, competitive and market analysis, price elasticity studies and scalable pricing tools."
+      "New posting: Director, Pricing Strategy and Monetization (Remote), dated 2026-11-10 on a job-board copy (job ID 2030531); hybrid Seattle or San Jose or 100% remote US; USD 233,900–330,400 starting range for U.S./Canada.",
+      "That posting owns pricing and monetization strategy for Cisco's AI portfolio (hardware and software) and reports to the Sr. Director of Pricing and Strategy in the Product Organization's Pricing team.",
+      "Duties: annual pricing reviews, competitive analysis, customer behaviour and price-elasticity studies, and scalable pricing tools; requires 12+ years in pricing strategy, revenue management or business strategy.",
+      "Cisco's careers page for that job now says it is not accepting new applications (checked 2026-11-12), so it may already be closed.",
+      "Earlier tracked roles (JOB-0025, JOB-0084) cover the broad portfolio and the cybersecurity portfolio with the same reporting line."
     ],
     "news": [
       {
-        "date": "2026-08-01",
-        "summary": "Price changes on select software and services took effect, set SKU by SKU; legacy support offers stopped being sold after Jul 25, 2026.",
-        "source": "Schneider IT Management (reseller summary)",
-        "url": "https://www.schneider.im/cisco-software-pricing-and-support-changes/"
+        "date": "2026-10-26",
+        "summary": "Cisco told distributors it will raise list prices on software and select hardware, mostly networking and security software, by a mid-single-digit percentage on average; new prices went live in Cisco Commerce Workspace on Nov. 7 and Splunk is excluded.",
+        "source": "Channel Insider",
+        "url": "https://www.channelinsider.com/channel-business/channel-analysis/news-cisco-software-hardware-price-increases-november-2026/"
       },
       {
         "date": "2026-09-18",
         "summary": "Splunk introduced activity-based pricing in controlled availability, charging when data is searched rather than when it is indexed.",
         "source": "TechTarget",
         "url": "https://www.techtarget.com/it-infrastructure/news/366650721/Seismic-shift-in-Splunk-pricing-spotlights-AI-data-management"
+      },
+      {
+        "date": "2026-08-01",
+        "summary": "Price changes on select software and services took effect, set SKU by SKU; legacy support offers stopped being sold after Jul 25, 2026.",
+        "source": "Schneider IT Management (reseller summary)",
+        "url": "https://www.schneider.im/cisco-software-pricing-and-support-changes/"
       }
     ],
-    "interpretation": "Cisco runs pricing as an annual, SKU-by-SKU discipline and is consolidating support offers, which simplifies the catalogue and moves customers to newer support tiers. Splunk's activity-based pricing shows Cisco testing consumption metrics that suit AI-era data volumes. This role centres on running the annual cycle and the analytics behind it (elasticity, benchmarks), which suits an analytical pricing manager more than a packaging innovator.",
+    "interpretation": "Cisco calls the November increase a 'portfolio rebalancing'. Together with the reseller-reported August changes, it shows pricing run as a recurring, SKU-level list-price exercise, with cost pressure (components, memory) cited as context. The new AI-portfolio director role, alongside the earlier security-portfolio one, suggests (inference) Cisco is building pricing leads by portfolio under one Sr. Director, with AI infrastructure as a new monetization area. Candidates should expect annual price-review work plus the harder question of how to price AI hardware and software bundles through partners.",
     "open_questions": [
-      "Which part of the portfolio does the role cover: networking, security or Splunk?",
-      "How much of realized price is decided by partner discounts versus list price?"
+      "Is the AI-portfolio director role still open, or was it filled or folded into the security role?",
+      "How much of the list-price increase is realized after partner discounts?",
+      "How will AI infrastructure be packaged: hardware plus subscription, consumption, or enterprise agreements?"
     ],
-    "caveat": "The price-change details come from a reseller summary, not Cisco; the posting names no products.",
+    "caveat": "The new posting's details come from a job-board copy, and Cisco's page now shows it closed; the price-increase details come from trade press, not a Cisco notice.",
     "confidence": "Medium",
     "linked_job_ids": [
-      "JOB-0025"
+      "JOB-0025",
+      "JOB-0084"
     ],
-    "last_updated": "2026-10-10",
+    "last_updated": "2026-11-12",
     "analysis_status": "analyzed",
     "id": "STR-0025",
     "baseline_date": "2026-10-10"
@@ -3031,6 +3041,73 @@
     "confidence": "Medium",
     "linked_job_ids": [
       "JOB-0131"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0091",
+    "company": "OpenAI",
+    "business_unit": "Finance – Pricing & Monetization (Pricing Operations)",
+    "baseline_date": "2026-11-12",
+    "last_updated": "2026-11-12",
+    "pricing_theme": "Industrializing a fast-moving pricing roadmap: a dedicated operations lead to push frequent packaging, credit and SKU changes into billing and quoting systems.",
+    "current_model": "Consumer and business plans (Free, Go, Plus, Pro tiers, Business, Enterprise) with included usage limits; Plus and Pro users can buy extra credits; API billed per million tokens by model, with GPT-5.6 Sol promotional API pricing listed until 2026-11-30 (per ProvenBrief's November 2026 read of OpenAI's rate cards; OpenAI's own pages could not be read).",
+    "posting_evidence": [
+      "Pricing Operations Lead, San Francisco; Finance department, Pricing & Monetization team; senior level; one aggregator dates it 2026-10-01.",
+      "Mandate: run pricing and packaging decisions from approval through implementation and launch, and translate pricing policy into business requirements for billing, quoting and revenue systems.",
+      "Owns intake and prioritization of pricing requirements and supports new product, SKU, packaging and billing configurations moving into production.",
+      "Builds 'lightweight' pricing operations: governance, documentation, sign-offs and issue tracking; asked to reduce ambiguity, delays and rework in pricing execution.",
+      "Requires 6+ years leading pricing operations or related monetization, commercialization or revenue operations work, and close work with billing, product, engineering, finance and GTM."
+    ],
+    "news": [
+      {
+        "date": "2026-11-01",
+        "summary": "OpenAI emailed subscribers that ChatGPT and Codex will draw from one shared usage allowance from December 2026 on Plus, Pro and Business, with unlimited Instant chats exempt and a combined meter in Settings.",
+        "source": "ProvenBrief (citing TechRepublic)",
+        "url": "https://provenbrief.com/story/openai-codex-pricing-every-plan-credit-and-api-cost-explained"
+      }
+    ],
+    "interpretation": "OpenAI already has separate pricing strategists for API, Chat & Codex and GTM; this role adds the execution layer. That suggests (inference) that the number of pricing changes, such as shared allowances, credit purchases, promotional rates and model retirements, is now outpacing the systems and processes that implement them. The December shared ChatGPT/Codex allowance is the kind of change that needs exactly this cross-system coordination. The job is less about setting price levels and more about launch readiness, billing requirements and change control, so it suits someone from pricing operations, CPQ/billing or RevOps.",
+    "open_questions": [
+      "Which billing and quoting systems does the role specify requirements for, and who owns them in Engineering?",
+      "How many pricing changes per quarter go through approval, and what are the current failure points in launch?",
+      "Does the role report to the Head of Pricing & Monetization or into Finance operations?"
+    ],
+    "caveat": "OpenAI's own job and pricing pages could not be read; the posting details come from a job-board copy, and the news item comes from a third-party summary.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0132"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0092",
+    "company": "Envestnet",
+    "business_unit": "Pricing and Deal Desk",
+    "baseline_date": "2026-11-12",
+    "last_updated": "2026-11-12",
+    "pricing_theme": "Tightening deal-level pricing discipline and discount governance on large wealth-tech platform deals.",
+    "current_model": null,
+    "posting_evidence": [
+      "Pricing Director; hybrid in Berwyn PA, Boston MA or Raleigh NC, or remote on the East Coast; posted 2026-09-11 on a job-board copy; applications close 2026-11-15; USD 125,900–157,400 base plus incentive.",
+      "Leads pricing for large, complex deals, including proposal structure and economics, in partnership with Sales.",
+      "Oversees Deal Desk operations: governance, approval workflows, pricing guardrails and execution standards.",
+      "Analyzes historical pricing, win/loss, discounting and competitive pressure; tracks discount trends, renewals and price realization on dashboards.",
+      "Nice to have: SaaS, fintech or wealth-management experience, CPQ implementation, and renewal or retention work."
+    ],
+    "news": [],
+    "interpretation": "The mandate centres on deal economics, discount guardrails and price realization rather than list-price or packaging design. That points (inference) to leakage in negotiated enterprise deals and renewals being the main pricing problem. Pairing deal-desk ownership with win/loss analysis suggests the company wants evidence-based discount authority rather than case-by-case approvals. The pay band is modest for a director title, so the role may be closer to a senior manager running a deal desk than an executive pricing owner.",
+    "open_questions": [
+      "Does the role cover asset-based platform fees, subscription software, or both?",
+      "What share of revenue goes through the deal desk, and what discount authority will the role hold?",
+      "Who does the role report to: Finance, Sales or Product?"
+    ],
+    "caveat": "Envestnet's careers page could not be read (HTTP 403), and no pricing-specific news from the last three months was found, so this rests on one job-board copy.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0133"
     ],
     "industry": "Software",
     "analysis_status": "analyzed"

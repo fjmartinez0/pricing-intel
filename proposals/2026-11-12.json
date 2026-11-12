@@ -1,0 +1,110 @@
+{
+  "run_date": "2026-11-12",
+  "searches_run": 62,
+  "searches_by_country": { "Canada": 26, "Colombia": 14, "United States": 22 },
+  "watchlist_checked": [
+    "Loblaw", "Metro", "Sobeys / Empire", "Couche-Tard", "Dollarama", "Canadian Tire", "Saputo", "Molson Coors Canada", "BRP", "Belron Canada",
+    "Procter & Gamble", "Unilever", "Nestlé", "Kimberly-Clark", "Colgate-Palmolive", "Natura &Co", "Belcorp", "Softys",
+    "OpenAI", "Anthropic", "Databricks", "Figma", "Notion", "Cisco"
+  ],
+  "new_opportunities": [
+    {
+      "company": "OpenAI", "title": "Pricing Operations Lead", "business_unit": "Finance – Pricing & Monetization", "category": "Pricing",
+      "country": "United States", "city": "San Francisco", "location_note": null,
+      "work_mode": "Unknown", "work_model": "Not stated", "salary_advertised": "Not stated",
+      "employer_posting_date": null, "official_url": "https://jobs.ashbyhq.com/openai/9911c8fc-4cff-4d6b-9a11-07114ef0f6bf", "secondary_url": "https://www.dreamworkhq.com/job/d1b86820-6453-4fa9-b285-a22336ad0e12", "requisition_id": null,
+      "summary": "Leads operational execution of pricing and packaging decisions from approval through launch: turns pricing policy into billing, quoting and revenue-system requirements, owns intake and prioritization of pricing requirements, and sets up pricing governance.",
+      "pricing_focus": "Pricing operations; billing/SKU execution; governance",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "Senior IC execution role (6+ yrs pricing operations). The Ashby page shows only the title; the description was read from a job-board copy. Aggregators disagree on pay (USD 234k–260k vs 284k–315k), and one gives a 2026-10-01 posting date; neither is confirmed on the employer page. Distinct from tracked OpenAI roles JOB-0055, JOB-0098 and JOB-0105. A related 'Head of Pricing Operations' posting (May 2026) is closed.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Envestnet", "title": "Pricing Director", "business_unit": "Pricing and Deal Desk", "category": "Pricing",
+      "country": "United States", "city": "Raleigh", "location_note": "Also Berwyn, PA and Boston, MA (separate postings 18233400 and 18233401); remote allowed for other East Coast areas. Application window closes 2026-11-15.",
+      "work_mode": "Hybrid", "work_model": "Hybrid (Berwyn, Boston or Raleigh); remote for other East Coast areas", "salary_advertised": "Pay: $125,900–$157,400/yr (job-board copy; employer page not readable)",
+      "employer_posting_date": "2026-09-11", "official_url": "https://careers.envestnet.com/jobs/18233402-pricing-director", "secondary_url": "https://tallo.com/talent/job/finance/pricing-analyst/remote/pricing-director-3cfd643c", "requisition_id": "18233402",
+      "summary": "Leads pricing on large, complex deals and oversees Deal Desk governance, approval workflows and pricing guardrails; analyzes win/loss, discounting and price realization and builds pricing business cases for SaaS fintech products.",
+      "pricing_focus": "Enterprise deal pricing; discount governance; price realization",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "Focused on deal pricing and deal-desk governance more than list-price strategy. The employer page returned HTTP 403; details, date and pay come from a Tallo copy. No visa sponsorship. Closes 2026-11-15.", "strategy_confidence": "Medium"
+    }
+  ],
+  "url_updates": [],
+  "strategy_updates": [
+    {
+      "id": null, "company": "OpenAI", "business_unit": "Finance – Pricing & Monetization (Pricing Operations)",
+      "pricing_theme": "Industrializing a fast-moving pricing roadmap: a dedicated operations lead to push frequent packaging, credit and SKU changes into billing and quoting systems.",
+      "current_model": "Consumer and business plans (Free, Go, Plus, Pro tiers, Business, Enterprise) with included usage limits; Plus and Pro users can buy extra credits; API billed per million tokens by model, with GPT-5.6 Sol promotional API pricing listed until 2026-11-30 (per ProvenBrief's November 2026 read of OpenAI's rate cards; OpenAI's own pages could not be read).",
+      "industry": "Software",
+      "posting_evidence": [
+        "Pricing Operations Lead, San Francisco; Finance department, Pricing & Monetization team; senior level; one aggregator dates it 2026-10-01.",
+        "Mandate: run pricing and packaging decisions from approval through implementation and launch, and translate pricing policy into business requirements for billing, quoting and revenue systems.",
+        "Owns intake and prioritization of pricing requirements and supports new product, SKU, packaging and billing configurations moving into production.",
+        "Builds 'lightweight' pricing operations: governance, documentation, sign-offs and issue tracking; asked to reduce ambiguity, delays and rework in pricing execution.",
+        "Requires 6+ years leading pricing operations or related monetization, commercialization or revenue operations work, and close work with billing, product, engineering, finance and GTM."
+      ],
+      "news": [
+        { "date": "2026-11-01", "summary": "OpenAI emailed subscribers that ChatGPT and Codex will draw from one shared usage allowance from December 2026 on Plus, Pro and Business, with unlimited Instant chats exempt and a combined meter in Settings.", "source": "ProvenBrief (citing TechRepublic)", "url": "https://provenbrief.com/story/openai-codex-pricing-every-plan-credit-and-api-cost-explained" }
+      ],
+      "interpretation": "OpenAI already has separate pricing strategists for API, Chat & Codex and GTM; this role adds the execution layer. That suggests (inference) that the number of pricing changes, such as shared allowances, credit purchases, promotional rates and model retirements, is now outpacing the systems and processes that implement them. The December shared ChatGPT/Codex allowance is the kind of change that needs exactly this cross-system coordination. The job is less about setting price levels and more about launch readiness, billing requirements and change control, so it suits someone from pricing operations, CPQ/billing or RevOps.",
+      "open_questions": [
+        "Which billing and quoting systems does the role specify requirements for, and who owns them in Engineering?",
+        "How many pricing changes per quarter go through approval, and what are the current failure points in launch?",
+        "Does the role report to the Head of Pricing & Monetization or into Finance operations?"
+      ],
+      "caveat": "OpenAI's own job and pricing pages could not be read; the posting details come from a job-board copy, and the news item comes from a third-party summary.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:0"]
+    },
+    {
+      "id": null, "company": "Envestnet", "business_unit": "Pricing and Deal Desk",
+      "pricing_theme": "Tightening deal-level pricing discipline and discount governance on large wealth-tech platform deals.",
+      "current_model": null,
+      "industry": "Software",
+      "posting_evidence": [
+        "Pricing Director; hybrid in Berwyn PA, Boston MA or Raleigh NC, or remote on the East Coast; posted 2026-09-11 on a job-board copy; applications close 2026-11-15; USD 125,900–157,400 base plus incentive.",
+        "Leads pricing for large, complex deals, including proposal structure and economics, in partnership with Sales.",
+        "Oversees Deal Desk operations: governance, approval workflows, pricing guardrails and execution standards.",
+        "Analyzes historical pricing, win/loss, discounting and competitive pressure; tracks discount trends, renewals and price realization on dashboards.",
+        "Nice to have: SaaS, fintech or wealth-management experience, CPQ implementation, and renewal or retention work."
+      ],
+      "news": [],
+      "interpretation": "The mandate centres on deal economics, discount guardrails and price realization rather than list-price or packaging design. That points (inference) to leakage in negotiated enterprise deals and renewals being the main pricing problem. Pairing deal-desk ownership with win/loss analysis suggests the company wants evidence-based discount authority rather than case-by-case approvals. The pay band is modest for a director title, so the role may be closer to a senior manager running a deal desk than an executive pricing owner.",
+      "open_questions": [
+        "Does the role cover asset-based platform fees, subscription software, or both?",
+        "What share of revenue goes through the deal desk, and what discount authority will the role hold?",
+        "Who does the role report to: Finance, Sales or Product?"
+      ],
+      "caveat": "Envestnet's careers page could not be read (HTTP 403), and no pricing-specific news from the last three months was found, so this rests on one job-board copy.",
+      "confidence": "Low",
+      "linked_job_refs": ["new:1"]
+    },
+    {
+      "id": null, "company": "Cisco", "business_unit": "Product pricing",
+      "pricing_theme": "Annual SKU-level price increases plus a dedicated pricing lead for the AI hardware and software portfolio.",
+      "current_model": "List prices by SKU for hardware, software subscriptions and services, sold mostly through partners at a discount; new list prices for most networking and security software and some hardware took effect in Cisco Commerce Workspace on 2026-11-07 (Splunk excluded).",
+      "industry": "Software",
+      "posting_evidence": [
+        "New posting: Director, Pricing Strategy and Monetization (Remote), dated 2026-11-10 on a job-board copy (job ID 2030531); hybrid Seattle or San Jose or 100% remote US; USD 233,900–330,400 starting range for U.S./Canada.",
+        "That posting owns pricing and monetization strategy for Cisco's AI portfolio (hardware and software) and reports to the Sr. Director of Pricing and Strategy in the Product Organization's Pricing team.",
+        "Duties: annual pricing reviews, competitive analysis, customer behaviour and price-elasticity studies, and scalable pricing tools; requires 12+ years in pricing strategy, revenue management or business strategy.",
+        "Cisco's careers page for that job now says it is not accepting new applications (checked 2026-11-12), so it may already be closed.",
+        "Earlier tracked roles (JOB-0025, JOB-0084) cover the broad portfolio and the cybersecurity portfolio with the same reporting line."
+      ],
+      "news": [
+        { "date": "2026-10-26", "summary": "Cisco told distributors it will raise list prices on software and select hardware, mostly networking and security software, by a mid-single-digit percentage on average; new prices went live in Cisco Commerce Workspace on Nov. 7 and Splunk is excluded.", "source": "Channel Insider", "url": "https://www.channelinsider.com/channel-business/channel-analysis/news-cisco-software-hardware-price-increases-november-2026/" }
+      ],
+      "interpretation": "Cisco calls the November increase a 'portfolio rebalancing'. Together with the reseller-reported August changes, it shows pricing run as a recurring, SKU-level list-price exercise, with cost pressure (components, memory) cited as context. The new AI-portfolio director role, alongside the earlier security-portfolio one, suggests (inference) Cisco is building pricing leads by portfolio under one Sr. Director, with AI infrastructure as a new monetization area. Candidates should expect annual price-review work plus the harder question of how to price AI hardware and software bundles through partners.",
+      "open_questions": [
+        "Is the AI-portfolio director role still open, or was it filled or folded into the security role?",
+        "How much of the list-price increase is realized after partner discounts?",
+        "How will AI infrastructure be packaged: hardware plus subscription, consumption, or enterprise agreements?"
+      ],
+      "caveat": "The new posting's details come from a job-board copy, and Cisco's page now shows it closed; the price-increase details come from trade press, not a Cisco notice.",
+      "confidence": "Medium",
+      "linked_job_refs": ["JOB-0025", "JOB-0084"]
+    }
+  ],
+  "people": [],
+  "notes": "Searched Canada (Montreal, Quebec, Toronto, Ottawa, Canada remote; EN/FR), Colombia (Bogotá, Medellín, Cali, LATAM remote; elempleo pricing/precios/revenue-management/revenue-growth pages) and US (SaaS, CPG RGM, retail/industrial). No new Canada or Colombia roles passed the rules: the Lightspeed, Loblaw, Canadian Tire, Kenvue, Air Canada Vacations, Fluidra, Cargill, Accor and Magneto 'Gerente RGM' leads are closed or expired (404/410), and the fresh elempleo roles (PTA 'Coordinador pricing - comercio internacional', MentorHub 'Analista de pricing de transporte') are freight-rate quoting and out of scope. Flag: Cisco posted a new Director, Pricing Strategy and Monetization (AI portfolio, 2026-11-10), but its careers page already says it is not accepting applications, so it was not proposed. No official URLs found for JOB-0108 (Fasken), JOB-0122 (Staples Canada) or JOB-0114 (Superpolo); JOB-0112 and JOB-0113 are confidential recruiter listings. Purple's 'Revenue Manager (Remote | LATAM Only)' was skipped: unnamed client, no date. Group 4 Canadian and Colombian watchlist employers were checked mostly by targeted search, because their careers search pages did not render or filter (P&G, Colgate, Loblaw, Unilever)."
+}
