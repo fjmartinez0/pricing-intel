@@ -3111,5 +3111,65 @@
     ],
     "industry": "Software",
     "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0093",
+    "company": "Fireworks",
+    "business_unit": "Pricing & Monetization Strategy",
+    "baseline_date": "2026-11-13",
+    "last_updated": "2026-11-13",
+    "pricing_theme": "Building a dedicated pricing function to manage usage-based AI inference pricing as model and GPU costs fall and competition tightens.",
+    "current_model": "Usage-based with prepaid credits. Serverless inference is billed per 1M input, cached-input and output tokens, with Standard, Priority, Fast, Batch (50% off) and Spot (30% off) modes. For example, GLM 5.3 is $1.40 input / $4.40 output per 1M tokens Standard, and cached input is 50% off by default. On-demand GPUs are billed per GPU-second (H100/H200 $8.00/hr, B200 $13.00/hr, B300 $15.00/hr, GB300 $20.00/hr; region-restricted deployments at 1.5x). Reserved Throughput is a $/minute commitment with an SLA, and Reserved GPUs (typically 1 year) get lower hourly rates. Training is priced per 1M tokens or per GPU-hour (from $8.00). Nexus plans: Pro $8/month, Team $10 per seat/month. Enterprise gets volume and prepaid discounts, post-paid invoicing, and usage can count toward a Microsoft Azure Consumption Commitment.",
+    "posting_evidence": [
+      "Senior pricing lead (title on Ashby: 'Head Of Pricing & Monetization Strategy'; the Menlo VC copy body says 'Pricing Strategy Director'), San Mateo or New York, posted 2026-10-30; reporting line not stated.",
+      "Mandate: evolve pricing and packaging architecture with Product, align price to customer value and simplify how customers buy.",
+      "Explicitly tracks competitor moves, model and hardware cost trends and inference demand shifts, and builds response playbooks.",
+      "Owns revenue, margin, adoption and elasticity models; implements monetization across billing, quoting, contracts and internal tooling with Systems, Finance and Ops.",
+      "GTM side: discount guardrails, deal frameworks and field training; preferred background in usage/consumption/hybrid pricing for cloud or developer platforms, and in compute-cost and gross-margin economics."
+    ],
+    "news": [],
+    "interpretation": "Fireworks already runs a dense, multi-dimensional rate card (token modes, spot and batch discounts, reserved throughput, GPU tiers, seat-based Nexus plans). The role looks designed to bring governance and a coherent architecture to it rather than to invent pricing from scratch. Inference: because the posting stresses hardware-cost trends and competitor response playbooks, the company expects frequent price resets as new GPUs and cheaper open models arrive, and needs to protect gross margin while staying price-competitive. The emphasis on discount guardrails and deal frameworks suggests that enterprise and committed-spend deals are growing as a share of revenue, so price realization on negotiated contracts now matters as much as list price.",
+    "open_questions": [
+      "Does the role report to Finance, Product or the CEO, and will it get headcount to build a pricing team?",
+      "How are reserved and committed-spend contracts priced against serverless list rates, and who owns discount approval today?",
+      "How often are per-token prices reset as model and GPU costs fall, and what margin floor governs those changes?"
+    ],
+    "caveat": "Posting details come from a VC job-board copy because the Ashby page renders only the title. I found no pricing-specific news from the last three months; the most recent coverage (a USD 1.505B Series D at a USD 17.5B valuation, July 2026) falls outside the window and is not about pricing.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0135"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0094",
+    "company": "CSC Generation",
+    "business_unit": "Finance – Economics & Pricing (Shared Services)",
+    "baseline_date": "2026-11-13",
+    "last_updated": "2026-11-13",
+    "pricing_theme": "Building an automated, explainable markdown and clearance pricing engine across acquired retail brands.",
+    "current_model": null,
+    "posting_evidence": [
+      "Director of Economics & Pricing, Remote - Canada or Remote - US (prefers candidates near Austin or Toronto hubs); Finance team, Shared Services - CAN; Lever createdAt 2026-02-06, still accepting applications on 2026-11-13.",
+      "Owns the economic framework for pricing and inventory disposition: contribution margin, holding cost and option value.",
+      "Defines the 'Bleeder / At-Risk / Healthy' inventory classification and the policies tied to it.",
+      "Partners with data science on time-to-sell, demand and elasticity models, and with engineering to productionize daily decisioning, guardrails, monitoring and overrides; uses LLMs with guardrails for hypothesis generation and model evaluation.",
+      "The company describes itself as an 'AI-native holding company re-engineering omni-channel retail'; portfolio brands named include Sur La Table, Backcountry and One Kings Lane."
+    ],
+    "news": [],
+    "interpretation": "The posting frames pricing as a daily decision system for inventory health, not as list-price strategy. The core problem is when and how deeply to mark down slow-moving stock across several acquired home and outdoor banners. Inference: running a shared economics engine on its Genesis platform lets the holding company apply one markdown and clearance logic across brands, which fits its acquire-and-transform model. That logic would free working capital tied up in aged inventory and cut margin leakage from ad-hoc discounting. The role is likely more quantitative and systems-oriented than commercial, and success would be measured by sell-through, inventory turns and contribution margin rather than by price-realization metrics.",
+    "open_questions": [
+      "Which brands are already on the pricing decision system, and who holds final markdown authority: the brand merchants or this central role?",
+      "Why has the role been open since February 2026: a change in scope, a hard profile to hire, or a pause in hiring?",
+      "Does the mandate extend to full-price (regular) pricing and promotions, or only to markdown and disposition?"
+    ],
+    "caveat": "Based only on the job posting. I found no recent pricing news for CSC Generation, it is privately held with no public pricing disclosures, and the posting is about nine months old.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0134"
+    ],
+    "industry": "Retail / e-commerce",
+    "analysis_status": "analyzed"
   }
 ]
