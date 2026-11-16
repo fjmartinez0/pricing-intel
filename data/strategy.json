@@ -3171,5 +3171,122 @@
     ],
     "industry": "Retail / e-commerce",
     "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0095",
+    "company": "Walmart Canada",
+    "business_unit": "Pricing – promotional and event pricing (Merchandising)",
+    "baseline_date": "2026-11-16",
+    "last_updated": "2026-11-16",
+    "pricing_theme": "Running EDLP-plus-Rollback promotional pricing at event scale (weekly flyer, Black Friday) with tighter governance and price integrity",
+    "current_model": "Everyday-low-price retailer with temporary Rollback markdowns, regional weekly flyers and seasonal events. The 2026 Black Friday event ran online from Nov 12, with the main sale from Nov 18 (online) and Nov 19 (in store), plus a Cyber Monday wave.",
+    "posting_evidence": [
+      "Senior Manager, Pricing; Mississauga home office (1940 Argentia Rd); posted 2026-11-05; req R-2689259; CA$109,400–150,480",
+      "Leads a team covering planning, auditing, business support and execution for promotional and event pricing; serves as Pricing Lead for major events",
+      "Works with category managers and directors on weekly flyer and event pricing; coordinates with Merchandising, Marketing and Operations",
+      "Liaises with separate Pricing Strategy and Analytics teams; owns new measurement and reporting methods and communicates price actions for store labour forecasting and annual pricing targets",
+      "Mandate includes technology to improve pricing transparency, efficiency and controls (governance and integrity focus)"
+    ],
+    "news": [
+      {
+        "date": "2026-11-15",
+        "summary": "Walmart Canada opened its 2026 Black Friday sale with online early deals from Nov 12, a main sale starting Nov 18 online and Nov 19 in store running about two weeks, and Cyber Monday deals from Nov 29 (e.g. onn 50-inch Mini-LED TV at $298, down from $388).",
+        "source": "iPhone in Canada",
+        "url": "https://www.iphoneincanada.ca/2026/11/15/walmart-canada-black-friday-deals-2026/"
+      },
+      {
+        "date": "2026-08-24",
+        "summary": "Walmart (parent; the article does not say which markets) rolled back prices on 7,200 items early in the year and announced a second round of 11,000 more, many of them food, partly funded by nearly $3B in Q2 tariff refunds, according to CFRA.",
+        "source": "Marketplace",
+        "url": "https://www.marketplace.org/story/2026/08/24/walmart-announces-price-cuts-while-grocery-costs-soar"
+      }
+    ],
+    "interpretation": "Walmart Canada appears to split pricing into strategy and analytics teams on one side and an execution and governance team on the other; this role leads the second. The emphasis on major events, flyer cadence and price integrity suggests the company wants promotional depth without leakage or errors as Black Friday and holiday volume peak (inference). The parent's 2026 rollback push implies continued pressure to show visible price investment in Canada too, although I found no Canada-specific 2026 price announcement. For a candidate, this is a people-leadership operations role with strong cross-functional exposure, not a pricing-strategy design role.",
+    "open_questions": [
+      "How are decision rights split between this team and the Pricing Strategy & Analytics teams on promo depth and event pricing?",
+      "Which pricing systems and tools are in place, and what technology changes is the team expected to drive in 2027?",
+      "Is the role on-site, hybrid or remote? The employer page is silent and a job-board copy says remote."
+    ],
+    "caveat": "The employer page lists responsibilities but no qualifications, reporting line or work model. The news covers events and the US parent's actions, not a Canadian pricing-policy change.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0136"
+    ],
+    "industry": "Retail",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0096",
+    "company": "Baseten",
+    "business_unit": "Product (pricing and packaging)",
+    "baseline_date": "2026-11-16",
+    "last_updated": "2026-11-16",
+    "pricing_theme": "Formalizing pricing and packaging for a multi-product AI inference platform as it moves from per-GPU-minute and per-token rates toward commitments, credits and new products",
+    "current_model": "Pay-as-you-go usage billing with no platform fee. Dedicated inference is billed per GPU-minute (e.g. H100 $0.10833/min ≈ $6.50/hr; A100 $0.06667/min; T4 $0.01052/min). Model APIs are priced per 1M tokens (input / cached input / output, e.g. GPT OSS 120B $0.10/$0.50; DeepSeek V4.1 Flash $0.30/$0.007/$1.20). Training uses the same per-minute GPU rates plus serverless Loops token pricing. A 'Production scale' tier offers custom pricing, volume discounts and reserved capacity through sales.",
+    "posting_evidence": [
+      "Product Manager, Pricing and Monetization; San Francisco (also listed for New York); posted 2026-11-11 per a job-board copy; $200K–$400K plus equity",
+      "Owns pricing and packaging across inference, training, sandboxes, Grid and future products",
+      "Designs models for token-based inference, dedicated deployments, reserved capacity and new AI workloads; works with engineering and finance on GPU utilization, margins and infrastructure costs",
+      "Shapes the purchasing experience: credits, commitments, discounts, overages and billing clarity; manages customer transitions with sales and finance",
+      "Requires 10+ years in pricing for cloud infrastructure, developer platforms or usage-based products; SQL, financial modeling and cohort analysis"
+    ],
+    "news": [
+      {
+        "date": "2026-11-01",
+        "summary": "Baseten moved its elephant-1 (9B) and mammoth-1 (27B) decision models from a free launch period to paid usage on Model APIs from Oct 27, 2026, at $0.035 and $0.10 per 1M input tokens.",
+        "source": "Baseten changelog",
+        "url": "https://www.baseten.co/resources/changelog/elephant-1-and-mammoth-1-pricing"
+      }
+    ],
+    "interpretation": "Baseten's public pricing is still simple metered rates (GPU-minutes and tokens). The posting points to a more layered commercial model: commitments, credits, reserved capacity and packaging for newer products such as sandboxes and Grid. Converting free launches into paid usage (elephant-1 and mammoth-1) suggests the company is now monetizing a widening catalogue, with margins tied directly to GPU utilization (inference). The role is likely the first or central owner of pricing architecture, balancing margin discipline against adoption in a price-competitive inference market.",
+    "open_questions": [
+      "Is this the first dedicated pricing hire, and who does it report to (Product, Finance or the CEO)?",
+      "How will reserved capacity and commitment pricing be balanced against pay-as-you-go to protect GPU utilization margins?",
+      "What packaging is planned for sandboxes and Grid, and will they share a single credit or commitment currency with inference?"
+    ],
+    "caveat": "The full posting was read only through a job-board copy (the Ashby page shows just the title), and funding and revenue figures in search results were secondary sources I did not use.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0137"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0097",
+    "company": "Checkr",
+    "business_unit": "Finance",
+    "baseline_date": "2026-11-16",
+    "last_updated": "2026-11-16",
+    "pricing_theme": "Building a dedicated pricing function to keep packaging coherent as Checkr expands from background checks into a multi-product verification platform (identity, mortgage, tenant, trust)",
+    "current_model": "Pay-as-you-go per-report pricing, no minimums listed. Workforce packages: Basic from $29.99, Essential from $59.99, Complete from $94.99 per report, and Enterprise by quote. Tenant packages are $24.99–$44.99 per report; mortgage verification is $59.95 (employment) and $64.95 (income and employment) per verification; Trust products are quote-only. Many priced add-ons (e.g. MVR $9.50, continuous criminal $1.70 per individual per month, identity verification $4.99). Third-party court and DMV fees are passed through at cost.",
+    "posting_evidence": [
+      "Head of Pricing Strategy; San Francisco, 3+ days a week in office; first published 2026-11-13; req R4302; $247K–$291K OTE or base; Finance department",
+      "Owns pricing and packaging strategy across all products and go-to-market channels, from enterprise to self-serve",
+      "Builds models for new and existing products, including consumption-based and outcome-based structures; runs conjoint, Van Westendorp and willingness-to-pay research plus pricing experiments",
+      "Asked to 'build a pricing function' with AI-powered research and modern tooling, and to keep architecture coherent as Checkr 'launches products, acquires companies, and scales channels'",
+      "Owns pricing governance with Product, Sales, Marketing and Deal Desk; defines pricing KPIs and reports to senior leadership"
+    ],
+    "news": [
+      {
+        "date": "2026-08-19",
+        "summary": "Checkr acquired Truv, a provider of consumer-permissioned income, employment and asset verification, extending it beyond background checks and identity verification into lending use cases.",
+        "source": "Biometric Update",
+        "url": "https://www.biometricupdate.com/202608/checkrs-truv-acquisition-expands-identity-verification-beyond-identity"
+      }
+    ],
+    "interpretation": "Checkr now sells several product lines (workforce, tenant, mortgage, trust, personal profiles), each with its own per-report price book and add-ons, and the posting says it is still acquiring companies such as Truv. A new Head of Pricing Strategy in Finance suggests leadership wants one pricing architecture and governance model before the catalogue fragments further, and may be exploring consumption or outcome-based bundles beyond per-report fees (inference). Placing the role under a CFO appointed in 2026 who frames Checkr as a 'multi-product data platform' points to a margin and portfolio lens rather than pure product-led pricing.",
+    "open_questions": [
+      "Does the role report to the CFO, and will it have headcount to build the team the posting describes?",
+      "Will acquired products such as Truv keep their own price books or be folded into cross-product bundles or platform pricing?",
+      "How much enterprise pricing is set by Deal Desk today versus published self-serve packages, and which of those will this role own?"
+    ],
+    "caveat": "The posting does not state the reporting line. Third-party sources gave conflicting historical package prices, so I used only Checkr's own pricing page as read today.",
+    "confidence": "High",
+    "linked_job_ids": [
+      "JOB-0138"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
   }
 ]

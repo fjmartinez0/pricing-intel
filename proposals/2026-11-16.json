@@ -1,0 +1,179 @@
+{
+  "run_date": "2026-11-16",
+  "searches_run": 82,
+  "searches_by_country": { "Canada": 36, "Colombia": 21, "United States": 20 },
+  "watchlist_checked": ["Shopify", "Lightspeed", "Coveo", "Nuvei", "Wealthsimple", "Clio", "Unity", "Electronic Arts Montreal", "Ubisoft", "Autodesk", "Bancolombia", "Davivienda", "Nubank Colombia", "Addi", "Bold", "Mastercard", "Visa", "Twilio", "Salesforce", "Microsoft", "Adobe", "Atlassian", "ServiceNow"],
+  "new_opportunities": [
+    {
+      "company": "Walmart Canada",
+      "title": "Senior Manager, Pricing",
+      "business_unit": "Pricing – promotional and event pricing (Merchandising)",
+      "category": "Pricing",
+      "country": "Canada",
+      "city": "Mississauga",
+      "location_note": "Primary site 1940 Argentia Rd, Mississauga, ON. A Himalayas job-board copy labels it remote with Mississauga as primary location; the employer page does not state a work model.",
+      "work_mode": "Unknown",
+      "work_model": "Not stated",
+      "salary_advertised": "$109,400.00 to $150,480.00, based on relevant experience",
+      "employer_posting_date": "2026-11-05",
+      "official_url": "https://careers.walmart.ca/job/mississauga/senior-manager-pricing/4853/102915656992",
+      "secondary_url": "https://himalayas.app/companies/walmart-com/jobs/senior-manager-pricing",
+      "requisition_id": "R-2689259",
+      "summary": "Leads the team that plans, audits and executes promotional and event pricing (weekly flyer, major events) and acts as Pricing Lead for Walmart Canada's major events.",
+      "pricing_focus": "Promotional and event pricing; pricing governance and integrity",
+      "level_band": "manager_plus",
+      "level": null,
+      "scope_fit": "in_scope",
+      "scope_note": "People-leader role, though the posting leans toward promo pricing execution and governance rather than pricing strategy (it liaises with separate Pricing Strategy and Analytics teams).",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Baseten",
+      "title": "Product Manager, Pricing and Monetization",
+      "business_unit": "Product (pricing and packaging)",
+      "category": "Monetization",
+      "country": "United States",
+      "city": "San Francisco",
+      "location_note": "Baseten's careers page lists the role under Product in San Francisco and New York.",
+      "work_mode": "Hybrid",
+      "work_model": "Hybrid (per job-board copy; the Ashby page renders only the title)",
+      "salary_advertised": "$200,000 to $400,000, plus equity",
+      "employer_posting_date": "2026-11-11",
+      "official_url": "https://jobs.ashbyhq.com/baseten/bed53da9-5d16-482a-94ed-12992dfe0cfe",
+      "secondary_url": "https://freehire.me/jobs/product-manager-pricing-and-monetization-baseten-e6v6un3a",
+      "requisition_id": "bed53da9-5d16-482a-94ed-12992dfe0cfe",
+      "summary": "Owns pricing and packaging across inference, training, sandboxes, Grid and future products, including token, dedicated, reserved-capacity and commitment/credit structures.",
+      "pricing_focus": "AI inference usage-based pricing; commitments, credits and overages",
+      "level_band": "manager_plus",
+      "level": null,
+      "scope_fit": "in_scope",
+      "scope_note": "Senior IC (10+ years required) owning company-wide pricing decisions. Posting date comes from a job-board copy.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Checkr",
+      "title": "Head of Pricing Strategy",
+      "business_unit": "Finance",
+      "category": "Pricing",
+      "country": "United States",
+      "city": "San Francisco",
+      "location_note": "Checkr hubs are Denver, San Francisco, Nashville and Santiago (Chile); a relocation stipend may be available.",
+      "work_mode": "Hybrid",
+      "work_model": "Individuals are expected to work from the office 3+ days a week",
+      "salary_advertised": "On-target Earnings OR Base Salary range (San Francisco, CA): $247,000 - $291,000 USD",
+      "employer_posting_date": "2026-11-13",
+      "official_url": "https://job-boards.greenhouse.io/checkr/jobs/8384206",
+      "secondary_url": null,
+      "requisition_id": "R4302",
+      "summary": "Owns pricing and packaging strategy across all products and channels, from enterprise to self-serve, and builds the pricing function, research program and governance.",
+      "pricing_focus": "B2B pricing architecture across a growing multi-product portfolio; consumption and outcome-based models",
+      "level_band": "manager_plus",
+      "level": null,
+      "scope_fit": "in_scope",
+      "scope_note": null,
+      "strategy_confidence": "High"
+    }
+  ],
+  "url_updates": [],
+  "strategy_updates": [
+    {
+      "id": null,
+      "company": "Walmart Canada",
+      "business_unit": "Pricing – promotional and event pricing (Merchandising)",
+      "pricing_theme": "Running EDLP-plus-Rollback promotional pricing at event scale (weekly flyer, Black Friday) with tighter governance and price integrity",
+      "current_model": "Everyday-low-price retailer with temporary Rollback markdowns, regional weekly flyers and seasonal events. The 2026 Black Friday event ran online from Nov 12, with the main sale from Nov 18 (online) and Nov 19 (in store), plus a Cyber Monday wave.",
+      "industry": "Retail",
+      "posting_evidence": [
+        "Senior Manager, Pricing; Mississauga home office (1940 Argentia Rd); posted 2026-11-05; req R-2689259; CA$109,400–150,480",
+        "Leads a team covering planning, auditing, business support and execution for promotional and event pricing; serves as Pricing Lead for major events",
+        "Works with category managers and directors on weekly flyer and event pricing; coordinates with Merchandising, Marketing and Operations",
+        "Liaises with separate Pricing Strategy and Analytics teams; owns new measurement and reporting methods and communicates price actions for store labour forecasting and annual pricing targets",
+        "Mandate includes technology to improve pricing transparency, efficiency and controls (governance and integrity focus)"
+      ],
+      "news": [
+        { "date": "2026-11-15", "summary": "Walmart Canada opened its 2026 Black Friday sale with online early deals from Nov 12, a main sale starting Nov 18 online and Nov 19 in store running about two weeks, and Cyber Monday deals from Nov 29 (e.g. onn 50-inch Mini-LED TV at $298, down from $388).", "source": "iPhone in Canada", "url": "https://www.iphoneincanada.ca/2026/11/15/walmart-canada-black-friday-deals-2026/" },
+        { "date": "2026-08-24", "summary": "Walmart (parent; the article does not say which markets) rolled back prices on 7,200 items early in the year and announced a second round of 11,000 more, many of them food, partly funded by nearly $3B in Q2 tariff refunds, according to CFRA.", "source": "Marketplace", "url": "https://www.marketplace.org/story/2026/08/24/walmart-announces-price-cuts-while-grocery-costs-soar" }
+      ],
+      "interpretation": "Walmart Canada appears to split pricing into strategy and analytics teams on one side and an execution and governance team on the other; this role leads the second. The emphasis on major events, flyer cadence and price integrity suggests the company wants promotional depth without leakage or errors as Black Friday and holiday volume peak (inference). The parent's 2026 rollback push implies continued pressure to show visible price investment in Canada too, although I found no Canada-specific 2026 price announcement. For a candidate, this is a people-leadership operations role with strong cross-functional exposure, not a pricing-strategy design role.",
+      "open_questions": [
+        "How are decision rights split between this team and the Pricing Strategy & Analytics teams on promo depth and event pricing?",
+        "Which pricing systems and tools are in place, and what technology changes is the team expected to drive in 2027?",
+        "Is the role on-site, hybrid or remote? The employer page is silent and a job-board copy says remote."
+      ],
+      "caveat": "The employer page lists responsibilities but no qualifications, reporting line or work model. The news covers events and the US parent's actions, not a Canadian pricing-policy change.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:0"]
+    },
+    {
+      "id": null,
+      "company": "Baseten",
+      "business_unit": "Product (pricing and packaging)",
+      "pricing_theme": "Formalizing pricing and packaging for a multi-product AI inference platform as it moves from per-GPU-minute and per-token rates toward commitments, credits and new products",
+      "current_model": "Pay-as-you-go usage billing with no platform fee. Dedicated inference is billed per GPU-minute (e.g. H100 $0.10833/min ≈ $6.50/hr; A100 $0.06667/min; T4 $0.01052/min). Model APIs are priced per 1M tokens (input / cached input / output, e.g. GPT OSS 120B $0.10/$0.50; DeepSeek V4.1 Flash $0.30/$0.007/$1.20). Training uses the same per-minute GPU rates plus serverless Loops token pricing. A 'Production scale' tier offers custom pricing, volume discounts and reserved capacity through sales.",
+      "industry": "Software",
+      "posting_evidence": [
+        "Product Manager, Pricing and Monetization; San Francisco (also listed for New York); posted 2026-11-11 per a job-board copy; $200K–$400K plus equity",
+        "Owns pricing and packaging across inference, training, sandboxes, Grid and future products",
+        "Designs models for token-based inference, dedicated deployments, reserved capacity and new AI workloads; works with engineering and finance on GPU utilization, margins and infrastructure costs",
+        "Shapes the purchasing experience: credits, commitments, discounts, overages and billing clarity; manages customer transitions with sales and finance",
+        "Requires 10+ years in pricing for cloud infrastructure, developer platforms or usage-based products; SQL, financial modeling and cohort analysis"
+      ],
+      "news": [
+        { "date": "2026-11-01", "summary": "Baseten moved its elephant-1 (9B) and mammoth-1 (27B) decision models from a free launch period to paid usage on Model APIs from Oct 27, 2026, at $0.035 and $0.10 per 1M input tokens.", "source": "Baseten changelog", "url": "https://www.baseten.co/resources/changelog/elephant-1-and-mammoth-1-pricing" }
+      ],
+      "interpretation": "Baseten's public pricing is still simple metered rates (GPU-minutes and tokens). The posting points to a more layered commercial model: commitments, credits, reserved capacity and packaging for newer products such as sandboxes and Grid. Converting free launches into paid usage (elephant-1 and mammoth-1) suggests the company is now monetizing a widening catalogue, with margins tied directly to GPU utilization (inference). The role is likely the first or central owner of pricing architecture, balancing margin discipline against adoption in a price-competitive inference market.",
+      "open_questions": [
+        "Is this the first dedicated pricing hire, and who does it report to (Product, Finance or the CEO)?",
+        "How will reserved capacity and commitment pricing be balanced against pay-as-you-go to protect GPU utilization margins?",
+        "What packaging is planned for sandboxes and Grid, and will they share a single credit or commitment currency with inference?"
+      ],
+      "caveat": "The full posting was read only through a job-board copy (the Ashby page shows just the title), and funding and revenue figures in search results were secondary sources I did not use.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:1"]
+    },
+    {
+      "id": null,
+      "company": "Checkr",
+      "business_unit": "Finance",
+      "pricing_theme": "Building a dedicated pricing function to keep packaging coherent as Checkr expands from background checks into a multi-product verification platform (identity, mortgage, tenant, trust)",
+      "current_model": "Pay-as-you-go per-report pricing, no minimums listed. Workforce packages: Basic from $29.99, Essential from $59.99, Complete from $94.99 per report, and Enterprise by quote. Tenant packages are $24.99–$44.99 per report; mortgage verification is $59.95 (employment) and $64.95 (income and employment) per verification; Trust products are quote-only. Many priced add-ons (e.g. MVR $9.50, continuous criminal $1.70 per individual per month, identity verification $4.99). Third-party court and DMV fees are passed through at cost.",
+      "industry": "Software",
+      "posting_evidence": [
+        "Head of Pricing Strategy; San Francisco, 3+ days a week in office; first published 2026-11-13; req R4302; $247K–$291K OTE or base; Finance department",
+        "Owns pricing and packaging strategy across all products and go-to-market channels, from enterprise to self-serve",
+        "Builds models for new and existing products, including consumption-based and outcome-based structures; runs conjoint, Van Westendorp and willingness-to-pay research plus pricing experiments",
+        "Asked to 'build a pricing function' with AI-powered research and modern tooling, and to keep architecture coherent as Checkr 'launches products, acquires companies, and scales channels'",
+        "Owns pricing governance with Product, Sales, Marketing and Deal Desk; defines pricing KPIs and reports to senior leadership"
+      ],
+      "news": [
+        { "date": "2026-08-19", "summary": "Checkr acquired Truv, a provider of consumer-permissioned income, employment and asset verification, extending it beyond background checks and identity verification into lending use cases.", "source": "Biometric Update", "url": "https://www.biometricupdate.com/202608/checkrs-truv-acquisition-expands-identity-verification-beyond-identity" }
+      ],
+      "interpretation": "Checkr now sells several product lines (workforce, tenant, mortgage, trust, personal profiles), each with its own per-report price book and add-ons, and the posting says it is still acquiring companies such as Truv. A new Head of Pricing Strategy in Finance suggests leadership wants one pricing architecture and governance model before the catalogue fragments further, and may be exploring consumption or outcome-based bundles beyond per-report fees (inference). Placing the role under a CFO appointed in 2026 who frames Checkr as a 'multi-product data platform' points to a margin and portfolio lens rather than pure product-led pricing.",
+      "open_questions": [
+        "Does the role report to the CFO, and will it have headcount to build the team the posting describes?",
+        "Will acquired products such as Truv keep their own price books or be folded into cross-product bundles or platform pricing?",
+        "How much enterprise pricing is set by Deal Desk today versus published self-serve packages, and which of those will this role own?"
+      ],
+      "caveat": "The posting does not state the reporting line. Third-party sources gave conflicting historical package prices, so I used only Checkr's own pricing page as read today.",
+      "confidence": "High",
+      "linked_job_refs": ["new:2"]
+    }
+  ],
+  "people": [
+    {
+      "name": "Tim Yarbrough",
+      "title": "Chief Financial Officer",
+      "company": "Checkr",
+      "contact_type": "relevant_contact",
+      "relationship": "Executive over the Finance department where the Head of Pricing Strategy role sits",
+      "relevance": "The posting places the role in Finance, and Checkr says Yarbrough oversees capital allocation and fiscal performance across its product lines, so he likely sponsors the pricing function (not stated as the hiring manager).",
+      "opportunity_ref": "new:2",
+      "linkedin_profile": null,
+      "verification": "Named as CFO, reporting to CEO Daniel Yanisse, in Checkr's own announcement; the link to this posting is inferred from the Finance department label",
+      "evidence_url": "https://checkr.com/resources/articles/checkr-appoints-cfo-tim-yarbrough",
+      "found_via": "Checkr company announcement (dated 2026-04-22), read 2026-11-16",
+      "notes": "Not a confirmed poster or hiring manager."
+    }
+  ],
+  "notes": "Full matrix across CA/CO/US plus watchlist group 1. Three new roles (Walmart Canada, Baseten, Checkr). No Colombia roles qualified: the elempleo pricing lists are dominated by freight and costing titles (all excluded), and the Cargill RM Director (Cali), Kellanova RGM Head and Amgen Pricing Lead look closed or stale. Flags: (1) JOB-0120 Dropbox 8275002 is live on Greenhouse (first_published 2026-11-03) although tracked as inactive. (2) ServiceNow retitled JOB-0118 (same req JB0076449) as 'Director, Packaging & Monetization Strategy - Employee Experience Group' at new URL jobs.smartrecruiters.com/ServiceNow/744000161399151 (released 2026-11-13). (3) Ubisoft JOB-0005's ID now returns REF31772F (released 2026-10-29), a refresh rather than a new job. (4) JOB-0122 Staples Canada: no official URL found; the Built In copy says it was removed 2026-11-13. (5) Excluded: Salesforce Manager/Sr Manager, Product & Pricing Operations (CPQ and Lead-to-Cash ops), Unity 'Senior Product Manager' (no pricing in title, stale), Fasken Director, Pricing Strategy (LinkedIn-only, unverifiable). Partial watchlist checks: Clio and Unity Greenhouse boards 404; Wealthsimple Ashby list truncated."
+}
