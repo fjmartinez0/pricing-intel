@@ -190,5 +190,21 @@
     "found_via": "Checkr company announcement (dated 2026-04-22), read 2026-11-16",
     "first_seen": "2026-11-16",
     "notes": "Not a confirmed poster or hiring manager."
+  },
+  {
+    "id": "PERSON-0013",
+    "name": "Sebastian Ponce",
+    "title": "Chief Revenue Officer",
+    "company": "Transat",
+    "contact_type": "relevant_contact",
+    "relationship": "Executive over revenue management at Transat",
+    "relevance": "Per Transat's appointment release, his remit covers air network strategy and revenue management, which is the function the Group Revenue Management manager sits in.",
+    "opportunity_id": "JOB-0139",
+    "linkedin_profile": null,
+    "verification": "Named in a Transat corporate news release; still in role not reconfirmed today",
+    "evidence_url": "https://www.transat.com/en-CA/corporate/media/news-releases/124511",
+    "found_via": "Transat news release dated 2024-03-18, read 2026-11-17",
+    "first_seen": "2026-11-17",
+    "notes": "Appointment is from March 2024; confirm he is still CRO before relying on it."
   }
 ]

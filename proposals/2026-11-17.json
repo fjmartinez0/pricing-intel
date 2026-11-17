@@ -1,0 +1,155 @@
+{
+  "run_date": "2026-11-17",
+  "searches_run": 63,
+  "searches_by_country": { "Canada": 27, "Colombia": 16, "United States": 20 },
+  "watchlist_checked": [
+    "Bell", "Rogers", "Telus", "Videotron / Quebecor", "Cogeco", "Air Canada", "Air Transat", "Via Rail", "Bombardier", "CAE",
+    "Claro Colombia", "Movistar Colombia", "Tigo", "Avianca", "LATAM Airlines Colombia", "GHL Hoteles", "Grupo Aval", "Siigo",
+    "Datadog", "Snowflake", "MongoDB", "HubSpot", "Okta", "Cloudflare"
+  ],
+  "new_opportunities": [
+    {
+      "company": "Transat", "title": "Manager, Group Revenue Management", "business_unit": "Revenue Management and Pricing (Transat Tours Canada)", "category": "Revenue Management",
+      "country": "Canada", "city": "Montreal", "location_note": "300 rue Léo-Pariseau; French twin posting 'Responsable, gestion des revenus groupes' (SmartRecruiters 744000161374721, same ref REF1207L)",
+      "work_mode": "Hybrid", "work_model": "Hybrid (on-site and telework); not remote; 37.5 hours a week, Monday to Friday", "salary_advertised": "Not stated",
+      "employer_posting_date": "2026-11-12", "official_url": "https://jobs.smartrecruiters.com/TransatAT1/744000161376443", "secondary_url": null, "requisition_id": "REF1207L",
+      "summary": "Leads the group revenue management analyst team; designs group pricing, inventory allocation and acceptance strategies by market, season and departure date; owns group revenue, contribution and forecast targets and the GPS group tool.",
+      "pricing_focus": "Airline and tour group pricing and inventory",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "People manager of group RM analysts; level 13, permanent, non-unionized; 5+ years in RM, pricing or analytics including leadership; French and English required. Works with the Director, Revenue Management Planning.", "strategy_confidence": "High"
+    },
+    {
+      "company": "Wawanesa Insurance", "title": "Actuarial Consultant - Pricing Modelling", "business_unit": "Actuarial Pricing – Pricing Modelling", "category": "Pricing",
+      "country": "Canada", "city": "Toronto", "location_note": "North York listing; hybrid from 13 offices including Montreal, Ottawa, Kitchener, Calgary, Edmonton, Vancouver, Winnipeg, Moncton and Dartmouth (Quebec City is also named in the text)",
+      "work_mode": "Hybrid", "work_model": "Hybrid: 2 days per week OR 15 hours per week in a Wawanesa office, remote the rest", "salary_advertised": "The salary offered is estimated to be within the following range: $120,000 - $145,000.",
+      "employer_posting_date": "2026-11-16", "official_url": "https://jobs.wawanesa.com/job/North-York-Toronto%2C-ON-%28Hybr-Actuarial-Consultant-Pricing-Modelling-ON/604602817/", "secondary_url": null, "requisition_id": "10217",
+      "summary": "Senior actuarial individual contributor in pricing modelling: leads pricing-model projects end to end, automates work, mentors analysts and represents the company in industry working groups.",
+      "pricing_focus": "Insurance pricing models (ML)",
+      "level_band": "analyst", "level": "Specialist",
+      "scope_fit": "in_scope", "scope_note": "May be hired at Actuarial Consultant or Senior Actuarial Consultant level; 6+ years an asset; no direct reports. Marked 'Existing Role'. The 2026-11-11 strategy record noted Consultant pricing roles on the careers site around 2026-10-17/18, so this may be the same requisition with a refreshed date. It sits between JOB-0130 and JOB-0129 on the same team.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Wawanesa Insurance", "title": "Actuarial Consultant - Alberta Auto Pricing", "business_unit": "Actuarial Pricing – Alberta Auto", "category": "Pricing",
+      "country": "Canada", "city": "Toronto", "location_note": "Hybrid from 16 listed offices including Montreal, Ottawa, North York, Calgary, Edmonton, Vancouver, Winnipeg, Kitchener, Moncton, Dartmouth and Thunder Bay (Quebec City is also named in the text)",
+      "work_mode": "Hybrid", "work_model": "Hybrid: 2 days per week OR 15 hours per week in a Wawanesa office, remote the rest", "salary_advertised": "Actuarial Consultant $105,000 - $130,000; Senior Actuarial Consultant $120,000 - $145,000",
+      "employer_posting_date": "2026-11-16", "official_url": "https://jobs.wawanesa.com/job/Toronto%2C-ON-%28Hybrid%29-Actuarial-Consultant-Alberta-Auto-Pricing-ON/608067217/", "secondary_url": null, "requisition_id": "10480",
+      "summary": "Leads Alberta auto pricing analysis with high autonomy, runs projects through implementation, tracks industry trends and mentors analysts.",
+      "pricing_focus": "Regulated auto insurance rating (Alberta)",
+      "level_band": "analyst", "level": "Specialist",
+      "scope_fit": "in_scope", "scope_note": "Marked 'New Role'; 4+ years and 7 CAS exams or ACAS an asset; no direct reports. Same team as JOB-0128 (Actuarial Expert - Alberta Auto Pricing).", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Bell", "title": "Advertising Inventory and Pricing Analyst", "business_unit": "Bell Media (advertising sales)", "category": "Pricing",
+      "country": "Canada", "city": "Montreal", "location_note": "Must be based in Canada; application deadline 2026-11-20",
+      "work_mode": "Hybrid", "work_model": "Hybrid; report to a set Bell office at least three days a week", "salary_advertised": "Not stated",
+      "employer_posting_date": "2026-11-06", "official_url": "https://jobs.bce.ca/bell/job/Montreal-Advertising-Inventory-and-Pricing-Analyst-QC/1448632200/", "secondary_url": null, "requisition_id": "433421",
+      "summary": "Manages day-to-day TV advertising inventory and keeps pricing and programming data accurate in ad-sales systems through programming changes; main contact for Sales, Programming, Traffic and external partners.",
+      "pricing_focus": "TV ad inventory and rate data",
+      "level_band": "analyst", "level": "Analyst",
+      "scope_fit": "borderline", "scope_note": "Pricing is in the title, but the duties are operational (inventory checks, data accuracy, workflow) rather than pricing strategy. Most work is in French.", "strategy_confidence": "Low"
+    },
+    {
+      "company": "Revlon", "title": "Senior Manager, Revenue Growth Management", "business_unit": "US Mass (RGM)", "category": "RGM",
+      "country": "United States", "city": "New York", "location_note": null,
+      "work_mode": "Hybrid", "work_model": "Hybrid: New York City office 3 days per week, remote the other days", "salary_advertised": "The base pay range for this position is $120,000- $160,000/ year",
+      "employer_posting_date": "2026-05-21", "official_url": "https://job-boards.greenhouse.io/revloncorporate/jobs/5225292008", "secondary_url": null, "requisition_id": "1330",
+      "summary": "Analyzes retailer promotions and trade spend ROI, builds pricing, promotion and trade-investment models, and recommends pricing and promotion plans to Sales and Finance for the US Mass business.",
+      "pricing_focus": "CPG trade promotion and pricing (US Mass retail)",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "7+ years in CPG RGM, pricing or trade. Posting says Revlon does not sponsor or transfer visas. First published 2026-05-21 and updated 2026-10-07 per the Greenhouse API, so it has been open a long time.", "strategy_confidence": "Medium"
+    }
+  ],
+  "url_updates": [],
+  "strategy_updates": [
+    {
+      "id": "STR-0082", "company": "Transat", "business_unit": "Revenue Management and Pricing",
+      "pricing_theme": "Building out revenue management capacity, now including group pricing and inventory, to defend yield while fuel costs stay high and competition limits fare pass-through.",
+      "current_model": null,
+      "industry": "Airline / leisure travel",
+      "posting_evidence": [
+        "Manager, Group Revenue Management (REF1207L), Montreal hybrid, released 2026-11-12 in English and French; level 13, permanent; leads a team of group RM analysts.",
+        "Mandate: group pricing, inventory allocation and group-acceptance rules by market, season and departure date, balancing group against individual demand and protecting high-value future demand.",
+        "Accountable for group revenue, contribution, conversion, materialization and forecast accuracy; acts as functional expert for the GPS group system, and PROS experience is an asset.",
+        "Challenges Sales requests on revenue and network impact and maintains group sales conditions with Sales, which signals tighter governance of group discounting.",
+        "Follows the Revenue Management Analyst posting (REF1204P, 2026-11-05) in the same department, so two RM roles were posted within a week."
+      ],
+      "news": [
+        {
+          "date": "2026-09-10",
+          "summary": "Q3 FY2026 (quarter to July 31): airline yield fell 1% and load factor slipped to 84.7% as fuel prices rose 56% (+$105M gross fuel cost); Transat said competition limited its ability to pass fuel costs to customers, with Q4-to-date yield broadly flat and load factor up 0.6 points.",
+          "source": "Transat A.T. Inc.",
+          "url": "https://www.transat.com/en-CA/corporate/media/news-releases/124622"
+        }
+      ],
+      "interpretation": "With fare increases capped by competition, Transat appears to be pulling revenue from mix and allocation rather than from headline fares. Group bookings are one of the few levers it controls directly: it decides which groups to accept and at what price. The new manager role formalizes acceptance rules, contribution-based evaluation and pushback on Sales, so the inference is that group discounting may have been diluting yield. For a candidate, this is a people-leadership role with real commercial authority, plus a meaningful systems component (GPS calibration and UAT).",
+      "open_questions": [
+        "How much of capacity and revenue does the group segment represent, and has group discounting been reviewed since the fuel shock?",
+        "Does the role report to the Director, Revenue Management Planning or elsewhere, and how many analysts are on the team?",
+        "Is the GPS group tool being replaced or upgraded, and who owns that project?"
+      ],
+      "caveat": "Interpretation relies on two postings and one earnings release; group-segment size and current fare structure are not disclosed.",
+      "confidence": "Medium",
+      "linked_job_refs": ["JOB-0121", "new:0"]
+    },
+    {
+      "id": "STR-0089", "company": "Wawanesa Insurance", "business_unit": "Actuarial Pricing (Pricing Modelling and Alberta Auto)",
+      "pricing_theme": "Filling a full ladder of actuarial pricing roles (analyst, consultant, expert) in modelling and Alberta auto ahead of Alberta's 2027 Care-First reform and adjustable rate cap.",
+      "current_model": null,
+      "industry": "Insurance",
+      "posting_evidence": [
+        "Actuarial Consultant - Alberta Auto Pricing (req 10480), posted 2026-11-16, marked 'New Role'; two bands: Consultant $105,000–$130,000 and Senior Consultant $120,000–$145,000.",
+        "Actuarial Consultant - Pricing Modelling (req 10217), posted 2026-11-16, 'Existing Role'; $120,000–$145,000; machine learning and other pricing modelling methods; represents Wawanesa in industry research groups.",
+        "Together with the tracked Expert ($135,000–$170,000) and Senior Actuarial Analyst ($90,000–$110,000) roles, the team is now hiring at every individual-contributor level in both sub-teams.",
+        "All roles are hybrid (2 days or 15 hours a week in office) from 13–16 offices, including Montreal; none lists direct reports."
+      ],
+      "news": [],
+      "interpretation": "Wawanesa is hiring at analyst, consultant and expert level at once, and the Alberta consultant role is explicitly new. That looks like a capacity build rather than backfills (inference). Alberta's Care-First model and a 5% book-wide and 10% per-renewal adjustable cap take effect on 2027-01-01, per a May 2026 Global News report. Under those rules, insurers have to refile rates against new benefit costs while their room to raise prices is limited, which puts a premium on segmentation and model accuracy. For a candidate, these are technical actuarial roles with no people management, and they are well placed for regulatory rate filings.",
+      "open_questions": [
+        "How many Alberta filings are planned for the 2027 Care-First transition, and which level owns them?",
+        "Is the Consultant posting a single requisition hiring at either level, or two separate hires?"
+      ],
+      "caveat": "No pricing news from the last three months was found; the Alberta regulatory context comes from a May 2026 article (outside the news window), so the link to these hires is inferred.",
+      "confidence": "Medium",
+      "linked_job_refs": ["JOB-0128", "JOB-0129", "JOB-0130", "new:1", "new:2"]
+    },
+    {
+      "id": null, "company": "Bell", "business_unit": "Bell Media (advertising sales)",
+      "pricing_theme": "Managing TV ad inventory and rate data as ad-supported streaming grows and linear ad demand stays soft.",
+      "current_model": null,
+      "industry": "Media / Telecom",
+      "posting_evidence": [
+        "Advertising Inventory and Pricing Analyst (req 433421), Montreal hybrid (3 days in office), posted 2026-11-06, deadline 2026-11-20; Marketing category, 'Management' position type.",
+        "Duties are operational: daily inventory checks and adjustments during programming changes to limit ad-inventory losses, and keeping pricing and programming data accurate in ad management systems.",
+        "Main contact for Sales, Programming, Traffic and external partners; tools named include IBMS and InstarTV, plus Power BI, MicroStrategy or Tableau.",
+        "French is the main working language, and media, revenue management or traffic experience is an asset."
+      ],
+      "news": [
+        {
+          "date": "2026-11-06",
+          "summary": "BCE Q3 2026: Bell Media revenue rose 9.7% to $803M and advertising revenue rose 9.0%, driven by FIFA World Cup sports ads and digital video ads on ad-supported Crave tiers, while traditional ad demand remained soft; Crave subscriptions rose 21% to 5.15M.",
+          "source": "TelecomTV (BCE results release)",
+          "url": "https://www.telecomtv.com/content/access-evolution/bce-reports-third-quarter-2026-results-56617/"
+        }
+      ],
+      "interpretation": "The posting points to yield protection in Quebec TV ad sales: keeping sold inventory and rate data clean when schedules change, so make-goods and lost inventory are minimized. This is an inference from the duties. With growth coming from digital video and sports while traditional demand is soft, accurate inventory and pricing data becomes more valuable. The role is an operational entry point into media revenue management, not a pricing-strategy role.",
+      "open_questions": [
+        "Does the role cover only linear TV (e.g. Noovo, CTV in Quebec) or also Crave and connected-TV inventory?",
+        "Who sets rate cards and dynamic pricing, and is there a path from this role into that team?"
+      ],
+      "caveat": "Analysis is based on one operational analyst posting and one quarterly results summary; Bell Media's rate-card practices are not public.",
+      "confidence": "Low",
+      "linked_job_refs": ["new:3"]
+    }
+  ],
+  "people": [
+    {
+      "name": "Sebastian Ponce", "title": "Chief Revenue Officer", "company": "Transat", "contact_type": "relevant_contact",
+      "relationship": "Executive over revenue management at Transat", "relevance": "Per Transat's appointment release, his remit covers air network strategy and revenue management, which is the function the Group Revenue Management manager sits in.",
+      "opportunity_ref": "new:0", "linkedin_profile": null,
+      "verification": "Named in a Transat corporate news release; still in role not reconfirmed today",
+      "evidence_url": "https://www.transat.com/en-CA/corporate/media/news-releases/124511",
+      "found_via": "Transat news release dated 2024-03-18, read 2026-11-17", "notes": "Appointment is from March 2024; confirm he is still CRO before relying on it."
+    }
+  ],
+  "notes": "Rogers 'Manager, Base Rate Plan Pricing' is JOB-0116 retitled (same job 1442001900 and req 329094); not proposed as new, and the URL slug changed to /Toronto-Manager%2C-Base-Rate-Plan-Pricing-ON/1442001900/. Excluded: elempleo freight, customs and costing roles (PTA SAS, MENTORHUB, Jefe de costos y pricing), Telus Senior Product Strategy Manager (pricing not core), Rogers Sr Manager Value Management, and Confido Head of RGM (product role, no employer page). Dead or closed: HubSpot Pricing Strategy Manager (Canada remote), Okta Sr Manager Pricing Strategy, Lumin Digital, Delinea, Telus Manager Pricing - Wireline SMB, Cargill Cali RM Director, Videotron pricing manager, and Accor/Gerencia Selecta/Banco de Occidente in Colombia. No official links found for JOB-0104, JOB-0122 or JOB-0133 (Envestnet window closed 2026-11-15). The Colombian telecoms, GHL, Grupo Aval, Siigo, Datadog and Snowflake were checked by web search only. The Greenhouse API lists for MongoDB, Okta, Cloudflare and Datadog were truncated at 100k characters (first page only)."
+}

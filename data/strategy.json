@@ -2727,14 +2727,15 @@
     "company": "Transat",
     "business_unit": "Revenue Management and Pricing",
     "baseline_date": "2026-11-06",
-    "last_updated": "2026-11-06",
-    "pricing_theme": "Protecting airline yield as fuel costs spike and competitive capacity limits fare pass-through.",
+    "last_updated": "2026-11-17",
+    "pricing_theme": "Building out revenue management capacity, now including group pricing and inventory, to defend yield while fuel costs stay high and competition limits fare pass-through.",
     "current_model": null,
     "posting_evidence": [
-      "Revenue Management Analyst, Montreal (hybrid), posted 2026-11-05 in English and French under ref REF1204P; level 15, permanent, non-unionized.",
-      "Department is 'Gestion des revenus et tarification'; sits in the Inventory Management & Optimization team, with route-portfolio ownership.",
-      "Targets RASM, load factor and yield; calibrates RM system inputs and forecasts; PROS experience is an asset; uses Power BI and Copilot.",
-      "Works alongside a separate Pricing Analyst, which suggests that inventory/RM and fare pricing are split functions."
+      "Manager, Group Revenue Management (REF1207L), Montreal hybrid, released 2026-11-12 in English and French; level 13, permanent; leads a team of group RM analysts.",
+      "Mandate: group pricing, inventory allocation and group-acceptance rules by market, season and departure date, balancing group against individual demand and protecting high-value future demand.",
+      "Accountable for group revenue, contribution, conversion, materialization and forecast accuracy; acts as functional expert for the GPS group system, and PROS experience is an asset.",
+      "Challenges Sales requests on revenue and network impact and maintains group sales conditions with Sales, which signals tighter governance of group discounting.",
+      "Follows the Revenue Management Analyst posting (REF1204P, 2026-11-05) in the same department, so two RM roles were posted within a week."
     ],
     "news": [
       {
@@ -2742,18 +2743,25 @@
         "summary": "Q3 FY2026 (quarter to July 31): airline yield fell 1% and load factor slipped to 84.7% as fuel prices rose 56%; Transat said competition limited its ability to pass fuel costs on to customers, and Q4-to-date yield was broadly flat with load factors 0.6 points higher.",
         "source": "Transat A.T. Inc.",
         "url": "https://www.transat.com/en-CA/corporate/media/news-releases/124622"
+      },
+      {
+        "date": "2026-09-10",
+        "summary": "Q3 FY2026 (quarter to July 31): airline yield fell 1% and load factor slipped to 84.7% as fuel prices rose 56% (+$105M gross fuel cost); Transat said competition limited its ability to pass fuel costs to customers, with Q4-to-date yield broadly flat and load factor up 0.6 points.",
+        "source": "Transat A.T. Inc.",
+        "url": "https://www.transat.com/en-CA/corporate/media/news-releases/124622"
       }
     ],
-    "interpretation": "Transat is caught between record fuel costs and a market where it cannot raise fares, so revenue management, not list pricing, is where it can recover margin: route-level inventory control, forecasting and yield discipline. Inference: hiring an RM analyst now, while capacity grows 2% in Q4 and the Cuba revenue is gone, points to tighter portfolio management rather than a team expansion. The role is execution-focused and close to the RM system, a solid entry point but not a strategy seat.",
+    "interpretation": "With fare increases capped by competition, Transat appears to be pulling revenue from mix and allocation rather than from headline fares. Group bookings are one of the few levers it controls directly: it decides which groups to accept and at what price. The new manager role formalizes acceptance rules, contribution-based evaluation and pushback on Sales, so the inference is that group discounting may have been diluting yield. For a candidate, this is a people-leadership role with real commercial authority, plus a meaningful systems component (GPS calibration and UAT).",
     "open_questions": [
-      "How are inventory/RM and fare pricing decisions divided between this team and the Pricing Analyst role?",
-      "Is Transat changing or upgrading its RM system (PROS), and how much of the role is system calibration versus market strategy?",
-      "Which route portfolio (transatlantic, sun, Canada domestic) would the analyst own?"
+      "How much of capacity and revenue does the group segment represent, and has group discounting been reviewed since the fuel shock?",
+      "Does the role report to the Director, Revenue Management Planning or elsewhere, and how many analysts are on the team?",
+      "Is the GPS group tool being replaced or upgraded, and who owns that project?"
     ],
-    "caveat": "Based on one analyst posting and one earnings release; no visibility into Transat's fare structure or senior RM leadership.",
+    "caveat": "Interpretation relies on two postings and one earnings release; group-segment size and current fare structure are not disclosed.",
     "confidence": "Medium",
     "linked_job_ids": [
-      "JOB-0121"
+      "JOB-0121",
+      "JOB-0139"
     ],
     "industry": "Airline / leisure travel",
     "analysis_status": "analyzed"
@@ -2981,29 +2989,29 @@
     "company": "Wawanesa Insurance",
     "business_unit": "Actuarial Pricing (Pricing Modelling and Alberta Auto)",
     "baseline_date": "2026-11-11",
-    "last_updated": "2026-11-11",
-    "pricing_theme": "Adding senior actuarial pricing capacity in modelling and in Alberta auto ahead of rate-regulation changes",
+    "last_updated": "2026-11-17",
+    "pricing_theme": "Filling a full ladder of actuarial pricing roles (analyst, consultant, expert) in modelling and Alberta auto ahead of Alberta's 2027 Care-First reform and adjustable rate cap.",
     "current_model": null,
     "posting_evidence": [
-      "Actuarial Expert - Alberta Auto Pricing (req 10296), posted 2026-11-07, marked 'New Role'; FCAS required; $135,000–$170,000; hybrid from 14 offices including Montreal.",
-      "Actuarial Expert - Pricing Modeling (req 10155), posted 2026-10-20; FCAS an asset; $135,000–$170,000 (written '$170,00'); Montreal and 12 other offices.",
-      "Senior Actuarial Analyst - Pricing Modelling (req 10215), posted 2026-10-18; $90,000–$110,000; ML and other pricing methods; mentors analysts.",
-      "Expert roles lead large, high-impact projects through implementation, train and mentor analysts and sometimes managers, and present to Director-level audiences; no direct reports stated.",
-      "Wawanesa's careers site also lists Actuarial Consultant roles in Pricing Modelling and Alberta Auto Pricing (posted 2026-10-17/18) plus the tracked Manager, Actuarial Commercial Auto Pricing."
+      "Actuarial Consultant - Alberta Auto Pricing (req 10480), posted 2026-11-16, marked 'New Role'; two bands: Consultant $105,000–$130,000 and Senior Consultant $120,000–$145,000.",
+      "Actuarial Consultant - Pricing Modelling (req 10217), posted 2026-11-16, 'Existing Role'; $120,000–$145,000; machine learning and other pricing modelling methods; represents Wawanesa in industry research groups.",
+      "Together with the tracked Expert ($135,000–$170,000) and Senior Actuarial Analyst ($90,000–$110,000) roles, the team is now hiring at every individual-contributor level in both sub-teams.",
+      "All roles are hybrid (2 days or 15 hours a week in office) from 13–16 offices, including Montreal; none lists direct reports."
     ],
     "news": [],
-    "interpretation": "Wawanesa is building out its pricing bench in two places at once: a pricing-modelling group (with ML methods named) and a dedicated Alberta auto pricing team, with Expert, Consultant and Senior Analyst openings in each. Inference: Alberta is moving to an adjusted rate cap (5% average per insurer, 10% per driver) and the Care-First model from 2027-01-01 (Global News, May 2026), so insurers need FCAS-level capacity to file and justify rates under the new rules. The 'New Role' label on the Alberta position points to added headcount, not a backfill. These are deep technical actuarial roles, not commercial pricing strategy.",
+    "interpretation": "Wawanesa is hiring at analyst, consultant and expert level at once, and the Alberta consultant role is explicitly new. That looks like a capacity build rather than backfills (inference). Alberta's Care-First model and a 5% book-wide and 10% per-renewal adjustable cap take effect on 2027-01-01, per a May 2026 Global News report. Under those rules, insurers have to refile rates against new benefit costs while their room to raise prices is limited, which puts a premium on segmentation and model accuracy. For a candidate, these are technical actuarial roles with no people management, and they are well placed for regulatory rate filings.",
     "open_questions": [
-      "Is the Alberta team being sized for the 2027 rate-cap and Care-First filings, and how do the Expert and Consultant roles divide the work?",
-      "Do the Expert roles have a path to people management, or are they permanent individual-contributor tracks?",
-      "Which modelling stack (GLM vs GBM/ML) is in production, and how does regulatory acceptance limit it?"
+      "How many Alberta filings are planned for the 2027 Care-First transition, and which level owns them?",
+      "Is the Consultant posting a single requisition hiring at either level, or two separate hires?"
     ],
-    "caveat": "The Alberta regulatory context comes from a May 2026 article (older than the 3-month news window), and the link between it and these roles is inferred.",
+    "caveat": "No pricing news from the last three months was found; the Alberta regulatory context comes from a May 2026 article (outside the news window), so the link to these hires is inferred.",
     "confidence": "Medium",
     "linked_job_ids": [
       "JOB-0128",
       "JOB-0129",
-      "JOB-0130"
+      "JOB-0130",
+      "JOB-0140",
+      "JOB-0141"
     ],
     "industry": "Insurance",
     "analysis_status": "analyzed"
@@ -3287,6 +3295,41 @@
       "JOB-0138"
     ],
     "industry": "Software",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0098",
+    "company": "Bell",
+    "business_unit": "Bell Media (advertising sales)",
+    "baseline_date": "2026-11-17",
+    "last_updated": "2026-11-17",
+    "pricing_theme": "Managing TV ad inventory and rate data as ad-supported streaming grows and linear ad demand stays soft.",
+    "current_model": null,
+    "posting_evidence": [
+      "Advertising Inventory and Pricing Analyst (req 433421), Montreal hybrid (3 days in office), posted 2026-11-06, deadline 2026-11-20; Marketing category, 'Management' position type.",
+      "Duties are operational: daily inventory checks and adjustments during programming changes to limit ad-inventory losses, and keeping pricing and programming data accurate in ad management systems.",
+      "Main contact for Sales, Programming, Traffic and external partners; tools named include IBMS and InstarTV, plus Power BI, MicroStrategy or Tableau.",
+      "French is the main working language, and media, revenue management or traffic experience is an asset."
+    ],
+    "news": [
+      {
+        "date": "2026-11-06",
+        "summary": "BCE Q3 2026: Bell Media revenue rose 9.7% to $803M and advertising revenue rose 9.0%, driven by FIFA World Cup sports ads and digital video ads on ad-supported Crave tiers, while traditional ad demand remained soft; Crave subscriptions rose 21% to 5.15M.",
+        "source": "TelecomTV (BCE results release)",
+        "url": "https://www.telecomtv.com/content/access-evolution/bce-reports-third-quarter-2026-results-56617/"
+      }
+    ],
+    "interpretation": "The posting points to yield protection in Quebec TV ad sales: keeping sold inventory and rate data clean when schedules change, so make-goods and lost inventory are minimized. This is an inference from the duties. With growth coming from digital video and sports while traditional demand is soft, accurate inventory and pricing data becomes more valuable. The role is an operational entry point into media revenue management, not a pricing-strategy role.",
+    "open_questions": [
+      "Does the role cover only linear TV (e.g. Noovo, CTV in Quebec) or also Crave and connected-TV inventory?",
+      "Who sets rate cards and dynamic pricing, and is there a path from this role into that team?"
+    ],
+    "caveat": "Analysis is based on one operational analyst posting and one quarterly results summary; Bell Media's rate-card practices are not public.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0142"
+    ],
+    "industry": "Media / Telecom",
     "analysis_status": "analyzed"
   }
 ]
