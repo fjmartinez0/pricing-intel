@@ -1,0 +1,153 @@
+{
+  "run_date": "2026-11-18",
+  "searches_run": 64,
+  "searches_by_country": { "Canada": 32, "Colombia": 16, "United States": 16 },
+  "watchlist_checked": ["Desjardins", "National Bank", "RBC", "TD", "BMO", "Scotiabank", "Intact", "Wawanesa", "Sun Life", "Manulife", "Grupo Nutresa", "Alpina", "Postobón", "Bavaria (AB InBev)", "Colombina", "Coca-Cola FEMSA", "Diageo", "Quala", "Stripe", "Intuit", "Gusto", "DocuSign", "Zoom", "PagerDuty"],
+  "new_opportunities": [
+    {
+      "company": "Postobón", "title": "Analista Revenue Management", "business_unit": "Revenue Management", "category": "Revenue Management",
+      "country": "Colombia", "city": "Medellín", "location_note": null,
+      "work_mode": "Unknown", "work_model": "Not stated", "salary_advertised": "A convenir",
+      "employer_posting_date": "2026-11-12", "official_url": null, "secondary_url": "https://www.magneto365.com/co/empleos/analista-revenue-management-1135473", "requisition_id": "1135473",
+      "summary": "Analyzes how price changes and promotions affect portfolio profitability by product, channel and customer, and reports pricing, revenue, volume and mix to the Executive and Revenue Committees.",
+      "pricing_focus": "CPG beverage pricing and promotion analytics",
+      "level_band": "analyst", "level": "Analyst",
+      "scope_fit": "in_scope", "scope_note": "Analyst grade, 3 years' experience; Power BI, Python, advanced Excel. Posted on Magneto, the platform that hosts Postobón's vacancies; no separate employer page found. Indefinite-term contract.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Postobón", "title": "Analista Planeación Revenue Management", "business_unit": "Revenue Management", "category": "Revenue Management",
+      "country": "Colombia", "city": "Medellín", "location_note": null,
+      "work_mode": "Unknown", "work_model": "Not stated", "salary_advertised": "A convenir",
+      "employer_posting_date": "2026-11-12", "official_url": null, "secondary_url": "https://www.magneto365.com/co/empleos/analista-operaciones-revenue-management-1135451", "requisition_id": "1135451",
+      "summary": "Plans commercial value-creation activities by channel, customer and SKU within the commercial-levers governance model and per-SKU and per-customer investment caps, and monitors their execution in market.",
+      "pricing_focus": "Trade investment and commercial levers (RGM)",
+      "level_band": "analyst", "level": "Analyst",
+      "scope_fit": "borderline", "scope_note": "Title says Revenue Management, but the work leans to trade-investment planning and execution rather than price setting. 2 years' experience. The URL slug says 'operaciones' while the page title says 'Planeación'.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Gusto", "title": "Principal Product Manager, Pricing & Packaging", "business_unit": "Growth Commerce (Product Management)", "category": "Pricing",
+      "country": "United States", "city": "Denver", "location_note": "Also New York and San Francisco (hybrid)",
+      "work_mode": "Hybrid", "work_model": "Hybrid; on site about 2-3 days per week", "salary_advertised": "$179,000/yr to $220,000/yr (Denver and most major metros); $210,000/yr to $260,000/yr (San Francisco, Seattle, New York)",
+      "employer_posting_date": "2026-11-16", "official_url": "https://job-boards.greenhouse.io/gusto/jobs/8346795", "secondary_url": null, "requisition_id": "J-018237",
+      "summary": "Leads the pricing, packaging and promotion product team, turning pricing strategy into elasticity experiments and building pricing and packaging experiences with the Head of Pricing.",
+      "pricing_focus": "SMB SaaS pricing experimentation; packaging; promotions",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "Product-management title, but pricing and packaging is the explicit mandate; 8+ years of growth product management required.", "strategy_confidence": "High"
+    },
+    {
+      "company": "Justworks", "title": "Staff, Pricing Strategy Lead", "business_unit": "Marketing – Monetization Strategy", "category": "Pricing",
+      "country": "United States", "city": "New York", "location_note": null,
+      "work_mode": "Hybrid", "work_model": "Hybrid (#LI-Hybrid tag; New York, NY office; no schedule stated)", "salary_advertised": "$188,000.00 - $242,000.00 per year (base, New York City office)",
+      "employer_posting_date": "2026-03-12", "official_url": "https://job-boards.greenhouse.io/justworks/jobs/7688012", "secondary_url": null, "requisition_id": "JR102921",
+      "summary": "Defines Justworks' future-state pricing and packaging as it moves from product-based plans to a platform model (add-ons, bundles, platform tiers), leading WTP, conjoint, elasticity and pricing tests.",
+      "pricing_focus": "Platform tiering; packaging; pricing research",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "Senior individual contributor (8+ years). First published 2026-03-12 and updated 2026-11-16, so it has been open about eight months; not previously tracked.", "strategy_confidence": "High"
+    },
+    {
+      "company": "Justworks", "title": "Senior Product Marketing Manager, Monetization GTM", "business_unit": "Marketing – Monetization Strategy", "category": "Monetization",
+      "country": "United States", "city": "New York", "location_note": null,
+      "work_mode": "Hybrid", "work_model": "Hybrid (#LI-Hybrid tag; New York, NY office; no schedule stated)", "salary_advertised": "$166,000 - $190,000 per year (base, New York City office)",
+      "employer_posting_date": "2026-11-16", "official_url": "https://job-boards.greenhouse.io/justworks/jobs/8393792", "secondary_url": null, "requisition_id": "JR103913",
+      "summary": "Owns pricing and packaging for new products and features, annual price increases and discount and promotion governance, and turns pricing decisions into launch positioning.",
+      "pricing_focus": "New-product pricing; annual price increases; discount governance",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "Product-marketing title, but the posting says the role owns pricing and packaging for the product portfolio; 6–8 years required.", "strategy_confidence": "High"
+    },
+    {
+      "company": "Staples", "title": "Senior Manager, Product Management-Pricing", "business_unit": "Technology, E-Commerce & Data Science (marketplace pricing)", "category": "Pricing",
+      "country": "United States", "city": "Framingham", "location_note": null,
+      "work_mode": "In person", "work_model": "On-site", "salary_advertised": "$115,000-$169,000",
+      "employer_posting_date": "2026-11-13", "official_url": "https://careers.staples.com/en/job/framingham/senior-manager-product-management-pricing/44412/103267647648", "secondary_url": null, "requisition_id": "77563",
+      "summary": "Owns the multi-year marketplace pricing roadmap: repricing, competitive monitoring, guardrails (floors, ceilings, MAP, margin), promotions and B2B/Amazon Business pricing, with data science on elasticity and AI pricing recommendations.",
+      "pricing_focus": "Marketplace and e-commerce pricing; pricing rules and guardrails",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "Product-management role with an explicit marketplace-pricing focus; also covers broader marketplace and digital-commerce capabilities.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Staples", "title": "Sales Operation Manager, Strategic Pricing", "business_unit": "Sales Operations (technology and print deals)", "category": "Pricing",
+      "country": "United States", "city": "Anywhere", "location_note": "Remote; Lake Mary, Florida also listed",
+      "work_mode": "Remote", "work_model": "Remote/On-site", "salary_advertised": "$96,500.00 - $135,000.00",
+      "employer_posting_date": "2026-10-22", "official_url": "https://careers.staples.com/en/job/remote/sales-operation-manager-strategic-pricing/44412/100359794160", "secondary_url": null, "requisition_id": "74172",
+      "summary": "Sets pricing and margin guidance for complex multi-vendor technology and managed-services deals, leads RFP sourcing and vendor special pricing, and manages a team of pricing and sourcing staff.",
+      "pricing_focus": "B2B deal pricing; vendor rebates and sourcing",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "borderline", "scope_note": "People manager, but the role mixes deal pricing with sourcing and supplier management; closer to a pricing desk than to list-price strategy.", "strategy_confidence": "Medium"
+    }
+  ],
+  "url_updates": [],
+  "strategy_updates": [
+    {
+      "id": null, "company": "Postobón", "business_unit": "Revenue Management",
+      "pricing_theme": "Building revenue-management governance over price, promotion and trade investment in Colombian beverages",
+      "current_model": null,
+      "industry": "CPG",
+      "posting_evidence": [
+        "Two Medellín analyst roles posted 2026-11-12 on Magneto: 'Analista Revenue Management' (3 years) and 'Analista Planeación Revenue Management' (2 years); indefinite-term contracts, salary 'a convenir'.",
+        "The Revenue Management analyst measures how price changes and promotions affect portfolio profitability (costs, revenue, volume, margin) by product, channel and customer.",
+        "Reports daily, monthly, quarterly and annually to the Executive Committee and a dedicated Revenue Committee on pricing, revenue, volume, mix and commercial levers.",
+        "The planning role works within a 'commercial levers governance model' with investment caps per SKU and per customer and budgets assigned by distribution centre (CEDI).",
+        "Tools named: Power BI, Python, advanced Excel."
+      ],
+      "news": [],
+      "interpretation": "The postings describe an RGM function that already has a formal governance layer: a Revenue Committee, a lever-governance model, and investment caps per SKU and per customer. This suggests Postobón is trying to control trade and promotion spend and measure price realization more tightly, not to set up RGM from scratch (inference). Hiring two analysts at once in Medellín points to scaling measurement and execution capacity under that framework. For a candidate, these are execution and analytics seats; strategic price decisions appear to sit with the committee.",
+      "open_questions": [
+        "Who chairs the Revenue Committee, and how are price and promotion decisions escalated to it?",
+        "Is revenue management centralized in Medellín, or do regional CEDIs own part of the trade budget?",
+        "How has price-pack architecture changed under Colombia's sugary-drinks tax?"
+      ],
+      "caveat": "Based only on two analyst postings read on a job board; no Postobón pricing news from the last three months was read today, and ownership-change reports found were from 2025.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:0", "new:1"]
+    },
+    {
+      "id": null, "company": "Justworks", "business_unit": "Marketing – Monetization Strategy",
+      "pricing_theme": "Repackaging a PEO-led business into a multi-product platform with tiers, bundles and add-ons",
+      "current_model": "Per-employee-per-month admin fees. A May 2026 broker partner notice says PEO Plus rose from $109 to $124 PEPM for new business from 2026-06-01, with existing accounts moving later, and broker compensation changed from a flat PEPM to a percentage of admin fees. Justworks' own pricing page could not be read.",
+      "industry": "Software",
+      "posting_evidence": [
+        "Staff, Pricing Strategy Lead (JR102921): New York hybrid, $188,000–$242,000 base; first published 2026-03-12, updated 2026-11-16; Marketing department.",
+        "Its mandate is to define future-state pricing and packaging as Justworks 'shifts from product-based plans to a platform model', covering products, add-ons, bundles and platform tiers.",
+        "Senior PMM, Monetization GTM (JR103913): New York hybrid, $166,000–$190,000 base; published 2026-11-16; owns pricing and packaging for new products and features, annual price increases and partner co-marketing.",
+        "Both roles call for willingness-to-pay research, conjoint and elasticity work, pricing tests, and discount and promotion governance with Revenue and Finance.",
+        "The 'Monetization Strategy team' sits in Marketing and works across Product, Product Marketing, Sales/CSO, Finance and Data & Analytics."
+      ],
+      "news": [],
+      "interpretation": "Justworks is moving from plan-based PEO pricing to a platform with tiers and add-ons, and it is adding a second monetization hire to handle launches and annual price increases. That suggests a steady flow of new SKUs and a regular repricing cadence (inference). The PEO Plus list-price increase from $109 to $124 shows it is willing to raise headline prices, which makes discount and promotion governance (named in both postings) central. The roles look like packaging-architecture and launch-pricing work rather than deal-desk work.",
+      "open_questions": [
+        "How will platform tiers bundle PEO, payroll and add-ons, and when do existing PEO Plus accounts move to $124?",
+        "Who has final say on price: the Marketing-based Monetization Strategy team or Finance?",
+        "Why has the Staff Pricing Strategy Lead role been open since March, and has its scope changed?"
+      ],
+      "caveat": "Based on the two Greenhouse postings and a third-party broker notice from May 2026. Justworks' pricing page and newsroom blocked automated access, so no first-party pricing news from the last three months was read.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:3", "new:4"]
+    },
+    {
+      "id": "STR-0026", "company": "Gusto", "business_unit": "Product pricing",
+      "pricing_theme": "Repackaging SMB payroll tiers and building an experimentation engine for price, packaging and promotions",
+      "current_model": "Three plans priced as a monthly base plus a per-person fee: Simple $49 + $6, Plus $80 + $12, Premium $180 + $22 (third-party check of list prices, 2026-10-24). From 2026-10-01, for new customers: the Contractor Only plan is closed; broker integration became a $6 per employee per month add-on on Premium; Business Compliance is included in Premium and costs $85 per state per month on Simple and Plus; HR Resources is Premium-only; Performance is included in Plus.",
+      "industry": "Software",
+      "posting_evidence": [
+        "New: Principal Product Manager, Pricing & Packaging (J-018237), published 2026-11-16; hybrid in Denver, New York or San Francisco; $179,000–$220,000, or $210,000–$260,000 in SF, Seattle and NY.",
+        "Leads a Growth Commerce pricing, packaging and promotion product team of 8+ (engineering, data science, design) and partners with the Head of Pricing on strategy and price-volume trade-offs.",
+        "Mandate: turn pricing strategies into elasticity experiments, change how prices are presented in the product, and create and test new promotions.",
+        "Earlier: Senior Pricing and Monetization Manager (JOB-0027/0028) led pricing and packaging across payroll, time and HR, and embedded financial services."
+      ],
+      "news": [
+        { "date": "2026-10-01", "summary": "Gusto repackaged its plans for new customers from October 1 (announced September 21) with no list-price change: it closed Contractor Only, made broker integration a $6 PEPM add-on on Premium, moved HR Resources to Premium only, and made Business Compliance an $85 per state per month add-on on Simple and Plus.", "source": "StackScout (quoting Gusto Help Center)", "url": "https://www.stackscout.net/articles/cc_20261023_171836.html" }
+      ],
+      "interpretation": "The October repackaging moved features up-tier and turned some into add-ons without changing list prices, which is a classic way to lift ARPU and push customers toward Premium. The new Principal PM role adds an engineering-backed experimentation team for price presentation, elasticity and promotions, which suggests Gusto now plans to tune price and packaging continuously in the product rather than in one-off repricings (inference). Together with the Head of Pricing in marketing, this points to a split: strategy sits in marketing, and in-product price testing sits in Growth Commerce.",
+      "open_questions": [
+        "What did the October repackaging do to upgrade rates and churn on Simple and Plus?",
+        "Which decisions does the Head of Pricing own, and which does the Growth Commerce PM own?",
+        "Will price experiments touch list prices, or only promotions and presentation?"
+      ],
+      "caveat": "Plan details come from a third-party pricing article that quotes Gusto's Help Center. Gusto's own pricing page blocked automated access today.",
+      "confidence": "Medium",
+      "linked_job_refs": ["JOB-0027", "JOB-0028", "new:2"]
+    }
+  ],
+  "people": [],
+  "notes": "Searched Canada (Montreal, Quebec City, Toronto, Ottawa, Calgary/Vancouver, Canada remote; EN/FR), Colombia (Bogotá, Medellín, Cali, LATAM remote; elempleo pricing, jefe-de-pricing and revenue-growth pages) and US SaaS, CPG RGM and retail, plus watchlist group 3. No new Canadian manager-plus roles were confirmed open: TD's Pricing Transformation role has expired, Scotiabank RESL Pricing is closed, Clio Pricing Analyst was removed 2026-09-16, and other Canadian hits (Dentons, PAL, Urgo, KEV Group, Desjardins, BMO, Sun Life) were old or not confirmable on employer pages. Colombian elempleo pricing hits are still almost all freight or costing roles (excluded). Staples Canada's B2B pricing role is still not on careers.staples.com. Justworks' Staff Pricing Strategy Lead has been live since 2026-03-12 but was not tracked before."
+}

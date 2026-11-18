@@ -786,28 +786,36 @@
     "company": "Gusto",
     "business_unit": "Product pricing",
     "industry": "Software",
-    "pricing_theme": "Packaging an SMB platform expanding from payroll into HR and embedded finance",
-    "current_model": "Three plans priced as a monthly base plus a per-person fee: Simple $49 + $6, Plus $80 + $12, Premium $180 + $22. Many paid add-ons, e.g. next-day pay $15/mo + $3 per person, business compliance $85/mo per state, Gusto Money Plus $19/mo.",
+    "pricing_theme": "Repackaging SMB payroll tiers and building an experimentation engine for price, packaging and promotions",
+    "current_model": "Three plans priced as a monthly base plus a per-person fee: Simple $49 + $6, Plus $80 + $12, Premium $180 + $22 (third-party check of list prices, 2026-10-24). From 2026-10-01, for new customers: the Contractor Only plan is closed; broker integration became a $6 per employee per month add-on on Premium; Business Compliance is included in Premium and costs $85 per state per month on Simple and Plus; HR Resources is Premium-only; Performance is included in Plus.",
     "posting_evidence": [
-      "Senior Pricing and Monetization Manager; hybrid in seven US cities or remote from Toronto; USD 152,000–218,000 or CAD 133,000–160,000.",
-      "Leads pricing and packaging across payroll, time and HR, and embedded financial services.",
-      "Works with product, finance, marketing, sales and data, with executive visibility on pricing KPIs.",
-      "Described as an AI-native role that builds MVPs quickly."
+      "New: Principal Product Manager, Pricing & Packaging (J-018237), published 2026-11-16; hybrid in Denver, New York or San Francisco; $179,000–$220,000, or $210,000–$260,000 in SF, Seattle and NY.",
+      "Leads a Growth Commerce pricing, packaging and promotion product team of 8+ (engineering, data science, design) and partners with the Head of Pricing on strategy and price-volume trade-offs.",
+      "Mandate: turn pricing strategies into elasticity experiments, change how prices are presented in the product, and create and test new promotions.",
+      "Earlier: Senior Pricing and Monetization Manager (JOB-0027/0028) led pricing and packaging across payroll, time and HR, and embedded financial services."
     ],
-    "news": [],
-    "interpretation": "Gusto charges a base fee plus per-employee fees with a long list of add-ons, so growth now comes from attaching more products (time, HR, compliance, financial services) to each customer. Owning packaging across these lines points to folding add-ons into tiers or bundles, and deciding which financial services earn fees versus serve retention. The \"AI-native, build MVPs\" framing suggests fast pricing experiments rather than annual repricing.",
+    "news": [
+      {
+        "date": "2026-10-01",
+        "summary": "Gusto repackaged its plans for new customers from October 1 (announced September 21) with no list-price change: it closed Contractor Only, made broker integration a $6 PEPM add-on on Premium, moved HR Resources to Premium only, and made Business Compliance an $85 per state per month add-on on Simple and Plus.",
+        "source": "StackScout (quoting Gusto Help Center)",
+        "url": "https://www.stackscout.net/articles/cc_20261023_171836.html"
+      }
+    ],
+    "interpretation": "The October repackaging moved features up-tier and turned some into add-ons without changing list prices, which is a classic way to lift ARPU and push customers toward Premium. The new Principal PM role adds an engineering-backed experimentation team for price presentation, elasticity and promotions, which suggests Gusto now plans to tune price and packaging continuously in the product rather than in one-off repricings (inference). Together with the Head of Pricing in marketing, this points to a split: strategy sits in marketing, and in-product price testing sits in Growth Commerce.",
     "open_questions": [
-      "Will add-ons be bundled into tiers?",
-      "How will embedded financial services be monetized: fees, float or interchange?",
-      "Does Toronto signal a Canadian pricing push?"
+      "What did the October repackaging do to upgrade rates and churn on Simple and Plus?",
+      "Which decisions does the Head of Pricing own, and which does the Growth Commerce PM own?",
+      "Will price experiments touch list prices, or only promotions and presentation?"
     ],
-    "caveat": "No first-party pricing announcement found in recent months; prices are from Gusto's pricing page in October 2026.",
+    "caveat": "Plan details come from a third-party pricing article that quotes Gusto's Help Center. Gusto's own pricing page blocked automated access today.",
     "confidence": "Medium",
     "linked_job_ids": [
       "JOB-0027",
-      "JOB-0028"
+      "JOB-0028",
+      "JOB-0146"
     ],
-    "last_updated": "2026-10-10",
+    "last_updated": "2026-11-18",
     "analysis_status": "analyzed",
     "id": "STR-0026",
     "baseline_date": "2026-10-10"
@@ -3330,6 +3338,68 @@
       "JOB-0142"
     ],
     "industry": "Media / Telecom",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0099",
+    "company": "Postobón",
+    "business_unit": "Revenue Management",
+    "baseline_date": "2026-11-18",
+    "last_updated": "2026-11-18",
+    "pricing_theme": "Building revenue-management governance over price, promotion and trade investment in Colombian beverages",
+    "current_model": null,
+    "posting_evidence": [
+      "Two Medellín analyst roles posted 2026-11-12 on Magneto: 'Analista Revenue Management' (3 years) and 'Analista Planeación Revenue Management' (2 years); indefinite-term contracts, salary 'a convenir'.",
+      "The Revenue Management analyst measures how price changes and promotions affect portfolio profitability (costs, revenue, volume, margin) by product, channel and customer.",
+      "Reports daily, monthly, quarterly and annually to the Executive Committee and a dedicated Revenue Committee on pricing, revenue, volume, mix and commercial levers.",
+      "The planning role works within a 'commercial levers governance model' with investment caps per SKU and per customer and budgets assigned by distribution centre (CEDI).",
+      "Tools named: Power BI, Python, advanced Excel."
+    ],
+    "news": [],
+    "interpretation": "The postings describe an RGM function that already has a formal governance layer: a Revenue Committee, a lever-governance model, and investment caps per SKU and per customer. This suggests Postobón is trying to control trade and promotion spend and measure price realization more tightly, not to set up RGM from scratch (inference). Hiring two analysts at once in Medellín points to scaling measurement and execution capacity under that framework. For a candidate, these are execution and analytics seats; strategic price decisions appear to sit with the committee.",
+    "open_questions": [
+      "Who chairs the Revenue Committee, and how are price and promotion decisions escalated to it?",
+      "Is revenue management centralized in Medellín, or do regional CEDIs own part of the trade budget?",
+      "How has price-pack architecture changed under Colombia's sugary-drinks tax?"
+    ],
+    "caveat": "Based only on two analyst postings read on a job board; no Postobón pricing news from the last three months was read today, and ownership-change reports found were from 2025.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0144",
+      "JOB-0145"
+    ],
+    "industry": "CPG",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0100",
+    "company": "Justworks",
+    "business_unit": "Marketing – Monetization Strategy",
+    "baseline_date": "2026-11-18",
+    "last_updated": "2026-11-18",
+    "pricing_theme": "Repackaging a PEO-led business into a multi-product platform with tiers, bundles and add-ons",
+    "current_model": "Per-employee-per-month admin fees. A May 2026 broker partner notice says PEO Plus rose from $109 to $124 PEPM for new business from 2026-06-01, with existing accounts moving later, and broker compensation changed from a flat PEPM to a percentage of admin fees. Justworks' own pricing page could not be read.",
+    "posting_evidence": [
+      "Staff, Pricing Strategy Lead (JR102921): New York hybrid, $188,000–$242,000 base; first published 2026-03-12, updated 2026-11-16; Marketing department.",
+      "Its mandate is to define future-state pricing and packaging as Justworks 'shifts from product-based plans to a platform model', covering products, add-ons, bundles and platform tiers.",
+      "Senior PMM, Monetization GTM (JR103913): New York hybrid, $166,000–$190,000 base; published 2026-11-16; owns pricing and packaging for new products and features, annual price increases and partner co-marketing.",
+      "Both roles call for willingness-to-pay research, conjoint and elasticity work, pricing tests, and discount and promotion governance with Revenue and Finance.",
+      "The 'Monetization Strategy team' sits in Marketing and works across Product, Product Marketing, Sales/CSO, Finance and Data & Analytics."
+    ],
+    "news": [],
+    "interpretation": "Justworks is moving from plan-based PEO pricing to a platform with tiers and add-ons, and it is adding a second monetization hire to handle launches and annual price increases. That suggests a steady flow of new SKUs and a regular repricing cadence (inference). The PEO Plus list-price increase from $109 to $124 shows it is willing to raise headline prices, which makes discount and promotion governance (named in both postings) central. The roles look like packaging-architecture and launch-pricing work rather than deal-desk work.",
+    "open_questions": [
+      "How will platform tiers bundle PEO, payroll and add-ons, and when do existing PEO Plus accounts move to $124?",
+      "Who has final say on price: the Marketing-based Monetization Strategy team or Finance?",
+      "Why has the Staff Pricing Strategy Lead role been open since March, and has its scope changed?"
+    ],
+    "caveat": "Based on the two Greenhouse postings and a third-party broker notice from May 2026. Justworks' pricing page and newsroom blocked automated access, so no first-party pricing news from the last three months was read.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0147",
+      "JOB-0148"
+    ],
+    "industry": "Software",
     "analysis_status": "analyzed"
   }
 ]
