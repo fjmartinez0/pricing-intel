@@ -736,19 +736,25 @@
     "company": "Cisco",
     "business_unit": "Product pricing",
     "industry": "Software",
-    "pricing_theme": "Annual SKU-level price increases plus a dedicated pricing lead for the AI hardware and software portfolio.",
+    "pricing_theme": "Building portfolio-specific pricing directors (security, AI, networking) under one Sr. Director while pushing mid-single-digit list increases.",
     "current_model": "List prices by SKU for hardware, software subscriptions and services, sold mostly through partners at a discount; new list prices for most networking and security software and some hardware took effect in Cisco Commerce Workspace on 2026-11-07 (Splunk excluded).",
     "posting_evidence": [
-      "New posting: Director, Pricing Strategy and Monetization (Remote), dated 2026-11-10 on a job-board copy (job ID 2030531); hybrid Seattle or San Jose or 100% remote US; USD 233,900–330,400 starting range for U.S./Canada.",
-      "That posting owns pricing and monetization strategy for Cisco's AI portfolio (hardware and software) and reports to the Sr. Director of Pricing and Strategy in the Product Organization's Pricing team.",
-      "Duties: annual pricing reviews, competitive analysis, customer behaviour and price-elasticity studies, and scalable pricing tools; requires 12+ years in pricing strategy, revenue management or business strategy.",
-      "Cisco's careers page for that job now says it is not accepting new applications (checked 2026-11-12), so it may already be closed.",
-      "Earlier tracked roles (JOB-0025, JOB-0084) cover the broad portfolio and the cybersecurity portfolio with the same reporting line."
+      "New req 2029712: Director, Pricing Strategy and Monetization (Remote), Networking portfolio (hardware and software, including AI offerings and platformization); job-board copy dated 2026-11-12, expected close 2027-01-24.",
+      "Hybrid Seattle or San Jose, or 100% remote US; USD 233,900–330,400 starting range for U.S./Canada; 12+ years in pricing strategy, revenue management or business strategy.",
+      "Reports to the Sr. Director of Pricing and Strategy; mandate covers annual pricing reviews, competitive and elasticity analysis, packaging with product/engineering/sales, and scalable pricing tools, plus aligning SVPs in finance, product, renewals and sales.",
+      "A sibling AI-portfolio director req (2029617, dated 2026-10-27) and req 2029712 both showed 'not accepting new applications' on careers.cisco.com on 2026-11-19, so these may already be closed.",
+      "Together with JOB-0025 (broad portfolio) and JOB-0084 (cybersecurity), Cisco now has portfolio-aligned pricing director roles in one team."
     ],
     "news": [
       {
         "date": "2026-10-26",
         "summary": "Cisco told distributors it will raise list prices on software and select hardware, mostly networking and security software, by a mid-single-digit percentage on average; new prices went live in Cisco Commerce Workspace on Nov. 7 and Splunk is excluded.",
+        "source": "Channel Insider",
+        "url": "https://www.channelinsider.com/channel-business/channel-analysis/news-cisco-software-hardware-price-increases-november-2026/"
+      },
+      {
+        "date": "2026-10-26",
+        "summary": "Cisco told distributors it would raise list prices on software and select hardware, mostly networking and security software, by a mid-single-digit percentage on average, effective 2026-11-07 in Cisco Commerce Workspace; Splunk is excluded and standard price protection applies.",
         "source": "Channel Insider",
         "url": "https://www.channelinsider.com/channel-business/channel-analysis/news-cisco-software-hardware-price-increases-november-2026/"
       },
@@ -765,19 +771,19 @@
         "url": "https://www.schneider.im/cisco-software-pricing-and-support-changes/"
       }
     ],
-    "interpretation": "Cisco calls the November increase a 'portfolio rebalancing'. Together with the reseller-reported August changes, it shows pricing run as a recurring, SKU-level list-price exercise, with cost pressure (components, memory) cited as context. The new AI-portfolio director role, alongside the earlier security-portfolio one, suggests (inference) Cisco is building pricing leads by portfolio under one Sr. Director, with AI infrastructure as a new monetization area. Candidates should expect annual price-review work plus the harder question of how to price AI hardware and software bundles through partners.",
+    "interpretation": "Cisco appears to be reorganising product pricing so that each major portfolio (security, AI, networking) has its own director under the Sr. Director of Pricing and Strategy (inference from the sequence of near-identical reqs with different portfolio scopes). The November list-price increase, centred on networking and security software, shows the immediate priority is price realization amid memory-cost pressure and AI demand. The networking director would own annual reviews and packaging for Cisco's largest hardware franchise as it shifts toward platform and AI bundles, so the job is about turning list increases and platform packaging into realized price through partners. Repeated reposting and quick closure of these reqs suggest Cisco is filling them fast or consolidating them, so timing is critical.",
     "open_questions": [
-      "Is the AI-portfolio director role still open, or was it filled or folded into the security role?",
-      "How much of the list-price increase is realized after partner discounts?",
-      "How will AI infrastructure be packaged: hardware plus subscription, consumption, or enterprise agreements?"
+      "Are the AI and networking director reqs separate seats or one consolidated role, and which is still open?",
+      "How much of the November list increase is realized after partner discounts and price protection?",
+      "How will networking be packaged going forward: hardware plus subscription, platform bundles, or enterprise agreements?"
     ],
-    "caveat": "The new posting's details come from a job-board copy, and Cisco's page now shows it closed; the price-increase details come from trade press, not a Cisco notice.",
+    "caveat": "Posting details come from a job-board copy; Cisco's own page showed the role closed today, and the price-increase details come from trade press rather than a Cisco notice.",
     "confidence": "Medium",
     "linked_job_ids": [
       "JOB-0025",
       "JOB-0084"
     ],
-    "last_updated": "2026-11-12",
+    "last_updated": "2026-11-19",
     "analysis_status": "analyzed",
     "id": "STR-0025",
     "baseline_date": "2026-10-10"
@@ -3400,6 +3406,55 @@
       "JOB-0148"
     ],
     "industry": "Software",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0101",
+    "company": "Coca-Cola FEMSA",
+    "business_unit": "KOF Colombia – Revenue Management (portfolio pricing, key accounts)",
+    "baseline_date": "2026-11-19",
+    "last_updated": "2026-11-19",
+    "pricing_theme": "Revenue-management-driven price/mix growth in Colombia, run through tight SAP price-list and promo governance for key accounts and e-commerce.",
+    "current_model": null,
+    "posting_evidence": [
+      "Senior Analyst (Analista Sr.), Bogotá, hybrid; created on the employer's Eightfold ATS 2026-11-13, req 140997; 1–2 years of experience required.",
+      "Mandate: activate and block portfolio SKUs in SAP/CRM, load event price lists on dates confirmed by key-account executives, and review expansion requests from the Profitability team for price, markup and usual discounts.",
+      "Owns price-vs-invoice reconciliation (SAP price vs billed price) and correcting SAP when they differ: a price-leakage control.",
+      "Builds the monthly commercial/promotional calendar for the CCETH e-commerce channel and presents it to digital marketing.",
+      "Tools: SAP, BW, Access, Power BI, advanced Excel; updates the key-account Top Line tool twice a month and consolidates multi-product costs with Controllership."
+    ],
+    "news": [
+      {
+        "date": "2026-10-29",
+        "summary": "Coca-Cola FEMSA's Colombia revenue rose 40.5% in Q3 2026 to about COP 1.74 trillion while volume rose 15.9% to a record 104.3 million unit cases; nine-month revenue was up 24.7%.",
+        "source": "Portafolio",
+        "url": "https://www.portafolio.co/negocios/industrias/coca-cola-femsa-aumento-40-5-sus-ingresos-en-colombia-en-el-tercer-trimestre-y-24-7-a-septiembre-505372"
+      },
+      {
+        "date": "2026-11-03",
+        "summary": "Forbes Colombia reported that KOF attributed Colombia's Q3 revenue growth to higher volumes, revenue management initiatives and favourable currency translation, with transactions up 14.6%.",
+        "source": "Forbes Colombia",
+        "url": "https://forbes.co/2026/11/03/negocios/colombia-impulsa-el-crecimiento-mundial-de-coca-cola-femsa-aporta-el-26/"
+      },
+      {
+        "date": "2026-08-05",
+        "summary": "In Mexico, Coca-Cola FEMSA raised prices from 2026-08-04 by about 1 to 5 pesos per pack (e.g. 1.75 L Coca-Cola from 37 to 42 pesos), citing higher input costs alongside the 2026 IEPS excise increase.",
+        "source": "Expansión",
+        "url": "https://expansion.mx/empresas/2026/08/05/coca-cola-aumenta-de-precios-2026"
+      }
+    ],
+    "interpretation": "KOF is explicitly crediting revenue management for Colombia's growth, and revenue growing far faster than volume in Q3 (40.5% vs 15.9%) suggests price/mix plus currency are doing a lot of the work (inference: the split is not disclosed). With that much revenue-management activity, execution discipline matters: the posting centres on making sure list prices, event prices and promotions land correctly in SAP and that billed prices match intended prices. The role is therefore a control and execution seat inside RM, not a price-setting one, but it gives direct exposure to key-account pricing and the e-commerce promo calendar. The Mexico price increase shows the group is willing to pass input-cost and tax pressure through to shelf prices, which is likely to keep the Colombia price-list workload high.",
+    "open_questions": [
+      "How large is price-vs-invoice leakage today, and does the role own fixing its root causes or only flagging them?",
+      "Who sets the prices and promotions this role loads (RM lead, Profitability, key-account team), and is there a path into pricing strategy work?",
+      "How much of Colombia's Q3 revenue-per-case gain came from price versus mix versus FX?"
+    ],
+    "caveat": "Based on one operational analyst posting and press coverage of quarterly results; KOF's own price/mix disclosure for Colombia was not read, and the current_model is unknown.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0151"
+    ],
+    "industry": "CPG",
     "analysis_status": "analyzed"
   }
 ]

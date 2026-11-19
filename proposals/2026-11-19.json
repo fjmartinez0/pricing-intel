@@ -1,0 +1,139 @@
+{
+  "run_date": "2026-11-19",
+  "searches_run": 52,
+  "searches_by_country": { "Canada": 20, "Colombia": 17, "United States": 15 },
+  "watchlist_checked": [
+    "Loblaw", "Metro", "Sobeys / Empire", "Couche-Tard", "Dollarama", "Canadian Tire", "Saputo", "Molson Coors Canada", "BRP", "Belron Canada",
+    "Procter & Gamble", "Unilever", "Nestlé", "Kimberly-Clark", "Colgate-Palmolive", "Natura &Co", "Belcorp", "Softys",
+    "OpenAI", "Anthropic", "Databricks", "Figma", "Notion", "Cisco"
+  ],
+  "new_opportunities": [
+    {
+      "company": "Coca-Cola FEMSA",
+      "title": "Analista Sr. Precios Portafolio / Revenue Management",
+      "business_unit": "KOF Colombia – Revenue Management (portfolio pricing, key accounts)",
+      "category": "Revenue Management",
+      "country": "Colombia",
+      "city": "Bogotá",
+      "location_note": null,
+      "work_mode": "Hybrid",
+      "work_model": "Hybrid (as shown on the employer's Eightfold posting)",
+      "salary_advertised": "Not stated",
+      "employer_posting_date": "2026-11-13",
+      "official_url": "https://coca-colafemsa.eightfold.ai/careers/job/1374435054517",
+      "secondary_url": "https://www.dreamworkhq.com/job/15fd7430-d228-4c1c-b77c-cacadb39eb2e",
+      "requisition_id": "140997",
+      "summary": "Maintains KOF Colombia's portfolio pricing in SAP/CRM: event price lists for key accounts, price-vs-invoice reconciliation, price/markup/discount checks on expansion requests, and the monthly promotional calendar for the e-commerce channel (CCETH).",
+      "pricing_focus": "CPG price-list governance and promo calendar execution",
+      "level_band": "analyst",
+      "level": "Senior Analyst",
+      "scope_fit": "in_scope",
+      "scope_note": "Operational pricing-execution role; asks for 1–2 years of experience, advanced Excel, SAP, Power BI. Posting date taken from the Eightfold API's creation timestamp (2026-11-13 UTC).",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Cisco",
+      "title": "Director, Pricing Strategy and Monetization (Remote)",
+      "business_unit": "Product pricing – Networking portfolio",
+      "category": "Monetization",
+      "country": "United States",
+      "city": "San Jose",
+      "location_note": "Hybrid in Seattle, WA or San Jose, CA; 100% remote US candidates also considered.",
+      "work_mode": "Hybrid",
+      "work_model": "Hybrid in Seattle, WA or San Jose, CA; 100% remote US candidates will also be considered",
+      "salary_advertised": "$233,900 to $330,400 starting range for U.S./Canada (NYC Metro $233,900 to $380,000; non-metro New York and Washington $220,900 to $344,300), excluding incentives, equity and benefits",
+      "employer_posting_date": null,
+      "official_url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Director--Pricing-Strategy-and-Monetization--Remote-_2029712-1",
+      "secondary_url": "https://freehire.me/jobs/director-pricing-strategy-and-monetization-remote-cisco-bugoa42e",
+      "requisition_id": "2029712",
+      "summary": "Owns pricing and monetization strategy for Cisco's Networking hardware and software portfolio, including AI offerings and platformization: annual pricing reviews, competitive and elasticity analysis, packaging, and scalable pricing tools; reports to the Sr. Director of Pricing and Strategy.",
+      "pricing_focus": "Networking portfolio pricing; AI and platform packaging",
+      "level_band": "manager_plus",
+      "level": null,
+      "scope_fit": "in_scope",
+      "scope_note": "Distinct requisition from JOB-0084 (cybersecurity portfolio, different salary range); same title. Job-board copy dates it 2026-11-12 with an expected close of 2027-01-24, but careers.cisco.com showed 'not accepting new applications' on 2026-11-19, so it may already be closed. A sibling AI-portfolio director req (2029617) also showed closed and was not proposed.",
+      "strategy_confidence": "Medium"
+    }
+  ],
+  "url_updates": [],
+  "strategy_updates": [
+    {
+      "id": null,
+      "company": "Coca-Cola FEMSA",
+      "business_unit": "KOF Colombia – Revenue Management (portfolio pricing, key accounts)",
+      "pricing_theme": "Revenue-management-driven price/mix growth in Colombia, run through tight SAP price-list and promo governance for key accounts and e-commerce.",
+      "current_model": null,
+      "industry": "CPG",
+      "posting_evidence": [
+        "Senior Analyst (Analista Sr.), Bogotá, hybrid; created on the employer's Eightfold ATS 2026-11-13, req 140997; 1–2 years of experience required.",
+        "Mandate: activate and block portfolio SKUs in SAP/CRM, load event price lists on dates confirmed by key-account executives, and review expansion requests from the Profitability team for price, markup and usual discounts.",
+        "Owns price-vs-invoice reconciliation (SAP price vs billed price) and correcting SAP when they differ: a price-leakage control.",
+        "Builds the monthly commercial/promotional calendar for the CCETH e-commerce channel and presents it to digital marketing.",
+        "Tools: SAP, BW, Access, Power BI, advanced Excel; updates the key-account Top Line tool twice a month and consolidates multi-product costs with Controllership."
+      ],
+      "news": [
+        {
+          "date": "2026-10-29",
+          "summary": "Coca-Cola FEMSA's Colombia revenue rose 40.5% in Q3 2026 to about COP 1.74 trillion while volume rose 15.9% to a record 104.3 million unit cases; nine-month revenue was up 24.7%.",
+          "source": "Portafolio",
+          "url": "https://www.portafolio.co/negocios/industrias/coca-cola-femsa-aumento-40-5-sus-ingresos-en-colombia-en-el-tercer-trimestre-y-24-7-a-septiembre-505372"
+        },
+        {
+          "date": "2026-11-03",
+          "summary": "Forbes Colombia reported that KOF attributed Colombia's Q3 revenue growth to higher volumes, revenue management initiatives and favourable currency translation, with transactions up 14.6%.",
+          "source": "Forbes Colombia",
+          "url": "https://forbes.co/2026/11/03/negocios/colombia-impulsa-el-crecimiento-mundial-de-coca-cola-femsa-aporta-el-26/"
+        },
+        {
+          "date": "2026-08-05",
+          "summary": "In Mexico, Coca-Cola FEMSA raised prices from 2026-08-04 by about 1 to 5 pesos per pack (e.g. 1.75 L Coca-Cola from 37 to 42 pesos), citing higher input costs alongside the 2026 IEPS excise increase.",
+          "source": "Expansión",
+          "url": "https://expansion.mx/empresas/2026/08/05/coca-cola-aumenta-de-precios-2026"
+        }
+      ],
+      "interpretation": "KOF is explicitly crediting revenue management for Colombia's growth, and revenue growing far faster than volume in Q3 (40.5% vs 15.9%) suggests price/mix plus currency are doing a lot of the work (inference: the split is not disclosed). With that much revenue-management activity, execution discipline matters: the posting centres on making sure list prices, event prices and promotions land correctly in SAP and that billed prices match intended prices. The role is therefore a control and execution seat inside RM, not a price-setting one, but it gives direct exposure to key-account pricing and the e-commerce promo calendar. The Mexico price increase shows the group is willing to pass input-cost and tax pressure through to shelf prices, which is likely to keep the Colombia price-list workload high.",
+      "open_questions": [
+        "How large is price-vs-invoice leakage today, and does the role own fixing its root causes or only flagging them?",
+        "Who sets the prices and promotions this role loads (RM lead, Profitability, key-account team), and is there a path into pricing strategy work?",
+        "How much of Colombia's Q3 revenue-per-case gain came from price versus mix versus FX?"
+      ],
+      "caveat": "Based on one operational analyst posting and press coverage of quarterly results; KOF's own price/mix disclosure for Colombia was not read, and the current_model is unknown.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:0"]
+    },
+    {
+      "id": null,
+      "company": "Cisco",
+      "business_unit": "Product pricing",
+      "pricing_theme": "Building portfolio-specific pricing directors (security, AI, networking) under one Sr. Director while pushing mid-single-digit list increases.",
+      "current_model": "List prices by SKU for hardware, software subscriptions and services, sold mostly through partners at a discount; new list prices for most networking and security software and some hardware took effect in Cisco Commerce Workspace on 2026-11-07 (Splunk excluded).",
+      "industry": "Software",
+      "posting_evidence": [
+        "New req 2029712: Director, Pricing Strategy and Monetization (Remote), Networking portfolio (hardware and software, including AI offerings and platformization); job-board copy dated 2026-11-12, expected close 2027-01-24.",
+        "Hybrid Seattle or San Jose, or 100% remote US; USD 233,900–330,400 starting range for U.S./Canada; 12+ years in pricing strategy, revenue management or business strategy.",
+        "Reports to the Sr. Director of Pricing and Strategy; mandate covers annual pricing reviews, competitive and elasticity analysis, packaging with product/engineering/sales, and scalable pricing tools, plus aligning SVPs in finance, product, renewals and sales.",
+        "A sibling AI-portfolio director req (2029617, dated 2026-10-27) and req 2029712 both showed 'not accepting new applications' on careers.cisco.com on 2026-11-19, so these may already be closed.",
+        "Together with JOB-0025 (broad portfolio) and JOB-0084 (cybersecurity), Cisco now has portfolio-aligned pricing director roles in one team."
+      ],
+      "news": [
+        {
+          "date": "2026-10-26",
+          "summary": "Cisco told distributors it would raise list prices on software and select hardware, mostly networking and security software, by a mid-single-digit percentage on average, effective 2026-11-07 in Cisco Commerce Workspace; Splunk is excluded and standard price protection applies.",
+          "source": "Channel Insider",
+          "url": "https://www.channelinsider.com/channel-business/channel-analysis/news-cisco-software-hardware-price-increases-november-2026/"
+        }
+      ],
+      "interpretation": "Cisco appears to be reorganising product pricing so that each major portfolio (security, AI, networking) has its own director under the Sr. Director of Pricing and Strategy (inference from the sequence of near-identical reqs with different portfolio scopes). The November list-price increase, centred on networking and security software, shows the immediate priority is price realization amid memory-cost pressure and AI demand. The networking director would own annual reviews and packaging for Cisco's largest hardware franchise as it shifts toward platform and AI bundles, so the job is about turning list increases and platform packaging into realized price through partners. Repeated reposting and quick closure of these reqs suggest Cisco is filling them fast or consolidating them, so timing is critical.",
+      "open_questions": [
+        "Are the AI and networking director reqs separate seats or one consolidated role, and which is still open?",
+        "How much of the November list increase is realized after partner discounts and price protection?",
+        "How will networking be packaged going forward: hardware plus subscription, platform bundles, or enterprise agreements?"
+      ],
+      "caveat": "Posting details come from a job-board copy; Cisco's own page showed the role closed today, and the price-increase details come from trade press rather than a Cisco notice.",
+      "confidence": "Medium",
+      "linked_job_refs": ["JOB-0025", "JOB-0084", "new:1"]
+    }
+  ],
+  "people": [],
+  "notes": "Searched Canada (Montreal, Toronto, Quebec City, Ottawa, Canada-wide; EN/FR), Colombia (Bogotá, Medellín, Cali, LATAM remote; ES/EN; elempleo pricing, precios, revenue-growth and analista-RGM pages) and US (SaaS, AI, CPG RGM). Most hits were closed (Loblaw, eBay Toronto, Kimberly-Clark Bogotá, Cargill, Granicus, Hyland, Anthropic, Ubisoft repost closed 2026-11-13) or out of scope (elempleo freight and costing roles, e.g. PTA SAS and MentorHub). Watchlist group 4 was checked mostly by targeted web search, plus the Figma Greenhouse API and Transat SmartRecruiters; Dollarama, Saputo and BRP returned no pricing roles. Task 2: no employer URL found for JOB-0122 (Staples careers search has no match) or JOB-0144/0145 (Postobón's roles exist only on Magneto, at magneto365.com/co/empresas/postobon/empleos/...; I could not confirm Magneto is Postobón's own ATS, so no update was proposed). The Cisco networking req may already be closed per careers.cisco.com."
+}
