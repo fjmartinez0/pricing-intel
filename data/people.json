@@ -206,5 +206,21 @@
     "found_via": "Transat news release dated 2024-03-18, read 2026-11-17",
     "first_seen": "2026-11-17",
     "notes": "Appointment is from March 2024; confirm he is still CRO before relying on it."
+  },
+  {
+    "id": "PERSON-0014",
+    "name": "Fabián Andrés Prieto Céspedes",
+    "title": "Manager of Market Intelligence and Development for Latin America, Energy & Industry Division",
+    "company": "Applus+",
+    "contact_type": "relevant_contact",
+    "relationship": "Regional commercial leader in the same division and region as the Pricing Manager LATAM role",
+    "relevance": "He runs market intelligence and commercial development for Applus+ Energy & Industry in Latin America and previously managed tenders in Colombia, so he is a likely stakeholder for regional pricing and bid decisions.",
+    "opportunity_id": "JOB-0153",
+    "linkedin_profile": null,
+    "verification": "Named with this title in an Applus+ company news article; not named in the posting.",
+    "evidence_url": "https://applus.com/global/en/news/applus+-experts:-fabián-prieto,-manager-of-market-intelligence-and-development-for-latin-america,-seeks-motivating-challenges",
+    "found_via": "Applus+ news article (dated 2024-05-17), read 2026-11-20",
+    "first_seen": "2026-11-20",
+    "notes": "The article is from May 2024, so his title may have changed."
   }
 ]

@@ -1,0 +1,160 @@
+{
+  "run_date": "2026-11-20",
+  "searches_run": 76,
+  "searches_by_country": { "Canada": 35, "Colombia": 25, "United States": 16 },
+  "watchlist_checked": ["EY", "Deloitte", "PwC", "KPMG", "McKinsey Montreal", "Fasken", "Blue J", "FLO", "C.A.T. North America", "MongoDB Toronto", "Rappi", "Mercado Libre", "Uber", "DiDi", "Grupo Éxito", "Falabella", "Alegra", "Holcim Colombia", "Veeam", "Workday", "Autodesk", "Zendesk", "Box", "Dropbox"],
+  "new_opportunities": [
+    {
+      "company": "Iris North America", "title": "Director, Pricing Strategy", "business_unit": "Strategy (pricing consulting practice)", "category": "Pricing",
+      "country": "Canada", "city": "Toronto", "location_note": "Toronto-based; candidates must be based in Toronto or willing to relocate.",
+      "work_mode": "Unknown", "work_model": "Toronto-based, with regular in-office presence expected", "salary_advertised": "Not stated",
+      "employer_posting_date": "2026-11-16", "official_url": "https://job-boards.greenhouse.io/iris/jobs/8394269", "secondary_url": null, "requisition_id": "8394269",
+      "summary": "Leads B2B and B2C pricing, commercial and go-to-market consulting engagements for clients of the Iris marketing agency, owning client relationships, delivery, new business and team development.",
+      "pricing_focus": "Client-facing pricing strategy consulting",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "Agency or consulting pricing role (client-facing, includes business development), not an in-house pricing role. The Greenhouse job ID is used as the requisition ID because the posting lists none.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Applus+", "title": "Pricing manager latam / pricing analyst senior latam", "business_unit": "Energy & Industry division (Latin America)", "category": "Pricing",
+      "country": "Colombia", "city": "Bogotá", "location_note": "Description says the location is Colombia or Brazil. Posted by Applus Norcontrol Colombia Ltda.",
+      "work_mode": "Hybrid", "work_model": "Bogotá - Híbrido", "salary_advertised": "Salario confidencial",
+      "employer_posting_date": "2026-11-19", "official_url": null, "secondary_url": "https://www.elempleo.com/co/ofertas-trabajo/pricing-manager-latam-pricing-analyst-senior-latam-1886800356", "requisition_id": "1886800356",
+      "summary": "Implements the regional pricing strategy for Applus+ Energy & Industry in Latin America: B2B technical-service pricing models, margin targets, discount and approval policies, pricing governance across countries, and profitability analysis by client, service, country and project.",
+      "pricing_focus": "B2B services pricing governance and margin management",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "The title combines manager and senior analyst, but the description is manager-level: 8+ years, reports to the Global Pricing Manager, permanent contract, mid-management. A confidential posting with the same date, requirements and title stem (elempleo 1886800120, 'Pricing manager / analyst latam', energy sector) looks like the same role and is not listed separately. The requisition ID is the elempleo offer code. No Applus careers-site posting was found.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "LangChain", "title": "Product Manager, Monetization", "business_unit": "Product (LangSmith)", "category": "Monetization",
+      "country": "United States", "city": "San Francisco", "location_note": null,
+      "work_mode": "In person", "work_model": "On-site", "salary_advertised": "$180,000-$240,000 annual base salary, plus equity",
+      "employer_posting_date": "2026-11-17", "official_url": "https://jobs.ashbyhq.com/langchain/86ba410e-2625-41e4-b430-3f0d7c7477a5", "secondary_url": "https://www.mindtheproduct.com/jobs/listing/product-manager-monetization-767ab5a2fdb8ec73/", "requisition_id": null,
+      "summary": "Owns LangSmith's monetization surface (pricing pages, upgrade flows, usage dashboards, billing) and defines usage-based, seat-based or hybrid pricing and packaging with Finance, Sales and leadership, including billing, metering and entitlement infrastructure.",
+      "pricing_focus": "Usage-based and seat-based SaaS pricing and packaging for AI developer tools",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "Product-management title, but owning pricing and packaging is explicitly the core of the role. Mid-level (4+ years of PM experience). The Ashby page shows only the title; the details, date and pay come from Mind the Product and freehire.me copies.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "L'Oréal", "title": "Analyste Tarification | Pricing Analyst", "business_unit": "L'Oréal Canada – Commercial Finance & Pricing", "category": "Pricing",
+      "country": "Canada", "city": "Montreal", "location_note": null,
+      "work_mode": "Unknown", "work_model": "Not stated", "salary_advertised": "Not stated",
+      "employer_posting_date": "2026-11-16", "official_url": null, "secondary_url": "https://lavalici.ca/emplois/analyste-tarification-pricing-analyst-4938178", "requisition_id": null,
+      "summary": "Creates and monitors pricing contracts, price lists and commercial terms across L'Oréal Canada divisions, runs pricing compliance and internal-control checks, builds dashboards and analyzes pricing-strategy performance. Reports to the Commercial Finance & Pricing Manager.",
+      "pricing_focus": "CPG price architecture, commercial terms and pricing controls",
+      "level_band": "analyst", "level": "Analyst",
+      "scope_fit": "in_scope", "scope_note": "Leans toward pricing operations and controls (contracts, price lists, compliance; a CPA is an asset) rather than pricing strategy. No careers.loreal.com job page found; the job-level copy on lavalici.ca links only to LinkedIn. Applications close 2026-12-16 per that copy. A Jobrapido copy dates the role 2026-11-17.", "strategy_confidence": "Low"
+    }
+  ],
+  "url_updates": [],
+  "strategy_updates": [
+    {
+      "id": null, "company": "Iris North America", "business_unit": "Strategy (pricing consulting practice)",
+      "pricing_theme": "Building a pricing-strategy consulting offer inside a full-service marketing agency, led from Toronto",
+      "current_model": null,
+      "industry": "Marketing services / consulting",
+      "posting_evidence": [
+        "Director, Pricing Strategy, Toronto; first published on Greenhouse 2026-11-16; Toronto-based with regular in-office presence; no pay stated.",
+        "Leads complex B2B and B2C pricing, commercial and go-to-market engagements and advises client executives from discovery through delivery.",
+        "Commercial mandate: leads proposals, RFP responses and pitches, judges scope, fees and timelines, and builds the team; the posting says it is 'not a pure advisory or analytical role'.",
+        "Expected to contribute to integrated agency pitches where pricing strengthens the wider offer, and to act as a leadership partner to the Managing Director in the first 12–18 months.",
+        "Requires 10+ years in pricing, commercial, growth or management consulting; pricing-consultancy or agency background preferred; quantitative fluency, but not a data-scientist role."
+      ],
+      "news": [],
+      "interpretation": "Inference: Iris appears to be using pricing as a premium, consulting-grade service line that differentiates its agency offer and pulls it into board-level commercial conversations, not just marketing execution. The emphasis on business development, fee judgment and integrated pitches suggests the Toronto practice is still being grown and is measured on revenue. A third-party profile links Iris to a 'Pricing Solutions' consultancy (unverified today), which would mean the role draws on an existing pricing method rather than building one. For a candidate, this is a selling and delivery leadership job more than an in-house pricing-owner job.",
+      "open_questions": [
+        "How large is the Toronto pricing team today, and what revenue or new-business target comes with the role?",
+        "How does this practice relate to Iris Pricing Solutions, and whose methods and tools does it use?",
+        "What share of work is standalone pricing engagements versus pricing add-ons inside agency marketing accounts?"
+      ],
+      "caveat": "Based only on the Greenhouse posting; no recent pricing news or practice materials from Iris were found, and its link to Iris Pricing Solutions comes from a third-party profile.",
+      "confidence": "Low",
+      "linked_job_refs": ["new:0"]
+    },
+    {
+      "id": null, "company": "Applus+", "business_unit": "Energy & Industry division (Latin America)",
+      "pricing_theme": "Rolling out regional pricing governance and margin discipline for B2B technical inspection services in Latin America",
+      "current_model": null,
+      "industry": "Testing, inspection and certification",
+      "posting_evidence": [
+        "Pricing Manager LATAM for the Energy & Industry division, Bogotá (hybrid) or Brazil; posted on elempleo 2026-11-19; permanent; salary confidential.",
+        "Reports to the Global Pricing Manager and implements the regional strategy 'aligned with global guidelines', so a central pricing function exists and is being extended to the region.",
+        "Mandate: B2B technical-service pricing models, target margins, discount structures and approval policies, exception and escalation processes, and consistent policy application across countries and business lines.",
+        "Profitability analysis by client, service, country and project; assesses the financial impact of contract terms, payment terms, indexation and scope changes; supports bids and tenders.",
+        "Requires 8+ years in pricing, revenue management, profitability or contract management, advanced English, and Portuguese as a plus; tools listed are Excel, CRM, ERP and BI."
+      ],
+      "news": [],
+      "interpretation": "Inference: Applus+ looks to be moving Latin American pricing from local, bid-by-bid decisions to a governed, centrally guided model, focused on margin leakage from discounts, exceptions and contract terms such as indexation and payment terms. The role sits under a Global Pricing Manager, which suggests a group-wide price-realization program now reaching LATAM. The emphasis on tenders and contract economics means much of the work will be deal and bid pricing for industrial and energy clients, alongside building policy. The candidate would need to win adoption from country commercial leaders, not just build models.",
+      "open_questions": [
+        "Which countries and business lines are in scope at the start, and how much pricing authority stays with country managers?",
+        "Is there a pricing tool or CPQ in place, or is governance currently run in Excel?",
+        "What margin or price-realization targets is the global pricing team measured on?"
+      ],
+      "caveat": "Based on a full job-board copy (elempleo), not an Applus careers page; no recent Applus pricing news or regional financials were found.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:1"]
+    },
+    {
+      "id": null, "company": "LangChain", "business_unit": "Product (LangSmith)",
+      "pricing_theme": "Shifting LangSmith from per-trace and per-run fees to a seat-plus-normalized-usage-unit (LSU/LCU) model as it adds agent and compute products",
+      "current_model": "LangSmith pricing page: Developer $0 per seat per month (1 seat, 5k base traces/month); Plus $39 per seat per month (unlimited seats, 10k base traces/month, Agent Server and Engine access); Enterprise custom, invoiced annually upfront, with committed credits. Usage beyond allowances is pay-as-you-go in LangSmith Standard Units (1 LSU = $1.00) across traces, Agent Server, Sandboxes, Fleet and Engine. Base traces are kept 14 days and extended traces 180 days.",
+      "industry": "Software",
+      "posting_evidence": [
+        "Product Manager, Monetization, San Francisco on-site; posted 2026-11-17 on Ashby; $180,000–$240,000 base plus equity.",
+        "Owns the end-to-end monetization surface across LangSmith: pricing pages, upgrade flows, usage dashboards, billing management, and in-app conversion and expansion signals.",
+        "Defines and evolves usage-based, seat-based or hybrid pricing and packaging with Finance, Sales and leadership, and designs packaging for how large enterprises buy.",
+        "Builds billing and entitlement infrastructure with engineering: usage metering, plan enforcement, trials and enterprise contracts.",
+        "Requires 4+ years of PM experience with monetization, growth or platform pricing at B2B SaaS or developer-tools companies; shapes GTM strategy with the founders."
+      ],
+      "news": [
+        { "date": "2026-07-21", "summary": "LangSmith moved usage into normalized units: overage traces now cost 0.005 LSU ($5.00 per 1,000) versus a prior $2.50 per 1,000 base-trace price, deployment per-run and uptime fees were replaced by resource metering in LCU/LSU, and existing customers stayed on old pricing until 2026-10-01 per LangChain billing docs.", "source": "usagepricing.com", "url": "https://usagepricing.com/blueprint/activity/langsmith-2026-07-21-price-change" }
+      ],
+      "interpretation": "LangChain is mid-transition from simple trace-based fees to a unified credit model that can price new agent, sandbox and compute products on one currency, with a low $39 seat as the entry point. The July 2026 change raised the effective trace overage price and moved infrastructure to resource metering; grandfathering ended on 2026-10-01, so the company is likely now facing customers' first bills under the new model. Inference: the role exists to make that model legible and convertible (pricing pages, usage dashboards, upgrade flows) and to build enterprise packaging and entitlements on top of it. It is a hands-on product-monetization seat, not a pricing-strategy staff role.",
+      "open_questions": [
+        "How did customers react after grandfathering ended on 2026-10-01, and has churn or bill shock changed the roadmap?",
+        "Who owns pricing decisions today (founders, Finance or Sales), and what authority will this PM have over list prices?",
+        "Is the billing and metering stack built in-house or on a vendor (for example Orb or Metronome)?"
+      ],
+      "caveat": "The pricing-change details come from a third-party tracker (usagepricing.com) and the current plans from LangChain's own pricing page; the job description comes from aggregator copies because the Ashby page shows only the title.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:2"]
+    },
+    {
+      "id": null, "company": "L'Oréal", "business_unit": "L'Oréal Canada – Commercial Finance & Pricing",
+      "pricing_theme": "Tightening control and automation of price lists, commercial terms and pricing compliance across L'Oréal Canada's divisions",
+      "current_model": null,
+      "industry": "CPG",
+      "posting_evidence": [
+        "Analyste Tarification | Pricing Analyst, Montreal; posted 2026-11-16 per a job-level copy; applications close 2026-12-16; work mode and pay not stated.",
+        "Reports to the Commercial Finance & Pricing Manager and works with Commercial, Finance and Customer Care across several divisions.",
+        "Creates, revises and monitors pricing contracts, price lists and commercial terms; runs internal-control and compliance checks on pricing data and escalates anomalies.",
+        "Harmonizes pricing and commercial-terms processes and looks for automation, including AI-enabled dashboards 'where relevant and authorized'; Power BI or Tableau.",
+        "Requires knowledge of price architecture, commercial terms and rebate mechanisms in omnichannel and B2B settings; a CPA or equivalent is an asset."
+      ],
+      "news": [],
+      "interpretation": "Inference: L'Oréal Canada is treating pricing partly as a finance-control discipline: getting price lists, trade terms and rebates right and auditable across divisions and retail partners, and automating the process. Placing the role under Commercial Finance, and the CPA preference, point to protecting net revenue and compliance more than setting list prices. For a candidate, this is an operations-and-controls entry point to CPG pricing, with exposure to price architecture and trade-terms design.",
+      "open_questions": [
+        "How much of the role is price setting and analysis versus contract and master-data maintenance?",
+        "Which divisions and channels (retail, e-commerce, professional salons) are covered?",
+        "Is there an ongoing trade-terms or systems change (for example an SAP migration) driving the automation focus?"
+      ],
+      "caveat": "Based on a full job-level copy from a third-party board (lavalici.ca); no careers.loreal.com page and no recent Canada-specific pricing news were found.",
+      "confidence": "Low",
+      "linked_job_refs": ["new:3"]
+    }
+  ],
+  "people": [
+    {
+      "name": "Fabián Andrés Prieto Céspedes", "title": "Manager of Market Intelligence and Development for Latin America, Energy & Industry Division", "company": "Applus+",
+      "contact_type": "relevant_contact",
+      "relationship": "Regional commercial leader in the same division and region as the Pricing Manager LATAM role",
+      "relevance": "He runs market intelligence and commercial development for Applus+ Energy & Industry in Latin America and previously managed tenders in Colombia, so he is a likely stakeholder for regional pricing and bid decisions.",
+      "opportunity_ref": "new:1",
+      "linkedin_profile": null,
+      "verification": "Named with this title in an Applus+ company news article; not named in the posting.",
+      "evidence_url": "https://applus.com/global/en/news/applus+-experts:-fabián-prieto,-manager-of-market-intelligence-and-development-for-latin-america,-seeks-motivating-challenges",
+      "found_via": "Applus+ news article (dated 2024-05-17), read 2026-11-20",
+      "notes": "The article is from May 2024, so his title may have changed."
+    }
+  ],
+  "notes": "Searched Canada (Montreal, Toronto, Ottawa, Quebec City, Canada-wide; EN/FR), Colombia (elempleo pricing/precios/revenue-growth/revenue-management pages, Bogotá, Medellín, Cali, LATAM remote; ES/EN) and US software, CPG RGM and fintech, plus the group 5 watchlist. Most hits were closed: KEV Group Director of Pricing (gone from its Greenhouse board), Parkland pricing analysts (Jobvite closed), Dr. Oetker RGM Lead (filled), Kraft Heinz RGM (redirect), Rapid7 Director P&P (404), Zendesk pricing roles (closed or removed), the Rappi monetization and pricing roles, several Magneto and Accor hotel RM roles (404/410). Excluded as freight or costing: PTA 'Coordinador pricing - comercio internacional' and Mentorhub 'Analista de pricing de transporte'. Flag: Dropbox JOB-0120 (marked inactive) is still listed in the Dropbox Greenhouse API (ID 8275002, first_published 2026-11-03); the checker may verify better against job-boards.greenhouse.io/dropbox/jobs/8275002. Not added for lack of an employer page or a clear location: ClarityPay Director of Pricing (NYC vs Atlanta) and SITA Senior Commercial Pricing Analyst (Bogotá, undated). Task 2: no employer pages found beyond Magneto for the two Postobón analyst roles."
+}
