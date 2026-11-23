@@ -222,5 +222,21 @@
     "found_via": "Applus+ news article (dated 2024-05-17), read 2026-11-20",
     "first_seen": "2026-11-20",
     "notes": "The article is from May 2024, so his title may have changed."
+  },
+  {
+    "id": "PERSON-0015",
+    "name": "Matthew Peters",
+    "title": "Partner and national leader of transformation",
+    "company": "McCarthy Tétrault",
+    "contact_type": "relevant_contact",
+    "relationship": "Firm leader for transformation; the pricing specialist roles sit in the Innovation / Client Service Delivery group",
+    "relevance": "Leads the firm's transformation and AI agenda, which shapes the service-delivery and fee-arrangement work these pricing specialists support.",
+    "opportunity_id": "JOB-0156",
+    "linkedin_profile": null,
+    "verification": "Named with this title in a Canadian Lawyer interview read today; not named as poster or hiring manager.",
+    "evidence_url": "https://www.canadianlawyermag.com/resources/practice-management/from-six-hour-reviews-to-one-matthew-peters-on-what-ai-is-actually-doing-inside-mccarthy-tetrault/394142",
+    "found_via": "Canadian Lawyer, 2026-05-26 (read 2026-11-23)",
+    "first_seen": "2026-11-23",
+    "notes": "Indirect link; the posting does not name a reporting line."
   }
 ]

@@ -1,0 +1,104 @@
+{
+  "run_date": "2026-11-23",
+  "searches_run": 63,
+  "searches_by_country": { "Canada": 28, "Colombia": 18, "United States": 17 },
+  "watchlist_checked": ["Shopify", "Lightspeed", "Coveo", "Nuvei", "Wealthsimple", "Clio", "Unity", "Electronic Arts Montreal", "Ubisoft", "Autodesk", "Bancolombia", "Davivienda", "Nubank Colombia", "Addi", "Bold", "Mastercard", "Visa", "Twilio", "Salesforce", "Microsoft", "Adobe", "Atlassian", "ServiceNow"],
+  "new_opportunities": [
+    {
+      "company": "McCarthy Tétrault", "title": "Bilingual Pricing Specialist", "business_unit": "Client Service Delivery (Project Management)", "category": "Pricing",
+      "country": "Canada", "city": "Montreal", "location_note": "Posting location reads 'Toronto or Montreal'; daily work in French and English",
+      "work_mode": "Hybrid", "work_model": "McCarthy Tétrault employees benefit from a hybrid work environment.", "salary_advertised": "Not stated",
+      "employer_posting_date": "2026-11-11", "official_url": "https://careers-mccarthyca.icims.com/jobs/3245/bilingual-pricing-specialist/job", "secondary_url": null, "requisition_id": "2026-3245",
+      "summary": "Prices pitches and proposals, builds alternative fee arrangements, budgets and pricing tools, and analyzes matter profitability for the law firm's Client Service Delivery team.",
+      "pricing_focus": "Legal services pricing; alternative fee arrangements",
+      "level_band": "analyst", "level": "Specialist",
+      "scope_fit": "in_scope", "scope_note": "Specialist grade, 5+ years in legal or professional services; works with CSD Directors and Managers. Posting date taken from the iCIMS search list (11/11/2026); the job page shows no date.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "McCarthy Tétrault", "title": "Pricing Specialist", "business_unit": "Client Service Delivery (Innovation)", "category": "Pricing",
+      "country": "Canada", "city": "Toronto", "location_note": "Posting location reads 'Toronto or Montreal'; salary range stated for Toronto only",
+      "work_mode": "Hybrid", "work_model": "McCarthy Tétrault employees benefit from a hybrid work environment.", "salary_advertised": "$80,000 to $90,000 annually (Toronto location)",
+      "employer_posting_date": "2026-11-04", "official_url": "https://careers-mccarthyca.icims.com/jobs/2877/pricing-specialist/job", "secondary_url": null, "requisition_id": "2026-2877",
+      "summary": "Supports pricing of pitches and proposals, alternative fee arrangements and client budgets, builds fee analytics and pricing tools, and analyzes matter profitability.",
+      "pricing_focus": "Legal services pricing; alternative fee arrangements",
+      "level_band": "analyst", "level": "Specialist",
+      "scope_fit": "in_scope", "scope_note": "Separate requisition from the bilingual role with near-identical duties. Posting date taken from the iCIMS search list (11/4/2026); the job page shows no date.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Notion", "title": "GTM Pricing & Packaging Lead, Commercial Operations", "business_unit": "Commercial Operations (Sales Assist pricing and packaging)", "category": "Pricing",
+      "country": "United States", "city": "San Francisco", "location_note": "Pay range quoted for San Francisco or New York City roles",
+      "work_mode": "Hybrid", "work_model": "Hybrid (posting tagged #LI-Onsite)", "salary_advertised": "Estimated base salary for San Francisco or New York City roles: $230,000 to $280,000 per year",
+      "employer_posting_date": "2026-11-18", "official_url": "https://jobs.ashbyhq.com/notion/da9a9a45-10e3-4c6a-916f-f89ee4cf29a4", "secondary_url": "https://www.growthtalent.org/jobs/product-marketing/notion/gtm-pricing-packaging-lead-commercial-operations-notion", "requisition_id": "da9a9a45-10e3-4c6a-916f-f89ee4cf29a4",
+      "summary": "Drives pricing and packaging for Notion's Sales Assist business, linking self-serve pricing to B2B and Enterprise needs; owns an 18-month pricing roadmap and leads the GTM workstream of pricing launches through impact assessment.",
+      "pricing_focus": "B2B SaaS and AI packaging; sales-assist tiers",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "Senior lead (12+ years of pricing and packaging); reporting line not stated. The Ashby page renders only the title; posting date, pay and duties come from a full job-level copy on GrowthTalent that links to this Ashby application.", "strategy_confidence": "Medium"
+    }
+  ],
+  "url_updates": [],
+  "strategy_updates": [
+    {
+      "id": null, "company": "McCarthy Tétrault", "business_unit": "Client Service Delivery (Innovation)",
+      "pricing_theme": "Building out a legal-pricing bench for alternative fee arrangements, budgets and matter profitability",
+      "current_model": null,
+      "industry": "Legal services",
+      "posting_evidence": [
+        "Two Specialist-grade requisitions open at once: Bilingual Pricing Specialist (2026-3245, iCIMS list date 2026-11-11, Project Management department) and Pricing Specialist (2026-2877, list date 2026-11-04, Innovation department); both read 'Toronto or Montreal', hybrid.",
+        "Mandate: pricing and service-delivery input to pitches and proposals, alternative fee arrangements and client budgets across all offices, and matter profitability analysis (historical, current and prospective).",
+        "Build template budget and project-management tools, fee data analytics and other pricing tools; promote alternative staffing, legal technology and process re-engineering.",
+        "Works directly with the Directors and Managers of the Client Service Delivery team; 5+ years in a legal or professional-services firm, MBA/CPA/LLB preferred; Toronto pay stated at $80,000–$90,000.",
+        "The bilingual role requires daily French and English with lawyers and clients across Canada, which points to Quebec client coverage."
+      ],
+      "news": [],
+      "interpretation": "The firm is hiring two pricing specialists inside its Client Service Delivery and Innovation group at the same time, which suggests (inference) rising demand for priced proposals and fee alternatives rather than a one-off backfill (the Toronto posting does say it fills an existing vacancy). Pairing pricing with project management, legal technology and process redesign suggests fee arrangements are being tied to how matters are staffed and delivered, so margin depends on delivery efficiency rather than hours billed. For a candidate, these are analyst-to-specialist roles that build pricing tools and matter economics inside a partner-led firm. Influence will run through CSD Directors and the partners who own client relationships.",
+      "open_questions": [
+        "What share of the firm's pitches currently use fixed or capped fees, and who signs off on pricing exceptions?",
+        "Is there a defined path from Pricing Specialist to a pricing manager or CSD leadership role, given the Senior Pricing Manager posting seen earlier in the year?",
+        "Which matter-profitability data and tools does the team use today (time and billing system, BI stack)?"
+      ],
+      "caveat": "Based only on the two job postings; no pricing-related firm news from the last three months was found, and the firm's published fee approach was not read today.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:0", "new:1"]
+    },
+    {
+      "id": null, "company": "Notion", "business_unit": "Commercial Operations (Sales Assist pricing and packaging)",
+      "pricing_theme": "Building sales-assist packaging between self-serve seats and Enterprise while AI usage moves to credits",
+      "current_model": "Per-member seat plans: Free ($0), Plus ($10/member/month), Business ($20/member/month, includes Notion Agent, AI Meeting Notes and Enterprise Search beta), Enterprise (custom); up to 20% off for yearly billing. Custom Agents are free to try, then $10 per 1,000 monthly Notion credits; Workers (beta) consume credits. Per Notion's help center, credits are a Business/Enterprise add-on at $10 per 1,000 monthly or $13 per 1,000 annual (prepaid), and each Business/Enterprise seat also includes Standard and Select credit allowances that reset monthly.",
+      "industry": "Software",
+      "posting_evidence": [
+        "GTM Pricing & Packaging Lead, Commercial Operations; San Francisco, hybrid (#LI-Onsite); posted 2026-11-18 per a full job copy; base $230,000–$280,000 for SF/NYC.",
+        "Scope is the Sales Assist business: connecting self-serve pricing, customer value and B2B/Enterprise needs.",
+        "90-day goals: write the Sales Assist pricing and packaging narrative, deliver a preliminary 18-month roadmap, and use AI to monitor market trends and validate proposals.",
+        "Year-one goals: lead the GTM workstream of at least one pricing or packaging launch through impact assessment, and set up a market-calibration and ROI feedback loop between GTM and EPD.",
+        "Requires 12+ years in pricing and packaging, B2B SaaS and AI product pricing including Enterprise; reporting line not stated."
+      ],
+      "news": [
+        { "date": "2026-11-13", "summary": "A Sentra explainer updated in November 2026 reports that Business and Enterprise seats include 1,500 Standard and 500 Select AI credits a month, that extra credits cost $10 per 1,000 monthly or $13 per 1,000 annual, and that AI Meeting Notes will start drawing on the Standard allowance in December.", "source": "Sentra", "url": "https://www.sentra.app/articles/notion-ai-pricing" }
+      ],
+      "interpretation": "Notion now runs two meters: per-seat plans, with AI bundled into Business since 2025, and a growing credit layer for agents, Workers and heavier model use. This role is meant to sit between them for sales-assisted deals. The 18-month roadmap and the GTM–EPD feedback loop suggest (inference) that Notion wants a repeatable way to price mid-market deals as AI costs and value grow, rather than one-off discounting off self-serve list prices. Timing fits the credit-allowance changes reported for late 2026, which make packaging and overage design commercially sensitive. The role is senior and cross-functional but influence-based; success will likely be judged on a launched packaging change and its measured impact.",
+      "open_questions": [
+        "Who owns self-serve pricing versus Sales Assist and Enterprise pricing, and where does this role report?",
+        "How are seat-included credit allowances and paid credit overages expected to show up in sales-assist quotes and discount guardrails?",
+        "What launch is expected to be the first year-one pricing or packaging initiative?"
+      ],
+      "caveat": "The Ashby page shows only the title; duties, date and pay come from a third-party full copy. The credit-allowance figures in the news item come from a vendor blog, not a Notion announcement.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:2"]
+    }
+  ],
+  "people": [
+    {
+      "name": "Matthew Peters", "title": "Partner and national leader of transformation", "company": "McCarthy Tétrault",
+      "contact_type": "relevant_contact",
+      "relationship": "Firm leader for transformation; the pricing specialist roles sit in the Innovation / Client Service Delivery group",
+      "relevance": "Leads the firm's transformation and AI agenda, which shapes the service-delivery and fee-arrangement work these pricing specialists support.",
+      "opportunity_ref": "new:0",
+      "linkedin_profile": null,
+      "verification": "Named with this title in a Canadian Lawyer interview read today; not named as poster or hiring manager.",
+      "evidence_url": "https://www.canadianlawyermag.com/resources/practice-management/from-six-hour-reviews-to-one-matthew-peters-on-what-ai-is-actually-doing-inside-mccarthy-tetrault/394142",
+      "found_via": "Canadian Lawyer, 2026-05-26 (read 2026-11-23)",
+      "notes": "Indirect link; the posting does not name a reporting line."
+    }
+  ],
+  "notes": "New: two McCarthy Tétrault pricing specialist roles (analyst band, Toronto/Montreal; found via the firm's iCIMS search list) and Notion's GTM Pricing & Packaging Lead (US). Checked and excluded: Lightspeed Gestionnaire des prix (closed), Clio Staff Pricing Manager (removed March 2026), Visa Bogotá Pricing Analyst (inactive), Mastercard Pricing Assurance (removed May 2026), Campari NY RGM (filled), KEV Group (no pricing role), Transat (revenue control only), Essity 'Revenue Analyst' (title fails analyst rule). elempleo pricing, precios and revenue-growth lists showed only freight, costing or tracked roles. Unconfirmed leads worth a recheck: Hootsuite Senior Pricing Strategist (BC/AB/ON or US remote, no employer page found), Hightouch Pricing & Packaging Lead (remote North America, not on its Greenhouse or Ashby board), Thomson Reuters Senior Pricing Manager, Partnerships & Alliances (Toronto copy returned 410), Unisys Pricing Manager Bogotá (copies dead). ServiceNow's SmartRecruiters hit is tracked JB0076449 under a new title (Director, Packaging & Monetization Strategy - EEG); Dropbox 8275002 (R11730) is still on Greenhouse. Task 2: no employer pages found for Postobón, Applus+ or L'Oréal."
+}

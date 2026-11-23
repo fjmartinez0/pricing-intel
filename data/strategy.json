@@ -3583,5 +3583,73 @@
     ],
     "industry": "CPG",
     "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0106",
+    "company": "McCarthy Tétrault",
+    "business_unit": "Client Service Delivery (Innovation)",
+    "baseline_date": "2026-11-23",
+    "last_updated": "2026-11-23",
+    "pricing_theme": "Building out a legal-pricing bench for alternative fee arrangements, budgets and matter profitability",
+    "current_model": null,
+    "posting_evidence": [
+      "Two Specialist-grade requisitions open at once: Bilingual Pricing Specialist (2026-3245, iCIMS list date 2026-11-11, Project Management department) and Pricing Specialist (2026-2877, list date 2026-11-04, Innovation department); both read 'Toronto or Montreal', hybrid.",
+      "Mandate: pricing and service-delivery input to pitches and proposals, alternative fee arrangements and client budgets across all offices, and matter profitability analysis (historical, current and prospective).",
+      "Build template budget and project-management tools, fee data analytics and other pricing tools; promote alternative staffing, legal technology and process re-engineering.",
+      "Works directly with the Directors and Managers of the Client Service Delivery team; 5+ years in a legal or professional-services firm, MBA/CPA/LLB preferred; Toronto pay stated at $80,000–$90,000.",
+      "The bilingual role requires daily French and English with lawyers and clients across Canada, which points to Quebec client coverage."
+    ],
+    "news": [],
+    "interpretation": "The firm is hiring two pricing specialists inside its Client Service Delivery and Innovation group at the same time, which suggests (inference) rising demand for priced proposals and fee alternatives rather than a one-off backfill (the Toronto posting does say it fills an existing vacancy). Pairing pricing with project management, legal technology and process redesign suggests fee arrangements are being tied to how matters are staffed and delivered, so margin depends on delivery efficiency rather than hours billed. For a candidate, these are analyst-to-specialist roles that build pricing tools and matter economics inside a partner-led firm. Influence will run through CSD Directors and the partners who own client relationships.",
+    "open_questions": [
+      "What share of the firm's pitches currently use fixed or capped fees, and who signs off on pricing exceptions?",
+      "Is there a defined path from Pricing Specialist to a pricing manager or CSD leadership role, given the Senior Pricing Manager posting seen earlier in the year?",
+      "Which matter-profitability data and tools does the team use today (time and billing system, BI stack)?"
+    ],
+    "caveat": "Based only on the two job postings; no pricing-related firm news from the last three months was found, and the firm's published fee approach was not read today.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0156",
+      "JOB-0157"
+    ],
+    "industry": "Legal services",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0107",
+    "company": "Notion",
+    "business_unit": "Commercial Operations (Sales Assist pricing and packaging)",
+    "baseline_date": "2026-11-23",
+    "last_updated": "2026-11-23",
+    "pricing_theme": "Building sales-assist packaging between self-serve seats and Enterprise while AI usage moves to credits",
+    "current_model": "Per-member seat plans: Free ($0), Plus ($10/member/month), Business ($20/member/month, includes Notion Agent, AI Meeting Notes and Enterprise Search beta), Enterprise (custom); up to 20% off for yearly billing. Custom Agents are free to try, then $10 per 1,000 monthly Notion credits; Workers (beta) consume credits. Per Notion's help center, credits are a Business/Enterprise add-on at $10 per 1,000 monthly or $13 per 1,000 annual (prepaid), and each Business/Enterprise seat also includes Standard and Select credit allowances that reset monthly.",
+    "posting_evidence": [
+      "GTM Pricing & Packaging Lead, Commercial Operations; San Francisco, hybrid (#LI-Onsite); posted 2026-11-18 per a full job copy; base $230,000–$280,000 for SF/NYC.",
+      "Scope is the Sales Assist business: connecting self-serve pricing, customer value and B2B/Enterprise needs.",
+      "90-day goals: write the Sales Assist pricing and packaging narrative, deliver a preliminary 18-month roadmap, and use AI to monitor market trends and validate proposals.",
+      "Year-one goals: lead the GTM workstream of at least one pricing or packaging launch through impact assessment, and set up a market-calibration and ROI feedback loop between GTM and EPD.",
+      "Requires 12+ years in pricing and packaging, B2B SaaS and AI product pricing including Enterprise; reporting line not stated."
+    ],
+    "news": [
+      {
+        "date": "2026-11-13",
+        "summary": "A Sentra explainer updated in November 2026 reports that Business and Enterprise seats include 1,500 Standard and 500 Select AI credits a month, that extra credits cost $10 per 1,000 monthly or $13 per 1,000 annual, and that AI Meeting Notes will start drawing on the Standard allowance in December.",
+        "source": "Sentra",
+        "url": "https://www.sentra.app/articles/notion-ai-pricing"
+      }
+    ],
+    "interpretation": "Notion now runs two meters: per-seat plans, with AI bundled into Business since 2025, and a growing credit layer for agents, Workers and heavier model use. This role is meant to sit between them for sales-assisted deals. The 18-month roadmap and the GTM–EPD feedback loop suggest (inference) that Notion wants a repeatable way to price mid-market deals as AI costs and value grow, rather than one-off discounting off self-serve list prices. Timing fits the credit-allowance changes reported for late 2026, which make packaging and overage design commercially sensitive. The role is senior and cross-functional but influence-based; success will likely be judged on a launched packaging change and its measured impact.",
+    "open_questions": [
+      "Who owns self-serve pricing versus Sales Assist and Enterprise pricing, and where does this role report?",
+      "How are seat-included credit allowances and paid credit overages expected to show up in sales-assist quotes and discount guardrails?",
+      "What launch is expected to be the first year-one pricing or packaging initiative?"
+    ],
+    "caveat": "The Ashby page shows only the title; duties, date and pay come from a third-party full copy. The credit-allowance figures in the news item come from a vendor blog, not a Notion announcement.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0158"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
   }
 ]
