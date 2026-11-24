@@ -1,0 +1,58 @@
+{
+  "run_date": "2026-11-24",
+  "searches_run": 46,
+  "searches_by_country": { "Canada": 16, "Colombia": 16, "United States": 14 },
+  "watchlist_checked": ["Bell", "Rogers", "Telus", "Videotron / Quebecor", "Cogeco", "Air Canada", "Air Transat", "Via Rail", "Bombardier", "CAE", "Claro Colombia", "Movistar Colombia", "Tigo", "Avianca", "LATAM Airlines Colombia", "GHL Hoteles", "Grupo Aval", "Siigo", "Datadog", "Snowflake", "MongoDB", "HubSpot", "Okta", "Cloudflare"],
+  "new_opportunities": [
+    {
+      "company": "MongoDB", "title": "Pricing & Monetization Associate", "business_unit": "Pricing and Packaging", "category": "Pricing",
+      "country": "United States", "city": "New York", "location_note": null,
+      "work_mode": "Hybrid", "work_model": "In-office about three days per week (NYC)", "salary_advertised": "$84,000 — $165,000 USD (US base salary range)",
+      "employer_posting_date": "2026-11-10", "official_url": "https://www.mongodb.com/careers/job/?gh_jid=8372135", "secondary_url": null, "requisition_id": "4273616033",
+      "summary": "Evaluates and proposes pricing and packaging for new launches and existing offerings, builds revenue, margin, cohort and usage models, and drives SKU, billing and tooling execution.",
+      "pricing_focus": "Usage-based cloud database pricing and packaging (Atlas)",
+      "level_band": "manager_plus", "level": null,
+      "scope_fit": "in_scope", "scope_note": "Borderline seniority: titled Associate, but the posting calls it a Senior Analyst individual-contributor role (2-5 years). New requisition; the Toronto version (JOB-0003, gh_jid 8122634) is inactive.", "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Porter Airlines", "title": "Analyst, Revenue Management - Pricing", "business_unit": "Revenue Management", "category": "Revenue Management",
+      "country": "Canada", "city": "Toronto", "location_note": null,
+      "work_mode": "Unknown", "work_model": "Not stated", "salary_advertised": "Not stated",
+      "employer_posting_date": null, "official_url": "https://careers.flyporter.com/jobs/5251?lang=en-us", "secondary_url": null, "requisition_id": "5251",
+      "summary": "Manages Porter's fare levels across its network for revenue optimization, coordinating with the inventory team and monitoring competitor fare moves.",
+      "pricing_focus": "Airline fare pricing",
+      "level_band": "analyst", "level": "Analyst",
+      "scope_fit": "in_scope", "scope_note": "Borderline: careers.flyporter.com returned 403, so the posting was not read in full. The summary comes from search-result snippets. Indeed showed a 30+ day old copy and LinkedIn a copy about a week old, so this may be a repost under the same ID. Freshness unconfirmed.", "strategy_confidence": "Low"
+    }
+  ],
+  "url_updates": [],
+  "strategy_updates": [
+    {
+      "id": "STR-0003", "company": "MongoDB", "business_unit": "Product",
+      "pricing_theme": "Pricing AI features and a new compute/storage-split Atlas offering on top of a consumption business",
+      "current_model": "Atlas is consumption-priced (cluster tier and hours, storage, data transfer; free, flex and dedicated tiers). The Atlas Infinite public preview (AWS only) bills compute separately, from $0.088/hr per HA shard for M10 to $5.417/hr for M60 Gen2, plus storage at $0.30 per GB-month on uncompressed data. The existing product is renamed Atlas Core (M10 dedicated $0.08/hr with storage included). Enterprise Advanced is a self-managed subscription.",
+      "industry": "Software",
+      "posting_evidence": [
+        "New US requisition: Pricing & Monetization Associate, New York (about 3 days a week in office), US base $84,000–$165,000, first published 2026-11-10, req 4273616033; the Toronto twin (JOB-0003) is inactive.",
+        "Sits in a dedicated Pricing and Packaging department and team; individual contributor, described as a Senior Analyst with 2–5 years in strategy, business operations or financial analysis.",
+        "Mandate: price and package new launches and changes to existing offerings, using historical customer data and trade-off analysis; build revenue, margin, cohort and usage models.",
+        "Works with Engineering on infrastructure costs and architecture to turn them into unit economics and pricing models; drives SKU, billing, selling and tooling execution.",
+        "Requires confident SQL (Python a plus); 90-day plan ends with scoping and launching a first major business case."
+      ],
+      "news": [
+        { "date": "2026-09-29", "summary": "MongoDB opened Atlas Infinite in public preview on AWS: compute billed separately from $0.088/hr (M10) to $5.417/hr (M60 Gen2), storage at $0.30 per GB-month, 24-hour continuous backup included; the existing product was renamed Atlas Core.", "source": "UsagePricing (tracking MongoDB pricing page and billing docs)", "url": "https://www.usagepricing.com/blueprint/activity/mongodb-atlas-2026-09-29-atlas-infinite-preview" }
+      ],
+      "interpretation": "MongoDB is moving parts of Atlas from bundled cluster pricing to separate compute and storage meters (Atlas Infinite), while also pricing AI retrieval features. Both need cost-to-serve-based unit economics, and the posting asks for exactly that. Inference: rehiring the role in New York after the Toronto posting lapsed, inside a named Pricing and Packaging team, suggests the team is staffing up to model migration between Atlas Core and Infinite and to set SKUs before Infinite leaves preview. For a candidate, the work is likely heavy on usage and cohort modelling, which matches the SQL requirement, rather than headline list-price setting.",
+      "open_questions": [
+        "Will Atlas Infinite replace Atlas Core pricing for new customers at general availability, and how will existing commits migrate?",
+        "Does the role own pricing for AI features (embeddings, reranking, MCP server) or only core Atlas SKUs?",
+        "Who leads the Pricing and Packaging team, and does it report into Product or Finance?"
+      ],
+      "caveat": "Atlas Infinite prices come from a third-party tracker of MongoDB's pages, and the preview may change. The link between the role and Infinite is inference; the posting names no products beyond Atlas boilerplate.",
+      "confidence": "Medium",
+      "linked_job_refs": ["JOB-0003", "new:0"]
+    }
+  ],
+  "people": [],
+  "notes": "Searched Canada (Montreal, Toronto, Ottawa, Quebec, Canada remote; EN/FR), Colombia (Bogotá, Medellín, Cartagena, LATAM remote; elempleo pricing/precios/revenue-growth pages) and US (SaaS, CPG RGM, retail/industrial), and checked all group 2 watchlist employers. Flags: (1) Dropbox Greenhouse API still lists job 8275002 'Director of Pricing and Packaging' (first_published 2026-11-03, updated 2026-11-10), but JOB-0120 is marked inactive; worth rechecking. (2) An elempleo posting from an unnamed employer, 'Pricing manager / analyst latam' (1886800120, energy sector, published 2026-11-19), is very likely the same role as Applus+ JOB-0153, so it was not added. (3) Excluded: Rogers 'Contract Pricing Specialist' (contract administration, body title 'Contract Specialist, Operations'), PTA SAS and MentorHub pricing coordinator/analyst roles (freight), Jefe de costos y pricing (costing). (4) Closed or no longer accepting: HubSpot Pricing Strategy Manager Ontario (POS-19221), Datadog Director Pricing & Monetization (Greenhouse 404), Cox Automotive Director Pricing Strategy (removed 2026-04-28), Reckitt RGM Manager (Warsaw, closed). No official URLs found for the unable_to_verify leads (Applus+, Postobón, L'Oréal)."
+}

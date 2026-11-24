@@ -82,23 +82,29 @@
     "company": "MongoDB",
     "business_unit": "Product",
     "baseline_date": "2026-10-10",
-    "last_updated": "2026-10-10",
-    "pricing_theme": "Pricing a stream of AI and agent features on top of a consumption business",
+    "last_updated": "2026-11-24",
+    "pricing_theme": "Pricing AI features and a new compute/storage-split Atlas offering on top of a consumption business",
     "posting_evidence": [
-      "Pricing & Monetization Associate in Product; Toronto office or remote in the Toronto region; CAD 101,000–140,000; first published Aug 12, 2026.",
-      "Leads pricing and packaging for new launches and changes to existing offerings, with business cases and trade-offs.",
-      "Models revenue, margin, cohorts and usage; translates infrastructure cost and technical dependencies into unit economics.",
-      "Drives SKU, billing, selling and tooling execution; benchmarks competitors; presents to leadership.",
-      "Requires 5+ years including 2–3 in consulting or tech strategy."
+      "New US requisition: Pricing & Monetization Associate, New York (about 3 days a week in office), US base $84,000–$165,000, first published 2026-11-10, req 4273616033; the Toronto twin (JOB-0003) is inactive.",
+      "Sits in a dedicated Pricing and Packaging department and team; individual contributor, described as a Senior Analyst with 2–5 years in strategy, business operations or financial analysis.",
+      "Mandate: price and package new launches and changes to existing offerings, using historical customer data and trade-off analysis; build revenue, margin, cohort and usage models.",
+      "Works with Engineering on infrastructure costs and architecture to turn them into unit economics and pricing models; drives SKU, billing, selling and tooling execution.",
+      "Requires confident SQL (Python a plus); 90-day plan ends with scoping and launching a first major business case."
     ],
-    "interpretation": "MongoDB is shipping AI retrieval and agent products (embeddings, reranking, a managed MCP server) that each need a price metric different from cluster hours, typically per token or per request. The posting's emphasis on infrastructure cost and SKUs indicates prices are built from cost-to-serve to protect Atlas gross margin as AI workloads grow. Bringing Vector Search to Enterprise Advanced also raises how to price AI capabilities inside self-managed licences.",
-    "caveat": "The release gives no AI pricing figures; per-token metering is inference.",
+    "interpretation": "MongoDB is moving parts of Atlas from bundled cluster pricing to separate compute and storage meters (Atlas Infinite), while also pricing AI retrieval features. Both need cost-to-serve-based unit economics, and the posting asks for exactly that. Inference: rehiring the role in New York after the Toronto posting lapsed, inside a named Pricing and Packaging team, suggests the team is staffing up to model migration between Atlas Core and Infinite and to set SKUs before Infinite leaves preview. For a candidate, the work is likely heavy on usage and cohort modelling, which matches the SQL requirement, rather than headline list-price setting.",
+    "caveat": "Atlas Infinite prices come from a third-party tracker of MongoDB's pages, and the preview may change. The link between the role and Infinite is inference; the posting names no products beyond Atlas boilerplate.",
     "confidence": "Medium",
     "linked_job_ids": [
       "JOB-0003"
     ],
-    "current_model": "Atlas is consumption-priced (cluster size and hours, storage, data transfer; free, flex and dedicated tiers) and was about 73% of revenue in Q2 FY27. Enterprise Advanced is a self-managed subscription.",
+    "current_model": "Atlas is consumption-priced (cluster tier and hours, storage, data transfer; free, flex and dedicated tiers). The Atlas Infinite public preview (AWS only) bills compute separately, from $0.088/hr per HA shard for M10 to $5.417/hr for M60 Gen2, plus storage at $0.30 per GB-month on uncompressed data. The existing product is renamed Atlas Core (M10 dedicated $0.08/hr with storage included). Enterprise Advanced is a self-managed subscription.",
     "news": [
+      {
+        "date": "2026-09-29",
+        "summary": "MongoDB opened Atlas Infinite in public preview on AWS: compute billed separately from $0.088/hr (M10) to $5.417/hr (M60 Gen2), storage at $0.30 per GB-month, 24-hour continuous backup included; the existing product was renamed Atlas Core.",
+        "source": "UsagePricing (tracking MongoDB pricing page and billing docs)",
+        "url": "https://www.usagepricing.com/blueprint/activity/mongodb-atlas-2026-09-29-atlas-infinite-preview"
+      },
       {
         "date": "2026-09-01",
         "summary": "Q2 FY27: revenue $771.8M (+30%), Atlas $565.9M (+29%), 2,999 customers above $100K ARR; guidance raised on Atlas.",
@@ -113,10 +119,12 @@
       }
     ],
     "open_questions": [
-      "Will AI features be metered separately or bundled as credits in Atlas tiers?",
-      "How will Voyage models be priced against OpenAI and Cohere embeddings?"
+      "Will Atlas Infinite replace Atlas Core pricing for new customers at general availability, and how will existing commits migrate?",
+      "Does the role own pricing for AI features (embeddings, reranking, MCP server) or only core Atlas SKUs?",
+      "Who leads the Pricing and Packaging team, and does it report into Product or Finance?"
     ],
-    "analysis_status": "analyzed"
+    "analysis_status": "analyzed",
+    "industry": "Software"
   },
   {
     "id": "STR-0004",
