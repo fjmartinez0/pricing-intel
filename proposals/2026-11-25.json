@@ -1,0 +1,179 @@
+{
+  "run_date": "2026-11-25",
+  "searches_run": 52,
+  "searches_by_country": { "Canada": 22, "Colombia": 16, "United States": 14 },
+  "watchlist_checked": [
+    "Desjardins", "National Bank", "RBC", "TD", "BMO", "Scotiabank", "Intact", "Wawanesa", "Sun Life", "Manulife",
+    "Grupo Nutresa", "Alpina", "Postobón", "Bavaria (AB InBev)", "Colombina", "Coca-Cola FEMSA", "Diageo", "Quala",
+    "Stripe", "Intuit", "Gusto", "DocuSign", "Zoom", "PagerDuty"
+  ],
+  "new_opportunities": [
+    {
+      "company": "Scotiabank",
+      "title": "Senior Analyst, Pricing",
+      "business_unit": "Canadian Banking – Real Estate Secured Lending pricing (residential mortgages and secured lines of credit)",
+      "category": "Pricing",
+      "country": "Canada",
+      "city": "Toronto",
+      "location_note": null,
+      "work_mode": "Unknown",
+      "work_model": "Not stated",
+      "salary_advertised": "Not stated",
+      "employer_posting_date": "2026-11-19",
+      "official_url": "https://jobs.scotiabank.com/job/Toronto-Senior-Analyst%2C-Pricing-ON-M5H-1A1/608192917/",
+      "secondary_url": null,
+      "requisition_id": "279843",
+      "summary": "Runs operational pricing for residential mortgages and secured lines of credit: exception requests, rate changes, daily rate monitoring and spread calculations, competitor rate review and support for the Scotialine profitability strategy.",
+      "pricing_focus": "Mortgage and secured line of credit rate pricing operations",
+      "level_band": "analyst",
+      "level": "Senior Analyst",
+      "scope_fit": "in_scope",
+      "scope_note": "Posting date taken from the Scotiabank search list (Nov 19, 2026); the job page itself shows no date. Requires 2-3 years of analytical experience; occasional after-hours work.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Arterra Wines Canada",
+      "title": "Director, Revenue Growth Management & Market Strategy",
+      "business_unit": "Market Strategy (Revenue Growth Management)",
+      "category": "RGM",
+      "country": "Canada",
+      "city": "Mississauga",
+      "location_note": null,
+      "work_mode": "Hybrid",
+      "work_model": "Hybrid, 3 days onsite (per Workopia job copy)",
+      "salary_advertised": "$126,111 to $173,403 per year (base, per Workopia job copy)",
+      "employer_posting_date": null,
+      "official_url": null,
+      "secondary_url": "https://workopia.io/jobs/930b1b549259055a110fae0b78620481",
+      "requisition_id": "R-13508",
+      "summary": "Sets RGM strategy and capability for the company, driving profitable growth through pricing, promotions, mix, assortment, trade investment and customer/channel strategy, and leads a small team.",
+      "pricing_focus": "CPG wine RGM: pricing, promotion effectiveness, mix and trade investment",
+      "level_band": "manager_plus",
+      "level": null,
+      "scope_fit": "in_scope",
+      "scope_note": "Search results place the posting on Arterra's Workday site (awc.wd3.myworkdayjobs.com/AWC_Career_Site) as req R-13508, posted about 12 days earlier, but that Workday site renders empty for automated fetches, so the job URL could not be confirmed. Eluta's copy now returns 404. Reports to VP, Market Strategy per an Eluta snippet. Requires 10+ years in packaged goods.",
+      "strategy_confidence": "Medium"
+    },
+    {
+      "company": "Confido",
+      "title": "Head of Revenue Growth Management",
+      "business_unit": "CPG Operations / Product (RGM product line)",
+      "category": "RGM",
+      "country": "United States",
+      "city": "New York",
+      "location_note": "Search snippets of the Ashby board say 'NYC office optional' and remote; Built In lists it as in-office or remote in New York.",
+      "work_mode": "Unknown",
+      "work_model": "Not stated",
+      "salary_advertised": "Not stated",
+      "employer_posting_date": null,
+      "official_url": "https://jobs.ashbyhq.com/confido/c61f8645-a090-44ec-ba0e-661f10c66033",
+      "secondary_url": null,
+      "requisition_id": "c61f8645-a090-44ec-ba0e-661f10c66033",
+      "summary": "Builds Confido's Revenue Growth Management capability from scratch, turning CPG pricing and trade expertise into product requirements and a roadmap, and running customer beta programs.",
+      "pricing_focus": "RGM (pricing and trade) product for CPG brands",
+      "level_band": "manager_plus",
+      "level": null,
+      "scope_fit": "in_scope",
+      "scope_note": "Borderline: RGM is the explicit core, but the role builds RGM software for CPG clients rather than pricing Confido's own products. The Ashby page shows only the title, which changed from 'Director of Revenue Growth Management'. Pay figures in third-party copies conflict ($150K-$190K, $170K-$210K, $200K-$275K, and $220K-$242K attributed to Ashby), so salary is left as Not stated.",
+      "strategy_confidence": "Low"
+    }
+  ],
+  "url_updates": [],
+  "strategy_updates": [
+    {
+      "id": null,
+      "company": "Scotiabank",
+      "business_unit": "Canadian Banking – Real Estate Secured Lending pricing (residential mortgages and secured lines of credit)",
+      "pricing_theme": "Repricing the mortgage book at renewal and managing rate exceptions to protect margin while mortgage balances flatten.",
+      "current_model": null,
+      "industry": "Banking",
+      "posting_evidence": [
+        "Senior Analyst, Pricing, Toronto, req 279843, listed Nov 19, 2026; work mode and pay not stated.",
+        "Mandate: manage mortgage and secured line of credit exception requests, 'balancing flexibility with profitability', and track rates authorized outside policy.",
+        "Runs daily rate monitoring, spread calculations and rate sheet distribution, and helps execute rate changes.",
+        "Monitors competitors' rates and programs and produces regular reports on pricing activity, authorizations and exception levels.",
+        "Named initiative: support the Scotialine (secured line of credit) strategy to improve profitability and utilization; works with the 'RESL teams' and on compensation and reporting platforms."
+      ],
+      "news": [
+        {
+          "date": "2026-08-25",
+          "summary": "In Q3 2026 Scotiabank's Canadian residential mortgage book fell to $311B from $315B the prior quarter (up 2% year on year), non-mortgage lending outgrew mortgages for the first time in two years, Canadian Banking NIM rose for a fifth straight quarter to 2.38%, and Canadian Banking head Aris Bogdaneris said renewals are lifting the risk-adjusted margin; 90+ day mortgage delinquencies rose to 0.34%.",
+          "source": "Canadian Mortgage Trends",
+          "url": "https://www.canadianmortgagetrends.com/2026/08/mortgage-renewals-lift-scotiabank-margins-as-lending-mix-shifts/"
+        }
+      ],
+      "interpretation": "Scotiabank is deliberately shifting its lending mix away from mortgages toward higher-margin products, so mortgage pricing is about margin discipline (renewal repricing, tighter control of rate exceptions) more than volume. That fits a posting built around exception management, rates authorized outside policy and spread monitoring. The Scotialine profitability and utilization goal suggests the bank also wants more value from secured lines of credit than from new mortgage originations (inference). For a candidate this is an operational, rules-and-reporting pricing seat in a large, mature function, not a strategy-setting role.",
+      "open_questions": [
+        "How much discretion does the team have over exception approvals, and how is the trade-off between retention at renewal and margin measured?",
+        "What does the Scotialine profitability strategy change: rate tiers, utilization incentives or bundling with mortgages?",
+        "Will the Q4 2026 results on December 2 show mortgage balances still shrinking, and does that change the renewal pricing stance?"
+      ],
+      "caveat": "Based on one analyst-level posting and one August earnings article; no Scotiabank statement on mortgage pricing policy itself, and Q4 results are not out yet.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:0"]
+    },
+    {
+      "id": null,
+      "company": "Arterra Wines Canada",
+      "business_unit": "Market Strategy (Revenue Growth Management)",
+      "pricing_theme": "Building a formal RGM function (pricing, promotion, mix and trade investment) as a newly created director role.",
+      "current_model": "Sells wine brands through Canadian provincial liquor boards and other retail; its new MXM flavoured wine launched in September 2026 at a suggested retail price of CAD 13.99 per 750 ml bottle.",
+      "industry": "CPG (Beverage alcohol)",
+      "posting_evidence": [
+        "Director, Revenue Growth Management & Market Strategy, Mississauga, hybrid (3 days onsite), $126,111-$173,403 base per Workopia's copy; Workday req R-13508 per search results.",
+        "Mandate: 'establish the RGM strategy and capabilities across the organization', bringing fact-based discipline to pricing, promotional effectiveness, assortment and trade investment.",
+        "Scope covers pricing, promotions, mix and customer/channel strategy, plus sales enablement and commercial strategy for partners.",
+        "Leads a team of fewer than 10; requires 10+ years in packaged goods; reports to the VP, Market Strategy (Eluta snippet).",
+        "An Arterra recruiter's post describes it as one of two newly created director roles, alongside Business Intelligence & Go-to-Market (search result, not read directly)."
+      ],
+      "news": [
+        {
+          "date": "2026-09-01",
+          "summary": "Arterra launched MXM, a 16% ABV hard flavoured wine (15% in Quebec), exclusively in Canada at a suggested retail price of CAD 13.99 per 75cl bottle, aimed at younger drinkers with creator-led marketing and campus tastings.",
+          "source": "Global Drinks Intel",
+          "url": "https://drinks-intel.com/news/arterra-wines-canada-launches-flavoured-wine-brand-mxm/"
+        }
+      ],
+      "interpretation": "Arterra appears to be building RGM as a capability for the first time: the posting asks the hire to 'establish' strategy and capabilities, and the role is reportedly newly created, so this is likely a build-from-scratch mandate. Its commercial levers are constrained by provincial liquor-board pricing rules, so trade investment, promotions and mix are probably where the role can create the most value (inference). New price-point launches such as MXM at CAD 13.99 suggest portfolio and price-tier architecture will be part of the work. Pairing it with a new BI and go-to-market director implies the company wants better data before reallocating trade spend.",
+      "open_questions": [
+        "How much pricing latitude does Arterra have under LCBO, SAQ and other board pricing rules, versus trade and promotional spend it controls directly?",
+        "Does the role own the trade budget or only advise Sales, and how will the BI & Go-to-Market director split analytics work?",
+        "Which channels matter most for growth: liquor boards, grocery, or the U.S. expansion mentioned on the leadership page?"
+      ],
+      "caveat": "The posting was read only through a third-party copy (Workopia); Arterra's own Workday page could not be loaded, and no Arterra statements on pricing strategy were found.",
+      "confidence": "Medium",
+      "linked_job_refs": ["new:1"]
+    }
+  ],
+  "people": [
+    {
+      "name": "Aris Bogdaneris",
+      "title": "Head of Canadian Banking",
+      "company": "Scotiabank",
+      "contact_type": "relevant_contact",
+      "relationship": "Executive over Canadian Banking, the business that owns mortgage and secured lending pricing",
+      "relevance": "Publicly framed mortgage renewals as the driver of the risk-adjusted margin, which is the economic goal behind the role's rate and exception work.",
+      "opportunity_ref": "new:0",
+      "linkedin_profile": null,
+      "verification": "Named and quoted as Canadian Banking head in a news article on Scotiabank's Q3 2026 results",
+      "evidence_url": "https://www.canadianmortgagetrends.com/2026/08/mortgage-renewals-lift-scotiabank-margins-as-lending-mix-shifts/",
+      "found_via": "Canadian Mortgage Trends, 2026-08-25 (read 2026-11-25)",
+      "notes": "Senior executive; not the hiring manager."
+    },
+    {
+      "name": "Mira Natal",
+      "title": "Executive Vice President, Sales & Market Strategy",
+      "company": "Arterra Wines Canada",
+      "contact_type": "relevant_contact",
+      "relationship": "Executive over Sales & Market Strategy; the RGM director reportedly reports to the VP, Market Strategy within this area",
+      "relevance": "Leads the sales and market strategy organization that the new RGM function sits in and will enable.",
+      "opportunity_ref": "new:1",
+      "linkedin_profile": null,
+      "verification": "Listed on Arterra's leadership page",
+      "evidence_url": "https://www.arterracanada.com/our-people-2/",
+      "found_via": "Arterra Wines Canada 'Our People' page, read 2026-11-25",
+      "notes": "Reporting link from the role to this EVP is inferred from the titles; the direct manager (VP, Market Strategy) was not named."
+    }
+  ],
+  "notes": "Searched banks and insurers (group 3 watchlist), Montreal/Toronto/Quebec/Ottawa pricing and RGM, Colombia elempleo (pricing, precios, revenue-growth, revenue-manager-hotel, jefe-de-pricing-y-rentabilidad), CPG watchlist, and US SaaS/CPG/retail. Flags: Dropbox Greenhouse 8275002 (JOB-0120, inactive) is still listed with first_published 2026-11-03, same ID, so not proposed as a repost; Staples 'Pricing Project Manager' (Job ID 77811, Framingham, posted 2026-11-20, $75,400-100,000) skipped as analyst-level US; Croix Bleue du Québec 'Gestionnaire en tarification' (Montreal, actuarial) seen only on aggregators, no official link; Varicent Director, Pricing Strategy and Operations skipped as deal-desk core; Stripe Deal Pricing lead and Zoom Monetization Manager are closed; Kellanova RGM Head Bogotá not on jobs.kellanova.com. No official links found for Postobón (JOB-0144/0145), Applus+ (JOB-0153) or L'Oréal (JOB-0155)."
+}

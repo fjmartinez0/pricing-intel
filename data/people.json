@@ -238,5 +238,37 @@
     "found_via": "Canadian Lawyer, 2026-05-26 (read 2026-11-23)",
     "first_seen": "2026-11-23",
     "notes": "Indirect link; the posting does not name a reporting line."
+  },
+  {
+    "id": "PERSON-0016",
+    "name": "Aris Bogdaneris",
+    "title": "Head of Canadian Banking",
+    "company": "Scotiabank",
+    "contact_type": "relevant_contact",
+    "relationship": "Executive over Canadian Banking, the business that owns mortgage and secured lending pricing",
+    "relevance": "Publicly framed mortgage renewals as the driver of the risk-adjusted margin, which is the economic goal behind the role's rate and exception work.",
+    "opportunity_id": "JOB-0160",
+    "linkedin_profile": null,
+    "verification": "Named and quoted as Canadian Banking head in a news article on Scotiabank's Q3 2026 results",
+    "evidence_url": "https://www.canadianmortgagetrends.com/2026/08/mortgage-renewals-lift-scotiabank-margins-as-lending-mix-shifts/",
+    "found_via": "Canadian Mortgage Trends, 2026-08-25 (read 2026-11-25)",
+    "first_seen": "2026-11-25",
+    "notes": "Senior executive; not the hiring manager."
+  },
+  {
+    "id": "PERSON-0017",
+    "name": "Mira Natal",
+    "title": "Executive Vice President, Sales & Market Strategy",
+    "company": "Arterra Wines Canada",
+    "contact_type": "relevant_contact",
+    "relationship": "Executive over Sales & Market Strategy; the RGM director reportedly reports to the VP, Market Strategy within this area",
+    "relevance": "Leads the sales and market strategy organization that the new RGM function sits in and will enable.",
+    "opportunity_id": "JOB-0161",
+    "linkedin_profile": null,
+    "verification": "Listed on Arterra's leadership page",
+    "evidence_url": "https://www.arterracanada.com/our-people-2/",
+    "found_via": "Arterra Wines Canada 'Our People' page, read 2026-11-25",
+    "first_seen": "2026-11-25",
+    "notes": "Reporting link from the role to this EVP is inferred from the titles; the direct manager (VP, Market Strategy) was not named."
   }
 ]

@@ -3659,5 +3659,79 @@
     ],
     "industry": "Software",
     "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0108",
+    "company": "Scotiabank",
+    "business_unit": "Canadian Banking – Real Estate Secured Lending pricing (residential mortgages and secured lines of credit)",
+    "baseline_date": "2026-11-25",
+    "last_updated": "2026-11-25",
+    "pricing_theme": "Repricing the mortgage book at renewal and managing rate exceptions to protect margin while mortgage balances flatten.",
+    "current_model": null,
+    "posting_evidence": [
+      "Senior Analyst, Pricing, Toronto, req 279843, listed Nov 19, 2026; work mode and pay not stated.",
+      "Mandate: manage mortgage and secured line of credit exception requests, 'balancing flexibility with profitability', and track rates authorized outside policy.",
+      "Runs daily rate monitoring, spread calculations and rate sheet distribution, and helps execute rate changes.",
+      "Monitors competitors' rates and programs and produces regular reports on pricing activity, authorizations and exception levels.",
+      "Named initiative: support the Scotialine (secured line of credit) strategy to improve profitability and utilization; works with the 'RESL teams' and on compensation and reporting platforms."
+    ],
+    "news": [
+      {
+        "date": "2026-08-25",
+        "summary": "In Q3 2026 Scotiabank's Canadian residential mortgage book fell to $311B from $315B the prior quarter (up 2% year on year), non-mortgage lending outgrew mortgages for the first time in two years, Canadian Banking NIM rose for a fifth straight quarter to 2.38%, and Canadian Banking head Aris Bogdaneris said renewals are lifting the risk-adjusted margin; 90+ day mortgage delinquencies rose to 0.34%.",
+        "source": "Canadian Mortgage Trends",
+        "url": "https://www.canadianmortgagetrends.com/2026/08/mortgage-renewals-lift-scotiabank-margins-as-lending-mix-shifts/"
+      }
+    ],
+    "interpretation": "Scotiabank is deliberately shifting its lending mix away from mortgages toward higher-margin products, so mortgage pricing is about margin discipline (renewal repricing, tighter control of rate exceptions) more than volume. That fits a posting built around exception management, rates authorized outside policy and spread monitoring. The Scotialine profitability and utilization goal suggests the bank also wants more value from secured lines of credit than from new mortgage originations (inference). For a candidate this is an operational, rules-and-reporting pricing seat in a large, mature function, not a strategy-setting role.",
+    "open_questions": [
+      "How much discretion does the team have over exception approvals, and how is the trade-off between retention at renewal and margin measured?",
+      "What does the Scotialine profitability strategy change: rate tiers, utilization incentives or bundling with mortgages?",
+      "Will the Q4 2026 results on December 2 show mortgage balances still shrinking, and does that change the renewal pricing stance?"
+    ],
+    "caveat": "Based on one analyst-level posting and one August earnings article; no Scotiabank statement on mortgage pricing policy itself, and Q4 results are not out yet.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0160"
+    ],
+    "industry": "Banking",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0109",
+    "company": "Arterra Wines Canada",
+    "business_unit": "Market Strategy (Revenue Growth Management)",
+    "baseline_date": "2026-11-25",
+    "last_updated": "2026-11-25",
+    "pricing_theme": "Building a formal RGM function (pricing, promotion, mix and trade investment) as a newly created director role.",
+    "current_model": "Sells wine brands through Canadian provincial liquor boards and other retail; its new MXM flavoured wine launched in September 2026 at a suggested retail price of CAD 13.99 per 750 ml bottle.",
+    "posting_evidence": [
+      "Director, Revenue Growth Management & Market Strategy, Mississauga, hybrid (3 days onsite), $126,111-$173,403 base per Workopia's copy; Workday req R-13508 per search results.",
+      "Mandate: 'establish the RGM strategy and capabilities across the organization', bringing fact-based discipline to pricing, promotional effectiveness, assortment and trade investment.",
+      "Scope covers pricing, promotions, mix and customer/channel strategy, plus sales enablement and commercial strategy for partners.",
+      "Leads a team of fewer than 10; requires 10+ years in packaged goods; reports to the VP, Market Strategy (Eluta snippet).",
+      "An Arterra recruiter's post describes it as one of two newly created director roles, alongside Business Intelligence & Go-to-Market (search result, not read directly)."
+    ],
+    "news": [
+      {
+        "date": "2026-09-01",
+        "summary": "Arterra launched MXM, a 16% ABV hard flavoured wine (15% in Quebec), exclusively in Canada at a suggested retail price of CAD 13.99 per 75cl bottle, aimed at younger drinkers with creator-led marketing and campus tastings.",
+        "source": "Global Drinks Intel",
+        "url": "https://drinks-intel.com/news/arterra-wines-canada-launches-flavoured-wine-brand-mxm/"
+      }
+    ],
+    "interpretation": "Arterra appears to be building RGM as a capability for the first time: the posting asks the hire to 'establish' strategy and capabilities, and the role is reportedly newly created, so this is likely a build-from-scratch mandate. Its commercial levers are constrained by provincial liquor-board pricing rules, so trade investment, promotions and mix are probably where the role can create the most value (inference). New price-point launches such as MXM at CAD 13.99 suggest portfolio and price-tier architecture will be part of the work. Pairing it with a new BI and go-to-market director implies the company wants better data before reallocating trade spend.",
+    "open_questions": [
+      "How much pricing latitude does Arterra have under LCBO, SAQ and other board pricing rules, versus trade and promotional spend it controls directly?",
+      "Does the role own the trade budget or only advise Sales, and how will the BI & Go-to-Market director split analytics work?",
+      "Which channels matter most for growth: liquor boards, grocery, or the U.S. expansion mentioned on the leadership page?"
+    ],
+    "caveat": "The posting was read only through a third-party copy (Workopia); Arterra's own Workday page could not be loaded, and no Arterra statements on pricing strategy were found.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0161"
+    ],
+    "industry": "CPG (Beverage alcohol)",
+    "analysis_status": "analyzed"
   }
 ]
