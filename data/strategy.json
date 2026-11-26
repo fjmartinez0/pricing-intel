@@ -3733,5 +3733,122 @@
     ],
     "industry": "CPG (Beverage alcohol)",
     "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0110",
+    "company": "Molson Coors Canada",
+    "business_unit": "Revenue Management (Ontario and West)",
+    "baseline_date": "2026-11-26",
+    "last_updated": "2026-11-26",
+    "pricing_theme": "Price realization and execution through provincial liquor boards as beer volumes decline",
+    "current_model": null,
+    "posting_evidence": [
+      "Analyst level, Toronto, hybrid with four office days; posted 2026-11-13, req 40616; $69,000–$90,500 plus a 10% STI.",
+      "Reports to the Pricing Strategy & Analytics Manager, Ontario and West, which shows a separate regional pricing team from the Quebec & Atlantic RM team.",
+      "Mandate: host the Ontario pricing meetings, manage the liquor-board relationship for price accuracy, and file price and discount submissions with external price administrators.",
+      "Analytics scope: maintain the price data warehouse, produce pricing and promotion scorecards, use pricing tools for category, portfolio and brand strategies, and support consumer pricing research.",
+      "Systems: define IT requirements for pricing and promotional-effectiveness tools; a US role with the same title was posted the same day."
+    ],
+    "news": [
+      {
+        "date": "2026-11-05",
+        "summary": "Molson Coors reported a 4.9% drop in Q3 2026 brand volume, net sales down 1.6% reported (1.2% constant currency) and adjusted pretax income down 17.4% in constant currency; pricing and mix partly offset the volume decline.",
+        "source": "Vinetur",
+        "url": "https://www.vinetur.com/en/20261105110439/molson-coors-reports-49-drop-in-beer-brand-volume-in-third-quarter.html"
+      }
+    ],
+    "interpretation": "With volumes falling, price and mix are among the few levers Molson Coors has to protect revenue, and this role sits where list prices meet the regulated provincial channel: liquor-board price files, discount submissions and price accuracy. Hiring paired pricing execution analysts in Toronto and Milwaukee on the same day suggests (inference) a deliberate push to standardize pricing execution and tooling across the Americas, not a one-off backfill. The work is mostly execution and analytics rather than strategy, so it suits a candidate who wants hands-on exposure to regulated beer pricing and promo effectiveness.",
+    "open_questions": [
+      "How much pricing latitude does Ontario's regulated channel structure (LCBO, The Beer Store, grocery) leave the team, and how often are price changes filed?",
+      "Which pricing and promo-effectiveness tools are in place or being specified, and is the Milwaukee twin role part of a shared Americas pricing platform?",
+      "Does this role grow into the Pricing Strategy & Analytics Manager track, and how is it split from the Quebec & Atlantic RM team?"
+    ],
+    "caveat": "The news item covers the whole company and gives no Canada-specific pricing data. The tie to Americas-wide standardization is an inference from two postings.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0163"
+    ],
+    "industry": "CPG",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0111",
+    "company": "Tines",
+    "business_unit": "Product (Pricing)",
+    "baseline_date": "2026-11-26",
+    "last_updated": "2026-11-26",
+    "pricing_theme": "Rebuilding a sales-led SaaS value metric and packaging after collapsing plans into Free vs Paid editions",
+    "current_model": "Two editions on tines.com/pricing. The Free edition has unlimited users, spaces and connectors, 3 live workflows and a one-time $50 AI allowance. Paid editions have unlimited workflows, flexible deployment and bring-your-own AI model, with prices given only on request (book a demo). No per-seat fees are shown.",
+    "posting_evidence": [
+      "Senior Manager, Pricing in the Product department; remote US East (Boston) with $177k–$192k OTE; first published 2026-09-24, updated 2026-11-23.",
+      "Mandate covers target customers, value metrics, packaging and commercial models, so the role shapes the pricing architecture, not just price points.",
+      "Brings recommendations to a Pricing Steering Committee and owns the pricing roadmap and backlog.",
+      "Works with Sales and Deal Desk on complex, non-standard enterprise deals; success is measured by win rate, realised price, discounting and renewals.",
+      "Can hire and develop up to two people; says direct pricing experience is useful but not required."
+    ],
+    "news": [
+      {
+        "date": "2026-10-26",
+        "summary": "PricingSaaS recorded that Tines removed its startup-discount FAQ from the pricing page, after an August 2026 restructure that replaced Community/Business/Enterprise plans with Free and Paid editions.",
+        "source": "PricingSaaS",
+        "url": "https://pricingsaas.com/companies/tines/diffs/2026W32"
+      }
+    ],
+    "interpretation": "Tines has simplified its public packaging to Free vs Paid and removed published discounts, which points (inference) to monetization moving behind a sales-led, value-based enterprise model now that the platform covers AI workflows and agents. The posting's stress on value metrics, a steering committee and a realised-price/discount KPI suggests leadership wants a more disciplined pricing function than the current 'contact us' model. The role is set up to build the pricing architecture itself, and its success will depend on influence with Sales and Deal Desk.",
+    "open_questions": [
+      "What is the paid editions' current value metric (workflows, AI runs, platform fee), and is a usage- or AI-based metric being considered?",
+      "Who chairs the Pricing Steering Committee, and does the role report into Product or into a commercial leader?",
+      "How large is realised-price leakage today, and what discount governance exists?"
+    ],
+    "caveat": "Paid pricing is not published, and the news comes from a third-party pricing tracker rather than a Tines announcement.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0164"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0112",
+    "company": "LaunchDarkly",
+    "business_unit": "Revenue Operations (Pricing and Packaging)",
+    "baseline_date": "2026-11-26",
+    "last_updated": "2026-11-26",
+    "pricing_theme": "Frequent repackaging of a usage-based developer platform as it bundles AI configs, observability and release automation",
+    "current_model": "Three tiers on launchdarkly.com/pricing. Developer is free (1 project, 3 environments, monthly allowances such as 5 service connections and 1K client-side MAU). Foundation is pay-as-you-go: $10 per service connection, $8.33 per 1K client-side MAU, $5 per 1K AI runs, $2.92 per 1K session replays, $1.25 per 1M trace spans or log lines, all billed yearly (monthly rates are higher). Enterprise is custom, with volume discounts. No per-seat fees on any tier.",
+    "posting_evidence": [
+      "Pricing and Packaging Insights Lead (the body says Pricing and Packaging Manager), remote US, Level 5, Zone 1 base $156,700–$215,490; Greenhouse first published 2026-11-06, req 4220.",
+      "Sits in Revenue Operations and reports to the head of that team; makes the final list-pricing recommendation across all products.",
+      "Builds models linking packaging to bookings, ACV, gross dollar retention and margin, and designs packaging for new offerings including AI-related products.",
+      "Sets discount and deal-desk guardrails and approves changes with the CRO and CFO; aligns pricing with compensation and quota design.",
+      "Maintains pricing documentation, quoting rules and billing configuration with the operational owners."
+    ],
+    "news": [
+      {
+        "date": "2026-11-08",
+        "summary": "PricingSaaS detected that LaunchDarkly added Release Autopilot (guarded releases with auto-rollback) to every plan, free on Foundation until Feb 1, 2027, and retired the paid Guardian Enterprise add-on.",
+        "source": "PricingSaaS",
+        "url": "https://pricingsaas.com/companies/launchdarkly/diffs/2026W46"
+      },
+      {
+        "date": "2026-08-10",
+        "summary": "PricingSaaS detected that LaunchDarkly made Guardian a separately priced Enterprise add-on, dropped its CodeControl/AgentControl plan selector, and switched Foundation to pay-as-you-go with 5 included service connections.",
+        "source": "PricingSaaS",
+        "url": "https://pricingsaas.com/companies/launchdarkly/diffs/2026W33"
+      }
+    ],
+    "interpretation": "LaunchDarkly has changed its packaging several times in 2026, moving to a seatless, multi-meter usage model across flags, AI runs and observability, and reversing the Guardian add-on within three months. That suggests (inference) the company is still searching for the right meter and bundle and wants one owner who can link packaging to bookings and retention. Placing the role in RevOps with CRO/CFO guardrail approval points to a commercially weighted mandate covering discounting, quoting and comp alignment alongside list pricing. The free Release Autopilot window ending Feb 1, 2027 is a near-term monetization decision this hire will likely own.",
+    "open_questions": [
+      "Which meters drive most revenue today (service connections vs MAU vs AI runs), and is consolidating meters on the roadmap?",
+      "What happens to Release Autopilot pricing after Feb 1, 2027, and how is its adoption being measured?",
+      "How do Product and Product Marketing share decision rights on packaging with this RevOps-based role?"
+    ],
+    "caveat": "Packaging history comes from a third-party tracker rather than LaunchDarkly announcements. Enterprise pricing and discount levels are not public.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0165"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
   }
 ]
