@@ -3850,5 +3850,156 @@
     ],
     "industry": "Software",
     "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0113",
+    "company": "Saputo",
+    "business_unit": "Saputo North America – Revenue Management",
+    "baseline_date": "2026-11-27",
+    "last_updated": "2026-11-27",
+    "pricing_theme": "Building a single North American revenue management function to govern commodity-linked pricing, trade spend and customer/SKU profitability across Canada and the US.",
+    "current_model": "B2B and retail dairy pricing tied to commodity markets: Saputo's Q2 fiscal 2027 release says US revenue moves with average block and butter market prices, and Canada results with dairy ingredient market prices; it cites 'timing differences between input costs, pricing mechanisms, and inventory realization cycles'. No published price lists.",
+    "posting_evidence": [
+      "Senior Director, Revenue Management; Saint-Laurent, QC (also Vaughan, Georgetown, Milwaukee); hybrid; CAD $173,685–$227,960; Workday req JR67627, start date 2026-10-13.",
+      "Mandate: own the North American revenue management strategy, roadmap and scorecard, set decision rights, approval thresholds and guardrails, and chair pricing and revenue management forums.",
+      "Pricing scope: market-based pricing reflecting commodity, cost and competitive factors; price reviews, price corridors and floors; ERP price data controls.",
+      "Also owns trade investment governance and promotion standards, customer/channel/SKU profitability and cost-to-serve, bid and private-label evaluation, and co-leads net sales and margin forecasting.",
+      "Tools: SAP/ERP, trade promotion, syndicated data; exposure to elasticity modelling, assortment optimization and governed AI models; 10+ years required."
+    ],
+    "news": [
+      {
+        "date": "2026-11-05",
+        "summary": "Saputo's Q2 fiscal 2027 (quarter ended 2026-09-30) release said lower US block and butter market prices reduced US revenue, while higher high-protein ingredient prices and higher selling prices offset part of it; Canada EBITDA was flat as dairy ingredient prices and mix were offset by labour, logistics and packaging inflation.",
+        "source": "Saputo (via Yahoo Finance)",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/saputo-reports-financial-results-second-220000658.html"
+      },
+      {
+        "date": "2026-11-05",
+        "summary": "The same release reports the August 14, 2026 agreement to sell Saputo's UK Dairy Division to Lactalis for about $1.661 billion (£880 million), with UK results now shown as discontinued operations.",
+        "source": "Saputo (via Yahoo Finance)",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/saputo-reports-financial-results-second-220000658.html"
+      }
+    ],
+    "interpretation": "Saputo appears to be centralizing revenue management at North American level after selling its UK business. The posting's emphasis on decision rights, price corridors and floors, ERP price controls and trade-spend governance suggests (inference) that pricing is now spread across regional teams and that commodity swings are passing through unevenly. The Q2 release's mention of timing gaps between input costs and pricing mechanisms supports that reading. The role looks like a capability build and governance mandate more than a single-category pricing job, and it will sit at the centre of the margin story as commodity prices fall.",
+    "open_questions": [
+      "Who does the role report to (CFO, North America commercial head or the dairy division president), and does it have authority over US and Canadian price decisions or only governance?",
+      "How much of the revenue is formula-priced to commodity indices versus negotiated list prices, and where is the leakage today?",
+      "What is the timeline and budget for the data and technology roadmap (TPM, price management software, elasticity models)?"
+    ],
+    "caveat": "Based on one posting read through the Workday API and an earnings release; the organization chart and reporting line are not stated, and the posting is over 30 days old.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0166"
+    ],
+    "industry": "CPG",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0114",
+    "company": "Kraft Heinz Canada",
+    "business_unit": "Canada: Finance - RGM & Sales (Revenue Management)",
+    "baseline_date": "2026-11-27",
+    "last_updated": "2026-11-27",
+    "pricing_theme": "Investing in price selectively while managing pricing, promotion and mix to protect margin as North American volumes decline.",
+    "current_model": "Branded CPG sold through retailers; price realized through list price and trade/promotion. Kraft Heinz's Q3 2026 release reports North America price down 0.8 points and volume/mix down 2.4 points. No published prices.",
+    "posting_evidence": [
+      "Manager, Revenue Growth Management (RGM); Toronto Queen's Quay HQ; hybrid 3 days/week; $96,200–$120,200 base plus bonus; req R-107995, created 2026-10-26.",
+      "Department 'Revenue Management', business unit 'Canada: Finance - RGM & Sales', so the team sits in Finance and partners with Sales.",
+      "Leads pricing, promotion, assortment and mix workstreams, margin analysis covering pricing, inflation and trade investment, and post-pricing and post-promotion reviews.",
+      "Supports strategic planning and AOP with scenario analysis; sets priorities for and coaches analysts; tools named: Nielsen, Power BI, Tableau, AI tools."
+    ],
+    "news": [
+      {
+        "date": "2026-11-04",
+        "summary": "Kraft Heinz's Q3 2026 release reported organic net sales down 1.1% with flat price overall; North America price was down 0.8 points and volume/mix down 2.4 points (declines in meats, sauces and refreshment beverages), and work on separating into two companies is paused.",
+        "source": "Kraft Heinz",
+        "url": "https://news.kraftheinzcompany.com/press-releases-details/2026/Kraft-Heinz-Reports-Third-Quarter-2026-Results-Updates-2026-Full-Year-Outlook/default.aspx"
+      }
+    ],
+    "interpretation": "With North American price negative and volumes falling, Kraft Heinz appears to be putting money back into price and promotion; its full-year outlook includes about $700 million of incremental investment versus 2025, though the release does not split how much goes to price. A Canadian RGM manager inside Finance would likely be judged on whether those investments earn back volume and margin, through post-event reviews, mix and trade ROI. Inference: the role is more about disciplined trade and price-pack decisions with Canadian retailers than about list-price increases. The paused separation may leave the reporting structure uncertain.",
+    "open_questions": [
+      "How much of Kraft Heinz's North American price investment is being applied in Canada, and in which categories?",
+      "Does Canadian RGM own price and trade decisions, or does it recommend to Sales and the US-led category teams?",
+      "How will the paused separation affect which company the Canadian business and this team sit in?"
+    ],
+    "caveat": "Company results are reported for North America as one segment; nothing found today is specific to Canada.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0166"
+    ],
+    "industry": "CPG",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0115",
+    "company": "Bimbo Canada",
+    "business_unit": "Sales – Revenue Growth Management",
+    "baseline_date": "2026-11-27",
+    "last_updated": "2026-11-27",
+    "pricing_theme": "Using price/mix and promotion ROI analytics to grow bakery net sales while volumes stay soft.",
+    "current_model": null,
+    "posting_evidence": [
+      "Analyst, Revenue Growth Management; Etobicoke, ON; $61,000–$84,000 plus discretionary bonus; posted on Bimbo Canada's catsone careers site (UpClear dates it Oct 8).",
+      "Sits in Sales; analyzes categories, customers and channels including price elasticity and margins.",
+      "Builds sales, pricing and promotion dashboards, measures trade promotion ROI and recommends pricing and promotion strategies.",
+      "Entry level (0–2 years); Excel/PowerPoint, Power BI and Nielsen as assets; asks for use of AI tools for forecasting."
+    ],
+    "news": [
+      {
+        "date": "2026-10-26",
+        "summary": "ESM Magazine reported that Grupo Bimbo's Q3 2026 North America net sales rose 1.0% excluding FX, the region's third straight quarter of growth, with adjusted EBITDA margin up 40 bp to 10.8%; group organic sales were helped by favourable price mix.",
+        "source": "ESM Magazine",
+        "url": "https://www.esmmagazine.com/a-brands/grupo-bimbo-q3-2026-driven-by-margin-and-organic-growth-324469"
+      }
+    ],
+    "interpretation": "Grupo Bimbo's North American recovery is coming from margin and price/mix more than volume, and hiring a junior RGM analyst in Canadian Sales fits that pattern (inference). The posting's focus on elasticity, promo ROI and dashboards suggests the Canadian team is building routine measurement rather than setting strategy. The role is a learning seat in a CPG RGM team, not a decision-making one.",
+    "open_questions": [
+      "How large is the Canadian RGM team, and who does the analyst report to?",
+      "Is pricing set in Canada or by Bimbo Bakeries USA / the North America organization?"
+    ],
+    "caveat": "News covers Grupo Bimbo's North America segment as a whole, not Canada, and Bimbo Canada's own pricing model is not published.",
+    "confidence": "Low",
+    "linked_job_ids": [
+      "JOB-0166"
+    ],
+    "industry": "CPG",
+    "analysis_status": "analyzed"
+  },
+  {
+    "id": "STR-0116",
+    "company": "Smartsheet",
+    "business_unit": "Pricing & Packaging",
+    "baseline_date": "2026-11-27",
+    "last_updated": "2026-11-27",
+    "pricing_theme": "Making pricing and packaging changes (including AI monetization and customer migrations) a repeatable, governed process.",
+    "current_model": "Per-Member monthly subscription: Pro $9/Member/month billed yearly ($12 monthly) for 1–10 Members, Business $19 yearly ($24 monthly) for 3+ Members, Enterprise and Advanced Work Management custom; unlimited free Contributors (Business adds free Guests); paid add-ons such as Dynamic View (from $125/month) and Data Shuttle (from $100/month). The pricing page lists AI tools (Smart Assist, Smart Columns, formula generation) as included and mentions no AI credits or usage pricing.",
+    "posting_evidence": [
+      "Principal Pricing Program & Operations Manager (Remote Eligible); remote USA; $201,250–$238,750 base plus incentive; Greenhouse 8412684, first published 2026-11-23.",
+      "Reports to the Sr. Director of Pricing & Packaging; owns execution from recommendation handoff through launch and post-launch measurement.",
+      "Named initiative types: new packaging constructs, list price changes, rate cards, AI monetization and customer migrations (grandfathering and renewal-based price changes are 'nice to have').",
+      "Operationalizes pricing policy: discount guidelines, approval workflows, CPQ configuration, billing changes, deal-desk escalation and pricing governance forums.",
+      "Success metrics named: ARR, NRR, ARPU, attach rate, price realization, discount levels and migration performance."
+    ],
+    "news": [
+      {
+        "date": "2026-11-04",
+        "summary": "At ENGAGE 2026 Smartsheet launched Agentic Workflows, a Creation Agent and a Data Quality Agent (available now) plus an early-access Integration Agent, without saying which plans include them or how they are priced.",
+        "source": "Smartsheet",
+        "url": "https://www.smartsheet.com/content-center/news/smartsheet-adds-new-ai-agents-integrations-and-security-advancements-engage"
+      }
+    ],
+    "interpretation": "Smartsheet is shipping AI agents while its public pricing still bundles AI into per-Member plans with no usage metering. The posting's references to rate cards, AI monetization and customer migrations suggest (inference) that a packaging change, possibly with consumption or credit elements for agents, is planned and that migration will happen at renewal. A dedicated program and operations owner implies several changes in parallel that need CPQ, billing and deal-desk work. This role will be judged on delivery and price realization more than on research.",
+    "open_questions": [
+      "What AI monetization model is planned for the new agents (included, add-on, credits or usage-based), and on what timeline?",
+      "How many customer migrations are planned, and how will grandfathering and renewal-based price changes be handled?",
+      "How big is the Pricing & Packaging team under the Sr. Director, and where does pricing strategy sit relative to this role?"
+    ],
+    "caveat": "Smartsheet has been private since its 2025 take-private, so there is no earnings commentary; AI pricing plans are inferred from the posting.",
+    "confidence": "Medium",
+    "linked_job_ids": [
+      "JOB-0167"
+    ],
+    "industry": "Software",
+    "analysis_status": "analyzed"
   }
 ]
